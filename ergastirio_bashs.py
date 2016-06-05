@@ -22,9 +22,6 @@ tsv_file   = 'out'
 conn = pymysql.connect( host, user, password, db )
 if conn != -1 :
 	print( 'database connection established' )
-	#getTest(conn)
-	#setTest(conn)
-	#conn.close
 else:
 	print( 'Houston we have a problem' )
 
@@ -88,34 +85,3 @@ cursor.execute( selectgene_query )
 cursor.execute( selectdiseasedata_query )
 conn.commit( )
 cursor.close( )
-
-
-
-# def connectdb( ):
-# #	database  = 'disgenet'
-# 	return pymysql.connect( host, user, password, database )
-
-# def getTest( conn ):
-# 	conn.begin( )
-# 	cursor = conn.cursor( )
-# 	select_query = 'select * from test'
-# 	cursor.execute( select_query )
-# 	results = cursor.fetchall( )
-# 	if len(results) > 0:
-# 		print( results );
-# 		print( 'Connection established.' )
-# 	cursor.close( )
-
-# def setTest( conn ):
-# 	conn.begin( )
-# 	cursor = conn.cursor( )
-# 	insert_query = 'insert into test values( null, \'Hello3\')'
-# 	cursor.execute( insert_query )
-# 	conn.commit( )
-# 	cursor.close( )
-
-# def file_len(fname):
-# 	i = 0;
-# 	with open(fname) as f:
-# 		i = sum(1 for _ in f);
-# 	return i + 1; 
