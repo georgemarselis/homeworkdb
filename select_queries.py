@@ -30,13 +30,17 @@ cursor.execute( "use " + db )
 # select all the things!
 selectrelevantgenes_query = 'SELECT geneId, description FROM gene2disease g2d INNER JOIN ( SELECT d.diseaseId, d.diseaseName, d.description FROM disease AS d WHERE d.diseaseName LIKE \'%heimer%\' ) dd ON g2d.diseaseId = dd.diseaseId'
 cursor.execute( selectrelevantgenes_query )
-results = cursor.fetchall( )
-print( results )
+row = cursor.fetchone( )
+while row is not None:
+	print( row )
+	row = cursor.fetchone()
 
 # select all the other things!
 selectrelevantdiseases_query = "SELECT di.diseaseName FROM disease AS di INNER JOIN ( SELECT g2d.diseaseId FROM gene2disease g2d INNER JOIN ( SELECT g.geneId, g.geneName FROM gene AS g WHERE g.geneName = 'PTEN' ) gg ON g2d.geneId = gg.geneId ) dd ON di.diseaseId = dd.diseaseId "
 cursor.execute( selectrelevantdiseases_query )
-results = cursor.fetchall( )
-print( results );
+row = cursor.fetchone( )
+while row is not None:
+	print( row )
+	row = cursor.fetchone()
 
 # FIN
