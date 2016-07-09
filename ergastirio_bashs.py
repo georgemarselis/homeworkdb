@@ -13,8 +13,8 @@ host       = '192.168.1.26';
 user       = 'root';
 password   = '12345'
 db 		   = 'disgenet'
-defaultcollation  = 'utf8_general_ci'
 defaultcharset    = 'utf8'
+defaultcollation  = 'utf8_general_ci'
 tsv_file   = 'out'
 
 
