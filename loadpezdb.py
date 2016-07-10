@@ -4,30 +4,40 @@ import pymysql
 import csv 
 
 
-fieldnames = ['geneId', 'geneName', 'description', 'diseaseId', 'diseaseName', 'score', 'NofPmids', 'NofSnps', 'sources' ];
-restkey    = 'unknownkey';
-restval    = 'uknownvalue';
 delimiter  = '\t';
-dialect    = 'excel-tab';
+
 host       = '192.168.1.26';
 user       = 'root';
 password   = '12345'
 db 		   = 'disgenet'
 defaultcharset    = 'utf8'
 defaultcollation  = 'utf8_general_ci'
-tsv_file   = 'out'
-
 
 ##### load data from files
 
 ## disgenet
 disgenetDataFile = 'disgenet/disgenet_data.tsv'
+disgenetFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'geneId', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
+
+# read payload
+with open( disgenetDataFile ) as csvfile:
+	reader = csv.DictReader( csvfile, disgenetFieldNames, restkey, restval, dialect );
+	next(reader, None) # skip the headers
+	gene_keys    = [ ]
+	disease_keys = [ ]
+
+	for row in reader:
+		print( row['pmids'] )
+
 ## hintdb
 
 ##uniprot
 
 
-
+exit()
 
 
 # connect to db
