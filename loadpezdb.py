@@ -18,6 +18,18 @@ defaultcollation  = 'utf8_general_ci'
 tsv_file   = 'out'
 
 
+##### load data from files
+
+## disgenet
+disgenetDataFile = 'disgenet/disgenet_data.tsv'
+## hintdb
+
+##uniprot
+
+
+
+
+
 # connect to db
 conn = pymysql.connect( host, user, password, db )
 if conn != -1 :

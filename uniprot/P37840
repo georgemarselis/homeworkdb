@@ -1,0 +1,818 @@
+ID   SYUA_HUMAN              Reviewed;         140 AA.
+AC   P37840; A8K2A4; Q13701; Q4JHI3; Q6IAU6;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   06-JUL-2016, entry version 194.
+DE   RecName: Full=Alpha-synuclein;
+DE   AltName: Full=Non-A beta component of AD amyloid;
+DE   AltName: Full=Non-A4 component of amyloid precursor;
+DE            Short=NACP;
+GN   Name=SNCA; Synonyms=NACP, PARK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND PROTEIN SEQUENCE OF 61-95.
+RC   TISSUE=Brain;
+RX   PubMed=8248242; DOI=10.1073/pnas.90.23.11282;
+RA   Ueda K., Fukushima H., Masliah E., Xia Y., Iwai A., Yoshimoto M.,
+RA   Otero D.A., Kondo J., Ihara Y., Saitoh T.;
+RT   "Molecular cloning of cDNA encoding an unrecognized component of
+RT   amyloid in Alzheimer disease.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:11282-11286(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1; 2-4 AND 2-5).
+RX   PubMed=7601450; DOI=10.1016/0888-7543(95)80208-4;
+RA   Campion D., Martin C., Heilig R., Charbonnier F., Moreau V.,
+RA   Flaman J.-M., Petit J.-L., Hannequin D., Brice A., Frebourg T.;
+RT   "The NACP/synuclein gene: chromosomal assignment and screening for
+RT   alterations in Alzheimer disease.";
+RL   Genomics 26:254-257(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2-4).
+RC   TISSUE=Brain;
+RX   PubMed=7802671; DOI=10.1006/bbrc.1994.2816;
+RA   Ueda K., Saitoh T., Mori H.;
+RT   "Tissue-dependent alternative splicing of mRNA for NACP, the precursor
+RT   of non-A beta component of Alzheimer's disease amyloid.";
+RL   Biochem. Biophys. Res. Commun. 205:1366-1372(1994).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Xia Y., Silva R.D., Chen X.H., Saitoh T.;
+RL   Submitted (JAN-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 1 AND 2-4).
+RX   PubMed=11156617; DOI=10.1101/gr.165801;
+RA   Touchman J.W., Dehejia A., Chiba-Falek O., Cabin D.E., Schwartz J.R.,
+RA   Orrison B.M., Polymeropoulos M.H., Nussbaum R.L.;
+RT   "Human and mouse alpha-synuclein genes: comparative genomic sequence
+RT   analysis and identification of a novel gene regulatory element.";
+RL   Genome Res. 11:78-86(2001).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RA   Hu X., Xu Y., Peng X., Yuan J., Qiang B.;
+RL   Submitted (JUL-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Thalamus;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Ebert L., Schick M., Neubert P., Schatten R., Henze S., Korn B.;
+RT   "Cloning of human full open reading frames in Gateway(TM) system entry
+RT   vector (pDONR201).";
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (JUN-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [11]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Uterus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [12]
+RP   PROTEIN SEQUENCE OF 59-96, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Fetal brain cortex;
+RA   Lubec G., Chen W.-Q., Sun Y.;
+RL   Submitted (DEC-2008) to UniProtKB.
+RN   [13]
+RP   PHOSPHORYLATION AT SER-87 AND SER-129 BY CK1 AND CK2.
+RX   PubMed=10617630; DOI=10.1074/jbc.275.1.390;
+RA   Okochi M., Walter J., Koyama A., Nakajo S., Baba M., Iwatsubo T.,
+RA   Meijer L., Kahle P.J., Haass C.;
+RT   "Constitutive phosphorylation of the Parkinson's disease associated
+RT   alpha-synuclein.";
+RL   J. Biol. Chem. 275:390-397(2000).
+RN   [14]
+RP   PHOSPHORYLATION BY G-PROTEIN COUPLED RECEPTOR KINASE.
+RX   PubMed=10852916; DOI=10.1074/jbc.M003542200;
+RA   Pronin A.N., Morris A.J., Surguchov A., Benovic J.L.;
+RT   "Synucleins are a novel class of substrates for G protein-coupled
+RT   receptor kinases.";
+RL   J. Biol. Chem. 275:26515-26522(2000).
+RN   [15]
+RP   PHOSPHORYLATION AT TYR-125 BY FYN.
+RX   PubMed=11162638; DOI=10.1006/bbrc.2000.4253;
+RA   Nakamura T., Yamashita H., Takahashi T., Nakamura S.;
+RT   "Activated Fyn phosphorylates alpha-synuclein at tyrosine residue
+RT   125.";
+RL   Biochem. Biophys. Res. Commun. 280:1085-1092(2001).
+RN   [16]
+RP   INTERACTION WITH PHOSPHOLIPASE D.
+RX   PubMed=11821392; DOI=10.1074/jbc.M110414200;
+RA   Ahn B.H., Rhim H., Kim S.Y., Sung Y.M., Lee M.Y., Choi J.Y.,
+RA   Wolozin B., Chang J.S., Lee Y.H., Kwon T.K., Chung K.C., Yoon S.H.,
+RA   Hahn S.J., Kim M.S., Jo Y.H., Min do S.;
+RT   "Alpha-synuclein interacts with phospholipase D isozymes and inhibits
+RT   pervanadate-induced phospholipase D activation in human embryonic
+RT   kidney-293 cells.";
+RL   J. Biol. Chem. 277:12334-12342(2002).
+RN   [17]
+RP   PHOSPHORYLATION AT SER-129.
+RX   PubMed=11813001; DOI=10.1038/ncb748;
+RA   Fujiwara H., Hasegawa M., Dohmae N., Kawashima A., Masliah E.,
+RA   Goldberg M.S., Shen J., Takio K., Iwatsubo T.;
+RT   "alpha-Synuclein is phosphorylated in synucleinopathy lesions.";
+RL   Nat. Cell Biol. 4:160-164(2002).
+RN   [18]
+RP   INTERACTION WITH HISTONES, AND SUBCELLULAR LOCATION.
+RX   PubMed=12859192; DOI=10.1021/bi0341152;
+RA   Goers J., Manning-Bog A.B., McCormack A.L., Millett I.S., Doniach S.,
+RA   Di Monte D.A., Uversky V.N., Fink A.L.;
+RT   "Nuclear localization of alpha-synuclein and its interaction with
+RT   histones.";
+RL   Biochemistry 42:8465-8471(2003).
+RN   [19]
+RP   ROLE OF THE C-TERMINUS IN FIBRILLOGENESIS.
+RX   PubMed=12859200; DOI=10.1021/bi027363r;
+RA   Murray I.V., Giasson B.I., Quinn S.M., Koppaka V., Axelsen P.H.,
+RA   Ischiropoulos H., Trojanowski J.Q., Lee V.M.;
+RT   "Role of alpha-synuclein carboxy-terminus on fibril formation in
+RT   vitro.";
+RL   Biochemistry 42:8530-8540(2003).
+RN   [20]
+RP   REVIEW.
+RX   PubMed=12558071; DOI=10.2174/1566524033361690;
+RA   Alves da Costa C.;
+RT   "Recent advances on alpha-synuclein cell biology: functions and
+RT   dysfunctions.";
+RL   Curr. Mol. Med. 3:17-24(2003).
+RN   [21]
+RP   MUTAGENESIS OF TYR-39; TYR-125; TYR-133 AND TYR-136, CHARACTERIZATION
+RP   OF VARIANT THR-53, AND PHOSPHORYLATION AT TYR-125.
+RX   PubMed=12893833; DOI=10.1074/jbc.M213217200;
+RA   Takahashi T., Yamashita H., Nagano Y., Nakamura T., Ohmori H.,
+RA   Avraham H., Avraham S., Yasuda M., Matsumoto M.;
+RT   "Identification and characterization of a novel Pyk2/related adhesion
+RT   focal tyrosine kinase-associated protein that inhibits alpha-synuclein
+RT   phosphorylation.";
+RL   J. Biol. Chem. 278:42225-42233(2003).
+RN   [22]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=15282274; DOI=10.1523/JNEUROSCI.1594-04.2004;
+RA   Fortin D.L., Troyer M.D., Nakamura K., Kubo S., Anthony M.D.,
+RA   Edwards R.H.;
+RT   "Lipid rafts mediate the synaptic localization of alpha-synuclein.";
+RL   J. Neurosci. 24:6715-6723(2004).
+RN   [23]
+RP   FIBRILS FORMATION, DOMAIN NAC, AND MUTAGENESIS OF 67-GLY--VAL-71;
+RP   71-VAL--VAL-82; 76-ALA-VAL-77; VAL-77; ALA-78 AND 85-ALA--PHE-94.
+RX   PubMed=19722699; DOI=10.1021/bi900539p;
+RA   Waxman E.A., Mazzulli J.R., Giasson B.I.;
+RT   "Characterization of hydrophobic residue requirements for alpha-
+RT   synuclein fibrillization.";
+RL   Biochemistry 48:9427-9436(2009).
+RN   [24]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=21269460; DOI=10.1186/1752-0509-5-17;
+RA   Burkard T.R., Planyavsky M., Kaupe I., Breitwieser F.P.,
+RA   Buerckstuemmer T., Bennett K.L., Superti-Furga G., Colinge J.;
+RT   "Initial characterization of the human central proteome.";
+RL   BMC Syst. Biol. 5:17-17(2011).
+RN   [25]
+RP   COPPER-BINDING, AND MUTAGENESIS OF ASP-2 AND HIS-50.
+RX   PubMed=21319811; DOI=10.1021/bi101912q;
+RA   Dudzik C.G., Walter E.D., Millhauser G.L.;
+RT   "Coordination features and affinity of the Cu(2)+ site in the alpha-
+RT   synuclein protein of Parkinson's disease.";
+RL   Biochemistry 50:1771-1777(2011).
+RN   [26]
+RP   ACETYLATION AT MET-1.
+RX   PubMed=22407793; DOI=10.1002/pro.2056;
+RA   Trexler A.J., Rhoades E.;
+RT   "N-Terminal acetylation is critical for forming alpha-helical oligomer
+RT   of alpha-synuclein.";
+RL   Protein Sci. 21:601-605(2012).
+RN   [27]
+RP   STRUCTURE BY NMR IN COMPLEX WITH DETERGENT MICELLES.
+RX   PubMed=15615727; DOI=10.1074/jbc.M411805200;
+RA   Ulmer T.S., Bax A., Cole N.B., Nussbaum R.L.;
+RT   "Structure and dynamics of micelle-bound human alpha-synuclein.";
+RL   J. Biol. Chem. 280:9595-9603(2005).
+RN   [28]
+RP   VARIANT PARK1 THR-53.
+RX   PubMed=9197268; DOI=10.1126/science.276.5321.2045;
+RA   Polymeropoulos M.H., Lavedan C., Leroy E., Ide S.E., Dehejia A.,
+RA   Dutra A., Pike B., Root H., Rubenstein J., Boyer R., Stenroos E.S.,
+RA   Chandrasekharappa S., Athanassiadou A., Papapetropoulos T.,
+RA   Johnson W.G., Lazzarini A.M., Duvoisin R.C., di Iorio G., Golbe L.I.,
+RA   Nussbaum R.L.;
+RT   "Mutation in the alpha-synuclein gene identified in families with
+RT   Parkinson's disease.";
+RL   Science 276:2045-2047(1997).
+RN   [29]
+RP   VARIANT PARK1 PRO-30.
+RX   PubMed=9462735; DOI=10.1038/ng0298-106;
+RA   Krueger R., Kuhn W., Mueller T., Woitalla D., Graeber M., Koesel S.,
+RA   Przuntek H., Epplen J.T., Schoels L., Riess O.;
+RT   "Ala30Pro mutation in the gene encoding alpha-synuclein in Parkinson's
+RT   disease.";
+RL   Nat. Genet. 18:106-108(1998).
+RN   [30]
+RP   VARIANT PARK1/DLB LYS-46.
+RX   PubMed=14755719; DOI=10.1002/ana.10795;
+RA   Zarranz J.J., Alegre J., Gomez-Esteban J.C., Lezcano E., Ros R.,
+RA   Ampuero I., Vidal L., Hoenicka J., Rodriguez O., Atares B.,
+RA   Llorens V., Gomez Tortosa E., del Ser T., Munoz D.G., de Yebenes J.G.;
+RT   "The new mutation, E46K, of alpha-synuclein causes Parkinson and Lewy
+RT   body dementia.";
+RL   Ann. Neurol. 55:164-173(2004).
+RN   [31]
+RP   CHARACTERIZATION OF VARIANT LYS-46.
+RX   PubMed=15498564; DOI=10.1016/j.febslet.2004.09.038;
+RA   Choi W., Zibaee S., Jakes R., Serpell L.C., Davletov B.,
+RA   Crowther R.A., Goedert M.;
+RT   "Mutation E46K increases phospholipid binding and assembly into
+RT   filaments of human alpha-synuclein.";
+RL   FEBS Lett. 576:363-368(2004).
+RN   [32]
+RP   VARIANT PARK1 GLN-50.
+RX   PubMed=23457019; DOI=10.1002/mds.25421;
+RA   Appel-Cresswell S., Vilarino-Guell C., Encarnacion M., Sherman H.,
+RA   Yu I., Shah B., Weir D., Thompson C., Szu-Tu C., Trinh J., Aasly J.O.,
+RA   Rajput A., Rajput A.H., Jon Stoessl A., Farrer M.J.;
+RT   "Alpha-synuclein p.H50Q, a novel pathogenic mutation for Parkinson's
+RT   disease.";
+RL   Mov. Disord. 28:811-813(2013).
+RN   [33]
+RP   VARIANT PARK1 GLN-50, AND CHARACTERIZATION OF VARIANT PARK1 GLN-50.
+RX   PubMed=23427326; DOI=10.1212/WNL.0b013e31828727ba;
+RA   Proukakis C., Dudzik C.G., Brier T., MacKay D.S., Cooper J.M.,
+RA   Millhauser G.L., Houlden H., Schapira A.H.;
+RT   "A novel alpha-synuclein missense mutation in Parkinson disease.";
+RL   Neurology 80:1062-1064(2013).
+RN   [34]
+RP   CHARACTERIZATION OF VARIANT PARK1 GLN-50, SUBCELLULAR LOCATION,
+RP   SUBUNIT, AND PHOSPHORYLATION AT SER-129.
+RX   PubMed=24936070; DOI=10.1074/jbc.M114.553297;
+RA   Khalaf O., Fauvet B., Oueslati A., Dikiy I., Mahul-Mellier A.L.,
+RA   Ruggeri F.S., Mbefo M.K., Vercruysse F., Dietler G., Lee S.J.,
+RA   Eliezer D., Lashuel H.A.;
+RT   "The H50Q mutation enhances alpha-synuclein aggregation, secretion,
+RT   and toxicity.";
+RL   J. Biol. Chem. 289:21856-21876(2014).
+RN   [35]
+RP   CHARACTERIZATION OF VARIANTS PARK1 PRO-30; LYS-46; GLN-50 AND THR-53,
+RP   MUTAGENESIS OF GLU-35 AND GLU-57, SUBCELLULAR LOCATION, AND SUBUNIT.
+RX   PubMed=25561023; DOI=10.1021/cn500332w;
+RA   Tsigelny I.F., Sharikov Y., Kouznetsova V.L., Greenberg J.P.,
+RA   Wrasidlo W., Overk C., Gonzalez T., Trejo M., Spencer B., Kosberg K.,
+RA   Masliah E.;
+RT   "Molecular determinants of alpha-synuclein mutants' oligomerization
+RT   and membrane interactions.";
+RL   ACS Chem. Neurosci. 6:403-416(2015).
+CC   -!- FUNCTION: May be involved in the regulation of dopamine release
+CC       and transport. Induces fibrillization of microtubule-associated
+CC       protein tau. Reduces neuronal responsiveness to various apoptotic
+CC       stimuli, leading to a decreased caspase-3 activation.
+CC   -!- SUBUNIT: Soluble monomer which can form filamentous aggregates.
+CC       Interacts with UCHL1 (By similarity). Interacts with phospholipase
+CC       D and histones. {ECO:0000250, ECO:0000269|PubMed:11821392,
+CC       ECO:0000269|PubMed:12859192, ECO:0000269|PubMed:15615727,
+CC       ECO:0000269|PubMed:24936070, ECO:0000269|PubMed:25561023}.
+CC   -!- INTERACTION:
+CC       Self; NbExp=32; IntAct=EBI-985879, EBI-985879;
+CC       P00519-1:ABL1; NbExp=6; IntAct=EBI-985879, EBI-5278159;
+CC       P00519-2:ABL1; NbExp=5; IntAct=EBI-985879, EBI-9254597;
+CC       P49841:GSK3B; NbExp=2; IntAct=EBI-985879, EBI-373586;
+CC       P08107:HSPA1B; NbExp=7; IntAct=EBI-985879, EBI-629985;
+CC       P42858:HTT; NbExp=4; IntAct=EBI-985879, EBI-466029;
+CC       Q5S007:LRRK2; NbExp=6; IntAct=EBI-985879, EBI-5323863;
+CC       P10636-8:MAPT; NbExp=3; IntAct=EBI-985879, EBI-366233;
+CC       P00414:MT-CO3; NbExp=3; IntAct=EBI-985879, EBI-3932264;
+CC       Q9UI14:RABAC1; NbExp=4; IntAct=EBI-985879, EBI-712367;
+CC       Q01959:SLC6A3; NbExp=3; IntAct=EBI-985879, EBI-6661445;
+CC       Q61327:Slc6a3 (xeno); NbExp=5; IntAct=EBI-985879, EBI-7839708;
+CC       Q9Y6H5:SNCAIP; NbExp=22; IntAct=EBI-985879, EBI-717182;
+CC       P17600:SYN1; NbExp=2; IntAct=EBI-985879, EBI-717274;
+CC       Q04917:YWHAH; NbExp=9; IntAct=EBI-9684465, EBI-306940;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000269|PubMed:24936070, ECO:0000269|PubMed:25561023}.
+CC       Membrane {ECO:0000269|PubMed:24936070}. Nucleus
+CC       {ECO:0000269|PubMed:12859192, ECO:0000269|PubMed:24936070}. Cell
+CC       junction, synapse {ECO:0000269|PubMed:15282274}. Secreted
+CC       {ECO:0000269|PubMed:24936070}. Note=Membrane-bound in dopaminergic
+CC       neurons. {ECO:0000269|PubMed:15282274}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=1; Synonyms=NACP140;
+CC         IsoId=P37840-1; Sequence=Displayed;
+CC       Name=2-4; Synonyms=NACP112;
+CC         IsoId=P37840-2; Sequence=VSP_006364;
+CC       Name=2-5;
+CC         IsoId=P37840-3; Sequence=VSP_006363;
+CC   -!- TISSUE SPECIFICITY: Expressed principally in brain but is also
+CC       expressed in low concentrations in all tissues examined except in
+CC       liver. Concentrated in presynaptic nerve terminals.
+CC   -!- DOMAIN: The 'non A-beta component of Alzheimer disease amyloid
+CC       plaque' domain (NAC domain) is involved in fibrils formation. The
+CC       middle hydrophobic region forms the core of the filaments. The C-
+CC       terminus may regulate aggregation and determine the diameter of
+CC       the filaments. {ECO:0000269|PubMed:19722699}.
+CC   -!- PTM: Phosphorylated, predominantly on serine residues.
+CC       Phosphorylation by CK1 appears to occur on residues distinct from
+CC       the residue phosphorylated by other kinases. Phosphorylation of
+CC       Ser-129 is selective and extensive in synucleinopathy lesions. In
+CC       vitro, phosphorylation at Ser-129 promoted insoluble fibril
+CC       formation. Phosphorylated on Tyr-125 by a PTK2B-dependent pathway
+CC       upon osmotic stress. {ECO:0000269|PubMed:10617630,
+CC       ECO:0000269|PubMed:10852916, ECO:0000269|PubMed:11162638,
+CC       ECO:0000269|PubMed:11813001, ECO:0000269|PubMed:12893833,
+CC       ECO:0000269|PubMed:24936070}.
+CC   -!- PTM: Hallmark lesions of neurodegenerative synucleinopathies
+CC       contain alpha-synuclein that is modified by nitration of tyrosine
+CC       residues and possibly by dityrosine cross-linking to generated
+CC       stable oligomers.
+CC   -!- PTM: Ubiquitinated. The predominant conjugate is the
+CC       diubiquitinated form (By similarity). {ECO:0000250}.
+CC   -!- PTM: Acetylation at Met-1 seems to be important for proper folding
+CC       and native oligomeric structure. {ECO:0000269|PubMed:22407793}.
+CC   -!- DISEASE: Note=Genetic alterations of SNCA resulting in aberrant
+CC       polymerization into fibrils, are associated with several
+CC       neurodegenerative diseases (synucleinopathies). SNCA fibrillar
+CC       aggregates represent the major non A-beta component of Alzheimer
+CC       disease amyloid plaque, and a major component of Lewy body
+CC       inclusions. They are also found within Lewy body (LB)-like
+CC       intraneuronal inclusions, glial inclusions and axonal spheroids in
+CC       neurodegeneration with brain iron accumulation type 1.
+CC   -!- DISEASE: Parkinson disease 1 (PARK1) [MIM:168601]: A complex
+CC       neurodegenerative disorder characterized by bradykinesia, resting
+CC       tremor, muscular rigidity and postural instability. Additional
+CC       features are characteristic postural abnormalities, dysautonomia,
+CC       dystonic cramps, and dementia. The pathology of Parkinson disease
+CC       involves the loss of dopaminergic neurons in the substantia nigra
+CC       and the presence of Lewy bodies (intraneuronal accumulations of
+CC       aggregated proteins), in surviving neurons in various areas of the
+CC       brain. The disease is progressive and usually manifests after the
+CC       age of 50 years, although early-onset cases (before 50 years) are
+CC       known. The majority of the cases are sporadic suggesting a
+CC       multifactorial etiology based on environmental and genetic
+CC       factors. However, some patients present with a positive family
+CC       history for the disease. Familial forms of the disease usually
+CC       begin at earlier ages and are associated with atypical clinical
+CC       features. {ECO:0000269|PubMed:23427326,
+CC       ECO:0000269|PubMed:23457019, ECO:0000269|PubMed:24936070,
+CC       ECO:0000269|PubMed:25561023, ECO:0000269|PubMed:9197268,
+CC       ECO:0000269|PubMed:9462735}. Note=The disease is caused by
+CC       mutations affecting the gene represented in this entry.
+CC   -!- DISEASE: Parkinson disease 4 (PARK4) [MIM:605543]: A complex
+CC       neurodegenerative disorder with manifestations ranging from
+CC       typical Parkinson disease to dementia with Lewy bodies. Clinical
+CC       features include parkinsonian symptoms (resting tremor, rigidity,
+CC       postural instability and bradykinesia), dementia, diffuse Lewy
+CC       body pathology, autonomic dysfunction, hallucinations and
+CC       paranoia. Note=The disease is caused by mutations affecting the
+CC       gene represented in this entry.
+CC   -!- DISEASE: Dementia Lewy body (DLB) [MIM:127750]: A
+CC       neurodegenerative disorder characterized by mental impairment
+CC       leading to dementia, parkinsonism, fluctuating cognitive function,
+CC       visual hallucinations, falls, syncopal episodes, and sensitivity
+CC       to neuroleptic medication. Brainstem or cortical intraneuronal
+CC       accumulations of aggregated proteins (Lewy bodies) are the only
+CC       essential pathologic features. Patients may also have hippocampal
+CC       and neocortical senile plaques, sometimes in sufficient number to
+CC       fulfill the diagnostic criteria for Alzheimer disease.
+CC       {ECO:0000269|PubMed:14755719}. Note=The disease is caused by
+CC       mutations affecting the gene represented in this entry.
+CC   -!- SIMILARITY: Belongs to the synuclein family. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/snca/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L08850; AAA16117.1; -; mRNA.
+DR   EMBL; L36674; AAA98493.1; -; mRNA.
+DR   EMBL; L36675; AAA98487.1; -; mRNA.
+DR   EMBL; D31839; BAA06625.1; -; mRNA.
+DR   EMBL; U46901; AAC02114.1; -; Genomic_DNA.
+DR   EMBL; U46897; AAC02114.1; JOINED; Genomic_DNA.
+DR   EMBL; U46898; AAC02114.1; JOINED; Genomic_DNA.
+DR   EMBL; U46899; AAC02114.1; JOINED; Genomic_DNA.
+DR   EMBL; AF163864; AAG30302.1; -; Genomic_DNA.
+DR   EMBL; AF163864; AAG30303.1; -; Genomic_DNA.
+DR   EMBL; AY049786; AAL15443.1; -; mRNA.
+DR   EMBL; AK290169; BAF82858.1; -; mRNA.
+DR   EMBL; CR457058; CAG33339.1; -; mRNA.
+DR   EMBL; DQ088379; AAY88735.1; -; Genomic_DNA.
+DR   EMBL; CH471057; EAX06036.1; -; Genomic_DNA.
+DR   EMBL; BC013293; AAH13293.1; -; mRNA.
+DR   EMBL; BC108275; AAI08276.1; -; mRNA.
+DR   CCDS; CCDS3634.1; -. [P37840-1]
+DR   CCDS; CCDS43252.1; -. [P37840-2]
+DR   PIR; A49669; A49669.
+DR   PIR; S56746; S56746.
+DR   RefSeq; NP_000336.1; NM_000345.3. [P37840-1]
+DR   RefSeq; NP_001139526.1; NM_001146054.1. [P37840-1]
+DR   RefSeq; NP_001139527.1; NM_001146055.1. [P37840-1]
+DR   RefSeq; NP_009292.1; NM_007308.2. [P37840-2]
+DR   RefSeq; XP_011530510.1; XM_011532208.1. [P37840-1]
+DR   UniGene; Hs.21374; -.
+DR   PDB; 1XQ8; NMR; -; A=1-140.
+DR   PDB; 2JN5; NMR; -; A=1-12.
+DR   PDB; 2KKW; NMR; -; A=1-140.
+DR   PDB; 2M55; NMR; -; B=1-19.
+DR   PDB; 2N0A; NMR; -; A/B/C/D/E/F/G/H/I/J=1-140.
+DR   PDB; 2X6M; X-ray; 1.62 A; B=132-140.
+DR   PDB; 3Q25; X-ray; 1.90 A; A=1-19.
+DR   PDB; 3Q26; X-ray; 1.54 A; A=10-42.
+DR   PDB; 3Q27; X-ray; 1.30 A; A=32-57.
+DR   PDB; 3Q28; X-ray; 1.60 A; A=58-79.
+DR   PDB; 3Q29; X-ray; 2.30 A; A/C=1-19.
+DR   PDB; 4BXL; NMR; -; C=35-56.
+DR   PDB; 4R0U; X-ray; 1.38 A; A=72-78.
+DR   PDB; 4R0W; X-ray; 1.50 A; A=70-76.
+DR   PDB; 4RIK; X-ray; 1.85 A; A=69-77.
+DR   PDB; 4RIL; EM; 1.43 A; A=68-78.
+DR   PDB; 4ZNN; EM; 1.41 A; A=47-56.
+DR   PDB; 5CRW; X-ray; 1.60 A; B=31-41.
+DR   PDBsum; 1XQ8; -.
+DR   PDBsum; 2JN5; -.
+DR   PDBsum; 2KKW; -.
+DR   PDBsum; 2M55; -.
+DR   PDBsum; 2N0A; -.
+DR   PDBsum; 2X6M; -.
+DR   PDBsum; 3Q25; -.
+DR   PDBsum; 3Q26; -.
+DR   PDBsum; 3Q27; -.
+DR   PDBsum; 3Q28; -.
+DR   PDBsum; 3Q29; -.
+DR   PDBsum; 4BXL; -.
+DR   PDBsum; 4R0U; -.
+DR   PDBsum; 4R0W; -.
+DR   PDBsum; 4RIK; -.
+DR   PDBsum; 4RIL; -.
+DR   PDBsum; 4ZNN; -.
+DR   PDBsum; 5CRW; -.
+DR   DisProt; DP00070; -.
+DR   ProteinModelPortal; P37840; -.
+DR   SMR; P37840; 1-140.
+DR   BioGrid; 112506; 466.
+DR   DIP; DIP-35354N; -.
+DR   IntAct; P37840; 260.
+DR   MINT; MINT-2515483; -.
+DR   STRING; 9606.ENSP00000338345; -.
+DR   BindingDB; P37840; -.
+DR   ChEMBL; CHEMBL6152; -.
+DR   TCDB; 1.C.77.1.1; the synuclein (synuclein) family.
+DR   iPTMnet; P37840; -.
+DR   PhosphoSite; P37840; -.
+DR   BioMuta; SNCA; -.
+DR   DMDM; 586067; -.
+DR   EPD; P37840; -.
+DR   MaxQB; P37840; -.
+DR   PaxDb; P37840; -.
+DR   PeptideAtlas; P37840; -.
+DR   PRIDE; P37840; -.
+DR   TopDownProteomics; P37840-1; -. [P37840-1]
+DR   DNASU; 6622; -.
+DR   Ensembl; ENST00000336904; ENSP00000338345; ENSG00000145335. [P37840-1]
+DR   Ensembl; ENST00000345009; ENSP00000343683; ENSG00000145335. [P37840-2]
+DR   Ensembl; ENST00000394986; ENSP00000378437; ENSG00000145335. [P37840-1]
+DR   Ensembl; ENST00000394989; ENSP00000378440; ENSG00000145335. [P37840-3]
+DR   Ensembl; ENST00000394991; ENSP00000378442; ENSG00000145335. [P37840-1]
+DR   Ensembl; ENST00000420646; ENSP00000396241; ENSG00000145335. [P37840-2]
+DR   Ensembl; ENST00000505199; ENSP00000421485; ENSG00000145335. [P37840-3]
+DR   Ensembl; ENST00000506244; ENSP00000422238; ENSG00000145335. [P37840-1]
+DR   Ensembl; ENST00000508895; ENSP00000426955; ENSG00000145335. [P37840-1]
+DR   Ensembl; ENST00000618500; ENSP00000484044; ENSG00000145335. [P37840-3]
+DR   GeneID; 6622; -.
+DR   KEGG; hsa:6622; -.
+DR   UCSC; uc003hso.3; human. [P37840-1]
+DR   CTD; 6622; -.
+DR   GeneCards; SNCA; -.
+DR   GeneReviews; SNCA; -.
+DR   HGNC; HGNC:11138; SNCA.
+DR   HPA; CAB010877; -.
+DR   HPA; HPA005459; -.
+DR   MalaCards; SNCA; -.
+DR   MIM; 127750; phenotype.
+DR   MIM; 163890; gene.
+DR   MIM; 168600; phenotype.
+DR   MIM; 168601; phenotype.
+DR   MIM; 605543; phenotype.
+DR   neXtProt; NX_P37840; -.
+DR   Orphanet; 1648; Dementia with Lewy body.
+DR   Orphanet; 171695; Parkinsonian-pyramidal syndrome.
+DR   Orphanet; 2828; Young adult-onset Parkinsonism.
+DR   PharmGKB; PA35986; -.
+DR   eggNOG; ENOG410IWI2; Eukaryota.
+DR   eggNOG; ENOG4111TDZ; LUCA.
+DR   GeneTree; ENSGT00390000016161; -.
+DR   HOGENOM; HOG000008691; -.
+DR   HOVERGEN; HBG000481; -.
+DR   InParanoid; P37840; -.
+DR   KO; K04528; -.
+DR   OMA; ILEDMPM; -.
+DR   OrthoDB; EOG7034KG; -.
+DR   PhylomeDB; P37840; -.
+DR   TreeFam; TF332776; -.
+DR   Reactome; R-HSA-977225; Amyloid fiber formation.
+DR   SignaLink; P37840; -.
+DR   SIGNOR; P37840; -.
+DR   ChiTaRS; SNCA; human.
+DR   EvolutionaryTrace; P37840; -.
+DR   GeneWiki; Alpha-synuclein; -.
+DR   GenomeRNAi; 6622; -.
+DR   PMAP-CutDB; P37840; -.
+DR   PRO; PR:P37840; -.
+DR   Proteomes; UP000005640; Chromosome 4.
+DR   Bgee; P37840; -.
+DR   CleanEx; HS_SNCA; -.
+DR   ExpressionAtlas; P37840; baseline and differential.
+DR   Genevisible; P37840; HS.
+DR   GO; GO:0015629; C:actin cytoskeleton; IDA:UniProtKB.
+DR   GO; GO:0030424; C:axon; IDA:UniProtKB.
+DR   GO; GO:0005938; C:cell cortex; IDA:UniProtKB.
+DR   GO; GO:0030054; C:cell junction; IEA:UniProtKB-KW.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:Ensembl.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0005615; C:extracellular space; IDA:UniProtKB.
+DR   GO; GO:0043205; C:fibril; IDA:UniProtKB.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:Ensembl.
+DR   GO; GO:0030426; C:growth cone; IDA:UniProtKB.
+DR   GO; GO:0016234; C:inclusion body; IDA:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0016020; C:membrane; IDA:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0005640; C:nuclear outer membrane; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0098794; C:postsynapse; IEA:GOC.
+DR   GO; GO:0005840; C:ribosome; IEA:Ensembl.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; IEA:Ensembl.
+DR   GO; GO:0008021; C:synaptic vesicle; IEA:Ensembl.
+DR   GO; GO:0043195; C:terminal bouton; IEA:Ensembl.
+DR   GO; GO:0043014; F:alpha-tubulin binding; IPI:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0005507; F:copper ion binding; IDA:UniProtKB.
+DR   GO; GO:0043027; F:cysteine-type endopeptidase inhibitor activity involved in apoptotic process; IDA:UniProtKB.
+DR   GO; GO:0045502; F:dynein binding; IPI:UniProtKB.
+DR   GO; GO:0008198; F:ferrous iron binding; IDA:UniProtKB.
+DR   GO; GO:0042393; F:histone binding; IDA:UniProtKB.
+DR   GO; GO:0030544; F:Hsp70 protein binding; IPI:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IDA:UniProtKB.
+DR   GO; GO:0019894; F:kinesin binding; IPI:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0016491; F:oxidoreductase activity; IDA:UniProtKB.
+DR   GO; GO:0005543; F:phospholipid binding; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0051219; F:phosphoprotein binding; IDA:BHF-UCL.
+DR   GO; GO:0048156; F:tau protein binding; IDA:UniProtKB.
+DR   GO; GO:0044212; F:transcription regulatory region DNA binding; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0006919; P:activation of cysteine-type endopeptidase activity involved in apoptotic process; IDA:BHF-UCL.
+DR   GO; GO:0008344; P:adult locomotory behavior; IEA:Ensembl.
+DR   GO; GO:0007568; P:aging; IEA:Ensembl.
+DR   GO; GO:0048148; P:behavioral response to cocaine; IEA:Ensembl.
+DR   GO; GO:0044267; P:cellular protein metabolic process; TAS:Reactome.
+DR   GO; GO:0071280; P:cellular response to copper ion; IDA:UniProtKB.
+DR   GO; GO:0071872; P:cellular response to epinephrine stimulus; TAS:UniProtKB.
+DR   GO; GO:0044344; P:cellular response to fibroblast growth factor stimulus; IEA:Ensembl.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; IC:ParkinsonsUK-UCL.
+DR   GO; GO:0042416; P:dopamine biosynthetic process; TAS:UniProtKB.
+DR   GO; GO:0051583; P:dopamine uptake involved in synaptic transmission; TAS:UniProtKB.
+DR   GO; GO:0060079; P:excitatory postsynaptic potential; IEA:Ensembl.
+DR   GO; GO:0043206; P:extracellular fibril organization; TAS:UniProtKB.
+DR   GO; GO:0006631; P:fatty acid metabolic process; IEA:Ensembl.
+DR   GO; GO:0060291; P:long-term synaptic potentiation; IEA:Ensembl.
+DR   GO; GO:0001774; P:microglial cell activation; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0042775; P:mitochondrial ATP synthesis coupled electron transport; IEA:Ensembl.
+DR   GO; GO:0007006; P:mitochondrial membrane organization; IEA:Ensembl.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:UniProtKB.
+DR   GO; GO:1904715; P:negative regulation of chaperone-mediated autophagy; IMP:ParkinsonsUK-UCL.
+DR   GO; GO:0043154; P:negative regulation of cysteine-type endopeptidase activity involved in apoptotic process; IMP:UniProtKB.
+DR   GO; GO:0045963; P:negative regulation of dopamine metabolic process; IEA:Ensembl.
+DR   GO; GO:0051585; P:negative regulation of dopamine uptake involved in synaptic transmission; IDA:UniProtKB.
+DR   GO; GO:0045920; P:negative regulation of exocytosis; IMP:UniProtKB.
+DR   GO; GO:0035067; P:negative regulation of histone acetylation; IDA:UniProtKB.
+DR   GO; GO:0031115; P:negative regulation of microtubule polymerization; IDA:BHF-UCL.
+DR   GO; GO:1902957; P:negative regulation of mitochondrial electron transport, NADH to ubiquinone; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0032769; P:negative regulation of monooxygenase activity; IDA:BHF-UCL.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; IEA:Ensembl.
+DR   GO; GO:1901215; P:negative regulation of neuron death; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0051622; P:negative regulation of norepinephrine uptake; IDA:UniProtKB.
+DR   GO; GO:0010642; P:negative regulation of platelet-derived growth factor receptor signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0001933; P:negative regulation of protein phosphorylation; IEA:Ensembl.
+DR   GO; GO:0051612; P:negative regulation of serotonin uptake; IDA:UniProtKB.
+DR   GO; GO:0070495; P:negative regulation of thrombin receptor signaling pathway; IDA:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription from RNA polymerase II promoter; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0032410; P:negative regulation of transporter activity; IDA:UniProtKB.
+DR   GO; GO:0006638; P:neutral lipid metabolic process; IEA:Ensembl.
+DR   GO; GO:0055114; P:oxidation-reduction process; IDA:UniProtKB.
+DR   GO; GO:0006644; P:phospholipid metabolic process; IEA:Ensembl.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0045807; P:positive regulation of endocytosis; IDA:UniProtKB.
+DR   GO; GO:1903284; P:positive regulation of glutathione peroxidase activity; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:1903285; P:positive regulation of hydrogen peroxide catabolic process; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0060732; P:positive regulation of inositol phosphate biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0001956; P:positive regulation of neurotransmitter secretion; IEA:Ensembl.
+DR   GO; GO:0033138; P:positive regulation of peptidyl-serine phosphorylation; ISS:BHF-UCL.
+DR   GO; GO:0071902; P:positive regulation of protein serine/threonine kinase activity; IDA:BHF-UCL.
+DR   GO; GO:0001921; P:positive regulation of receptor recycling; IDA:UniProtKB.
+DR   GO; GO:0051281; P:positive regulation of release of sequestered calcium ion into cytosol; IDA:UniProtKB.
+DR   GO; GO:0031648; P:protein destabilization; IDA:UniProtKB.
+DR   GO; GO:0031623; P:receptor internalization; IDA:UniProtKB.
+DR   GO; GO:0050812; P:regulation of acyl-CoA biosynthetic process; IEA:Ensembl.
+DR   GO; GO:0014059; P:regulation of dopamine secretion; TAS:UniProtKB.
+DR   GO; GO:0014048; P:regulation of glutamate secretion; IEA:Ensembl.
+DR   GO; GO:0040012; P:regulation of locomotion; IEA:Ensembl.
+DR   GO; GO:0048169; P:regulation of long-term neuronal synaptic plasticity; IEA:Ensembl.
+DR   GO; GO:0043030; P:regulation of macrophage activation; IEA:Ensembl.
+DR   GO; GO:0010517; P:regulation of phospholipase activity; IDA:UniProtKB.
+DR   GO; GO:1903426; P:regulation of reactive oxygen species biosynthetic process; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:1903421; P:regulation of synaptic vesicle recycling; TAS:ParkinsonsUK-UCL.
+DR   GO; GO:0042493; P:response to drug; IEA:Ensembl.
+DR   GO; GO:0034341; P:response to interferon-gamma; IDA:UniProtKB.
+DR   GO; GO:0070555; P:response to interleukin-1; IDA:UniProtKB.
+DR   GO; GO:0010040; P:response to iron(II) ion; IDA:UniProtKB.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IDA:UniProtKB.
+DR   GO; GO:0032026; P:response to magnesium ion; IDA:UniProtKB.
+DR   GO; GO:0050808; P:synapse organization; IEA:Ensembl.
+DR   GO; GO:0048488; P:synaptic vesicle endocytosis; ISS:UniProtKB.
+DR   Gene3D; 1.10.287.700; -; 1.
+DR   InterPro; IPR001058; Synuclein.
+DR   InterPro; IPR002460; Synuclein_alpha.
+DR   PANTHER; PTHR13820; PTHR13820; 1.
+DR   PANTHER; PTHR13820:SF5; PTHR13820:SF5; 1.
+DR   Pfam; PF01387; Synuclein; 1.
+DR   PRINTS; PR01212; ASYNUCLEIN.
+DR   PRINTS; PR01211; SYNUCLEIN.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; Alzheimer disease;
+KW   Amyloid; Cell junction; Complete proteome; Copper; Cytoplasm;
+KW   Direct protein sequencing; Disease mutation; Membrane; Metal-binding;
+KW   Neurodegeneration; Nucleus; Parkinson disease; Parkinsonism;
+KW   Phosphoprotein; Reference proteome; Repeat; Secreted; Synapse;
+KW   Ubl conjugation.
+FT   CHAIN         1    140       Alpha-synuclein.
+FT                                /FTId=PRO_0000184022.
+FT   REPEAT       20     30       1.
+FT   REPEAT       31     41       2.
+FT   REPEAT       42     56       3; approximate.
+FT   REPEAT       57     67       4.
+FT   REGION       20     67       4 X 11 AA tandem repeats of [EGS]-K-T-K-
+FT                                [EQ]-[GQ]-V-X(4).
+FT   METAL         2      2       Copper. {ECO:0000305}.
+FT   METAL        50     50       Copper. {ECO:0000305}.
+FT   MOD_RES       1      1       N-acetylmethionine.
+FT                                {ECO:0000269|PubMed:22407793}.
+FT   MOD_RES      87     87       Phosphoserine.
+FT                                {ECO:0000269|PubMed:10617630}.
+FT   MOD_RES     125    125       Phosphotyrosine; by FYN.
+FT                                {ECO:0000269|PubMed:11162638,
+FT                                ECO:0000269|PubMed:12893833}.
+FT   MOD_RES     129    129       Phosphoserine; by BARK1, PLK2, CK2, CK1
+FT                                and GRK5. {ECO:0000269|PubMed:10617630,
+FT                                ECO:0000269|PubMed:11813001,
+FT                                ECO:0000269|PubMed:24936070}.
+FT   VAR_SEQ      41     54       Missing (in isoform 2-5).
+FT                                {ECO:0000303|PubMed:7601450}.
+FT                                /FTId=VSP_006363.
+FT   VAR_SEQ     103    130       Missing (in isoform 2-4).
+FT                                {ECO:0000303|PubMed:7601450,
+FT                                ECO:0000303|PubMed:7802671}.
+FT                                /FTId=VSP_006364.
+FT   VARIANT      30     30       A -> P (in PARK1; no effect on
+FT                                oligomerization; dbSNP:rs104893878).
+FT                                {ECO:0000269|PubMed:25561023,
+FT                                ECO:0000269|PubMed:9462735}.
+FT                                /FTId=VAR_007957.
+FT   VARIANT      46     46       E -> K (in PARK1 and DLB; significant
+FT                                increase in binding to negatively charged
+FT                                phospholipid liposomes; increases
+FT                                oligomerization; dbSNP:rs104893875).
+FT                                {ECO:0000269|PubMed:14755719,
+FT                                ECO:0000269|PubMed:15498564,
+FT                                ECO:0000269|PubMed:25561023}.
+FT                                /FTId=VAR_022703.
+FT   VARIANT      50     50       H -> Q (in PARK1; no effect on protein
+FT                                structure; no effect on phosphorylation
+FT                                of the protein; no effect on membrane-
+FT                                and lipid-binding; increases
+FT                                oligomerization; increases fibril
+FT                                formation; increases secretion of the
+FT                                protein; impairs copper-binding;
+FT                                dbSNP:rs201106962).
+FT                                {ECO:0000269|PubMed:23427326,
+FT                                ECO:0000269|PubMed:23457019,
+FT                                ECO:0000269|PubMed:24936070,
+FT                                ECO:0000269|PubMed:25561023}.
+FT                                /FTId=VAR_070171.
+FT   VARIANT      53     53       A -> T (in PARK1; no effect on osmotic
+FT                                stress-induced phosphorylation; increases
+FT                                oligomerization; dbSNP:rs104893877).
+FT                                {ECO:0000269|PubMed:12893833,
+FT                                ECO:0000269|PubMed:25561023,
+FT                                ECO:0000269|PubMed:9197268}.
+FT                                /FTId=VAR_007454.
+FT   MUTAGEN       2      2       D->A: Impairs copper-binding.
+FT                                {ECO:0000269|PubMed:21319811}.
+FT   MUTAGEN      35     35       E->K: No effect on oligomerization.
+FT                                {ECO:0000269|PubMed:25561023}.
+FT   MUTAGEN      39     39       Y->F: No effect on osmotic stress-induced
+FT                                phosphorylation.
+FT                                {ECO:0000269|PubMed:12893833}.
+FT   MUTAGEN      50     50       H->A: Impairs copper-binding.
+FT                                {ECO:0000269|PubMed:21319811}.
+FT   MUTAGEN      57     57       E->K: Increases oligomerization.
+FT                                {ECO:0000269|PubMed:25561023}.
+FT   MUTAGEN      67     71       Missing: Reduces polymerization into
+FT                                amyloid fibrils.
+FT                                {ECO:0000269|PubMed:19722699}.
+FT   MUTAGEN      71     82       Missing: Impairs polymerization into
+FT                                amyloid fibrils.
+FT                                {ECO:0000269|PubMed:19722699}.
+FT   MUTAGEN      76     77       Missing: Impairs polymerization into
+FT                                amyloid fibrils.
+FT                                {ECO:0000269|PubMed:19722699}.
+FT   MUTAGEN      76     76       Missing: Does not affect polymerization
+FT                                into amyloid fibrils.
+FT   MUTAGEN      77     77       Missing: Does not affect polymerization
+FT                                into amyloid fibrils.
+FT                                {ECO:0000269|PubMed:19722699}.
+FT   MUTAGEN      78     78       Missing: Does not affect polymerization
+FT                                into amyloid fibrils.
+FT                                {ECO:0000269|PubMed:19722699}.
+FT   MUTAGEN      85     94       Missing: Reduces polymerization into
+FT                                amyloid fibrils.
+FT                                {ECO:0000269|PubMed:19722699}.
+FT   MUTAGEN     125    125       Y->F: Abolishes osmotic stress-induced
+FT                                phosphorylation.
+FT                                {ECO:0000269|PubMed:12893833}.
+FT   MUTAGEN     133    133       Y->F: No effect on osmotic stress-induced
+FT                                phosphorylation.
+FT                                {ECO:0000269|PubMed:12893833}.
+FT   MUTAGEN     136    136       Y->F: No effect on osmotic stress-induced
+FT                                phosphorylation.
+FT                                {ECO:0000269|PubMed:12893833}.
+FT   HELIX         3     11       {ECO:0000244|PDB:3Q25}.
+FT   HELIX        17     19       {ECO:0000244|PDB:2N0A}.
+FT   HELIX        21     32       {ECO:0000244|PDB:3Q26}.
+FT   HELIX        41     44       {ECO:0000244|PDB:3Q27}.
+FT   STRAND       45     47       {ECO:0000244|PDB:4BXL}.
+FT   HELIX        52     55       {ECO:0000244|PDB:3Q27}.
+FT   HELIX        66     68       {ECO:0000244|PDB:3Q28}.
+FT   STRAND       70     78       {ECO:0000244|PDB:2N0A}.
+FT   STRAND       80     83       {ECO:0000244|PDB:2N0A}.
+FT   STRAND       88     98       {ECO:0000244|PDB:2N0A}.
+FT   STRAND      110    113       {ECO:0000244|PDB:1XQ8}.
+FT   TURN        120    122       {ECO:0000244|PDB:1XQ8}.
+FT   TURN        124    126       {ECO:0000244|PDB:1XQ8}.
+FT   TURN        133    136       {ECO:0000244|PDB:2N0A}.
+SQ   SEQUENCE   140 AA;  14460 MW;  6BB2F12128931663 CRC64;
+     MDVFMKGLSK AKEGVVAAAE KTKQGVAEAA GKTKEGVLYV GSKTKEGVVH GVATVAEKTK
+     EQVTNVGGAV VTGVTAVAQK TVEGAGSIAA ATGFVKKDQL GKNEEGAPQE GILEDMPVDP
+     DNEAYEMPSE EGYQDYEPEA
+//
