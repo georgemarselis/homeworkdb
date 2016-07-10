@@ -6,4 +6,3 @@ C0030567	Parkinson Disease	null	516000	umls:C0030567	Disease or Syndrome	D010300
 C0030567	Parkinson Disease	null	516000	umls:C0030567	Disease or Syndrome	D010300	Nervous System Diseases	disease	disease of anatomical entity	6622	P37840	synuclein, alpha (non A4 component of amyloid precursor)	Metabolism of proteins	membrane traffic protein; chaperone	0.542518768155201	0.703703703703704	0.493572093604015	169	4	ALL	93
 C0030567	Parkinson Disease	null	516000	umls:C0030567	Disease or Syndrome	D010300	Nervous System Diseases	disease	disease of anatomical entity	65018	Q9BXM7	PTEN induced putative kinase 1	Mitophagy	null	0.591334923924423	0.518518518518518	0.272130726534563	114	3	ALL	61
 C0030567	Parkinson Disease	null	516000	umls:C0030567	Disease or Syndrome	D010300	Nervous System Diseases	disease	disease of anatomical entity	120892	Q5S007	leucine-rich repeat kinase 2	null	transferase; kinase	0.583094921499403	0.592592592592593	0.4358303271146	289	11	ALL	74
-
