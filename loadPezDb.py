@@ -57,7 +57,7 @@ dialect    = 'excel-tab';
 ###########################################
 
 ##uniprot
-uniprotDir = './uniprot'
+uniprotGenesDir = './uniprot/genes'
 uniprotDataFiles = os.listdir( uniprotDir )
 unitprotFieldNames = [ 'Entry name', 'Protein names', 'Status', 'Gene names  (primary )']
 restkey    = 'unknownkey';
