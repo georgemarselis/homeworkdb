@@ -1,296 +1,296 @@
-Entry name	Protein names	Status	Gene names  (primary )
-SYUA_HUMAN	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	SNCA
-SYUA_MOUSE	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	Snca
-SYUA_RAT	Alpha-synuclein	reviewed	Snca
-SYUA_PIG	Alpha-synuclein	reviewed	SNCA
-SYUA_BOVIN	Alpha-synuclein	reviewed	SNCA
-SYUA_PANTR	Alpha-synuclein	reviewed	SNCA
-SYUA_GORGO	Alpha-synuclein	reviewed	SNCA
-LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
-Q9I9H1_CHICK	Alpha-synuclein	unreviewed	SNCA
-E2RDD9_CANLF	Alpha-synuclein	unreviewed	SNCA
-G1M951_AILME	Alpha-synuclein	unreviewed	SNCA
-H2PDW8_PONAB	Alpha-synuclein	unreviewed	SNCA
-G1U0V2_RABIT	Alpha-synuclein	unreviewed	SNCA
-F7GY62_CALJA	Alpha-synuclein	unreviewed	SNCA
-K7FW98_PELSI	Alpha-synuclein	unreviewed	SNCA
-M3Z596_MUSPF	Alpha-synuclein	unreviewed	SNCA
-H0VPZ2_CAVPO	Alpha-synuclein	unreviewed	SNCA
-G1PBR4_MYOLU	Gamma-synuclein	unreviewed	SNCA
-I3N7G4_ICTTR	Alpha-synuclein	unreviewed	SNCA
-U3JU64_FICAL	Alpha-synuclein	unreviewed	SNCA
-M3WF70_FELCA	Alpha-synuclein	unreviewed	SNCA
-W5QAX7_SHEEP	Gamma-synuclein	unreviewed	SNCA
-U3IPK7_ANAPL	Gamma-synuclein	unreviewed	SNCA
-F6U044_HORSE	Alpha-synuclein	unreviewed	SNCA
-G3T7Z3_LOXAF	Alpha-synuclein	unreviewed	SNCA
-R4GAF5_ANOCA	Alpha-synuclein	unreviewed	SNCA
-1433F_HUMAN	14-3-3 protein eta (Protein AS1)	reviewed	YWHAH
-ABL1_HUMAN	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	reviewed	ABL1
-1433F_MOUSE	14-3-3 protein eta	reviewed	Ywhah
-ARP19_HUMAN	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
-ARP19_MOUSE	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	Arpp19
-ATG32_YEAST	Autophagy-related protein 32 (Extracellular mutant protein 37)	reviewed	ATG32
-ARP19_BOVIN	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
-ARP19_PIG	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
-ARP19_RAT	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	Arpp19
-CLUS_RABIT	Clusterin (Apolipoprotein J) (Apo-J) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
-CLUS_RAT	Clusterin (Dimeric acid glycoprotein) (DAG) (Sulfated glycoprotein 2) (SGP-2) (Testosterone repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	Clu
-CLUS_HORSE	Clusterin [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
-CLUS_PIG	Clusterin (CP40) (Complement cytolysis inhibitor) (CLI) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
-CLUS_SHEEP	Clusterin (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain] (Fragments)	reviewed	CLU
-CLUS_BOVIN	Clusterin (Glycoprotein III) (GpIII) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
-CLUS_MESAU	Clusterin (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain] (Fragment)	reviewed	CLU
-CLUS_MOUSE	Clusterin (Apolipoprotein J) (Apo-J) (Clustrin) (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	Clu
-CLUS_CANLF	Clusterin (Glycoprotein 80) (Gp80) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
-CLUS_HUMAN	Clusterin (Aging-associated gene 4 protein) (Apolipoprotein J) (Apo-J) (Complement cytolysis inhibitor) (CLI) (Complement-associated protein SP-40,40) (Ku70-binding protein 1) (NA1/NA2) (Testosterone-repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain (ApoJalpha) (Complement cytolysis inhibitor a chain); Clusterin alpha chain (ApoJbeta) (Complement cytolysis inhibitor b chain)]	reviewed	CLU
-COX3_HUMAN	Cytochrome c oxidase subunit 3 (Cytochrome c oxidase polypeptide III)	reviewed	MT-CO3
-ENSA_MOUSE	Alpha-endosulfine (ARPP-19e)	reviewed	Ensa
-ENSA_PIG	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
-ENSA_BOVIN	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
-ENSA_HUMAN	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
-ENSA_RAT	Alpha-endosulfine (ARPP-19e)	reviewed	Ensa
-FYN_BOVIN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
-FYN_MOUSE	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
-FYN_PIG	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
-FYN_RAT	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
-FYN_HUMAN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn)	reviewed	FYN
-GSK3B_HUMAN	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
-HD_HUMAN	Huntingtin (Huntington disease protein) (HD protein)	reviewed	HTT
-HSP7C_HUMAN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	reviewed	HSPA8
-HSP7C_PONAB	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
-HSP7C_SAGOE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Intracellular vitamin D-binding protein 1)	reviewed	HSPA8
-HSP7C_BOVIN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
-HSP7C_MOUSE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
-HSP7C_RAT	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
-PLK2_HUMAN	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (hPlk2) (Serine/threonine-protein kinase SNK) (hSNK) (Serum-inducible kinase)	reviewed	PLK2
-PLK2_PONAB	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2)	reviewed	PLK2
-PLK2_MOUSE	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (Serine/threonine-protein kinase SNK) (Serum-inducible kinase)	reviewed	Plk2
-PLK2_RAT	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (Serine/threonine-protein kinase SNK) (Serum-inducible kinase)	reviewed	Plk2
-PRAF1_HUMAN	Prenylated Rab acceptor protein 1 (PRA1 family protein 1)	reviewed	RABAC1
-RAB8A_MOUSE	Ras-related protein Rab-8A (Oncogene c-mel)	reviewed	Rab8a
-RB39B_MOUSE	Ras-related protein Rab-39B	reviewed	Rab39b
-RB39B_BOVIN	Ras-related protein Rab-39B	reviewed	RAB39B
-RB39B_HUMAN	Ras-related protein Rab-39B	reviewed	RAB39B
-SC6A3_HUMAN	Sodium-dependent dopamine transporter (DA transporter) (DAT) (Solute carrier family 6 member 3)	reviewed	SLC6A3
-SC6A3_MOUSE	Sodium-dependent dopamine transporter (DA transporter) (DAT) (Solute carrier family 6 member 3)	reviewed	Slc6a3
-SIAH1_HUMAN	E3 ubiquitin-protein ligase SIAH1 (EC 6.3.2.-) (Seven in absentia homolog 1) (Siah-1) (Siah-1a)	reviewed	SIAH1
-SIAH2_RAT	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2)	reviewed	Siah2
-SIAH2_HUMAN	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2) (hSiah2)	reviewed	SIAH2
-SNCAP_MOUSE	Synphilin-1 (Alpha-synuclein-interacting protein)	reviewed	Sncaip
-SIAH2_MOUSE	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2) (mSiah2)	reviewed	Siah2
-SNCAP_HUMAN	Synphilin-1 (Sph1) (Alpha-synuclein-interacting protein)	reviewed	SNCAIP
-SYN1_HUMAN	Synapsin-1 (Brain protein 4.1) (Synapsin I)	reviewed	SYN1
-SYUA_ERYPA	Alpha-synuclein	reviewed	SNCA
-SYUA_MACFA	Alpha-synuclein	reviewed	SNCA
-SYUB_HUMAN	Beta-synuclein	reviewed	SNCB
-SYUA_ATEGE	Alpha-synuclein	reviewed	SNCA
-SYUA_PANPA	Alpha-synuclein	reviewed	SNCA
-SYUA_PONAB	Alpha-synuclein	reviewed	SNCA
-SYUA_SAGLB	Alpha-synuclein	reviewed	SNCA
-SYUA_LAGLA	Alpha-synuclein	reviewed	SNCA
-SYUA_MACMU	Alpha-synuclein	reviewed	SNCA
-SYUA_SERCA	Alpha-synuclein (Synelfin)	reviewed	SNCA
-TAU_HUMAN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
-TPPP_HUMAN	Tubulin polymerization-promoting protein (TPPP) (25 kDa brain-specific protein) (TPPP/p25) (p24) (p25-alpha)	reviewed	TPPP
-UCHL1_MOUSE	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	Uchl1
-UCHL1_MACFA	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Ubiquitin thioesterase L1)	reviewed	UCHL1
-UCHL1_HORSE	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
-UCHL1_HUMAN	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
-UCHL1_RAT	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	Uchl1
-UCHL1_PIG	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Ubiquitin thioesterase L1)	reviewed	UCHL1
-UCHL1_BOVIN	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
-UCHL1_MONDO	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
-B3RFW0_ASPNG	V-SNARE	unreviewed	sncA
-H2E5X8_PHAND	Nectrotrophic effector Tox1	unreviewed	Tox1
-H6UYS7_HUMAN	Alpha-synuclein	unreviewed	SNCA
-F6L6N6_HUMAN	Synuclein alpha-140 (Fragment)	unreviewed	NACP
-H6UYS5_HUMAN	Alpha-synuclein	unreviewed	SNCA
-H6UYS0_HUMAN	Alpha-synuclein	unreviewed	SNCA
-B3KMP8_HUMAN	cDNA FLJ11882 fis, clone HEMBA1007151, highly similar to Synphilin-1	unreviewed	
-Q4W5L2_HUMAN	Alpha-synuclein (Fragment)	unreviewed	SNCA
-D6R9G8_HUMAN	Synphilin-1 (Fragment)	unreviewed	SNCAIP
-D6RA31_HUMAN	Alpha-synuclein (Fragment)	unreviewed	SNCA
-Q9NVG1_HUMAN	cDNA FLJ10755 fis, clone NT2RP3004569, weakly similar to ANKYRIN, BRAIN VARIANT 1	unreviewed	
-B7Z5F8_HUMAN	cDNA FLJ56226, highly similar to Synphilin-1	unreviewed	
-B7Z995_HUMAN	cDNA FLJ56291, highly similar to Synphilin-1	unreviewed	
-B7Z616_HUMAN	cDNA FLJ61370, highly similar to Synphilin-1	unreviewed	
-E7EPV7_HUMAN	Alpha-synuclein	unreviewed	SNCA
-F7I5E3_CALJA	Uncharacterized protein	unreviewed	SNCAIP
-F7I7Q3_CALJA	Synphilin-1 isoform 1 (Uncharacterized protein)	unreviewed	SNCAIP
-G7MTE2_MACMU	Alpha-synuclein	unreviewed	SNCA
-T0NTF6_CAMFR	Synphilin-1 isoform 1	unreviewed	
-S7NWL2_MYOBR	Synphilin-1	unreviewed	
-F7H8L8_MACMU	Alpha-synuclein	unreviewed	SNCA
-F7I0Q5_CALJA	Uncharacterized protein	unreviewed	SNCAIP
-F7CJB0_MACMU	Uncharacterized protein	unreviewed	SNCAIP
-F7CJ93_MACMU	Uncharacterized protein	unreviewed	SNCAIP
-F7HDW6_CALJA	Alpha-synuclein	unreviewed	SNCA
-F7CJ86_MACMU	Uncharacterized protein	unreviewed	SNCAIP
-F7CJA4_MACMU	Uncharacterized protein	unreviewed	SNCAIP
-H9ZFP1_MACMU	Synphilin-1 isoform 1	unreviewed	SNCAIP
-F7I7Q4_CALJA	Uncharacterized protein	unreviewed	SNCAIP
-F6ZX44_CALJA	Uncharacterized protein	unreviewed	SNCAIP
-F7C9W1_CALJA	Uncharacterized protein	unreviewed	SNCAIP
-F6QU58_MACMU	Uncharacterized protein	unreviewed	SNCAIP
-F6QU66_MACMU	Uncharacterized protein	unreviewed	SNCAIP
-F6Z6S3_CALJA	Uncharacterized protein	unreviewed	SNCAIP
-F7HDN5_CALJA	Alpha-synuclein	unreviewed	SNCA
-G7MTU9_MACMU	Uncharacterized protein	unreviewed	
-C6K8P8_BALAC	Alpha-synuclein (Fragment)	unreviewed	SNCA
-M3YNK9_MUSPF	Uncharacterized protein	unreviewed	SNCAIP
-L8Y4L7_TUPCH	Synphilin-1	unreviewed	
-A6QQ08_BOVIN	SNCA protein (Fragment)	unreviewed	SNCA
-E1BD13_BOVIN	Uncharacterized protein	unreviewed	SNCAIP
-F6VFW3_ORNAN	Uncharacterized protein	unreviewed	SNCAIP
-H0WV62_OTOGA	Uncharacterized protein	unreviewed	SNCAIP
-W5NPS3_SHEEP	Uncharacterized protein	unreviewed	SNCAIP
-H0XI37_OTOGA	Uncharacterized protein	unreviewed	SNCA
-H2PGD2_PONAB	Uncharacterized protein	unreviewed	SNCAIP
-K7AKQ9_PANTR	Alpha-synuclein	unreviewed	SNCA
-H2R5G1_PANTR	Uncharacterized protein	unreviewed	SNCAIP
-K7B7C9_PANTR	Synuclein, alpha interacting protein	unreviewed	SNCAIP
-L5LUM7_MYODS	Synphilin-1	unreviewed	
-M3WDG8_FELCA	Uncharacterized protein	unreviewed	SNCAIP
-F7FYY8_MONDO	Uncharacterized protein	unreviewed	SNCAIP
-D0FH84_SAISC	Alpha-synuclein	unreviewed	SNCA
-A0A096MQY7_PAPAN	Uncharacterized protein	unreviewed	SNCA
-G3WNQ8_SARHA	Uncharacterized protein	unreviewed	
-A0A096N9I7_PAPAN	Uncharacterized protein	unreviewed	SNCAIP
-F6SUU0_HORSE	Uncharacterized protein	unreviewed	SNCAIP
-U6DKR6_NEOVI	Synphilin-1 (Fragment)	unreviewed	SNCAP
-G3UFG6_LOXAF	Uncharacterized protein (Fragment)	unreviewed	SNCAIP
-C6K8P9_LOXAF	Alpha-synuclein (Fragment)	unreviewed	SNCA
-G3T7M3_LOXAF	Uncharacterized protein	unreviewed	SNCAIP
-A0A0D9QW44_CHLSB	Alpha-synuclein	unreviewed	SNCA
-A0A0D9RQ65_CHLSB	Uncharacterized protein	unreviewed	SNCAIP
-A7WSU6_PIG	Synphilin-1	unreviewed	SNCAIP
-I6QMI9_PIG	Synphilin-1 (Fragment)	unreviewed	SNCAIP
-F6PTT6_PIG	Uncharacterized protein	unreviewed	SNCAIP
-Q4PNS0_PIG	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A7WSU9_PIG	Synphilin-1 variant 1a	unreviewed	SNCAIP
-J7I3N5_PIG	Synphilin-1 (Fragment)	unreviewed	SNCAIP
-L8IKX7_9CETA	Synphilin-1 (Fragment)	unreviewed	
-C6K8Q0_PHOPH	Alpha-synuclein (Fragment)	unreviewed	SNCA
-G1RMZ1_NOMLE	Uncharacterized protein	unreviewed	SNCAIP
-G1RW17_NOMLE	Alpha-synuclein	unreviewed	SNCA
-F6V9D7_CANLF	Uncharacterized protein	unreviewed	SNCAIP
-G3RHE8_GORGO	Uncharacterized protein	unreviewed	SNCAIP
-D2HT09_AILME	Putative uncharacterized protein (Fragment)	unreviewed	
-G1MBD4_AILME	Uncharacterized protein	unreviewed	SNCAIP
-G7P847_MACFA	Putative uncharacterized protein	unreviewed	
-C6K8Q1_9CARN	Alpha-synuclein (Fragment)	unreviewed	SNCA
-G1PKT7_MYOLU	Uncharacterized protein	unreviewed	SNCAIP
-A0A0G4ALB0_CHODI	Alpha-synuclein (Fragment)	unreviewed	SNCA
-L5KLE3_PTEAL	Synphilin-1	unreviewed	
-G1SVK1_RABIT	Uncharacterized protein	unreviewed	SNCAIP
-E9Q4E2_MOUSE	Synphilin-1 (Synuclein, alpha interacting protein (Synphilin), isoform CRA_a)	unreviewed	Sncaip
-Q3V1N2_MOUSE	Synphilin-1	unreviewed	Sncaip
-G5E848_MOUSE	Synphilin-1 (Synuclein, alpha interacting protein (Synphilin), isoform CRA_b)	unreviewed	Sncaip
-D3ZWQ5_RAT	Protein Sncaip (Synuclein, alpha interacting protein (Synphilin) (Predicted), isoform CRA_a)	unreviewed	Sncaip
-Q3LVE5_RAT	Alpha-synuclein (Fragment)	unreviewed	Snca
-A0A091DNK5_FUKDA	Synphilin-1	unreviewed	
-H0V122_CAVPO	Uncharacterized protein	unreviewed	SNCAIP
-I3NA43_ICTTR	Uncharacterized protein	unreviewed	SNCAIP
-G3IJA2_CRIGR	Synphilin-1	unreviewed	
-G5AK87_HETGA	Synphilin-1	unreviewed	
-Q8C4I8_MOUSE	Putative uncharacterized protein	unreviewed	Sncaip
-Q9D3W0_MOUSE	Putative uncharacterized protein	unreviewed	Sncaip
-Q3TVI3_MOUSE	Putative uncharacterized protein	unreviewed	Sncaip
-J3QNK1_MOUSE	Synphilin-1	unreviewed	Sncaip
-J3QP58_MOUSE	Synphilin-1	unreviewed	Sncaip
-Q8BRF4_MOUSE	Putative uncharacterized protein (Fragment)	unreviewed	Sncaip
-Q4KMM4_MOUSE	Sncaip protein	unreviewed	Sncaip
-A0A091QA99_MERNU	Synphilin-1 (Fragment)	unreviewed	
-H0YSB4_TAEGU	Uncharacterized protein	unreviewed	SNCAIP
-C6K8Q5_CYPCA	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A0A087QK65_APTFO	Synphilin-1 (Fragment)	unreviewed	
-A0A091PCP0_HALAL	Synphilin-1 (Fragment)	unreviewed	
-H3AWG4_LATCH	Gamma-synuclein	unreviewed	SNCA
-A0A091TGW3_9AVES	Synphilin-1 (Fragment)	unreviewed	
-H3A2I5_LATCH	Uncharacterized protein	unreviewed	SNCAIP
-C6K8Q7_9TELE	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A0A091QZ26_9GRUI	Synphilin-1 (Fragment)	unreviewed	
-A0A093I2X8_STRCA	Synphilin-1 (Fragment)	unreviewed	
-A0A091ECF5_CORBR	Synphilin-1 (Fragment)	unreviewed	
-F7D9Y2_XENTR	Gamma-synuclein	unreviewed	snca
-F6R097_XENTR	Uncharacterized protein	unreviewed	sncaip
-A4IH15_XENTR	Alpha-synuclein	unreviewed	snca
-Q6DJ84_XENTR	Synuclein, alpha interacting protein (Synphilin)	unreviewed	sncaip
-A0A094MQN2_ANTCR	Synphilin-1 (Fragment)	unreviewed	
-C6KE77_OSTTE	Alpha-synuclein (Fragment)	unreviewed	SNCA
-C6K8Q2_TESGR	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A0A091LEV8_9GRUI	Synphilin-1 (Fragment)	unreviewed	
-A0A093EQH8_TYTAL	Synphilin-1 (Fragment)	unreviewed	
-H2MRQ0_ORYLA	Uncharacterized protein	unreviewed	
-A0A090D865_ORYLA	RNA-dependent DNA polymerase	unreviewed	SNCA
-C7E3N4_NESNO	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A0A091SSC2_NESNO	Synphilin-1 (Fragment)	unreviewed	
-A0A093R229_PYGAD	Synphilin-1 (Fragment)	unreviewed	
-W5KJF9_ASTMX	Uncharacterized protein	unreviewed	SNCA
-V8P9K6_OPHHA	Synphilin-1 (Fragment)	unreviewed	SNCAIP
-W5KZN6_ASTMX	Uncharacterized protein	unreviewed	
-V8NTX1_OPHHA	Alpha-synuclein	unreviewed	Snca
-A0A091QUG6_LEPDC	Synphilin-1 (Fragment)	unreviewed	
-M7BMA2_CHEMY	Synphilin-1	unreviewed	
-A0A093BFB0_CHAPE	Synphilin-1 (Fragment)	unreviewed	
-A0A0Q3TV73_AMAAE	Synphilin-1-like protein	unreviewed	
-A0A091J0F9_9AVES	Synphilin-1 (Fragment)	unreviewed	
-C6K8Q4_AMAAE	Alpha-synuclein (Fragment)	unreviewed	SNCA
-U3JU67_FICAL	Gamma-synuclein	unreviewed	SNCA
-U3JYP4_FICAL	Uncharacterized protein	unreviewed	SNCAIP
-A0A091N768_9PASS	Synphilin-1 (Fragment)	unreviewed	
-I3KCI5_ORENI	Uncharacterized protein	unreviewed	SNCA
-I3K8A6_ORENI	Uncharacterized protein	unreviewed	
-A0A093IL91_PICPB	Synphilin-1 (Fragment)	unreviewed	
-A8WGA8_DANRE	Zgc:172291 protein	unreviewed	sncaip
-A0A0M3HEL3_DANRE	Uncharacterized protein	unreviewed	sncaip
-C6K8Q6_ACISU	Alpha-synuclein (Fragment)	unreviewed	SNCA
-B7ZVK5_DANRE	Zgc:172291	unreviewed	sncaip
-H3C635_TETNG	Uncharacterized protein	unreviewed	SNCA
-H3DH62_TETNG	Uncharacterized protein	unreviewed	
-Q4RPK8_TETNG	Chromosome 12 SCAF15007, whole genome shotgun sequence (Fragment)	unreviewed	
-E1C046_CHICK	Uncharacterized protein	unreviewed	SNCAIP
-A0A091L412_CATAU	Synphilin-1 (Fragment)	unreviewed	
-H9GQQ0_ANOCA	Uncharacterized protein	unreviewed	SNCAIP
-A0A060XJE2_ONCMY	Uncharacterized protein	unreviewed	
-A0A0N8JW36_9TELE	Synphilin-1-like	unreviewed	
-A0A087XWK0_POEFO	Uncharacterized protein	unreviewed	SNCA
-A0A087X3Y6_POEFO	Uncharacterized protein	unreviewed	
-R0LW91_ANAPL	Synphilin-1 (Fragment)	unreviewed	
-U3J6Q8_ANAPL	Uncharacterized protein	unreviewed	SNCAIP
-K7FSW1_PELSI	Uncharacterized protein	unreviewed	SNCAIP
-K7FSY0_PELSI	Uncharacterized protein	unreviewed	SNCAIP
-G3PW48_GASAC	Uncharacterized protein	unreviewed	SNCA
-A0A091W1B9_OPIHO	Synphilin-1 (Fragment)	unreviewed	
-C6K8Q8_CRORO	Alpha-synuclein (Fragment)	unreviewed	SNCA
-W5U699_ICTPU	Synphilin-1	unreviewed	Sncaip
-M4AI59_XIPMA	Uncharacterized protein	unreviewed	SNCA
-M4ALD8_XIPMA	Uncharacterized protein	unreviewed	
-A0A0F8ADB2_LARCR	Synphilin-1	unreviewed	
-A0A091UK98_NIPNI	Synphilin-1 (Fragment)	unreviewed	
-A0A091G8K6_9AVES	Synphilin-1 (Fragment)	unreviewed	
-A0A091HXM1_CALAN	Synphilin-1 (Fragment)	unreviewed	
-A0A093Q8G0_9PASS	Synphilin-1 (Fragment)	unreviewed	
-W5MQG8_LEPOC	Uncharacterized protein	unreviewed	
-C6K8Q3_CHENI	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A0A151M7T8_ALLMI	Synphilin-1	unreviewed	SNCAIP
-A0A093FLM7_GAVST	Synphilin-1 (Fragment)	unreviewed	
-A0A151NNJ7_ALLMI	Alpha-synuclein	unreviewed	SNCA
-A0A151NMH8_ALLMI	Alpha-synuclein	unreviewed	SNCA
-A0A099YX33_TINGU	Synphilin-1 (Fragment)	unreviewed	
-A0A091HAK1_BUCRH	Synphilin-1 (Fragment)	unreviewed	
-A0A091K8Q9_COLST	Synphilin-1 (Fragment)	unreviewed	
-A0A146PQW7_FUNHE	Ankyrin repeat domain-containing protein 6	unreviewed	
-A0A146PSA0_FUNHE	Ankyrin repeat and SOCS box protein 9	unreviewed	
-A0A147B5B2_FUNHE	Synphilin-1	unreviewed	
-Q7SZ02_XENLA	Alpha-synuclein	unreviewed	snca
-H2THY4_TAKRU	Uncharacterized protein	unreviewed	SNCA
-A0A093IWG1_FULGA	Synphilin-1 (Fragment)	unreviewed	
-H2U0U5_TAKRU	Uncharacterized protein	unreviewed	sncaip
-H2U0U3_TAKRU	Uncharacterized protein	unreviewed	sncaip
-H2THY3_TAKRU	Uncharacterized protein	unreviewed	SNCA
-H2U0U6_TAKRU	Uncharacterized protein	unreviewed	sncaip
-H2U0U4_TAKRU	Uncharacterized protein	unreviewed	sncaip
-G1N1K5_MELGA	Alpha-synuclein	unreviewed	SNCA
-G1N9W3_MELGA	Uncharacterized protein (Fragment)	unreviewed	SNCAIP
+Entry	Entry name	Protein names	Status	Gene names  (primary )
+P37840	SYUA_HUMAN	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	SNCA
+O55042	SYUA_MOUSE	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	Snca
+P37377	SYUA_RAT	Alpha-synuclein	reviewed	Snca
+Q3I5G7	SYUA_PIG	Alpha-synuclein	reviewed	SNCA
+Q3T0G8	SYUA_BOVIN	Alpha-synuclein	reviewed	SNCA
+P61145	SYUA_PANTR	Alpha-synuclein	reviewed	SNCA
+P61140	SYUA_GORGO	Alpha-synuclein	reviewed	SNCA
+Q5S007	LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
+Q9I9H1	Q9I9H1_CHICK	Alpha-synuclein	unreviewed	SNCA
+E2RDD9	E2RDD9_CANLF	Alpha-synuclein	unreviewed	SNCA
+G1M951	G1M951_AILME	Alpha-synuclein	unreviewed	SNCA
+H2PDW8	H2PDW8_PONAB	Alpha-synuclein	unreviewed	SNCA
+G1U0V2	G1U0V2_RABIT	Alpha-synuclein	unreviewed	SNCA
+F7GY62	F7GY62_CALJA	Alpha-synuclein	unreviewed	SNCA
+K7FW98	K7FW98_PELSI	Alpha-synuclein	unreviewed	SNCA
+M3Z596	M3Z596_MUSPF	Alpha-synuclein	unreviewed	SNCA
+H0VPZ2	H0VPZ2_CAVPO	Alpha-synuclein	unreviewed	SNCA
+G1PBR4	G1PBR4_MYOLU	Gamma-synuclein	unreviewed	SNCA
+I3N7G4	I3N7G4_ICTTR	Alpha-synuclein	unreviewed	SNCA
+U3JU64	U3JU64_FICAL	Alpha-synuclein	unreviewed	SNCA
+M3WF70	M3WF70_FELCA	Alpha-synuclein	unreviewed	SNCA
+W5QAX7	W5QAX7_SHEEP	Gamma-synuclein	unreviewed	SNCA
+U3IPK7	U3IPK7_ANAPL	Gamma-synuclein	unreviewed	SNCA
+F6U044	F6U044_HORSE	Alpha-synuclein	unreviewed	SNCA
+G3T7Z3	G3T7Z3_LOXAF	Alpha-synuclein	unreviewed	SNCA
+R4GAF5	R4GAF5_ANOCA	Alpha-synuclein	unreviewed	SNCA
+Q04917	1433F_HUMAN	14-3-3 protein eta (Protein AS1)	reviewed	YWHAH
+P00519	ABL1_HUMAN	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	reviewed	ABL1
+P68510	1433F_MOUSE	14-3-3 protein eta	reviewed	Ywhah
+P56211	ARP19_HUMAN	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
+P56212	ARP19_MOUSE	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	Arpp19
+P40458	ATG32_YEAST	Autophagy-related protein 32 (Extracellular mutant protein 37)	reviewed	ATG32
+Q28055	ARP19_BOVIN	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
+Q712U6	ARP19_PIG	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
+Q712U5	ARP19_RAT	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	Arpp19
+Q9XSC5	CLUS_RABIT	Clusterin (Apolipoprotein J) (Apo-J) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P05371	CLUS_RAT	Clusterin (Dimeric acid glycoprotein) (DAG) (Sulfated glycoprotein 2) (SGP-2) (Testosterone repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	Clu
+Q29482	CLUS_HORSE	Clusterin [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+Q29549	CLUS_PIG	Clusterin (CP40) (Complement cytolysis inhibitor) (CLI) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P17698	CLUS_SHEEP	Clusterin (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain] (Fragments)	reviewed	CLU
+P17697	CLUS_BOVIN	Clusterin (Glycoprotein III) (GpIII) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P14683	CLUS_MESAU	Clusterin (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain] (Fragment)	reviewed	CLU
+Q06890	CLUS_MOUSE	Clusterin (Apolipoprotein J) (Apo-J) (Clustrin) (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	Clu
+P25473	CLUS_CANLF	Clusterin (Glycoprotein 80) (Gp80) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P10909	CLUS_HUMAN	Clusterin (Aging-associated gene 4 protein) (Apolipoprotein J) (Apo-J) (Complement cytolysis inhibitor) (CLI) (Complement-associated protein SP-40,40) (Ku70-binding protein 1) (NA1/NA2) (Testosterone-repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain (ApoJalpha) (Complement cytolysis inhibitor a chain); Clusterin alpha chain (ApoJbeta) (Complement cytolysis inhibitor b chain)]	reviewed	CLU
+P00414	COX3_HUMAN	Cytochrome c oxidase subunit 3 (Cytochrome c oxidase polypeptide III)	reviewed	MT-CO3
+P60840	ENSA_MOUSE	Alpha-endosulfine (ARPP-19e)	reviewed	Ensa
+P68211	ENSA_PIG	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
+P68210	ENSA_BOVIN	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
+O43768	ENSA_HUMAN	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
+P60841	ENSA_RAT	Alpha-endosulfine (ARPP-19e)	reviewed	Ensa
+A0JNB0	FYN_BOVIN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
+P39688	FYN_MOUSE	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
+A1Y2K1	FYN_PIG	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
+Q62844	FYN_RAT	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
+P06241	FYN_HUMAN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn)	reviewed	FYN
+P49841	GSK3B_HUMAN	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
+P42858	HD_HUMAN	Huntingtin (Huntington disease protein) (HD protein)	reviewed	HTT
+P11142	HSP7C_HUMAN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	reviewed	HSPA8
+Q5NVM9	HSP7C_PONAB	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+Q71U34	HSP7C_SAGOE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Intracellular vitamin D-binding protein 1)	reviewed	HSPA8
+P19120	HSP7C_BOVIN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+P63017	HSP7C_MOUSE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
+P63018	HSP7C_RAT	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
+Q9NYY3	PLK2_HUMAN	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (hPlk2) (Serine/threonine-protein kinase SNK) (hSNK) (Serum-inducible kinase)	reviewed	PLK2
+Q5R4L1	PLK2_PONAB	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2)	reviewed	PLK2
+P53351	PLK2_MOUSE	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (Serine/threonine-protein kinase SNK) (Serum-inducible kinase)	reviewed	Plk2
+Q9R012	PLK2_RAT	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (Serine/threonine-protein kinase SNK) (Serum-inducible kinase)	reviewed	Plk2
+Q9UI14	PRAF1_HUMAN	Prenylated Rab acceptor protein 1 (PRA1 family protein 1)	reviewed	RABAC1
+P55258	RAB8A_MOUSE	Ras-related protein Rab-8A (Oncogene c-mel)	reviewed	Rab8a
+Q8BHC1	RB39B_MOUSE	Ras-related protein Rab-39B	reviewed	Rab39b
+Q17QU4	RB39B_BOVIN	Ras-related protein Rab-39B	reviewed	RAB39B
+Q96DA2	RB39B_HUMAN	Ras-related protein Rab-39B	reviewed	RAB39B
+Q01959	SC6A3_HUMAN	Sodium-dependent dopamine transporter (DA transporter) (DAT) (Solute carrier family 6 member 3)	reviewed	SLC6A3
+Q61327	SC6A3_MOUSE	Sodium-dependent dopamine transporter (DA transporter) (DAT) (Solute carrier family 6 member 3)	reviewed	Slc6a3
+Q8IUQ4	SIAH1_HUMAN	E3 ubiquitin-protein ligase SIAH1 (EC 6.3.2.-) (Seven in absentia homolog 1) (Siah-1) (Siah-1a)	reviewed	SIAH1
+Q8R4T2	SIAH2_RAT	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2)	reviewed	Siah2
+O43255	SIAH2_HUMAN	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2) (hSiah2)	reviewed	SIAH2
+Q99ME3	SNCAP_MOUSE	Synphilin-1 (Alpha-synuclein-interacting protein)	reviewed	Sncaip
+Q06986	SIAH2_MOUSE	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2) (mSiah2)	reviewed	Siah2
+Q9Y6H5	SNCAP_HUMAN	Synphilin-1 (Sph1) (Alpha-synuclein-interacting protein)	reviewed	SNCAIP
+P17600	SYN1_HUMAN	Synapsin-1 (Brain protein 4.1) (Synapsin I)	reviewed	SYN1
+P61139	SYUA_ERYPA	Alpha-synuclein	reviewed	SNCA
+P61142	SYUA_MACFA	Alpha-synuclein	reviewed	SNCA
+Q16143	SYUB_HUMAN	Beta-synuclein	reviewed	SNCB
+P61138	SYUA_ATEGE	Alpha-synuclein	reviewed	SNCA
+P61144	SYUA_PANPA	Alpha-synuclein	reviewed	SNCA
+P61146	SYUA_PONAB	Alpha-synuclein	reviewed	SNCA
+P61147	SYUA_SAGLB	Alpha-synuclein	reviewed	SNCA
+P61141	SYUA_LAGLA	Alpha-synuclein	reviewed	SNCA
+P61143	SYUA_MACMU	Alpha-synuclein	reviewed	SNCA
+Q91448	SYUA_SERCA	Alpha-synuclein (Synelfin)	reviewed	SNCA
+P10636	TAU_HUMAN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+O94811	TPPP_HUMAN	Tubulin polymerization-promoting protein (TPPP) (25 kDa brain-specific protein) (TPPP/p25) (p24) (p25-alpha)	reviewed	TPPP
+Q9R0P9	UCHL1_MOUSE	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	Uchl1
+Q60HC8	UCHL1_MACFA	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+Q9GM50	UCHL1_HORSE	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+P09936	UCHL1_HUMAN	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+Q00981	UCHL1_RAT	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	Uchl1
+Q6SEG5	UCHL1_PIG	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+P23356	UCHL1_BOVIN	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+P50103	UCHL1_MONDO	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+B3RFW0	B3RFW0_ASPNG	V-SNARE	unreviewed	sncA
+H2E5X8	H2E5X8_PHAND	Nectrotrophic effector Tox1	unreviewed	Tox1
+H6UYS7	H6UYS7_HUMAN	Alpha-synuclein	unreviewed	SNCA
+F6L6N6	F6L6N6_HUMAN	Synuclein alpha-140 (Fragment)	unreviewed	NACP
+H6UYS5	H6UYS5_HUMAN	Alpha-synuclein	unreviewed	SNCA
+H6UYS0	H6UYS0_HUMAN	Alpha-synuclein	unreviewed	SNCA
+B3KMP8	B3KMP8_HUMAN	cDNA FLJ11882 fis, clone HEMBA1007151, highly similar to Synphilin-1	unreviewed	
+Q4W5L2	Q4W5L2_HUMAN	Alpha-synuclein (Fragment)	unreviewed	SNCA
+D6R9G8	D6R9G8_HUMAN	Synphilin-1 (Fragment)	unreviewed	SNCAIP
+D6RA31	D6RA31_HUMAN	Alpha-synuclein (Fragment)	unreviewed	SNCA
+Q9NVG1	Q9NVG1_HUMAN	cDNA FLJ10755 fis, clone NT2RP3004569, weakly similar to ANKYRIN, BRAIN VARIANT 1	unreviewed	
+B7Z5F8	B7Z5F8_HUMAN	cDNA FLJ56226, highly similar to Synphilin-1	unreviewed	
+B7Z995	B7Z995_HUMAN	cDNA FLJ56291, highly similar to Synphilin-1	unreviewed	
+B7Z616	B7Z616_HUMAN	cDNA FLJ61370, highly similar to Synphilin-1	unreviewed	
+E7EPV7	E7EPV7_HUMAN	Alpha-synuclein	unreviewed	SNCA
+F7I5E3	F7I5E3_CALJA	Uncharacterized protein	unreviewed	SNCAIP
+F7I7Q3	F7I7Q3_CALJA	Synphilin-1 isoform 1 (Uncharacterized protein)	unreviewed	SNCAIP
+G7MTE2	G7MTE2_MACMU	Alpha-synuclein	unreviewed	SNCA
+T0NTF6	T0NTF6_CAMFR	Synphilin-1 isoform 1	unreviewed	
+S7NWL2	S7NWL2_MYOBR	Synphilin-1	unreviewed	
+F7H8L8	F7H8L8_MACMU	Alpha-synuclein	unreviewed	SNCA
+F7I0Q5	F7I0Q5_CALJA	Uncharacterized protein	unreviewed	SNCAIP
+F7CJB0	F7CJB0_MACMU	Uncharacterized protein	unreviewed	SNCAIP
+F7CJ93	F7CJ93_MACMU	Uncharacterized protein	unreviewed	SNCAIP
+F7HDW6	F7HDW6_CALJA	Alpha-synuclein	unreviewed	SNCA
+F7CJ86	F7CJ86_MACMU	Uncharacterized protein	unreviewed	SNCAIP
+F7CJA4	F7CJA4_MACMU	Uncharacterized protein	unreviewed	SNCAIP
+H9ZFP1	H9ZFP1_MACMU	Synphilin-1 isoform 1	unreviewed	SNCAIP
+F7I7Q4	F7I7Q4_CALJA	Uncharacterized protein	unreviewed	SNCAIP
+F6ZX44	F6ZX44_CALJA	Uncharacterized protein	unreviewed	SNCAIP
+F7C9W1	F7C9W1_CALJA	Uncharacterized protein	unreviewed	SNCAIP
+F6QU58	F6QU58_MACMU	Uncharacterized protein	unreviewed	SNCAIP
+F6QU66	F6QU66_MACMU	Uncharacterized protein	unreviewed	SNCAIP
+F6Z6S3	F6Z6S3_CALJA	Uncharacterized protein	unreviewed	SNCAIP
+F7HDN5	F7HDN5_CALJA	Alpha-synuclein	unreviewed	SNCA
+G7MTU9	G7MTU9_MACMU	Uncharacterized protein	unreviewed	
+C6K8P8	C6K8P8_BALAC	Alpha-synuclein (Fragment)	unreviewed	SNCA
+M3YNK9	M3YNK9_MUSPF	Uncharacterized protein	unreviewed	SNCAIP
+L8Y4L7	L8Y4L7_TUPCH	Synphilin-1	unreviewed	
+A6QQ08	A6QQ08_BOVIN	SNCA protein (Fragment)	unreviewed	SNCA
+E1BD13	E1BD13_BOVIN	Uncharacterized protein	unreviewed	SNCAIP
+F6VFW3	F6VFW3_ORNAN	Uncharacterized protein	unreviewed	SNCAIP
+H0WV62	H0WV62_OTOGA	Uncharacterized protein	unreviewed	SNCAIP
+W5NPS3	W5NPS3_SHEEP	Uncharacterized protein	unreviewed	SNCAIP
+H0XI37	H0XI37_OTOGA	Uncharacterized protein	unreviewed	SNCA
+H2PGD2	H2PGD2_PONAB	Uncharacterized protein	unreviewed	SNCAIP
+K7AKQ9	K7AKQ9_PANTR	Alpha-synuclein	unreviewed	SNCA
+H2R5G1	H2R5G1_PANTR	Uncharacterized protein	unreviewed	SNCAIP
+K7B7C9	K7B7C9_PANTR	Synuclein, alpha interacting protein	unreviewed	SNCAIP
+L5LUM7	L5LUM7_MYODS	Synphilin-1	unreviewed	
+M3WDG8	M3WDG8_FELCA	Uncharacterized protein	unreviewed	SNCAIP
+F7FYY8	F7FYY8_MONDO	Uncharacterized protein	unreviewed	SNCAIP
+D0FH84	D0FH84_SAISC	Alpha-synuclein	unreviewed	SNCA
+A0A096MQY7	A0A096MQY7_PAPAN	Uncharacterized protein	unreviewed	SNCA
+G3WNQ8	G3WNQ8_SARHA	Uncharacterized protein	unreviewed	
+A0A096N9I7	A0A096N9I7_PAPAN	Uncharacterized protein	unreviewed	SNCAIP
+F6SUU0	F6SUU0_HORSE	Uncharacterized protein	unreviewed	SNCAIP
+U6DKR6	U6DKR6_NEOVI	Synphilin-1 (Fragment)	unreviewed	SNCAP
+G3UFG6	G3UFG6_LOXAF	Uncharacterized protein (Fragment)	unreviewed	SNCAIP
+C6K8P9	C6K8P9_LOXAF	Alpha-synuclein (Fragment)	unreviewed	SNCA
+G3T7M3	G3T7M3_LOXAF	Uncharacterized protein	unreviewed	SNCAIP
+A0A0D9QW44	A0A0D9QW44_CHLSB	Alpha-synuclein	unreviewed	SNCA
+A0A0D9RQ65	A0A0D9RQ65_CHLSB	Uncharacterized protein	unreviewed	SNCAIP
+A7WSU6	A7WSU6_PIG	Synphilin-1	unreviewed	SNCAIP
+I6QMI9	I6QMI9_PIG	Synphilin-1 (Fragment)	unreviewed	SNCAIP
+F6PTT6	F6PTT6_PIG	Uncharacterized protein	unreviewed	SNCAIP
+Q4PNS0	Q4PNS0_PIG	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A7WSU9	A7WSU9_PIG	Synphilin-1 variant 1a	unreviewed	SNCAIP
+J7I3N5	J7I3N5_PIG	Synphilin-1 (Fragment)	unreviewed	SNCAIP
+L8IKX7	L8IKX7_9CETA	Synphilin-1 (Fragment)	unreviewed	
+C6K8Q0	C6K8Q0_PHOPH	Alpha-synuclein (Fragment)	unreviewed	SNCA
+G1RMZ1	G1RMZ1_NOMLE	Uncharacterized protein	unreviewed	SNCAIP
+G1RW17	G1RW17_NOMLE	Alpha-synuclein	unreviewed	SNCA
+F6V9D7	F6V9D7_CANLF	Uncharacterized protein	unreviewed	SNCAIP
+G3RHE8	G3RHE8_GORGO	Uncharacterized protein	unreviewed	SNCAIP
+D2HT09	D2HT09_AILME	Putative uncharacterized protein (Fragment)	unreviewed	
+G1MBD4	G1MBD4_AILME	Uncharacterized protein	unreviewed	SNCAIP
+G7P847	G7P847_MACFA	Putative uncharacterized protein	unreviewed	
+C6K8Q1	C6K8Q1_9CARN	Alpha-synuclein (Fragment)	unreviewed	SNCA
+G1PKT7	G1PKT7_MYOLU	Uncharacterized protein	unreviewed	SNCAIP
+A0A0G4ALB0	A0A0G4ALB0_CHODI	Alpha-synuclein (Fragment)	unreviewed	SNCA
+L5KLE3	L5KLE3_PTEAL	Synphilin-1	unreviewed	
+G1SVK1	G1SVK1_RABIT	Uncharacterized protein	unreviewed	SNCAIP
+E9Q4E2	E9Q4E2_MOUSE	Synphilin-1 (Synuclein, alpha interacting protein (Synphilin), isoform CRA_a)	unreviewed	Sncaip
+Q3V1N2	Q3V1N2_MOUSE	Synphilin-1	unreviewed	Sncaip
+G5E848	G5E848_MOUSE	Synphilin-1 (Synuclein, alpha interacting protein (Synphilin), isoform CRA_b)	unreviewed	Sncaip
+D3ZWQ5	D3ZWQ5_RAT	Protein Sncaip (Synuclein, alpha interacting protein (Synphilin) (Predicted), isoform CRA_a)	unreviewed	Sncaip
+Q3LVE5	Q3LVE5_RAT	Alpha-synuclein (Fragment)	unreviewed	Snca
+A0A091DNK5	A0A091DNK5_FUKDA	Synphilin-1	unreviewed	
+H0V122	H0V122_CAVPO	Uncharacterized protein	unreviewed	SNCAIP
+I3NA43	I3NA43_ICTTR	Uncharacterized protein	unreviewed	SNCAIP
+G3IJA2	G3IJA2_CRIGR	Synphilin-1	unreviewed	
+G5AK87	G5AK87_HETGA	Synphilin-1	unreviewed	
+Q8C4I8	Q8C4I8_MOUSE	Putative uncharacterized protein	unreviewed	Sncaip
+Q9D3W0	Q9D3W0_MOUSE	Putative uncharacterized protein	unreviewed	Sncaip
+Q3TVI3	Q3TVI3_MOUSE	Putative uncharacterized protein	unreviewed	Sncaip
+J3QNK1	J3QNK1_MOUSE	Synphilin-1	unreviewed	Sncaip
+J3QP58	J3QP58_MOUSE	Synphilin-1	unreviewed	Sncaip
+Q8BRF4	Q8BRF4_MOUSE	Putative uncharacterized protein (Fragment)	unreviewed	Sncaip
+Q4KMM4	Q4KMM4_MOUSE	Sncaip protein	unreviewed	Sncaip
+A0A091QA99	A0A091QA99_MERNU	Synphilin-1 (Fragment)	unreviewed	
+H0YSB4	H0YSB4_TAEGU	Uncharacterized protein	unreviewed	SNCAIP
+C6K8Q5	C6K8Q5_CYPCA	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A087QK65	A0A087QK65_APTFO	Synphilin-1 (Fragment)	unreviewed	
+A0A091PCP0	A0A091PCP0_HALAL	Synphilin-1 (Fragment)	unreviewed	
+H3AWG4	H3AWG4_LATCH	Gamma-synuclein	unreviewed	SNCA
+A0A091TGW3	A0A091TGW3_9AVES	Synphilin-1 (Fragment)	unreviewed	
+H3A2I5	H3A2I5_LATCH	Uncharacterized protein	unreviewed	SNCAIP
+C6K8Q7	C6K8Q7_9TELE	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A091QZ26	A0A091QZ26_9GRUI	Synphilin-1 (Fragment)	unreviewed	
+A0A093I2X8	A0A093I2X8_STRCA	Synphilin-1 (Fragment)	unreviewed	
+A0A091ECF5	A0A091ECF5_CORBR	Synphilin-1 (Fragment)	unreviewed	
+F7D9Y2	F7D9Y2_XENTR	Gamma-synuclein	unreviewed	snca
+F6R097	F6R097_XENTR	Uncharacterized protein	unreviewed	sncaip
+A4IH15	A4IH15_XENTR	Alpha-synuclein	unreviewed	snca
+Q6DJ84	Q6DJ84_XENTR	Synuclein, alpha interacting protein (Synphilin)	unreviewed	sncaip
+A0A094MQN2	A0A094MQN2_ANTCR	Synphilin-1 (Fragment)	unreviewed	
+C6KE77	C6KE77_OSTTE	Alpha-synuclein (Fragment)	unreviewed	SNCA
+C6K8Q2	C6K8Q2_TESGR	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A091LEV8	A0A091LEV8_9GRUI	Synphilin-1 (Fragment)	unreviewed	
+A0A093EQH8	A0A093EQH8_TYTAL	Synphilin-1 (Fragment)	unreviewed	
+H2MRQ0	H2MRQ0_ORYLA	Uncharacterized protein	unreviewed	
+A0A090D865	A0A090D865_ORYLA	RNA-dependent DNA polymerase	unreviewed	SNCA
+C7E3N4	C7E3N4_NESNO	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A091SSC2	A0A091SSC2_NESNO	Synphilin-1 (Fragment)	unreviewed	
+A0A093R229	A0A093R229_PYGAD	Synphilin-1 (Fragment)	unreviewed	
+W5KJF9	W5KJF9_ASTMX	Uncharacterized protein	unreviewed	SNCA
+V8P9K6	V8P9K6_OPHHA	Synphilin-1 (Fragment)	unreviewed	SNCAIP
+W5KZN6	W5KZN6_ASTMX	Uncharacterized protein	unreviewed	
+V8NTX1	V8NTX1_OPHHA	Alpha-synuclein	unreviewed	Snca
+A0A091QUG6	A0A091QUG6_LEPDC	Synphilin-1 (Fragment)	unreviewed	
+M7BMA2	M7BMA2_CHEMY	Synphilin-1	unreviewed	
+A0A093BFB0	A0A093BFB0_CHAPE	Synphilin-1 (Fragment)	unreviewed	
+A0A0Q3TV73	A0A0Q3TV73_AMAAE	Synphilin-1-like protein	unreviewed	
+A0A091J0F9	A0A091J0F9_9AVES	Synphilin-1 (Fragment)	unreviewed	
+C6K8Q4	C6K8Q4_AMAAE	Alpha-synuclein (Fragment)	unreviewed	SNCA
+U3JU67	U3JU67_FICAL	Gamma-synuclein	unreviewed	SNCA
+U3JYP4	U3JYP4_FICAL	Uncharacterized protein	unreviewed	SNCAIP
+A0A091N768	A0A091N768_9PASS	Synphilin-1 (Fragment)	unreviewed	
+I3KCI5	I3KCI5_ORENI	Uncharacterized protein	unreviewed	SNCA
+I3K8A6	I3K8A6_ORENI	Uncharacterized protein	unreviewed	
+A0A093IL91	A0A093IL91_PICPB	Synphilin-1 (Fragment)	unreviewed	
+A8WGA8	A8WGA8_DANRE	Zgc:172291 protein	unreviewed	sncaip
+A0A0M3HEL3	A0A0M3HEL3_DANRE	Uncharacterized protein	unreviewed	sncaip
+C6K8Q6	C6K8Q6_ACISU	Alpha-synuclein (Fragment)	unreviewed	SNCA
+B7ZVK5	B7ZVK5_DANRE	Zgc:172291	unreviewed	sncaip
+H3C635	H3C635_TETNG	Uncharacterized protein	unreviewed	SNCA
+H3DH62	H3DH62_TETNG	Uncharacterized protein	unreviewed	
+Q4RPK8	Q4RPK8_TETNG	Chromosome 12 SCAF15007, whole genome shotgun sequence (Fragment)	unreviewed	
+E1C046	E1C046_CHICK	Uncharacterized protein	unreviewed	SNCAIP
+A0A091L412	A0A091L412_CATAU	Synphilin-1 (Fragment)	unreviewed	
+H9GQQ0	H9GQQ0_ANOCA	Uncharacterized protein	unreviewed	SNCAIP
+A0A060XJE2	A0A060XJE2_ONCMY	Uncharacterized protein	unreviewed	
+A0A0N8JW36	A0A0N8JW36_9TELE	Synphilin-1-like	unreviewed	
+A0A087XWK0	A0A087XWK0_POEFO	Uncharacterized protein	unreviewed	SNCA
+A0A087X3Y6	A0A087X3Y6_POEFO	Uncharacterized protein	unreviewed	
+R0LW91	R0LW91_ANAPL	Synphilin-1 (Fragment)	unreviewed	
+U3J6Q8	U3J6Q8_ANAPL	Uncharacterized protein	unreviewed	SNCAIP
+K7FSW1	K7FSW1_PELSI	Uncharacterized protein	unreviewed	SNCAIP
+K7FSY0	K7FSY0_PELSI	Uncharacterized protein	unreviewed	SNCAIP
+G3PW48	G3PW48_GASAC	Uncharacterized protein	unreviewed	SNCA
+A0A091W1B9	A0A091W1B9_OPIHO	Synphilin-1 (Fragment)	unreviewed	
+C6K8Q8	C6K8Q8_CRORO	Alpha-synuclein (Fragment)	unreviewed	SNCA
+W5U699	W5U699_ICTPU	Synphilin-1	unreviewed	Sncaip
+M4AI59	M4AI59_XIPMA	Uncharacterized protein	unreviewed	SNCA
+M4ALD8	M4ALD8_XIPMA	Uncharacterized protein	unreviewed	
+A0A0F8ADB2	A0A0F8ADB2_LARCR	Synphilin-1	unreviewed	
+A0A091UK98	A0A091UK98_NIPNI	Synphilin-1 (Fragment)	unreviewed	
+A0A091G8K6	A0A091G8K6_9AVES	Synphilin-1 (Fragment)	unreviewed	
+A0A091HXM1	A0A091HXM1_CALAN	Synphilin-1 (Fragment)	unreviewed	
+A0A093Q8G0	A0A093Q8G0_9PASS	Synphilin-1 (Fragment)	unreviewed	
+W5MQG8	W5MQG8_LEPOC	Uncharacterized protein	unreviewed	
+C6K8Q3	C6K8Q3_CHENI	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A151M7T8	A0A151M7T8_ALLMI	Synphilin-1	unreviewed	SNCAIP
+A0A093FLM7	A0A093FLM7_GAVST	Synphilin-1 (Fragment)	unreviewed	
+A0A151NNJ7	A0A151NNJ7_ALLMI	Alpha-synuclein	unreviewed	SNCA
+A0A151NMH8	A0A151NMH8_ALLMI	Alpha-synuclein	unreviewed	SNCA
+A0A099YX33	A0A099YX33_TINGU	Synphilin-1 (Fragment)	unreviewed	
+A0A091HAK1	A0A091HAK1_BUCRH	Synphilin-1 (Fragment)	unreviewed	
+A0A091K8Q9	A0A091K8Q9_COLST	Synphilin-1 (Fragment)	unreviewed	
+A0A146PQW7	A0A146PQW7_FUNHE	Ankyrin repeat domain-containing protein 6	unreviewed	
+A0A146PSA0	A0A146PSA0_FUNHE	Ankyrin repeat and SOCS box protein 9	unreviewed	
+A0A147B5B2	A0A147B5B2_FUNHE	Synphilin-1	unreviewed	
+Q7SZ02	Q7SZ02_XENLA	Alpha-synuclein	unreviewed	snca
+H2THY4	H2THY4_TAKRU	Uncharacterized protein	unreviewed	SNCA
+A0A093IWG1	A0A093IWG1_FULGA	Synphilin-1 (Fragment)	unreviewed	
+H2U0U5	H2U0U5_TAKRU	Uncharacterized protein	unreviewed	sncaip
+H2U0U3	H2U0U3_TAKRU	Uncharacterized protein	unreviewed	sncaip
+H2THY3	H2THY3_TAKRU	Uncharacterized protein	unreviewed	SNCA
+H2U0U6	H2U0U6_TAKRU	Uncharacterized protein	unreviewed	sncaip
+H2U0U4	H2U0U4_TAKRU	Uncharacterized protein	unreviewed	sncaip
+G1N1K5	G1N1K5_MELGA	Alpha-synuclein	unreviewed	SNCA
+G1N9W3	G1N9W3_MELGA	Uncharacterized protein (Fragment)	unreviewed	SNCAIP

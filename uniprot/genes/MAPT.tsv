@@ -1,327 +1,327 @@
-Entry name	Protein names	Status	Gene names  (primary )
-TAU_HUMAN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
-TAU_MOUSE	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	Mapt
-LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
-TAU_RAT	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	Mapt
-GSK3B_HUMAN	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
-A4_HUMAN	Amyloid beta A4 protein (ABPP) (APPI) (APP) (Alzheimer disease amyloid protein) (Amyloid precursor protein) (Beta-amyloid precursor protein) (Cerebral vascular amyloid peptide) (CVAP) (PreA4) (Protease nexin-II) (PN-II) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Amyloid intracellular domain 59) (AICD-59) (AID(59)) (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Amyloid intracellular domain 57) (AICD-57) (AID(57)) (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Amyloid intracellular domain 50) (AICD-50) (AID(50)) (Gamma-CTF(50)); C31]	reviewed	APP
-TAU_BOVIN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
-GSK3B_MOUSE	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	Gsk3b
-KC1D_HUMAN	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	CSNK1D
-SQSTM_HUMAN	Sequestosome-1 (EBI3-associated protein of 60 kDa) (EBIAP) (p60) (Phosphotyrosine-independent ligand for the Lck SH2 domain of 62 kDa) (Ubiquitin-binding protein p62)	reviewed	SQSTM1
-TAU_PANTR	Microtubule-associated protein tau	reviewed	MAPT
-APOE_HUMAN	Apolipoprotein E (Apo-E)	reviewed	APOE
-1433Z_HUMAN	14-3-3 protein zeta/delta (Protein kinase C inhibitor protein 1) (KCIP-1)	reviewed	YWHAZ
-SYUA_HUMAN	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	SNCA
-CDK5_MOUSE	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (CR6 protein kinase) (CRK6) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	Cdk5
-ABL1_HUMAN	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	reviewed	ABL1
-MARK2_HUMAN	Serine/threonine-protein kinase MARK2 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif kinase 1) (EMK-1) (MAP/microtubule affinity-regulating kinase 2) (PAR1 homolog) (PAR1 homolog b) (Par-1b) (Par1b)	reviewed	MARK2
-SGK1_HUMAN	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
-GSK3B_RAT	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Factor A) (FA) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	Gsk3b
-EPM2A_HUMAN	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	EPM2A
-OGT1_HUMAN	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	OGT
-LCK_HUMAN	Tyrosine-protein kinase Lck (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (Protein YT16) (Proto-oncogene Lck) (T cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	LCK
-TAU_MACMU	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
-A4_MOUSE	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Amyloidogenic glycoprotein) (AG) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99 (APP-C99); Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (APP-C59) (Amyloid intracellular domain 59) (AID(59)) (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (APP-C57) (Amyloid intracellular domain 57) (AID(57)) (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Amyloid intracellular domain 50) (AID(50)) (Gamma-CTF(50)); C31]	reviewed	App
-ABL1_MOUSE	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	reviewed	Abl1
-CDK5_HUMAN	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	CDK5
-AAPK1_MOUSE	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26)	reviewed	Prkaa1
-AAPK1_PIG	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (AMPK 63 kDa subunit) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26) (Fragments)	reviewed	PRKAA1
-AAPK1_RAT	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26)	reviewed	Prkaa1
-AATF_HUMAN	Protein AATF (Apoptosis-antagonizing transcription factor) (Rb-binding protein Che-1)	reviewed	AATF
-AAPK1_PONAB	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26) (Fragment)	reviewed	PRKAA1
-A4_PIG	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
-AATF_RAT	Protein AATF (Apoptosis-antagonizing transcription factor)	reviewed	Aatf
-A4_MACFA	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
-A4_PANTR	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
-A4_SAISC	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
-A4_RAT	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Amyloidogenic glycoprotein) (AG) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	App
-AAPK1_HUMAN	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26)	reviewed	PRKAA1
-AATF_MOUSE	Protein AATF (Apoptosis-antagonizing transcription factor) (Rb-binding protein Che-1) (Traube protein)	reviewed	Aatf
-BIN1_HUMAN	Myc box-dependent-interacting protein 1 (Amphiphysin II) (Amphiphysin-like protein) (Box-dependent myc-interacting protein 1) (Bridging integrator 1)	reviewed	BIN1
-BIN1_MOUSE	Myc box-dependent-interacting protein 1 (Amphiphysin II) (Amphiphysin-like protein) (Bridging integrator 1) (SH3 domain-containing protein 9)	reviewed	Bin1
-BRSK1_MOUSE	Serine/threonine-protein kinase BRSK1 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 1) (BR serine/threonine-protein kinase 1) (Serine/threonine-protein kinase SAD-B)	reviewed	Brsk1
-BRSK1_RAT	Serine/threonine-protein kinase BRSK1 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 1) (BR serine/threonine-protein kinase 1) (Serine/threonine-protein kinase SAD-B)	reviewed	Brsk1
-BRSK2_RAT	Serine/threonine-protein kinase BRSK2 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 2) (BR serine/threonine-protein kinase 2) (Serine/threonine-protein kinase SAD-A)	reviewed	Brsk2
-BRSK2_HUMAN	Serine/threonine-protein kinase BRSK2 (EC 2.7.11.1) (Brain-selective kinase 2) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 2) (BR serine/threonine-protein kinase 2) (Serine/threonine-protein kinase 29) (Serine/threonine-protein kinase SAD-A)	reviewed	BRSK2
-BRSK1_HUMAN	Serine/threonine-protein kinase BRSK1 (EC 2.7.11.1) (Brain-selective kinase 1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 1) (BR serine/threonine-protein kinase 1) (Serine/threonine-protein kinase SAD-B) (Synapses of Amphids Defective homolog 1) (SAD1 homolog) (hSAD1)	reviewed	BRSK1
-BRSK2_MOUSE	Serine/threonine-protein kinase BRSK2 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 2) (BR serine/threonine-protein kinase 2) (Serine/threonine-protein kinase SAD-A)	reviewed	Brsk2
-CDK1_BOVIN	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	CDK1
-CDK5_RAT	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	Cdk5
-CELF3_MOUSE	CUGBP Elav-like family member 3 (CELF-3) (Bruno-like protein 1) (CUG-BP- and ETR-3-like factor 3) (ELAV-type RNA-binding protein 1) (ETR-1) (RNA-binding protein BRUNOL-1) (Trinucleotide repeat-containing gene 4 protein)	reviewed	Celf3
-CELF4_MOUSE	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	Celf4
-CDK1_RAT	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	Cdk1
-CHIP_HUMAN	E3 ubiquitin-protein ligase CHIP (EC 6.3.2.-) (Antigen NY-CO-7) (CLL-associated antigen KW-8) (Carboxy terminus of Hsp70-interacting protein) (STIP1 homology and U box-containing protein 1)	reviewed	STUB1
-CDK1_PONAB	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	CDK1
-CELF3_HUMAN	CUGBP Elav-like family member 3 (CELF-3) (Bruno-like protein 1) (CAG repeat protein 4) (CUG-BP- and ETR-3-like factor 3) (ELAV-type RNA-binding protein 1) (ETR-1) (Expanded repeat domain protein CAG/CTG 4) (RNA-binding protein BRUNOL-1) (Trinucleotide repeat-containing gene 4 protein)	reviewed	CELF3
-CDK1_MOUSE	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	Cdk1
-CELF4_MACFA	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	CELF4
-CDK1_HUMAN	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	CDK1
-CDK5_BOVIN	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Proline-directed protein kinase 33 kDa subunit) (PDPK) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	CDK5
-CELF4_HUMAN	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	CELF4
-CLK4_MOUSE	Dual specificity protein kinase CLK4 (EC 2.7.12.1) (CDC-like kinase 4)	reviewed	Clk4
-CLK4_HUMAN	Dual specificity protein kinase CLK4 (EC 2.7.12.1) (CDC-like kinase 4)	reviewed	CLK4
-CELF3_BOVIN	CUGBP Elav-like family member 3 (CELF-3) (Bruno-like protein 1) (CUG-BP- and ETR-3-like factor 3) (ELAV-type RNA-binding protein 1) (ETR-1) (RNA-binding protein BRUNOL-1) (Trinucleotide repeat-containing gene 4 protein)	reviewed	CELF3
-CELF4_PONAB	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	CELF4
-DCTN1_HUMAN	Dynactin subunit 1 (150 kDa dynein-associated polypeptide) (DAP-150) (DP-150) (p135) (p150-glued)	reviewed	DCTN1
-DOCK3_HUMAN	Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP)	reviewed	DOCK3
-DOCK3_MOUSE	Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP)	reviewed	Dock3
-DYRK2_HUMAN	Dual specificity tyrosine-phosphorylation-regulated kinase 2 (EC 2.7.12.1)	reviewed	DYRK2
-EAA2_HUMAN	Excitatory amino acid transporter 2 (Glutamate/aspartate transporter II) (Sodium-dependent glutamate/aspartate transporter 2) (Solute carrier family 1 member 2)	reviewed	SLC1A2
-DYRK2_MOUSE	Dual specificity tyrosine-phosphorylation-regulated kinase 2 (EC 2.7.12.1)	reviewed	Dyrk2
-EPM2A_MOUSE	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	Epm2a
-EPM2A_RAT	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	Epm2a
-EPM2A_CANLF	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	EPM2A
-FKBP4_RABIT	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	FKBP4
-FKBP4_HUMAN	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (51 kDa FK506-binding protein) (FKBP51) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	FKBP4
-FKBP4_RAT	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	Fkbp4
-FKBP4_MOUSE	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	Fkbp4
-FKBP4_BOVIN	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (FK506-binding protein 4) (FKBP-4) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	FKBP4
-FYN_BOVIN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
-FYN_MOUSE	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
-FYN_PIG	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
-FYN_RAT	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
-FYN_HUMAN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn)	reviewed	FYN
-GSK3B_SPECI	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
-GRN_HUMAN	Granulins (Proepithelin) (PEPI) [Cleaved into: Acrogranin (Glycoprotein of 88 Kda) (GP88) (Glycoprotein 88) (Progranulin); Paragranulin; Granulin-1 (Granulin G); Granulin-2 (Granulin F); Granulin-3 (Granulin B); Granulin-4 (Granulin A); Granulin-5 (Granulin C); Granulin-6 (Granulin D); Granulin-7 (Granulin E)]	reviewed	GRN
-HS90B_HUMAN	Heat shock protein HSP 90-beta (HSP 90) (Heat shock 84 kDa) (HSP 84) (HSP84)	reviewed	HSP90AB1
-KC1D_RABIT	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Fragment)	reviewed	CSNK1D
-KC1D_PONAB	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	CSNK1D
-KC1D_RAT	Casein kinase I isoform delta (CKI-delta) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	Csnk1d
-KC1D_MOUSE	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	Csnk1d
-KC1D_BOVIN	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	CSNK1D
-LCK_AOTNA	Tyrosine-protein kinase Lck (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (Proto-oncogene Lck) (p56-LCK)	reviewed	LCK
-LCK_MOUSE	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	Lck
-LCK_SAISC	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	LCK
-LCK_RAT	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	Lck
-MARK1_RAT	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (MAP/microtubule affinity-regulating kinase 1)	reviewed	Mark1
-MARK2_RAT	Serine/threonine-protein kinase MARK2 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif kinase 1) (EMK-1) (MAP/microtubule affinity-regulating kinase 2)	reviewed	Mark2
-MARK4_HUMAN	MAP/microtubule affinity-regulating kinase 4 (EC 2.7.11.1) (MAP/microtubule affinity-regulating kinase-like 1)	reviewed	MARK4
-MARK1_HUMAN	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (MAP/microtubule affinity-regulating kinase 1) (PAR1 homolog c) (Par-1c) (Par1c)	reviewed	MARK1
-MARK2_MOUSE	Serine/threonine-protein kinase MARK2 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif kinase 1) (EMK-1) (MAP/microtubule affinity-regulating kinase 2) (PAR1 homolog) (PAR1 homolog b) (Par-1b) (mPar-1b)	reviewed	Mark2
-MAPT_ARATH	Microtubule-associated protein TORTIFOLIA1 (Microtubule-associated protein SPIRAL2) (Protein CONVOLUTA)	reviewed	TOR1
-MARK1_MOUSE	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif serine/threonine-protein kinase 3) (MAP/microtubule affinity-regulating kinase 1) (PAR1 homolog c) (Par-1c) (mPar-1c)	reviewed	Mark1
-MARK4_MOUSE	MAP/microtubule affinity-regulating kinase 4 (EC 2.7.11.1)	reviewed	Mark4
-MK03_RAT	Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (MNK1) (Microtubule-associated protein 2 kinase) (p44-ERK1)	reviewed	Mapk3
-MK13_RAT	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 delta) (MAP kinase p38 delta) (Stress-activated protein kinase 4)	reviewed	Mapk13
-MK01_MOUSE	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	Mapk1
-MK03_MOUSE	Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (MNK1) (Microtubule-associated protein 2 kinase) (p44-ERK1)	reviewed	Mapk3
-MK13_BOVIN	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24)	reviewed	MAPK13
-MK13_HUMAN	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 delta) (MAP kinase p38 delta) (Stress-activated protein kinase 4)	reviewed	MAPK13
-MK03_HUMAN	Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (Microtubule-associated protein 2 kinase) (p44-ERK1)	reviewed	MAPK3
-MK01_BOVIN	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	MAPK1
-MK01_RAT	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	Mapk1
-MK13_MOUSE	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 delta) (MAP kinase p38 delta) (Stress-activated protein kinase 4)	reviewed	Mapk13
-MK13_PANTR	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Stress-activated protein kinase 4)	reviewed	MAPK13
-MK01_HUMAN	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	MAPK1
-OGT1_MOUSE	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	Ogt
-OGT1_RABIT	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	OGT
-PACN1_RAT	Protein kinase C and casein kinase substrate in neurons protein 1 (Dynamin proline-rich domain-interacting protein) (Dynamin PRD-interacting protein) (Synaptic, dynamin-associated protein I) (Syndapin-1) (Syndapin-I) (SdpI)	reviewed	Pacsin1
-OGT1_PIG	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	OGT
-PACN1_BOVIN	Protein kinase C and casein kinase substrate in neurons protein 1	reviewed	PACSIN1
-OGT1_RAT	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	Ogt
-PACN1_MOUSE	Protein kinase C and casein kinase substrate in neurons protein 1 (Syndapin-1)	reviewed	Pacsin1
-PACN1_HUMAN	Protein kinase C and casein kinase substrate in neurons protein 1 (Syndapin-1)	reviewed	PACSIN1
-PACN1_PONAB	Protein kinase C and casein kinase substrate in neurons protein 1	reviewed	Pacsin1
-PHKG1_RABIT	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	PHKG1
-PHKG1_HUMAN	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (PHK-gamma-M) (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	PHKG1
-PHKG1_RAT	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	Phkg1
-PKN1_MOUSE	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	Pkn1
-PHKG1_MOUSE	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	Phkg1
-PKN1_BOVIN	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein kinase PKN-alpha) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	PKN1
-PKN1_HUMAN	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protease-activated kinase 1) (PAK-1) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein kinase PKN-alpha) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	PKN1
-PKN1_RAT	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protease-activated kinase 1) (PAK-1) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	Pkn1
-PPP5_HUMAN	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PP-T) (PPT)	reviewed	PPP5C
-PRIO_HUMAN	Major prion protein (PrP) (ASCR) (PrP27-30) (PrP33-35C) (CD antigen CD230)	reviewed	PRNP
-PPP5_RABIT	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PPT) (Fragment)	reviewed	PPP5C
-PPP5_MOUSE	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PPT)	reviewed	Ppp5c
-PPP5_RAT	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PPT)	reviewed	Ppp5c
-PTBP1_HUMAN	Polypyrimidine tract-binding protein 1 (PTB) (57 kDa RNA-binding protein PPTB-1) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I)	reviewed	PTBP1
-PTBP1_RAT	Polypyrimidine tract-binding protein 1 (PTB) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I) (Pyrimidine-binding protein) (PYBP)	reviewed	Ptbp1
-PTBP1_MOUSE	Polypyrimidine tract-binding protein 1 (PTB) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I)	reviewed	Ptbp1
-PTBP1_BOVIN	Polypyrimidine tract-binding protein 1 (PTB)	reviewed	PTBP1
-PTBP1_PIG	Polypyrimidine tract-binding protein 1 (PTB) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I)	reviewed	PTBP1
-RBMX_HUMAN	RNA-binding motif protein, X chromosome (Glycoprotein p43) (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
-RBM4_HUMAN	RNA-binding protein 4 (Lark homolog) (hLark) (RNA-binding motif protein 4) (RNA-binding motif protein 4a)	reviewed	RBM4
-RBMX_MACFA	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
-RBMX_RAT	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) (RNA-binding motif protein, X chromosome retrogene) (RNA-binding motif protein, X chromosome retrogene-like) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	Rbmx
-RBM4_MACFA	RNA-binding protein 4 (RNA-binding motif protein 4)	reviewed	RBM4
-RBM4_MOUSE	RNA-binding protein 4 (Lark homolog) (mLark) (RNA-binding motif protein 4) (RNA-binding motif protein 4a)	reviewed	Rbm4
-RBM4_BOVIN	RNA-binding protein 4 (RNA-binding motif protein 4) (RNA-binding motif protein 4a)	reviewed	RBM4
-RBMX_BOVIN	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
-RBMX_MOUSE	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	Rbmx
-RBM4_RABIT	RNA-binding protein 4 (Lark homolog) (RNA-binding motif protein 4)	reviewed	RBM4
-RBMX_PANTR	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
-SFSWA_RAT	Splicing factor, suppressor of white-apricot homolog (Splicing factor, arginine/serine-rich 8) (Suppressor of white apricot protein homolog)	reviewed	Sfswap
-SGK1_RABIT	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
-SGK1_BOVIN	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
-SGK1_MACFA	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
-SGK1_RAT	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	Sgk1
-SFSWA_MOUSE	Splicing factor, suppressor of white-apricot homolog (Splicing factor, arginine/serine-rich 8) (Suppressor of white apricot protein homolog)	reviewed	Sfswap
-SFSWA_HUMAN	Splicing factor, suppressor of white-apricot homolog (Splicing factor, arginine/serine-rich 8) (Suppressor of white apricot protein homolog)	reviewed	SFSWAP
-SGK1_MOUSE	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	Sgk1
-SPAG5_HUMAN	Sperm-associated antigen 5 (Astrin) (Deepest) (Mitotic spindle-associated protein p126) (MAP126)	reviewed	SPAG5
-SRPK1_MOUSE	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	reviewed	Srpk1
-SRPK1_HUMAN	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	reviewed	SRPK1
-SRSF6_RAT	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6)	reviewed	Srsf6
-SRSF9_RAT	Serine/arginine-rich splicing factor 9 (Splicing factor, arginine/serine-rich 9)	reviewed	Srsf9
-SRSF4_MOUSE	Serine/arginine-rich splicing factor 4 (Splicing factor, arginine/serine-rich 4)	reviewed	Srsf4
-SRSF7_MOUSE	Serine/arginine-rich splicing factor 7 (Splicing factor, arginine/serine-rich 7)	reviewed	Srsf7
-SRSF9_MOUSE	Serine/arginine-rich splicing factor 9 (Splicing factor, arginine/serine-rich 9)	reviewed	Srsf9
-SQSTM_MOUSE	Sequestosome-1 (STONE14) (Ubiquitin-binding protein p62)	reviewed	Sqstm1
-SRPK1_PONAB	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	reviewed	SRPK1
-SRSF4_HUMAN	Serine/arginine-rich splicing factor 4 (Pre-mRNA-splicing factor SRP75) (SRP001LB) (Splicing factor, arginine/serine-rich 4)	reviewed	SRSF4
-SRSF7_BOVIN	Serine/arginine-rich splicing factor 7 (Splicing factor, arginine/serine-rich 7)	reviewed	SRSF7
-SRSF7_HUMAN	Serine/arginine-rich splicing factor 7 (Splicing factor 9G8) (Splicing factor, arginine/serine-rich 7)	reviewed	SRSF7
-SPAG5_MOUSE	Sperm-associated antigen 5 (Mastrin) (Mitotic spindle-associated protein p126) (MAP126)	reviewed	Spag5
-SQSTM_PONAB	Sequestosome-1 (Ubiquitin-binding protein p62)	reviewed	SQSTM1
-STH_GORGO	Saitohin	reviewed	STH
-SRSF6_RABIT	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6) (Fragment)	reviewed	SRSF6
-SQSTM_RAT	Sequestosome-1 (Protein kinase C-zeta-interacting protein) (PKC-zeta-interacting protein) (Ubiquitin-binding protein p62)	reviewed	Sqstm1
-SRSF6_BOVIN	Serine/arginine-rich splicing factor 6 (Splicing factor, arginine/serine-rich 6)	reviewed	SRSF6
-SRSF6_MOUSE	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6)	reviewed	Srsf6
-SRSF6_HUMAN	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6)	reviewed	SRSF6
-SRSF9_HUMAN	Serine/arginine-rich splicing factor 9 (Pre-mRNA-splicing factor SRp30C) (Splicing factor, arginine/serine-rich 9)	reviewed	SRSF9
-STOX1_HUMAN	Storkhead-box protein 1 (Winged-helix domain-containing protein)	reviewed	STOX1
-STH_PANTR	Saitohin	reviewed	STH
-STOX1_MOUSE	Storkhead-box protein 1	reviewed	Stox1
-TAOK1_HUMAN	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Kinase from chicken homolog B) (hKFC-B) (MARK Kinase) (MARKK) (Prostate-derived sterile 20-like kinase 2) (PSK-2) (PSK2) (Prostate-derived STE20-like kinase 2) (Thousand and one amino acid protein kinase 1) (TAOK1) (hTAOK1)	reviewed	TAOK1
-TAOK1_MOUSE	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Thousand and one amino acid protein 1)	reviewed	Taok1
-TAU_PAPHA	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
-TAU_CAPHI	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
-TAOK1_RAT	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Thousand and one amino acid protein 1)	reviewed	Taok1
-TAU_HYLLA	Microtubule-associated protein tau	reviewed	MAPT
-TAU_PONPY	Microtubule-associated protein tau	reviewed	MAPT
-TAU_SPECI	Microtubule-associated protein tau	reviewed	MAPT
-TAU_GORGO	Microtubule-associated protein tau	reviewed	MAPT
-TRA2B_RAT	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (RA301) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	Tra2b
-TRA2B_BOVIN	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	TRA2B
-TRA2B_HUMAN	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (hTRA2-beta) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	TRA2B
-TRA2B_MOUSE	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (Silica-induced gene 41 protein) (SIG-41) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	Tra2b
-U2AF2_HUMAN	Splicing factor U2AF 65 kDa subunit (U2 auxiliary factor 65 kDa subunit) (hU2AF(65)) (hU2AF65) (U2 snRNP auxiliary factor large subunit)	reviewed	U2AF2
-WWOX_HUMAN	WW domain-containing oxidoreductase (EC 1.1.1.-) (Fragile site FRA16D oxidoreductase) (Short chain dehydrogenase/reductase family 41C member 1)	reviewed	WWOX
-WWOX_PONAB	WW domain-containing oxidoreductase (EC 1.1.1.-)	reviewed	WWOX
-WWOX_MOUSE	WW domain-containing oxidoreductase (EC 1.1.1.-)	reviewed	Wwox
-I3L2Z2_HUMAN	Microtubule-associated protein tau	unreviewed	MAPT
-A0A0G2JPD5_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-A0A024RA17_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-A0A024R9Y1_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-A0A0G2JMX7_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-A0A024R9Y0_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-A0A024RA19_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-A0A0G2JQJ7_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-I3L170_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-A0A0G2JS76_HUMAN	Microtubule-associated protein	unreviewed	MAPT
-T1SGS4_HUMAN	Mutant microtubule-associated protein tau (Fragment)	unreviewed	MAPT
-A0A0B2V6H3_TOXCA	Microtubule-associated protein tau	unreviewed	Mapt
-Q5YCV1_PANTR	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-H9FD19_MACMU	Microtubule-associated protein tau isoform 1 (Fragment)	unreviewed	MAPT
-F6XTG8_MACMU	Microtubule-associated protein	unreviewed	MAPT
-F6R387_MACMU	Microtubule-associated protein	unreviewed	MAPT
-F7CG65_CALJA	Microtubule-associated protein	unreviewed	MAPT
-F7E489_CALJA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-Q6UIN5_MACMU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-F6XLN8_MACMU	Microtubule-associated protein	unreviewed	MAPT
-F6XLQ7_MACMU	Microtubule-associated protein tau	unreviewed	MAPT
-F6XLT0_MACMU	Microtubule-associated protein	unreviewed	MAPT
-F6UXY8_CALJA	Microtubule-associated protein	unreviewed	MAPT
-F6UBM9_CALJA	Microtubule-associated protein	unreviewed	MAPT
-F6UBZ0_CALJA	Microtubule-associated protein	unreviewed	MAPT
-F6XLP7_MACMU	Microtubule-associated protein	unreviewed	MAPT
-F6UY39_CALJA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-F6UXK3_CALJA	Microtubule-associated protein	unreviewed	MAPT
-F6WNR5_CALJA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-M3Y9Q3_MUSPF	Microtubule-associated protein	unreviewed	MAPT
-G3N2J1_BOVIN	Microtubule-associated protein	unreviewed	MAPT
-F7DLY4_ORNAN	Microtubule-associated protein	unreviewed	MAPT
-W5PNU3_SHEEP	Microtubule-associated protein	unreviewed	MAPT
-H0WKW1_OTOGA	Microtubule-associated protein	unreviewed	MAPT
-H2NTQ0_PONAB	Microtubule-associated protein	unreviewed	MAPT
-Q6UIN6_PANTR	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-H2NTQ1_PONAB	Microtubule-associated protein	unreviewed	MAPT
-Q5S6V1_PONPY	Putative saitohin	unreviewed	STH
-M3W6D2_FELCA	Microtubule-associated protein	unreviewed	MAPT
-F7BCC0_MONDO	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-A0A096P681_PAPAN	Microtubule-associated protein	unreviewed	MAPT
-G3WX26_SARHA	Microtubule-associated protein	unreviewed	MAPT
-G3WX28_SARHA	Microtubule-associated protein	unreviewed	MAPT
-G3WX27_SARHA	Microtubule-associated protein	unreviewed	MAPT
-Q5YCV2_CHLAE	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-Q5YCV4_CHLAE	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
-F6Z2V7_HORSE	Microtubule-associated protein	unreviewed	MAPT
-F6WJP3_HORSE	Microtubule-associated protein	unreviewed	MAPT
-F6Y4B0_HORSE	Microtubule-associated protein	unreviewed	MAPT
-F6YXB2_HORSE	Microtubule-associated protein	unreviewed	MAPT
-Q5YCV3_CHLAE	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
-G3SS28_LOXAF	Microtubule-associated protein	unreviewed	MAPT
-A0A0D9QUV4_CHLSB	Microtubule-associated protein	unreviewed	MAPT
-F1RRS8_PIG	Microtubule-associated protein	unreviewed	MAPT
-M9TFN3_PIG	Microtubule-associated protein	unreviewed	MAPT
-M9TJ96_PIG	Microtubule-associated protein	unreviewed	MAPT
-M9TFA3_PIG	Microtubule-associated protein	unreviewed	MAPT
-M9TDD4_PIG	Microtubule-associated protein	unreviewed	MAPT
-G1QXZ9_NOMLE	Uncharacterized protein	unreviewed	MAPT
-F6Y724_CANLF	Microtubule-associated protein	unreviewed	MAPT
-E2R3H9_CANLF	Microtubule-associated protein	unreviewed	MAPT
-G3RNL9_GORGO	Microtubule-associated protein	unreviewed	MAPT
-G3S7P5_GORGO	Microtubule-associated protein	unreviewed	MAPT
-G3QRY9_GORGO	Microtubule-associated protein	unreviewed	MAPT
-G3S4G3_GORGO	Microtubule-associated protein	unreviewed	MAPT
-G3RSK7_GORGO	Microtubule-associated protein	unreviewed	MAPT
-G3RMH3_GORGO	Microtubule-associated protein	unreviewed	MAPT
-G1M7S8_AILME	Microtubule-associated protein	unreviewed	MAPT
-Q5YCV6_MACFA	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
-Q5YCV5_MACFA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-Q5YCV7_MACFA	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
-G1P3J3_MYOLU	Microtubule-associated protein	unreviewed	MAPT
-Q5YCV8_MACFA	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
-G1Q5P4_MYOLU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-G1QBL2_MYOLU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-G1QCF4_MYOLU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-Q5YCU6_HYLLA	Saitohin	unreviewed	STH
-G1T176_RABIT	Microtubule-associated protein	unreviewed	MAPT
-Q547J4_MOUSE	Microtubule-associated protein	unreviewed	Mapt
-Q76M61_MOUSE	Microtubule-associated protein (Fragment)	unreviewed	tau
-D3ZKD9_RAT	Microtubule-associated protein	unreviewed	Mapt
-A0JN25_RAT	Microtubule-associated protein	unreviewed	Mapt
-D4A1Q2_RAT	Microtubule-associated protein	unreviewed	Mapt
-C4NTT5_UROPR	Microtubule-associated protein	unreviewed	MAPT
-Q3S2J1_RAT	Microtubule-associated protein TAU (Fragment)	unreviewed	Mapt
-F1LST4_RAT	Microtubule-associated protein	unreviewed	Mapt
-E0V8C4_MICOH	Microtubule-associated protein	unreviewed	MAPT
-H0VMS7_CAVPO	Microtubule-associated protein	unreviewed	MAPT
-I3N7F3_ICTTR	Microtubule-associated protein	unreviewed	MAPT
-I3N2F8_ICTTR	Microtubule-associated protein	unreviewed	MAPT
-Q8C5K4_MOUSE	Microtubule-associated protein	unreviewed	Mapt
-B1AQW6_MOUSE	Microtubule-associated protein tau (Fragment)	unreviewed	Mapt
-B1AQW2_MOUSE	Microtubule-associated protein	unreviewed	Mapt
-B1AQW4_MOUSE	Microtubule-associated protein tau (Fragment)	unreviewed	Mapt
-A2A5Y6_MOUSE	Microtubule-associated protein	unreviewed	Mapt
-B1AQW5_MOUSE	Microtubule-associated protein tau (Fragment)	unreviewed	Mapt
-Q3UH19_MOUSE	Microtubule-associated protein	unreviewed	Mapt
-A6NAR8_MOUSE	Alpha1-takusan	unreviewed	
-A0A0A0MQC7_MOUSE	Microtubule-associated protein	unreviewed	Mapt
-Q0P4W8_XENTR	Microtubule-associated protein	unreviewed	mapt
-Q6AX34_XENLA	Microtubule-associated protein	unreviewed	xtp
-B0LVG0_CHICK	Microtubule-associated protein	unreviewed	MAPT
-H0YUJ8_TAEGU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-H3B3D5_LATCH	Microtubule-associated protein	unreviewed	MAPT
-H3B3D6_LATCH	Microtubule-associated protein	unreviewed	MAPT
-F6QX04_XENTR	Microtubule-associated protein	unreviewed	mapt
-V8PH12_OPHHA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
-U3JQD1_FICAL	Microtubule-associated protein	unreviewed	MAPT
-B0LVF9_CHICK	Microtubule-associated protein	unreviewed	MAPT
-G1KTS4_ANOCA	Microtubule-associated protein	unreviewed	MAPT
-U3IKL9_ANAPL	Microtubule-associated protein	unreviewed	MAPT
-K7FNJ0_PELSI	Microtubule-associated protein	unreviewed	MAPT
-W5ULM1_ICTPU	Microtubule-associated protein	unreviewed	MAPT
-A0A151PBZ1_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
-A0A151PCA1_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
-A0A151PBS1_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
-A0A151PCQ7_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
-A0A151PBR6_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
-A0A0B5HJS0_XENLA	Microtubule-associated protein	unreviewed	mapt
-A0A0B5HAV7_XENLA	Microtubule-associated protein	unreviewed	mapt
-A0A0B5HH19_XENLA	Microtubule-associated protein	unreviewed	mapt
-Q8JIW8_XENLA	Microtubule-associated protein	unreviewed	mapt
-G1MSJ9_MELGA	Microtubule-associated protein	unreviewed	MAPT
+Entry	Entry name	Protein names	Status	Gene names  (primary )
+P10636	TAU_HUMAN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+P10637	TAU_MOUSE	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	Mapt
+Q5S007	LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
+P19332	TAU_RAT	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	Mapt
+P49841	GSK3B_HUMAN	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
+P05067	A4_HUMAN	Amyloid beta A4 protein (ABPP) (APPI) (APP) (Alzheimer disease amyloid protein) (Amyloid precursor protein) (Beta-amyloid precursor protein) (Cerebral vascular amyloid peptide) (CVAP) (PreA4) (Protease nexin-II) (PN-II) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Amyloid intracellular domain 59) (AICD-59) (AID(59)) (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Amyloid intracellular domain 57) (AICD-57) (AID(57)) (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Amyloid intracellular domain 50) (AICD-50) (AID(50)) (Gamma-CTF(50)); C31]	reviewed	APP
+P29172	TAU_BOVIN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+Q9WV60	GSK3B_MOUSE	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	Gsk3b
+P48730	KC1D_HUMAN	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	CSNK1D
+Q13501	SQSTM_HUMAN	Sequestosome-1 (EBI3-associated protein of 60 kDa) (EBIAP) (p60) (Phosphotyrosine-independent ligand for the Lck SH2 domain of 62 kDa) (Ubiquitin-binding protein p62)	reviewed	SQSTM1
+Q5YCW1	TAU_PANTR	Microtubule-associated protein tau	reviewed	MAPT
+P02649	APOE_HUMAN	Apolipoprotein E (Apo-E)	reviewed	APOE
+P63104	1433Z_HUMAN	14-3-3 protein zeta/delta (Protein kinase C inhibitor protein 1) (KCIP-1)	reviewed	YWHAZ
+P37840	SYUA_HUMAN	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	SNCA
+P49615	CDK5_MOUSE	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (CR6 protein kinase) (CRK6) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	Cdk5
+P00519	ABL1_HUMAN	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	reviewed	ABL1
+Q7KZI7	MARK2_HUMAN	Serine/threonine-protein kinase MARK2 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif kinase 1) (EMK-1) (MAP/microtubule affinity-regulating kinase 2) (PAR1 homolog) (PAR1 homolog b) (Par-1b) (Par1b)	reviewed	MARK2
+O00141	SGK1_HUMAN	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
+P18266	GSK3B_RAT	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Factor A) (FA) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	Gsk3b
+O95278	EPM2A_HUMAN	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	EPM2A
+O15294	OGT1_HUMAN	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	OGT
+P06239	LCK_HUMAN	Tyrosine-protein kinase Lck (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (Protein YT16) (Proto-oncogene Lck) (T cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	LCK
+P57786	TAU_MACMU	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+P12023	A4_MOUSE	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Amyloidogenic glycoprotein) (AG) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99 (APP-C99); Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (APP-C59) (Amyloid intracellular domain 59) (AID(59)) (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (APP-C57) (Amyloid intracellular domain 57) (AID(57)) (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Amyloid intracellular domain 50) (AID(50)) (Gamma-CTF(50)); C31]	reviewed	App
+P00520	ABL1_MOUSE	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	reviewed	Abl1
+Q00535	CDK5_HUMAN	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	CDK5
+Q5EG47	AAPK1_MOUSE	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26)	reviewed	Prkaa1
+Q09136	AAPK1_PIG	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (AMPK 63 kDa subunit) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26) (Fragments)	reviewed	PRKAA1
+P54645	AAPK1_RAT	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26)	reviewed	Prkaa1
+Q9NY61	AATF_HUMAN	Protein AATF (Apoptosis-antagonizing transcription factor) (Rb-binding protein Che-1)	reviewed	AATF
+Q5RDH5	AAPK1_PONAB	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26) (Fragment)	reviewed	PRKAA1
+P79307	A4_PIG	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
+Q9QYW0	AATF_RAT	Protein AATF (Apoptosis-antagonizing transcription factor)	reviewed	Aatf
+P53601	A4_MACFA	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
+Q5IS80	A4_PANTR	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
+Q95241	A4_SAISC	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	APP
+P08592	A4_RAT	Amyloid beta A4 protein (ABPP) (APP) (Alzheimer disease amyloid A4 protein homolog) (Amyloid precursor protein) (Amyloidogenic glycoprotein) (AG) (Beta-amyloid precursor protein) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99; Beta-amyloid protein 42 (Beta-APP42); Beta-amyloid protein 40 (Beta-APP40); C83; P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Gamma-CTF(50)); C31]	reviewed	App
+Q13131	AAPK1_HUMAN	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26)	reviewed	PRKAA1
+Q9JKX4	AATF_MOUSE	Protein AATF (Apoptosis-antagonizing transcription factor) (Rb-binding protein Che-1) (Traube protein)	reviewed	Aatf
+O00499	BIN1_HUMAN	Myc box-dependent-interacting protein 1 (Amphiphysin II) (Amphiphysin-like protein) (Box-dependent myc-interacting protein 1) (Bridging integrator 1)	reviewed	BIN1
+O08539	BIN1_MOUSE	Myc box-dependent-interacting protein 1 (Amphiphysin II) (Amphiphysin-like protein) (Bridging integrator 1) (SH3 domain-containing protein 9)	reviewed	Bin1
+Q5RJI5	BRSK1_MOUSE	Serine/threonine-protein kinase BRSK1 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 1) (BR serine/threonine-protein kinase 1) (Serine/threonine-protein kinase SAD-B)	reviewed	Brsk1
+B2DD29	BRSK1_RAT	Serine/threonine-protein kinase BRSK1 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 1) (BR serine/threonine-protein kinase 1) (Serine/threonine-protein kinase SAD-B)	reviewed	Brsk1
+D3ZML2	BRSK2_RAT	Serine/threonine-protein kinase BRSK2 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 2) (BR serine/threonine-protein kinase 2) (Serine/threonine-protein kinase SAD-A)	reviewed	Brsk2
+Q8IWQ3	BRSK2_HUMAN	Serine/threonine-protein kinase BRSK2 (EC 2.7.11.1) (Brain-selective kinase 2) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 2) (BR serine/threonine-protein kinase 2) (Serine/threonine-protein kinase 29) (Serine/threonine-protein kinase SAD-A)	reviewed	BRSK2
+Q8TDC3	BRSK1_HUMAN	Serine/threonine-protein kinase BRSK1 (EC 2.7.11.1) (Brain-selective kinase 1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 1) (BR serine/threonine-protein kinase 1) (Serine/threonine-protein kinase SAD-B) (Synapses of Amphids Defective homolog 1) (SAD1 homolog) (hSAD1)	reviewed	BRSK1
+Q69Z98	BRSK2_MOUSE	Serine/threonine-protein kinase BRSK2 (EC 2.7.11.1) (EC 2.7.11.26) (Brain-specific serine/threonine-protein kinase 2) (BR serine/threonine-protein kinase 2) (Serine/threonine-protein kinase SAD-A)	reviewed	Brsk2
+P48734	CDK1_BOVIN	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	CDK1
+Q03114	CDK5_RAT	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	Cdk5
+Q8CIN6	CELF3_MOUSE	CUGBP Elav-like family member 3 (CELF-3) (Bruno-like protein 1) (CUG-BP- and ETR-3-like factor 3) (ELAV-type RNA-binding protein 1) (ETR-1) (RNA-binding protein BRUNOL-1) (Trinucleotide repeat-containing gene 4 protein)	reviewed	Celf3
+Q7TSY6	CELF4_MOUSE	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	Celf4
+P39951	CDK1_RAT	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	Cdk1
+Q9UNE7	CHIP_HUMAN	E3 ubiquitin-protein ligase CHIP (EC 6.3.2.-) (Antigen NY-CO-7) (CLL-associated antigen KW-8) (Carboxy terminus of Hsp70-interacting protein) (STIP1 homology and U box-containing protein 1)	reviewed	STUB1
+Q5RCH1	CDK1_PONAB	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	CDK1
+Q5SZQ8	CELF3_HUMAN	CUGBP Elav-like family member 3 (CELF-3) (Bruno-like protein 1) (CAG repeat protein 4) (CUG-BP- and ETR-3-like factor 3) (ELAV-type RNA-binding protein 1) (ETR-1) (Expanded repeat domain protein CAG/CTG 4) (RNA-binding protein BRUNOL-1) (Trinucleotide repeat-containing gene 4 protein)	reviewed	CELF3
+P11440	CDK1_MOUSE	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	Cdk1
+Q4R535	CELF4_MACFA	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	CELF4
+P06493	CDK1_HUMAN	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	reviewed	CDK1
+Q02399	CDK5_BOVIN	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Proline-directed protein kinase 33 kDa subunit) (PDPK) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	reviewed	CDK5
+Q9BZC1	CELF4_HUMAN	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	CELF4
+O35493	CLK4_MOUSE	Dual specificity protein kinase CLK4 (EC 2.7.12.1) (CDC-like kinase 4)	reviewed	Clk4
+Q9HAZ1	CLK4_HUMAN	Dual specificity protein kinase CLK4 (EC 2.7.12.1) (CDC-like kinase 4)	reviewed	CLK4
+Q08E07	CELF3_BOVIN	CUGBP Elav-like family member 3 (CELF-3) (Bruno-like protein 1) (CUG-BP- and ETR-3-like factor 3) (ELAV-type RNA-binding protein 1) (ETR-1) (RNA-binding protein BRUNOL-1) (Trinucleotide repeat-containing gene 4 protein)	reviewed	CELF3
+Q5NVC8	CELF4_PONAB	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	reviewed	CELF4
+Q14203	DCTN1_HUMAN	Dynactin subunit 1 (150 kDa dynein-associated polypeptide) (DAP-150) (DP-150) (p135) (p150-glued)	reviewed	DCTN1
+Q8IZD9	DOCK3_HUMAN	Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP)	reviewed	DOCK3
+Q8CIQ7	DOCK3_MOUSE	Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP)	reviewed	Dock3
+Q92630	DYRK2_HUMAN	Dual specificity tyrosine-phosphorylation-regulated kinase 2 (EC 2.7.12.1)	reviewed	DYRK2
+P43004	EAA2_HUMAN	Excitatory amino acid transporter 2 (Glutamate/aspartate transporter II) (Sodium-dependent glutamate/aspartate transporter 2) (Solute carrier family 1 member 2)	reviewed	SLC1A2
+Q5U4C9	DYRK2_MOUSE	Dual specificity tyrosine-phosphorylation-regulated kinase 2 (EC 2.7.12.1)	reviewed	Dyrk2
+Q9WUA5	EPM2A_MOUSE	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	Epm2a
+Q91XQ2	EPM2A_RAT	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	Epm2a
+Q1M199	EPM2A_CANLF	Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Lafora PTPase) (LAFPTPase)	reviewed	EPM2A
+P27124	FKBP4_RABIT	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	FKBP4
+Q02790	FKBP4_HUMAN	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (51 kDa FK506-binding protein) (FKBP51) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	FKBP4
+Q9QVC8	FKBP4_RAT	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	Fkbp4
+P30416	FKBP4_MOUSE	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	Fkbp4
+Q9TRY0	FKBP4_BOVIN	Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (FK506-binding protein 4) (FKBP-4) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]	reviewed	FKBP4
+A0JNB0	FYN_BOVIN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
+P39688	FYN_MOUSE	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
+A1Y2K1	FYN_PIG	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
+Q62844	FYN_RAT	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
+P06241	FYN_HUMAN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn)	reviewed	FYN
+Q5YJC2	GSK3B_SPECI	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
+P28799	GRN_HUMAN	Granulins (Proepithelin) (PEPI) [Cleaved into: Acrogranin (Glycoprotein of 88 Kda) (GP88) (Glycoprotein 88) (Progranulin); Paragranulin; Granulin-1 (Granulin G); Granulin-2 (Granulin F); Granulin-3 (Granulin B); Granulin-4 (Granulin A); Granulin-5 (Granulin C); Granulin-6 (Granulin D); Granulin-7 (Granulin E)]	reviewed	GRN
+P08238	HS90B_HUMAN	Heat shock protein HSP 90-beta (HSP 90) (Heat shock 84 kDa) (HSP 84) (HSP84)	reviewed	HSP90AB1
+P81123	KC1D_RABIT	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Fragment)	reviewed	CSNK1D
+Q5RC72	KC1D_PONAB	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	CSNK1D
+Q06486	KC1D_RAT	Casein kinase I isoform delta (CKI-delta) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	Csnk1d
+Q9DC28	KC1D_MOUSE	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	Csnk1d
+P35508	KC1D_BOVIN	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	reviewed	CSNK1D
+Q5PXS1	LCK_AOTNA	Tyrosine-protein kinase Lck (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (Proto-oncogene Lck) (p56-LCK)	reviewed	LCK
+P06240	LCK_MOUSE	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	Lck
+Q95KR7	LCK_SAISC	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	LCK
+Q01621	LCK_RAT	Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.10.2) (Lymphocyte cell-specific protein-tyrosine kinase) (p56-LCK)	reviewed	Lck
+O08678	MARK1_RAT	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (MAP/microtubule affinity-regulating kinase 1)	reviewed	Mark1
+O08679	MARK2_RAT	Serine/threonine-protein kinase MARK2 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif kinase 1) (EMK-1) (MAP/microtubule affinity-regulating kinase 2)	reviewed	Mark2
+Q96L34	MARK4_HUMAN	MAP/microtubule affinity-regulating kinase 4 (EC 2.7.11.1) (MAP/microtubule affinity-regulating kinase-like 1)	reviewed	MARK4
+Q9P0L2	MARK1_HUMAN	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (MAP/microtubule affinity-regulating kinase 1) (PAR1 homolog c) (Par-1c) (Par1c)	reviewed	MARK1
+Q05512	MARK2_MOUSE	Serine/threonine-protein kinase MARK2 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif kinase 1) (EMK-1) (MAP/microtubule affinity-regulating kinase 2) (PAR1 homolog) (PAR1 homolog b) (Par-1b) (mPar-1b)	reviewed	Mark2
+Q9T041	MAPT_ARATH	Microtubule-associated protein TORTIFOLIA1 (Microtubule-associated protein SPIRAL2) (Protein CONVOLUTA)	reviewed	TOR1
+Q8VHJ5	MARK1_MOUSE	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (ELKL motif serine/threonine-protein kinase 3) (MAP/microtubule affinity-regulating kinase 1) (PAR1 homolog c) (Par-1c) (mPar-1c)	reviewed	Mark1
+Q8CIP4	MARK4_MOUSE	MAP/microtubule affinity-regulating kinase 4 (EC 2.7.11.1)	reviewed	Mark4
+P21708	MK03_RAT	Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (MNK1) (Microtubule-associated protein 2 kinase) (p44-ERK1)	reviewed	Mapk3
+Q9WTY9	MK13_RAT	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 delta) (MAP kinase p38 delta) (Stress-activated protein kinase 4)	reviewed	Mapk13
+P63085	MK01_MOUSE	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	Mapk1
+Q63844	MK03_MOUSE	Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (MNK1) (Microtubule-associated protein 2 kinase) (p44-ERK1)	reviewed	Mapk3
+Q3T0N5	MK13_BOVIN	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24)	reviewed	MAPK13
+O15264	MK13_HUMAN	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 delta) (MAP kinase p38 delta) (Stress-activated protein kinase 4)	reviewed	MAPK13
+P27361	MK03_HUMAN	Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (Microtubule-associated protein 2 kinase) (p44-ERK1)	reviewed	MAPK3
+P46196	MK01_BOVIN	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	MAPK1
+P63086	MK01_RAT	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	Mapk1
+Q9Z1B7	MK13_MOUSE	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 delta) (MAP kinase p38 delta) (Stress-activated protein kinase 4)	reviewed	Mapk13
+Q9N272	MK13_PANTR	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Stress-activated protein kinase 4)	reviewed	MAPK13
+P28482	MK01_HUMAN	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	reviewed	MAPK1
+Q8CGY8	OGT1_MOUSE	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	Ogt
+P81436	OGT1_RABIT	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	OGT
+Q9Z0W5	PACN1_RAT	Protein kinase C and casein kinase substrate in neurons protein 1 (Dynamin proline-rich domain-interacting protein) (Dynamin PRD-interacting protein) (Synaptic, dynamin-associated protein I) (Syndapin-1) (Syndapin-I) (SdpI)	reviewed	Pacsin1
+Q27HV0	OGT1_PIG	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	OGT
+A7MBI0	PACN1_BOVIN	Protein kinase C and casein kinase substrate in neurons protein 1	reviewed	PACSIN1
+P56558	OGT1_RAT	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	reviewed	Ogt
+Q61644	PACN1_MOUSE	Protein kinase C and casein kinase substrate in neurons protein 1 (Syndapin-1)	reviewed	Pacsin1
+Q9BY11	PACN1_HUMAN	Protein kinase C and casein kinase substrate in neurons protein 1 (Syndapin-1)	reviewed	PACSIN1
+Q5R411	PACN1_PONAB	Protein kinase C and casein kinase substrate in neurons protein 1	reviewed	Pacsin1
+P00518	PHKG1_RABIT	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	PHKG1
+Q16816	PHKG1_HUMAN	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (PHK-gamma-M) (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	PHKG1
+P13286	PHKG1_RAT	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	Phkg1
+P70268	PKN1_MOUSE	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	Pkn1
+P07934	PHKG1_MOUSE	Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform (EC 2.7.11.19) (Phosphorylase kinase subunit gamma-1) (Serine/threonine-protein kinase PHKG1) (EC 2.7.11.1) (EC 2.7.11.26)	reviewed	Phkg1
+A1A4I4	PKN1_BOVIN	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein kinase PKN-alpha) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	PKN1
+Q16512	PKN1_HUMAN	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protease-activated kinase 1) (PAK-1) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein kinase PKN-alpha) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	PKN1
+Q63433	PKN1_RAT	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protease-activated kinase 1) (PAK-1) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	reviewed	Pkn1
+P53041	PPP5_HUMAN	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PP-T) (PPT)	reviewed	PPP5C
+P04156	PRIO_HUMAN	Major prion protein (PrP) (ASCR) (PrP27-30) (PrP33-35C) (CD antigen CD230)	reviewed	PRNP
+P55739	PPP5_RABIT	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PPT) (Fragment)	reviewed	PPP5C
+Q60676	PPP5_MOUSE	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PPT)	reviewed	Ppp5c
+P53042	PPP5_RAT	Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PPT)	reviewed	Ppp5c
+P26599	PTBP1_HUMAN	Polypyrimidine tract-binding protein 1 (PTB) (57 kDa RNA-binding protein PPTB-1) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I)	reviewed	PTBP1
+Q00438	PTBP1_RAT	Polypyrimidine tract-binding protein 1 (PTB) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I) (Pyrimidine-binding protein) (PYBP)	reviewed	Ptbp1
+P17225	PTBP1_MOUSE	Polypyrimidine tract-binding protein 1 (PTB) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I)	reviewed	Ptbp1
+Q8WN55	PTBP1_BOVIN	Polypyrimidine tract-binding protein 1 (PTB)	reviewed	PTBP1
+Q29099	PTBP1_PIG	Polypyrimidine tract-binding protein 1 (PTB) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I)	reviewed	PTBP1
+P38159	RBMX_HUMAN	RNA-binding motif protein, X chromosome (Glycoprotein p43) (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
+Q9BWF3	RBM4_HUMAN	RNA-binding protein 4 (Lark homolog) (hLark) (RNA-binding motif protein 4) (RNA-binding motif protein 4a)	reviewed	RBM4
+Q4R7F0	RBMX_MACFA	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
+Q4V898	RBMX_RAT	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) (RNA-binding motif protein, X chromosome retrogene) (RNA-binding motif protein, X chromosome retrogene-like) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	Rbmx
+Q4R979	RBM4_MACFA	RNA-binding protein 4 (RNA-binding motif protein 4)	reviewed	RBM4
+Q8C7Q4	RBM4_MOUSE	RNA-binding protein 4 (Lark homolog) (mLark) (RNA-binding motif protein 4) (RNA-binding motif protein 4a)	reviewed	Rbm4
+Q3MHX3	RBM4_BOVIN	RNA-binding protein 4 (RNA-binding motif protein 4) (RNA-binding motif protein 4a)	reviewed	RBM4
+Q29RT0	RBMX_BOVIN	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
+Q9WV02	RBMX_MOUSE	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	Rbmx
+Q9BDY9	RBM4_RABIT	RNA-binding protein 4 (Lark homolog) (RNA-binding motif protein 4)	reviewed	RBM4
+A5A6M3	RBMX_PANTR	RNA-binding motif protein, X chromosome (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	reviewed	RBMX
+D3ZTQ1	SFSWA_RAT	Splicing factor, suppressor of white-apricot homolog (Splicing factor, arginine/serine-rich 8) (Suppressor of white apricot protein homolog)	reviewed	Sfswap
+Q9XT18	SGK1_RABIT	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
+A7MB74	SGK1_BOVIN	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
+Q4R633	SGK1_MACFA	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	SGK1
+Q06226	SGK1_RAT	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	Sgk1
+Q3USH5	SFSWA_MOUSE	Splicing factor, suppressor of white-apricot homolog (Splicing factor, arginine/serine-rich 8) (Suppressor of white apricot protein homolog)	reviewed	Sfswap
+Q12872	SFSWA_HUMAN	Splicing factor, suppressor of white-apricot homolog (Splicing factor, arginine/serine-rich 8) (Suppressor of white apricot protein homolog)	reviewed	SFSWAP
+Q9WVC6	SGK1_MOUSE	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	reviewed	Sgk1
+Q96R06	SPAG5_HUMAN	Sperm-associated antigen 5 (Astrin) (Deepest) (Mitotic spindle-associated protein p126) (MAP126)	reviewed	SPAG5
+O70551	SRPK1_MOUSE	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	reviewed	Srpk1
+Q96SB4	SRPK1_HUMAN	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	reviewed	SRPK1
+G3V6S8	SRSF6_RAT	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6)	reviewed	Srsf6
+Q5PPI1	SRSF9_RAT	Serine/arginine-rich splicing factor 9 (Splicing factor, arginine/serine-rich 9)	reviewed	Srsf9
+Q8VE97	SRSF4_MOUSE	Serine/arginine-rich splicing factor 4 (Splicing factor, arginine/serine-rich 4)	reviewed	Srsf4
+Q8BL97	SRSF7_MOUSE	Serine/arginine-rich splicing factor 7 (Splicing factor, arginine/serine-rich 7)	reviewed	Srsf7
+Q9D0B0	SRSF9_MOUSE	Serine/arginine-rich splicing factor 9 (Splicing factor, arginine/serine-rich 9)	reviewed	Srsf9
+Q64337	SQSTM_MOUSE	Sequestosome-1 (STONE14) (Ubiquitin-binding protein p62)	reviewed	Sqstm1
+Q5RD27	SRPK1_PONAB	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	reviewed	SRPK1
+Q08170	SRSF4_HUMAN	Serine/arginine-rich splicing factor 4 (Pre-mRNA-splicing factor SRP75) (SRP001LB) (Splicing factor, arginine/serine-rich 4)	reviewed	SRSF4
+Q3T106	SRSF7_BOVIN	Serine/arginine-rich splicing factor 7 (Splicing factor, arginine/serine-rich 7)	reviewed	SRSF7
+Q16629	SRSF7_HUMAN	Serine/arginine-rich splicing factor 7 (Splicing factor 9G8) (Splicing factor, arginine/serine-rich 7)	reviewed	SRSF7
+Q7TME2	SPAG5_MOUSE	Sperm-associated antigen 5 (Mastrin) (Mitotic spindle-associated protein p126) (MAP126)	reviewed	Spag5
+Q5RBA5	SQSTM_PONAB	Sequestosome-1 (Ubiquitin-binding protein p62)	reviewed	SQSTM1
+Q5YCU7	STH_GORGO	Saitohin	reviewed	STH
+O18776	SRSF6_RABIT	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6) (Fragment)	reviewed	SRSF6
+O08623	SQSTM_RAT	Sequestosome-1 (Protein kinase C-zeta-interacting protein) (PKC-zeta-interacting protein) (Ubiquitin-binding protein p62)	reviewed	Sqstm1
+Q3B7L6	SRSF6_BOVIN	Serine/arginine-rich splicing factor 6 (Splicing factor, arginine/serine-rich 6)	reviewed	SRSF6
+Q3TWW8	SRSF6_MOUSE	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6)	reviewed	Srsf6
+Q13247	SRSF6_HUMAN	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6)	reviewed	SRSF6
+Q13242	SRSF9_HUMAN	Serine/arginine-rich splicing factor 9 (Pre-mRNA-splicing factor SRp30C) (Splicing factor, arginine/serine-rich 9)	reviewed	SRSF9
+Q6ZVD7	STOX1_HUMAN	Storkhead-box protein 1 (Winged-helix domain-containing protein)	reviewed	STOX1
+Q5YCU8	STH_PANTR	Saitohin	reviewed	STH
+B2RQL2	STOX1_MOUSE	Storkhead-box protein 1	reviewed	Stox1
+Q7L7X3	TAOK1_HUMAN	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Kinase from chicken homolog B) (hKFC-B) (MARK Kinase) (MARKK) (Prostate-derived sterile 20-like kinase 2) (PSK-2) (PSK2) (Prostate-derived STE20-like kinase 2) (Thousand and one amino acid protein kinase 1) (TAOK1) (hTAOK1)	reviewed	TAOK1
+Q5F2E8	TAOK1_MOUSE	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Thousand and one amino acid protein 1)	reviewed	Taok1
+Q9MYX8	TAU_PAPHA	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+O02828	TAU_CAPHI	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+O88664	TAOK1_RAT	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Thousand and one amino acid protein 1)	reviewed	Taok1
+Q5YCV9	TAU_HYLLA	Microtubule-associated protein tau	reviewed	MAPT
+Q5S6V2	TAU_PONPY	Microtubule-associated protein tau	reviewed	MAPT
+Q6TS35	TAU_SPECI	Microtubule-associated protein tau	reviewed	MAPT
+Q5YCW0	TAU_GORGO	Microtubule-associated protein tau	reviewed	MAPT
+P62997	TRA2B_RAT	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (RA301) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	Tra2b
+Q3ZBT6	TRA2B_BOVIN	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	TRA2B
+P62995	TRA2B_HUMAN	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (hTRA2-beta) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	TRA2B
+P62996	TRA2B_MOUSE	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (Silica-induced gene 41 protein) (SIG-41) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	reviewed	Tra2b
+P26368	U2AF2_HUMAN	Splicing factor U2AF 65 kDa subunit (U2 auxiliary factor 65 kDa subunit) (hU2AF(65)) (hU2AF65) (U2 snRNP auxiliary factor large subunit)	reviewed	U2AF2
+Q9NZC7	WWOX_HUMAN	WW domain-containing oxidoreductase (EC 1.1.1.-) (Fragile site FRA16D oxidoreductase) (Short chain dehydrogenase/reductase family 41C member 1)	reviewed	WWOX
+Q5R9W5	WWOX_PONAB	WW domain-containing oxidoreductase (EC 1.1.1.-)	reviewed	WWOX
+Q91WL8	WWOX_MOUSE	WW domain-containing oxidoreductase (EC 1.1.1.-)	reviewed	Wwox
+I3L2Z2	I3L2Z2_HUMAN	Microtubule-associated protein tau	unreviewed	MAPT
+A0A0G2JPD5	A0A0G2JPD5_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+A0A024RA17	A0A024RA17_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+A0A024R9Y1	A0A024R9Y1_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+A0A0G2JMX7	A0A0G2JMX7_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+A0A024R9Y0	A0A024R9Y0_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+A0A024RA19	A0A024RA19_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+A0A0G2JQJ7	A0A0G2JQJ7_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+I3L170	I3L170_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+A0A0G2JS76	A0A0G2JS76_HUMAN	Microtubule-associated protein	unreviewed	MAPT
+T1SGS4	T1SGS4_HUMAN	Mutant microtubule-associated protein tau (Fragment)	unreviewed	MAPT
+A0A0B2V6H3	A0A0B2V6H3_TOXCA	Microtubule-associated protein tau	unreviewed	Mapt
+Q5YCV1	Q5YCV1_PANTR	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+H9FD19	H9FD19_MACMU	Microtubule-associated protein tau isoform 1 (Fragment)	unreviewed	MAPT
+F6XTG8	F6XTG8_MACMU	Microtubule-associated protein	unreviewed	MAPT
+F6R387	F6R387_MACMU	Microtubule-associated protein	unreviewed	MAPT
+F7CG65	F7CG65_CALJA	Microtubule-associated protein	unreviewed	MAPT
+F7E489	F7E489_CALJA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+Q6UIN5	Q6UIN5_MACMU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+F6XLN8	F6XLN8_MACMU	Microtubule-associated protein	unreviewed	MAPT
+F6XLQ7	F6XLQ7_MACMU	Microtubule-associated protein tau	unreviewed	MAPT
+F6XLT0	F6XLT0_MACMU	Microtubule-associated protein	unreviewed	MAPT
+F6UXY8	F6UXY8_CALJA	Microtubule-associated protein	unreviewed	MAPT
+F6UBM9	F6UBM9_CALJA	Microtubule-associated protein	unreviewed	MAPT
+F6UBZ0	F6UBZ0_CALJA	Microtubule-associated protein	unreviewed	MAPT
+F6XLP7	F6XLP7_MACMU	Microtubule-associated protein	unreviewed	MAPT
+F6UY39	F6UY39_CALJA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+F6UXK3	F6UXK3_CALJA	Microtubule-associated protein	unreviewed	MAPT
+F6WNR5	F6WNR5_CALJA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+M3Y9Q3	M3Y9Q3_MUSPF	Microtubule-associated protein	unreviewed	MAPT
+G3N2J1	G3N2J1_BOVIN	Microtubule-associated protein	unreviewed	MAPT
+F7DLY4	F7DLY4_ORNAN	Microtubule-associated protein	unreviewed	MAPT
+W5PNU3	W5PNU3_SHEEP	Microtubule-associated protein	unreviewed	MAPT
+H0WKW1	H0WKW1_OTOGA	Microtubule-associated protein	unreviewed	MAPT
+H2NTQ0	H2NTQ0_PONAB	Microtubule-associated protein	unreviewed	MAPT
+Q6UIN6	Q6UIN6_PANTR	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+H2NTQ1	H2NTQ1_PONAB	Microtubule-associated protein	unreviewed	MAPT
+Q5S6V1	Q5S6V1_PONPY	Putative saitohin	unreviewed	STH
+M3W6D2	M3W6D2_FELCA	Microtubule-associated protein	unreviewed	MAPT
+F7BCC0	F7BCC0_MONDO	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+A0A096P681	A0A096P681_PAPAN	Microtubule-associated protein	unreviewed	MAPT
+G3WX26	G3WX26_SARHA	Microtubule-associated protein	unreviewed	MAPT
+G3WX28	G3WX28_SARHA	Microtubule-associated protein	unreviewed	MAPT
+G3WX27	G3WX27_SARHA	Microtubule-associated protein	unreviewed	MAPT
+Q5YCV2	Q5YCV2_CHLAE	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+Q5YCV4	Q5YCV4_CHLAE	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
+F6Z2V7	F6Z2V7_HORSE	Microtubule-associated protein	unreviewed	MAPT
+F6WJP3	F6WJP3_HORSE	Microtubule-associated protein	unreviewed	MAPT
+F6Y4B0	F6Y4B0_HORSE	Microtubule-associated protein	unreviewed	MAPT
+F6YXB2	F6YXB2_HORSE	Microtubule-associated protein	unreviewed	MAPT
+Q5YCV3	Q5YCV3_CHLAE	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
+G3SS28	G3SS28_LOXAF	Microtubule-associated protein	unreviewed	MAPT
+A0A0D9QUV4	A0A0D9QUV4_CHLSB	Microtubule-associated protein	unreviewed	MAPT
+F1RRS8	F1RRS8_PIG	Microtubule-associated protein	unreviewed	MAPT
+M9TFN3	M9TFN3_PIG	Microtubule-associated protein	unreviewed	MAPT
+M9TJ96	M9TJ96_PIG	Microtubule-associated protein	unreviewed	MAPT
+M9TFA3	M9TFA3_PIG	Microtubule-associated protein	unreviewed	MAPT
+M9TDD4	M9TDD4_PIG	Microtubule-associated protein	unreviewed	MAPT
+G1QXZ9	G1QXZ9_NOMLE	Uncharacterized protein	unreviewed	MAPT
+F6Y724	F6Y724_CANLF	Microtubule-associated protein	unreviewed	MAPT
+E2R3H9	E2R3H9_CANLF	Microtubule-associated protein	unreviewed	MAPT
+G3RNL9	G3RNL9_GORGO	Microtubule-associated protein	unreviewed	MAPT
+G3S7P5	G3S7P5_GORGO	Microtubule-associated protein	unreviewed	MAPT
+G3QRY9	G3QRY9_GORGO	Microtubule-associated protein	unreviewed	MAPT
+G3S4G3	G3S4G3_GORGO	Microtubule-associated protein	unreviewed	MAPT
+G3RSK7	G3RSK7_GORGO	Microtubule-associated protein	unreviewed	MAPT
+G3RMH3	G3RMH3_GORGO	Microtubule-associated protein	unreviewed	MAPT
+G1M7S8	G1M7S8_AILME	Microtubule-associated protein	unreviewed	MAPT
+Q5YCV6	Q5YCV6_MACFA	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
+Q5YCV5	Q5YCV5_MACFA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+Q5YCV7	Q5YCV7_MACFA	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
+G1P3J3	G1P3J3_MYOLU	Microtubule-associated protein	unreviewed	MAPT
+Q5YCV8	Q5YCV8_MACFA	Microtubule-associated protein tau (Fragment)	unreviewed	MAPT
+G1Q5P4	G1Q5P4_MYOLU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+G1QBL2	G1QBL2_MYOLU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+G1QCF4	G1QCF4_MYOLU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+Q5YCU6	Q5YCU6_HYLLA	Saitohin	unreviewed	STH
+G1T176	G1T176_RABIT	Microtubule-associated protein	unreviewed	MAPT
+Q547J4	Q547J4_MOUSE	Microtubule-associated protein	unreviewed	Mapt
+Q76M61	Q76M61_MOUSE	Microtubule-associated protein (Fragment)	unreviewed	tau
+D3ZKD9	D3ZKD9_RAT	Microtubule-associated protein	unreviewed	Mapt
+A0JN25	A0JN25_RAT	Microtubule-associated protein	unreviewed	Mapt
+D4A1Q2	D4A1Q2_RAT	Microtubule-associated protein	unreviewed	Mapt
+C4NTT5	C4NTT5_UROPR	Microtubule-associated protein	unreviewed	MAPT
+Q3S2J1	Q3S2J1_RAT	Microtubule-associated protein TAU (Fragment)	unreviewed	Mapt
+F1LST4	F1LST4_RAT	Microtubule-associated protein	unreviewed	Mapt
+E0V8C4	E0V8C4_MICOH	Microtubule-associated protein	unreviewed	MAPT
+H0VMS7	H0VMS7_CAVPO	Microtubule-associated protein	unreviewed	MAPT
+I3N7F3	I3N7F3_ICTTR	Microtubule-associated protein	unreviewed	MAPT
+I3N2F8	I3N2F8_ICTTR	Microtubule-associated protein	unreviewed	MAPT
+Q8C5K4	Q8C5K4_MOUSE	Microtubule-associated protein	unreviewed	Mapt
+B1AQW6	B1AQW6_MOUSE	Microtubule-associated protein tau (Fragment)	unreviewed	Mapt
+B1AQW2	B1AQW2_MOUSE	Microtubule-associated protein	unreviewed	Mapt
+B1AQW4	B1AQW4_MOUSE	Microtubule-associated protein tau (Fragment)	unreviewed	Mapt
+A2A5Y6	A2A5Y6_MOUSE	Microtubule-associated protein	unreviewed	Mapt
+B1AQW5	B1AQW5_MOUSE	Microtubule-associated protein tau (Fragment)	unreviewed	Mapt
+Q3UH19	Q3UH19_MOUSE	Microtubule-associated protein	unreviewed	Mapt
+A6NAR8	A6NAR8_MOUSE	Alpha1-takusan	unreviewed	
+A0A0A0MQC7	A0A0A0MQC7_MOUSE	Microtubule-associated protein	unreviewed	Mapt
+Q0P4W8	Q0P4W8_XENTR	Microtubule-associated protein	unreviewed	mapt
+Q6AX34	Q6AX34_XENLA	Microtubule-associated protein	unreviewed	xtp
+B0LVG0	B0LVG0_CHICK	Microtubule-associated protein	unreviewed	MAPT
+H0YUJ8	H0YUJ8_TAEGU	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+H3B3D5	H3B3D5_LATCH	Microtubule-associated protein	unreviewed	MAPT
+H3B3D6	H3B3D6_LATCH	Microtubule-associated protein	unreviewed	MAPT
+F6QX04	F6QX04_XENTR	Microtubule-associated protein	unreviewed	mapt
+V8PH12	V8PH12_OPHHA	Microtubule-associated protein (Fragment)	unreviewed	MAPT
+U3JQD1	U3JQD1_FICAL	Microtubule-associated protein	unreviewed	MAPT
+B0LVF9	B0LVF9_CHICK	Microtubule-associated protein	unreviewed	MAPT
+G1KTS4	G1KTS4_ANOCA	Microtubule-associated protein	unreviewed	MAPT
+U3IKL9	U3IKL9_ANAPL	Microtubule-associated protein	unreviewed	MAPT
+K7FNJ0	K7FNJ0_PELSI	Microtubule-associated protein	unreviewed	MAPT
+W5ULM1	W5ULM1_ICTPU	Microtubule-associated protein	unreviewed	MAPT
+A0A151PBZ1	A0A151PBZ1_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
+A0A151PCA1	A0A151PCA1_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
+A0A151PBS1	A0A151PBS1_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
+A0A151PCQ7	A0A151PCQ7_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
+A0A151PBR6	A0A151PBR6_ALLMI	Microtubule-associated protein	unreviewed	MAPT-1
+A0A0B5HJS0	A0A0B5HJS0_XENLA	Microtubule-associated protein	unreviewed	mapt
+A0A0B5HAV7	A0A0B5HAV7_XENLA	Microtubule-associated protein	unreviewed	mapt
+A0A0B5HH19	A0A0B5HH19_XENLA	Microtubule-associated protein	unreviewed	mapt
+Q8JIW8	Q8JIW8_XENLA	Microtubule-associated protein	unreviewed	mapt
+G1MSJ9	G1MSJ9_MELGA	Microtubule-associated protein	unreviewed	MAPT

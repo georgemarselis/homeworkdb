@@ -1,347 +1,347 @@
-Entry name	Protein names	Status	Gene names  (primary )
-PRKN2_HUMAN	E3 ubiquitin-protein ligase parkin (Parkin) (EC 6.3.2.-) (Parkinson juvenile disease protein 2) (Parkinson disease protein 2)	reviewed	PARK2
-PRKN2_MOUSE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	reviewed	Park2
-PRKN2_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	reviewed	Park2
-PINK1_HUMAN	Serine/threonine-protein kinase PINK1, mitochondrial (EC 2.7.11.1) (BRPK) (PTEN-induced putative kinase protein 1)	reviewed	PINK1
-PACRG_HUMAN	Parkin coregulated gene protein (Molecular chaperone/chaperonin-binding protein) (PARK2 coregulated gene protein)	reviewed	PACRG
-LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
-F1NWU0_CHICK	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-H2QU08_PANTR	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-F6U1L3_MACMU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-H0ZGE3_TAEGU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-H0X3U6_OTOGA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-I3N341_ICTTR	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-U3KCF7_FICAL	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-G1KBB3_ANOCA	Uncharacterized protein	unreviewed	PARK2
-G3MY23_BOVIN	Uncharacterized protein	unreviewed	PARK2
-U3IYU6_ANAPL	Uncharacterized protein	unreviewed	PARK2
-G1P0U2_MYOLU	Uncharacterized protein	unreviewed	PARK2
-H2PKT8_PONAB	Uncharacterized protein	unreviewed	PARK2
-H0V739_CAVPO	Uncharacterized protein	unreviewed	PARK2
-F7HWP0_CALJA	Uncharacterized protein	unreviewed	PARK2
-F7C8N2_ORNAN	Uncharacterized protein	unreviewed	PARK2
-G3VUX3_SARHA	Uncharacterized protein (Fragment)	unreviewed	PARK2
-D2HF43_AILME	Uncharacterized protein (Fragment)	unreviewed	PARK2
-A0A096MX93_PAPAN	Uncharacterized protein	unreviewed	PARK2
-M3WQZ4_FELCA	Uncharacterized protein	unreviewed	PARK2
-F6RA22_HORSE	Uncharacterized protein	unreviewed	PARK2
-1433F_MOUSE	14-3-3 protein eta	reviewed	Ywhah
-AIMP2_CRIGR	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	AIMP2
-AIMP2_RAT	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	Aimp2
-AIMP2_BOVIN	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	AIMP2
-AIMP2_MOUSE	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	Aimp2
-AIMP2_HUMAN	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	AIMP2
-BAG4_MOUSE	BAG family molecular chaperone regulator 4 (BAG-4) (Bcl-2-associated athanogene 4) (Silencer of death domains)	reviewed	Bag4
-BAG5_HUMAN	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	BAG5
-BCL2_CANLF	Apoptosis regulator Bcl-2	reviewed	BCL2
-BAG5_MOUSE	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	Bag5
-BCL2_RAT	Apoptosis regulator Bcl-2	reviewed	Bcl2
-BAG5_RAT	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	Bag5
-ATX3_HUMAN	Ataxin-3 (EC 3.4.19.12) (Machado-Joseph disease protein 1) (Spinocerebellar ataxia type 3 protein)	reviewed	ATXN3
-BCL2_CRIGR	Apoptosis regulator Bcl-2	reviewed	BCL2
-BAG4_HUMAN	BAG family molecular chaperone regulator 4 (BAG-4) (Bcl-2-associated athanogene 4) (Silencer of death domains)	reviewed	BAG4
-BCL2_BOVIN	Apoptosis regulator Bcl-2	reviewed	BCL2
-BCL2_MOUSE	Apoptosis regulator Bcl-2	reviewed	Bcl2
-BAG5_BOVIN	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	BAG5
-BCL2_HUMAN	Apoptosis regulator Bcl-2	reviewed	BCL2
-CL16A_MOUSE	Protein CLEC16A	reviewed	Clec16a
-CHSS2_MOUSE	Chondroitin sulfate synthase 2 (EC 2.4.1.175) (EC 2.4.1.226) (Chondroitin glucuronyltransferase 2) (Chondroitin-polymerizing factor) (ChPF) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase II) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase II) (N-acetylgalactosaminyltransferase 2)	reviewed	Chpf
-CISD1_RAT	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	Cisd1
-CL16A_HUMAN	Protein CLEC16A (C-type lectin domain family 16 member A)	reviewed	CLEC16A
-CHSS2_HUMAN	Chondroitin sulfate synthase 2 (EC 2.4.1.175) (EC 2.4.1.226) (Chondroitin glucuronyltransferase 2) (Chondroitin-polymerizing factor) (ChPF) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase II) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase II) (N-acetylgalactosaminyltransferase 2)	reviewed	CHPF
-CISD1_HUMAN	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	CISD1
-CISD1_BOVIN	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	CISD1
-CISD1_MOUSE	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	Cisd1
-FBX7_HUMAN	F-box only protein 7	reviewed	FBXO7
-FKBP8_MOUSE	Peptidyl-prolyl cis-trans isomerase FKBP8 (PPIase FKBP8) (EC 5.2.1.8) (38 kDa FK506-binding protein) (38 kDa FKBP) (FKBP-38) (mFKBP38) (FK506-binding protein 8) (FKBP-8) (FKBPR38) (Rotamase)	reviewed	Fkbp8
-FBX7_RAT	F-box only protein 7	reviewed	Fbxo7
-FBX7_BOVIN	F-box only protein 7	reviewed	FBXO7
-FKBP8_RAT	Peptidyl-prolyl cis-trans isomerase FKBP8 (PPIase FKBP8) (EC 5.2.1.8) (FK506-binding protein 8) (FKBP-8) (Rotamase)	reviewed	Fkbp8
-FBX7_MOUSE	F-box only protein 7	reviewed	Fbxo7
-FKBP8_HUMAN	Peptidyl-prolyl cis-trans isomerase FKBP8 (PPIase FKBP8) (EC 5.2.1.8) (38 kDa FK506-binding protein) (38 kDa FKBP) (FKBP-38) (hFKBP38) (FK506-binding protein 8) (FKBP-8) (FKBPR38) (Rotamase)	reviewed	FKBP8
-GDAP1_BOVIN	Ganglioside-induced differentiation-associated protein 1 (GDAP1)	reviewed	GDAP1
-GDAP1_HUMAN	Ganglioside-induced differentiation-associated protein 1 (GDAP1)	reviewed	GDAP1
-GDAP1_MOUSE	Ganglioside-induced differentiation-associated protein 1 (GDAP1)	reviewed	Gdap1
-GPR37_MOUSE	Prosaposin receptor GPR37 (G-protein coupled receptor 37)	reviewed	Gpr37
-GPR37_RAT	Prosaposin receptor GPR37 (G-protein coupled receptor 37) (G-protein coupled receptor CNS1)	reviewed	Gpr37
-GPR37_HUMAN	Prosaposin receptor GPR37 (Endothelin B receptor-like protein 1) (ETBR-LP-1) (G-protein coupled receptor 37) (Parkin-associated endothelin receptor-like receptor) (PAELR)	reviewed	GPR37
-HS71A_BOVIN	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70.1)	reviewed	HSPA1A
-HS71A_HUMAN	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1)	reviewed	HSPA1A
-HS71L_MACFA	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L)	reviewed	HSPA1L
-HSP71_CANLF	Heat shock 70 kDa protein 1	reviewed	HSPA1
-HSP71_PONAB	Heat shock 70 kDa protein 1	reviewed	HSPA1
-HSP7C_HUMAN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	reviewed	HSPA8
-HS71A_MOUSE	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 3) (HSP70.3) (Hsp68)	reviewed	Hspa1a
-HS71B_HUMAN	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70-2) (HSP70.2)	reviewed	HSPA1B
-HS71B_BOSMU	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70.2)	reviewed	HSPA1B
-HS71L_PIG	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L)	reviewed	HSPA1L
-HS71A_RAT	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 2) (HSP70-2) (HSP70.2)	reviewed	Hspa1a
-HS71B_MOUSE	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 1) (HSP70.1)	reviewed	Hspa1b
-HS71L_MOUSE	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Heat shock 70 kDa-like protein 1) (Spermatid-specific heat shock protein 70)	reviewed	Hspa1l
-HS71B_BOVIN	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70.2)	reviewed	HSPA1B
-HS71B_PIG	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70.2)	reviewed	HSPA1B
-HS71L_BOVIN	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L)	reviewed	HSPA1L
-HS71L_HUMAN	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Heat shock 70 kDa protein 1-Hom) (HSP70-Hom)	reviewed	HSPA1L
-HSP7C_PONAB	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
-HSP7C_SAGOE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Intracellular vitamin D-binding protein 1)	reviewed	HSPA8
-HS71A_PIG	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70.1)	reviewed	HSPA1A
-HS71B_RAT	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1)	reviewed	Hspa1b
-HS71L_MESAU	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Fragments)	reviewed	HSPA1L
-HS71L_RAT	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Heat shock 70 kDa protein 3) (HSP70.3)	reviewed	Hspa1l
-HSP7C_CRIGR	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
-HSP7C_BOVIN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
-HSP7C_MOUSE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
-HSP7C_RAT	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
-HSP71_CHLAE	Heat shock 70 kDa protein 1	reviewed	HSPA1
-HSP7C_HORSE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
-MARC2_PIG	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2) (Fragments)	reviewed	MARC2
-LRRK2_MOUSE	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1)	reviewed	Lrrk2
-MARC2_BOVIN	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	MARC2
-MARC2_MOUSE	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	Marc2
-MARC2_HUMAN	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	MARC2
-MFN1_MOUSE	Mitofusin-1 (EC 3.6.5.-) (Transmembrane GTPase MFN1)	reviewed	Mfn1
-MFN2_MOUSE	Mitofusin-2 (EC 3.6.5.-) (Hypertension-related protein 1) (Mitochondrial assembly regulatory factor) (HSG protein) (Transmembrane GTPase MFN2)	reviewed	Mfn2
-MARC2_MACFA	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	MARC2
-MARC2_RAT	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	Marc2
-MFN1_HUMAN	Mitofusin-1 (EC 3.6.5.-) (Fzo homolog) (Transmembrane GTPase MFN1)	reviewed	MFN1
-MFN2_RAT	Mitofusin-2 (EC 3.6.5.-) (Mitochondrial transmembrane GTPase FZO1A) (Protein HSG) (Transmembrane GTPase MFN2)	reviewed	Mfn2
-MIRO1_HUMAN	Mitochondrial Rho GTPase 1 (MIRO-1) (hMiro-1) (EC 3.6.5.-) (Rac-GTP-binding protein-like protein) (Ras homolog gene family member T1)	reviewed	RHOT1
-MFN1_RAT	Mitofusin-1 (EC 3.6.5.-) (Mitochondrial transmembrane GTPase FZO1B) (Transmembrane GTPase MFN1)	reviewed	Mfn1
-MFN2_HUMAN	Mitofusin-2 (EC 3.6.5.-) (Transmembrane GTPase MFN2)	reviewed	MFN2
-MIRO1_MOUSE	Mitochondrial Rho GTPase 1 (MIRO-1) (EC 3.6.5.-) (Ras homolog gene family member T1)	reviewed	Rhot1
-MIRO1_BOVIN	Mitochondrial Rho GTPase 1 (MIRO-1) (EC 3.6.5.-) (Ras homolog gene family member T1)	reviewed	RHOT1
-MTX1_HUMAN	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
-MUL1_HUMAN	Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 6.3.2.-) (E3 SUMO-protein ligase MUL1) (E3 ubiquitin-protein ligase MUL1) (Growth inhibition and death E3 ligase) (Mitochondrial-anchored protein ligase) (MAPL) (Putative NF-kappa-B-activating protein 266) (RING finger protein 218)	reviewed	MUL1
-MTX1_BOVIN	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
-MTX1_MOUSE	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	Mtx1
-MUL1_MACFA	Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 6.3.2.-) (E3 ubiquitin-protein ligase MUL1)	reviewed	MUL1
-MTX1_MACFA	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
-MTX1_PIG	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
-MUL1_MOUSE	Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 6.3.2.-) (E3 ubiquitin-protein ligase MUL1) (Growth inhibition and death E3 ligase)	reviewed	Mul1
-PACRG_MOUSE	Parkin coregulated gene protein homolog (Hypertension-related protein 1-like protein) (PARK2 coregulated gene protein)	reviewed	Pacrg
-PARK7_BOVIN	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Parkinson disease protein 7 homolog)	reviewed	PARK7
-PARK7_RAT	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Contraception-associated protein 1) (Protein CAP1) (Fertility protein SP22) (Parkinson disease protein 7 homolog)	reviewed	Park7
-PARK7_HUMAN	Protein deglycase DJ-1 (DJ-1) (EC 3.1.2.-) (EC 3.5.1.-) (Oncogene DJ1) (Parkinson disease protein 7)	reviewed	PARK7
-PDCD2_RAT	Programmed cell death protein 2 (Zinc finger protein Rp-8)	reviewed	Pdcd2
-PCH2_HUMAN	Pachytene checkpoint protein 2 homolog (Human papillomavirus type 16 E1 protein-binding protein) (16E1-BP) (HPV16 E1 protein-binding protein) (Thyroid hormone receptor interactor 13) (Thyroid receptor-interacting protein 13) (TR-interacting protein 13) (TRIP-13)	reviewed	TRIP13
-PDCD2_HUMAN	Programmed cell death protein 2 (Zinc finger MYND domain-containing protein 7) (Zinc finger protein Rp-8)	reviewed	PDCD2
-PARK7_CHLAE	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Parkinson disease protein 7 homolog)	reviewed	PARK7
-PARK7_MESAU	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Contraception-associated protein 1) (Parkinson disease protein 7 homolog) [Cleaved into: Protein deglycase DJ-1, N-terminally processed]	reviewed	PARK7
-PDCD2_BOVIN	Programmed cell death protein 2	reviewed	PDCD2
-PDCD2_MOUSE	Programmed cell death protein 2 (Zinc finger protein Rp-8)	reviewed	Pdcd2
-PINK1_MOUSE	Serine/threonine-protein kinase PINK1, mitochondrial (EC 2.7.11.1) (BRPK) (PTEN-induced putative kinase protein 1)	reviewed	Pink1
-POLG_HCVJF	Genome polyprotein [Cleaved into: Core protein p21 (Capsid protein C) (p21); Core protein p19; Envelope glycoprotein E1 (gp32) (gp35); Envelope glycoprotein E2 (NS1) (gp68) (gp70); p7; Protease NS2-3 (p23) (EC 3.4.22.-); Serine protease NS3 (EC 3.4.21.98) (EC 3.6.1.15) (EC 3.6.4.13) (Hepacivirin) (NS3P) (p70); Non-structural protein 4A (NS4A) (p8); Non-structural protein 4B (NS4B) (p27); Non-structural protein 5A (NS5A) (p56); RNA-directed RNA polymerase (EC 2.7.7.48) (NS5B) (p68)]	reviewed	
-PSA7_MOUSE	Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1)	reviewed	Psma7
-PSA7_RAT	Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1)	reviewed	Psma7
-PSA7_HUMAN	Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1) (Proteasome subunit XAPC7)	reviewed	PSMA7
-PTH2_HUMAN	Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29) (Bcl-2 inhibitor of transcription 1)	reviewed	PTRH2
-PTH2_BOVIN	Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29) (Bcl-2 inhibitor of transcription)	reviewed	PTRH2
-PTH2_MOUSE	Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29)	reviewed	Ptrh2
-QKI_MOUSE	Protein quaking (MqkI) (qkI)	reviewed	Qki
-RBP2_PANTR	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (358 kDa nucleoporin) (Nuclear pore complex protein Nup358) (Nucleoporin Nup358) (Ran-binding protein 2) (RanBP2)	reviewed	RANBP2
-RBP2_MOUSE	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (Ran-binding protein 2) (RanBP2)	reviewed	Ranbp2
-RBP2_BOVIN	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (358 kDa nucleoporin) (Nuclear pore complex protein Nup358) (Nucleoporin Nup358) (Ran-binding protein 2) (RanBP2) (p270) (Fragment)	reviewed	RANBP2
-RBP2_HUMAN	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (358 kDa nucleoporin) (Nuclear pore complex protein Nup358) (Nucleoporin Nup358) (Ran-binding protein 2) (RanBP2) (p270)	reviewed	RANBP2
-RL40_MOUSE	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	Uba52
-RL40_CANLF	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
-RL40_SHEEP	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
-RL40_BOVIN	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
-RL40_RAT	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	Uba52
-RL40_FELCA	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
-RL40_MACFA	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
-RL40_PIG	Ubiquitin-60S ribosomal protein L40 (CEP52) (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40]	reviewed	UBA52
-RL40_HUMAN	Ubiquitin-60S ribosomal protein L40 (CEP52) (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40]	reviewed	UBA52
-RNF41_PONAB	E3 ubiquitin-protein ligase NRDP1 (EC 6.3.2.-) (RING finger protein 41)	reviewed	RNF41
-RL40_PONPY	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
-RNF41_HUMAN	E3 ubiquitin-protein ligase NRDP1 (EC 6.3.2.-) (RING finger protein 41)	reviewed	RNF41
-RNF41_MOUSE	E3 ubiquitin-protein ligase NRDP1 (EC 6.3.2.-) (RING finger protein 41)	reviewed	Rnf41
-RS27A_BOVIN	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	RPS27A
-RS27A_MOUSE	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	Rps27a
-RS27A_CAVPO	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	RPS27A
-RS27A_HUMAN	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	RPS27A
-RS27A_RAT	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	Rps27a
-SEPT5_RAT	Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1)	reviewed	Sept5
-SEPT5_BOVIN	Septin-5	reviewed	SEPT5
-SEPT5_HUMAN	Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1)	reviewed	SEPT5
-SEPT5_MACFA	Septin-5	reviewed	Sept5
-SEPT5_MOUSE	Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1)	reviewed	Sept5
-SIAH3_HUMAN	Seven in absentia homolog 3 (Siah-3)	reviewed	SIAH3
-SNCAP_MOUSE	Synphilin-1 (Alpha-synuclein-interacting protein)	reviewed	Sncaip
-SNCAP_HUMAN	Synphilin-1 (Sph1) (Alpha-synuclein-interacting protein)	reviewed	SNCAIP
-SUMO1_CERNI	Small ubiquitin-related modifier 1 (SUMO-1) (Sentrin)	reviewed	SUMO1
-SUMO1_BOVIN	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
-SUMO1_MOUSE	Small ubiquitin-related modifier 1 (SUMO-1) (SMT3 homolog 3) (Ubiquitin-homology domain protein PIC1) (Ubiquitin-like protein SMT3C) (Smt3C)	reviewed	Sumo1
-SUMO1_PIG	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
-SUMO1_HUMAN	Small ubiquitin-related modifier 1 (SUMO-1) (GAP-modifying protein 1) (GMP1) (SMT3 homolog 3) (Sentrin) (Ubiquitin-homology domain protein PIC1) (Ubiquitin-like protein SMT3C) (Smt3C) (Ubiquitin-like protein UBL1)	reviewed	SUMO1
-SUMO1_ICTTR	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
-SUMO1_PONAB	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
-SUMO1_RAT	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	Sumo1
-SYT11_HUMAN	Synaptotagmin-11 (Synaptotagmin XI) (SytXI)	reviewed	SYT11
-SYT11_RAT	Synaptotagmin-11 (Synaptotagmin XI) (SytXI)	reviewed	Syt11
-SYT11_MOUSE	Synaptotagmin-11 (Synaptotagmin XI) (SytXI)	reviewed	Syt11
-TDRKH_MOUSE	Tudor and KH domain-containing protein (Tudor domain-containing protein 2)	reviewed	Tdrkh
-TDRKH_HUMAN	Tudor and KH domain-containing protein (Tudor domain-containing protein 2)	reviewed	TDRKH
-TOM20_PONAB	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	TOMM20
-TOM7_MOUSE	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	Tomm7
-TOM20_BOVIN	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	TOMM20
-TOM20_RAT	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	Tomm20
-TOM20_HUMAN	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	TOMM20
-TOM7_PIG	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	TOMM7
-TOM20_MOUSE	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	Tomm20
-TOM7_BOVIN	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	TOMM7
-TOM7_HUMAN	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	TOMM7
-UB2L3_BOVIN	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (Ubiquitin carrier protein L3) (Ubiquitin-protein ligase L3)	reviewed	UBE2L3
-UB2L3_HUMAN	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (L-UBC) (UbcH7) (Ubiquitin carrier protein L3) (Ubiquitin-conjugating enzyme E2-F1) (Ubiquitin-protein ligase L3)	reviewed	UBE2L3
-UB2D3_HUMAN	Ubiquitin-conjugating enzyme E2 D3 (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme D3) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme D3) (Ubiquitin carrier protein D3) (Ubiquitin-conjugating enzyme E2(17)KB 3) (Ubiquitin-conjugating enzyme E2-17 kDa 3) (Ubiquitin-protein ligase D3)	reviewed	UBE2D3
-UB2L3_PONAB	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (Ubiquitin carrier protein L3) (Ubiquitin-protein ligase L3)	reviewed	UBE2L3
-UBC_GORGO	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
-UBC_MOUSE	Polyubiquitin-C [Cleaved into: Ubiquitin; Ubiquitin-related 1; Ubiquitin-related 2]	reviewed	Ubc
-UBB_BOVIN	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
-UBB_HORSE	Polyubiquitin-B [Cleaved into: Ubiquitin; Ubiquitin-related]	reviewed	UBB
-UBB_PONPY	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
-UBB_SHEEP	Polyubiquitin-B [Cleaved into: Ubiquitin-related; Ubiquitin]	reviewed	UBB
-UBB_HUMAN	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
-UBB_MOUSE	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	Ubb
-UBC_BOVIN	Polyubiquitin-C [Cleaved into: Ubiquitin-related; Ubiquitin]	reviewed	UBC
-UBC_PIG	Polyubiquitin-C [Cleaved into: Ubiquitin-related; Ubiquitin]	reviewed	UBC
-UBC_HUMAN	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
-UBB_CAVPO	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
-UBB_RAT	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	Ubb
-UBC_PONPY	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
-UBP30_HUMAN	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	USP30
-UB2L3_MOUSE	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (UbcM4) (Ubiquitin carrier protein L3) (Ubiquitin-protein ligase L3)	reviewed	Ube2l3
-UBB_GORGO	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
-UBB_PANTR	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
-UBC_PANTR	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
-UBC_RAT	Polyubiquitin-C [Cleaved into: Ubiquitin; Ubiquitin-related]	reviewed	Ubc
-UBP30_MOUSE	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	Usp30
-UBP30_XENTR	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	usp30
-UBP30_DANRE	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	usp30
-UBP30_RAT	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	Usp30
-VDAC1_PIG	Voltage-dependent anion-selective channel protein 1 (VDAC-1)	reviewed	VDAC1
-VDAC2_BOVIN	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (Outer mitochondrial membrane protein porin 2)	reviewed	VDAC2
-VDAC2_MOUSE	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (mVDAC2) (Outer mitochondrial membrane protein porin 2) (Voltage-dependent anion-selective channel protein 6) (VDAC-6) (mVDAC6)	reviewed	Vdac2
-VDAC3_PONAB	Voltage-dependent anion-selective channel protein 3 (VDAC-3)	reviewed	VDAC3
-VDAC3_RAT	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (rVDAC3) (Outer mitochondrial membrane protein porin 3)	reviewed	Vdac3
-VDAC1_RAT	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (rVDAC1) (Outer mitochondrial membrane protein porin 1)	reviewed	Vdac1
-VDAC2_HUMAN	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (hVDAC2) (Outer mitochondrial membrane protein porin 2)	reviewed	VDAC2
-VDAC3_BOVIN	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
-VDAC3_MOUSE	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (mVDAC3) (Outer mitochondrial membrane protein porin 3)	reviewed	Vdac3
-VDAC2_PIG	Voltage-dependent anion-selective channel protein 2 (VDAC-2)	reviewed	VDAC2
-VDAC3_HUMAN	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (hVDAC3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
-VDAC1_RABIT	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (Outer mitochondrial membrane protein porin 1)	reviewed	VDAC1
-VDAC3_PIG	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
-VDAC3_RABIT	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
-VDAC1_BOVIN	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (Brain-derived voltage-dependent anion channel 1) (BR1-VDAC) (Plasmalemmal porin)	reviewed	VDAC1
-VDAC1_HUMAN	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (hVDAC1) (Outer mitochondrial membrane protein porin 1) (Plasmalemmal porin) (Porin 31HL) (Porin 31HM)	reviewed	VDAC1
-VDAC2_MESAU	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (Outer mitochondrial membrane protein porin 2) (Fragments)	reviewed	VDAC2
-VDAC2_RABIT	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (Outer mitochondrial membrane protein porin 2)	reviewed	VDAC2
-VDAC1_MOUSE	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (mVDAC1) (Outer mitochondrial membrane protein porin 1) (Plasmalemmal porin) (Voltage-dependent anion-selective channel protein 5) (VDAC-5) (mVDAC5)	reviewed	Vdac1
-VDAC2_RAT	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (B36-VDAC) (Outer mitochondrial membrane protein porin 2)	reviewed	Vdac2
-ZN746_MOUSE	Zinc finger protein 746	reviewed	Znf746
-ZN746_BOVIN	Zinc finger protein 746	reviewed	ZNF746
-ZN746_HUMAN	Zinc finger protein 746 (Parkin-interacting substrate) (PARIS)	reviewed	ZNF746
-Q5XNR7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-B1AKC3_HUMAN	E3 ubiquitin-protein ligase parkin (Parkinson protein 2 E3 ubiquitin protein ligase isoform 2)	unreviewed	PARK2
-D3JZW5_HUMAN	Truncated parkin variant SV4,8DEL (EC 6.3.2.19) (Truncated parkin variant SV4DEL)	unreviewed	PARK2
-H0UI29_HUMAN	PARK2 co-regulated, isoform CRA_a	unreviewed	PACRG
-A0A0S2Z446_HUMAN	Parkinson disease (Autosomal recessive, juvenile) 2, parkin, isoform CRA_b (Parkinson protein 2 E3 ubiquitin protein ligase isoform 1) (Fragment)	unreviewed	PARK2
-A0A087X1E2_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-M4T4F2_HUMAN	PARK2 splice variant	unreviewed	PARK2
-A0A087WU39_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-D3K2X1_HUMAN	Truncated parkin variant SV3,8,9DEL (EC 6.3.2.19)	unreviewed	PARK2
-S4X465_HUMAN	E3 ubiquitin-protein ligase parkin isoform	unreviewed	PARK2
-X5DNX0_HUMAN	Parkinson protein 2 isoform A (Fragment)	unreviewed	PARK2
-Q5XNR8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-Q6Q2I7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-M4T2U2_HUMAN	PARK2 splice variant	unreviewed	PARK2
-Q6Q2I8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-X5DR79_HUMAN	Parkinson protein 2 isoform A (Fragment)	unreviewed	PARK2
-A0A087WX46_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-D3K2X2_HUMAN	Truncated parkin variant SV1bINS (EC 6.3.2.19)	unreviewed	PARK2
-A0A087X0Z9_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-Q6S8G7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-A0A0S2Z447_HUMAN	Parkinson protein 2 E3 ubiquitin protein ligase isoform 3 (Fragment)	unreviewed	PARK2
-A0A0A9XSY6_LYGHE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_1
-A0A146LNZ3_LYGHE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_1
-A0A0K8U0H6_BACLA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2_3
-A0A0B2UTN0_TOXCA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
-A0A0L0D9D8_THETB	Park2 co-regulated	unreviewed	
-A0A0C9RZN4_9HYME	Park2 protein	unreviewed	Park2
-T2MIZ5_HYDVU	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-W4YQE2_STRPU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Sp-Park2
-A0A146KPN6_LYGHE	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2_4
-A0A0K8V0M5_BACLA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_0
-A0A0K8VI17_BACLA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2_1
-U3FQA1_CALJA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-H2QZQ0_PANTR	PARK2 co-regulated-like (Uncharacterized protein)	unreviewed	PACRGL
-Q32P77_BOVIN	PARK2 co-regulated (Uncharacterized protein)	unreviewed	PACRG
-B8YP93_BOVIN	Truncated parkin variant SV6DEL (EC 6.3.2.19) (Uncharacterized protein)	unreviewed	PARK2
-H9FG96_MACMU	E3 ubiquitin-protein ligase parkin isoform 1 (Fragment)	unreviewed	PARK2
-H9F3T2_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
-F6U1M2_MACMU	Uncharacterized protein	unreviewed	PARK2
-H9EYJ1_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
-H9FL69_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
-G9KEZ1_MUSPF	PARK2 co-regulated-like protein (Fragment)	unreviewed	
-G3N0R1_BOVIN	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-G3N0P4_BOVIN	Uncharacterized protein	unreviewed	PARK2
-D2Y183_BOVIN	Truncated parkin variant SV3bINS (EC 6.3.2.19)	unreviewed	PARK2
-D2Y182_BOVIN	Truncated parkin variant SV8DEL (EC 6.3.2.19)	unreviewed	PARK2
-G3MYG1_BOVIN	Uncharacterized protein	unreviewed	PARK2
-D3JW61_BOVIN	Parkin variant SV9bINS (EC 6.3.2.19)	unreviewed	PARK2
-G3N0A5_BOVIN	Uncharacterized protein	unreviewed	PARK2
-D2Y181_BOVIN	Truncated parkin variant SV7DEL (EC 6.3.2.19)	unreviewed	PARK2
-F1MIV9_BOVIN	Uncharacterized protein	unreviewed	PARK2
-D3JW60_BOVIN	Truncated parkin variant SV7bINS (EC 6.3.2.19)	unreviewed	PARK2
-F6TQI5_ORNAN	Uncharacterized protein	unreviewed	PARK2
-W5P3W8_SHEEP	Uncharacterized protein	unreviewed	PARK2
-F6SBC0_HORSE	Uncharacterized protein	unreviewed	PARK2
-F6SY58_HORSE	Uncharacterized protein	unreviewed	PARK2
-G3SS82_LOXAF	Uncharacterized protein (Fragment)	unreviewed	PARK2
-A0A0D9RIL3_CHLSB	Uncharacterized protein	unreviewed	PARK2
-Q2L7G1_PIG	Parkin (Fragment)	unreviewed	PARK2
-Q1WDP3_PIG	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-Q2L7G2_PIG	Parkin (Fragment)	unreviewed	PARK2
-Q2L7G3_PIG	Parkin (Fragment)	unreviewed	PARK2
-Q19K47_PIG	Parkin splice variant	unreviewed	PARK2
-Q2I0E9_PIG	Parkin (Fragment)	unreviewed	PARK2
-B9VH11_MACFA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-B8YGJ6_MACFA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-G1PXZ4_MYOLU	Uncharacterized protein	unreviewed	PARK2
-Q0VB91_MOUSE	PARK2 co-regulated (Park2 co-regulated, isoform CRA_a) (Parkin coregulated gene protein homolog)	unreviewed	Pacrg
-S4X294_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
-S4X690_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
-Q8VHY5_RAT	E3 ubiquitin-protein ligase parkin isoform (Parkin transcript variant 7)	unreviewed	Park2
-D3JW63_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2
-S4X0T3_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
-S4X0T1_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2
-A0JPP9_RAT	Park2 co-regulated	unreviewed	Pacrg
-D3JVU6_RAT	Parkin variant SV4bINS (EC 6.3.2.19)	unreviewed	Park2
-S4X470_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
-D3JW62_RAT	Parkin variant SV5DEL (EC 6.3.2.19)	unreviewed	Park2
-D3JZW3_RAT	Truncated parkin variant SV4cINS (EC 6.3.2.19)	unreviewed	Park2
-D3JZW4_RAT	Truncated parkin variant SV6bINS (EC 6.3.2.19)	unreviewed	Park2
-D3JVU5_RAT	Truncated parkin variant SV2bINS (EC 6.3.2.19)	unreviewed	Park2
-A0A0P6JWS9_HETGA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-B8YP88_MOUSE	Truncated parkin variant SV3-6DEL (EC 6.3.2.19)	unreviewed	Park2
-D3JSV6_MOUSE	Truncated parkin variant SV3-7DEL (EC 6.3.2.19)	unreviewed	Park2
-A0A087WQJ2_MOUSE	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2
-B8YP90_MOUSE	Truncated parkin variant SV6DEL (EC 6.3.2.19)	unreviewed	Park2
-J3QMF8_MOUSE	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
-F6TNF2_MOUSE	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
-Q3UVA0_MOUSE	Putative uncharacterized protein (Fragment)	unreviewed	Park2
-B8YP89_MOUSE	Truncated parkin variant SV3DEL (EC 6.3.2.19)	unreviewed	Park2
-Q561U2_DANRE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-V9LE88_CALMI	Park2 co-regulated (Fragment)	unreviewed	
-V9KXI3_CALMI	Park2 co-regulated	unreviewed	
-V8P2J5_OPHHA	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2
-I3JJF6_ORENI	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-A0A0H2UKX4_DANRE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-F1Q9C4_DANRE	Uncharacterized protein (Fragment)	unreviewed	park2
-A5WUG4_DANRE	Uncharacterized protein (Fragment)	unreviewed	park2
-A0A151M2I6_ALLMI	E3 ubiquitin-protein ligase parkin isoform B	unreviewed	PARK2
-A0A151M2E6_ALLMI	E3 ubiquitin-protein ligase parkin isoform A	unreviewed	PARK2
-H2SS28_TAKRU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-H2SS25_TAKRU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-H2SS26_TAKRU	Uncharacterized protein	unreviewed	park2
-H2SS27_TAKRU	Uncharacterized protein	unreviewed	park2
+Entry	Entry name	Protein names	Status	Gene names  (primary )
+O60260	PRKN2_HUMAN	E3 ubiquitin-protein ligase parkin (Parkin) (EC 6.3.2.-) (Parkinson juvenile disease protein 2) (Parkinson disease protein 2)	reviewed	PARK2
+Q9WVS6	PRKN2_MOUSE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	reviewed	Park2
+Q9JK66	PRKN2_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	reviewed	Park2
+Q9BXM7	PINK1_HUMAN	Serine/threonine-protein kinase PINK1, mitochondrial (EC 2.7.11.1) (BRPK) (PTEN-induced putative kinase protein 1)	reviewed	PINK1
+Q96M98	PACRG_HUMAN	Parkin coregulated gene protein (Molecular chaperone/chaperonin-binding protein) (PARK2 coregulated gene protein)	reviewed	PACRG
+Q5S007	LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
+F1NWU0	F1NWU0_CHICK	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+H2QU08	H2QU08_PANTR	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+F6U1L3	F6U1L3_MACMU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+H0ZGE3	H0ZGE3_TAEGU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+H0X3U6	H0X3U6_OTOGA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+I3N341	I3N341_ICTTR	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+U3KCF7	U3KCF7_FICAL	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+G1KBB3	G1KBB3_ANOCA	Uncharacterized protein	unreviewed	PARK2
+G3MY23	G3MY23_BOVIN	Uncharacterized protein	unreviewed	PARK2
+U3IYU6	U3IYU6_ANAPL	Uncharacterized protein	unreviewed	PARK2
+G1P0U2	G1P0U2_MYOLU	Uncharacterized protein	unreviewed	PARK2
+H2PKT8	H2PKT8_PONAB	Uncharacterized protein	unreviewed	PARK2
+H0V739	H0V739_CAVPO	Uncharacterized protein	unreviewed	PARK2
+F7HWP0	F7HWP0_CALJA	Uncharacterized protein	unreviewed	PARK2
+F7C8N2	F7C8N2_ORNAN	Uncharacterized protein	unreviewed	PARK2
+G3VUX3	G3VUX3_SARHA	Uncharacterized protein (Fragment)	unreviewed	PARK2
+D2HF43	D2HF43_AILME	Uncharacterized protein (Fragment)	unreviewed	PARK2
+A0A096MX93	A0A096MX93_PAPAN	Uncharacterized protein	unreviewed	PARK2
+M3WQZ4	M3WQZ4_FELCA	Uncharacterized protein	unreviewed	PARK2
+F6RA22	F6RA22_HORSE	Uncharacterized protein	unreviewed	PARK2
+P68510	1433F_MOUSE	14-3-3 protein eta	reviewed	Ywhah
+Q9WVM7	AIMP2_CRIGR	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	AIMP2
+Q32PX2	AIMP2_RAT	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	Aimp2
+Q0II26	AIMP2_BOVIN	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	AIMP2
+Q8R010	AIMP2_MOUSE	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	Aimp2
+Q13155	AIMP2_HUMAN	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1)	reviewed	AIMP2
+Q8CI61	BAG4_MOUSE	BAG family molecular chaperone regulator 4 (BAG-4) (Bcl-2-associated athanogene 4) (Silencer of death domains)	reviewed	Bag4
+Q9UL15	BAG5_HUMAN	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	BAG5
+Q6R755	BCL2_CANLF	Apoptosis regulator Bcl-2	reviewed	BCL2
+Q8CI32	BAG5_MOUSE	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	Bag5
+P49950	BCL2_RAT	Apoptosis regulator Bcl-2	reviewed	Bcl2
+Q5QJC9	BAG5_RAT	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	Bag5
+P54252	ATX3_HUMAN	Ataxin-3 (EC 3.4.19.12) (Machado-Joseph disease protein 1) (Spinocerebellar ataxia type 3 protein)	reviewed	ATXN3
+Q9JJV8	BCL2_CRIGR	Apoptosis regulator Bcl-2	reviewed	BCL2
+O95429	BAG4_HUMAN	BAG family molecular chaperone regulator 4 (BAG-4) (Bcl-2-associated athanogene 4) (Silencer of death domains)	reviewed	BAG4
+O02718	BCL2_BOVIN	Apoptosis regulator Bcl-2	reviewed	BCL2
+P10417	BCL2_MOUSE	Apoptosis regulator Bcl-2	reviewed	Bcl2
+Q2TA08	BAG5_BOVIN	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	BAG5
+P10415	BCL2_HUMAN	Apoptosis regulator Bcl-2	reviewed	BCL2
+Q80U30	CL16A_MOUSE	Protein CLEC16A	reviewed	Clec16a
+Q6IQX7	CHSS2_MOUSE	Chondroitin sulfate synthase 2 (EC 2.4.1.175) (EC 2.4.1.226) (Chondroitin glucuronyltransferase 2) (Chondroitin-polymerizing factor) (ChPF) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase II) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase II) (N-acetylgalactosaminyltransferase 2)	reviewed	Chpf
+B0K020	CISD1_RAT	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	Cisd1
+Q2KHT3	CL16A_HUMAN	Protein CLEC16A (C-type lectin domain family 16 member A)	reviewed	CLEC16A
+Q8IZ52	CHSS2_HUMAN	Chondroitin sulfate synthase 2 (EC 2.4.1.175) (EC 2.4.1.226) (Chondroitin glucuronyltransferase 2) (Chondroitin-polymerizing factor) (ChPF) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase II) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase II) (N-acetylgalactosaminyltransferase 2)	reviewed	CHPF
+Q9NZ45	CISD1_HUMAN	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	CISD1
+Q3ZBU2	CISD1_BOVIN	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	CISD1
+Q91WS0	CISD1_MOUSE	CDGSH iron-sulfur domain-containing protein 1 (MitoNEET)	reviewed	Cisd1
+Q9Y3I1	FBX7_HUMAN	F-box only protein 7	reviewed	FBXO7
+O35465	FKBP8_MOUSE	Peptidyl-prolyl cis-trans isomerase FKBP8 (PPIase FKBP8) (EC 5.2.1.8) (38 kDa FK506-binding protein) (38 kDa FKBP) (FKBP-38) (mFKBP38) (FK506-binding protein 8) (FKBP-8) (FKBPR38) (Rotamase)	reviewed	Fkbp8
+Q68FS3	FBX7_RAT	F-box only protein 7	reviewed	Fbxo7
+Q2T9S7	FBX7_BOVIN	F-box only protein 7	reviewed	FBXO7
+Q3B7U9	FKBP8_RAT	Peptidyl-prolyl cis-trans isomerase FKBP8 (PPIase FKBP8) (EC 5.2.1.8) (FK506-binding protein 8) (FKBP-8) (Rotamase)	reviewed	Fkbp8
+Q3U7U3	FBX7_MOUSE	F-box only protein 7	reviewed	Fbxo7
+Q14318	FKBP8_HUMAN	Peptidyl-prolyl cis-trans isomerase FKBP8 (PPIase FKBP8) (EC 5.2.1.8) (38 kDa FK506-binding protein) (38 kDa FKBP) (FKBP-38) (hFKBP38) (FK506-binding protein 8) (FKBP-8) (FKBPR38) (Rotamase)	reviewed	FKBP8
+A6QQZ0	GDAP1_BOVIN	Ganglioside-induced differentiation-associated protein 1 (GDAP1)	reviewed	GDAP1
+Q8TB36	GDAP1_HUMAN	Ganglioside-induced differentiation-associated protein 1 (GDAP1)	reviewed	GDAP1
+O88741	GDAP1_MOUSE	Ganglioside-induced differentiation-associated protein 1 (GDAP1)	reviewed	Gdap1
+Q9QY42	GPR37_MOUSE	Prosaposin receptor GPR37 (G-protein coupled receptor 37)	reviewed	Gpr37
+Q9QYC6	GPR37_RAT	Prosaposin receptor GPR37 (G-protein coupled receptor 37) (G-protein coupled receptor CNS1)	reviewed	Gpr37
+O15354	GPR37_HUMAN	Prosaposin receptor GPR37 (Endothelin B receptor-like protein 1) (ETBR-LP-1) (G-protein coupled receptor 37) (Parkin-associated endothelin receptor-like receptor) (PAELR)	reviewed	GPR37
+Q27975	HS71A_BOVIN	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70.1)	reviewed	HSPA1A
+P0DMV8	HS71A_HUMAN	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1)	reviewed	HSPA1A
+Q4R888	HS71L_MACFA	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L)	reviewed	HSPA1L
+Q7YQC6	HSP71_CANLF	Heat shock 70 kDa protein 1	reviewed	HSPA1
+Q5R7D3	HSP71_PONAB	Heat shock 70 kDa protein 1	reviewed	HSPA1
+P11142	HSP7C_HUMAN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	reviewed	HSPA8
+Q61696	HS71A_MOUSE	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 3) (HSP70.3) (Hsp68)	reviewed	Hspa1a
+P0DMV9	HS71B_HUMAN	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70-2) (HSP70.2)	reviewed	HSPA1B
+Q4U0F3	HS71B_BOSMU	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70.2)	reviewed	HSPA1B
+A5A8V7	HS71L_PIG	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L)	reviewed	HSPA1L
+P0DMW0	HS71A_RAT	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 2) (HSP70-2) (HSP70.2)	reviewed	Hspa1a
+P17879	HS71B_MOUSE	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 1) (HSP70.1)	reviewed	Hspa1b
+P16627	HS71L_MOUSE	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Heat shock 70 kDa-like protein 1) (Spermatid-specific heat shock protein 70)	reviewed	Hspa1l
+Q27965	HS71B_BOVIN	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70.2)	reviewed	HSPA1B
+Q6S4N2	HS71B_PIG	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70.2)	reviewed	HSPA1B
+P0CB32	HS71L_BOVIN	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L)	reviewed	HSPA1L
+P34931	HS71L_HUMAN	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Heat shock 70 kDa protein 1-Hom) (HSP70-Hom)	reviewed	HSPA1L
+Q5NVM9	HSP7C_PONAB	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+Q71U34	HSP7C_SAGOE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Intracellular vitamin D-binding protein 1)	reviewed	HSPA8
+P34930	HS71A_PIG	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70.1)	reviewed	HSPA1A
+P0DMW1	HS71B_RAT	Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1)	reviewed	Hspa1b
+P86237	HS71L_MESAU	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Fragments)	reviewed	HSPA1L
+P55063	HS71L_RAT	Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Heat shock 70 kDa protein 3) (HSP70.3)	reviewed	Hspa1l
+P19378	HSP7C_CRIGR	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+P19120	HSP7C_BOVIN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+P63017	HSP7C_MOUSE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
+P63018	HSP7C_RAT	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
+Q28222	HSP71_CHLAE	Heat shock 70 kDa protein 1	reviewed	HSPA1
+A2Q0Z1	HSP7C_HORSE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+P0C2C3	MARC2_PIG	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2) (Fragments)	reviewed	MARC2
+Q5S006	LRRK2_MOUSE	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1)	reviewed	Lrrk2
+Q1LZH1	MARC2_BOVIN	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	MARC2
+Q922Q1	MARC2_MOUSE	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	Marc2
+Q969Z3	MARC2_HUMAN	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	MARC2
+Q811U4	MFN1_MOUSE	Mitofusin-1 (EC 3.6.5.-) (Transmembrane GTPase MFN1)	reviewed	Mfn1
+Q80U63	MFN2_MOUSE	Mitofusin-2 (EC 3.6.5.-) (Hypertension-related protein 1) (Mitochondrial assembly regulatory factor) (HSG protein) (Transmembrane GTPase MFN2)	reviewed	Mfn2
+Q9GKW0	MARC2_MACFA	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	MARC2
+O88994	MARC2_RAT	Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.-.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2)	reviewed	Marc2
+Q8IWA4	MFN1_HUMAN	Mitofusin-1 (EC 3.6.5.-) (Fzo homolog) (Transmembrane GTPase MFN1)	reviewed	MFN1
+Q8R500	MFN2_RAT	Mitofusin-2 (EC 3.6.5.-) (Mitochondrial transmembrane GTPase FZO1A) (Protein HSG) (Transmembrane GTPase MFN2)	reviewed	Mfn2
+Q8IXI2	MIRO1_HUMAN	Mitochondrial Rho GTPase 1 (MIRO-1) (hMiro-1) (EC 3.6.5.-) (Rac-GTP-binding protein-like protein) (Ras homolog gene family member T1)	reviewed	RHOT1
+Q8R4Z9	MFN1_RAT	Mitofusin-1 (EC 3.6.5.-) (Mitochondrial transmembrane GTPase FZO1B) (Transmembrane GTPase MFN1)	reviewed	Mfn1
+O95140	MFN2_HUMAN	Mitofusin-2 (EC 3.6.5.-) (Transmembrane GTPase MFN2)	reviewed	MFN2
+Q8BG51	MIRO1_MOUSE	Mitochondrial Rho GTPase 1 (MIRO-1) (EC 3.6.5.-) (Ras homolog gene family member T1)	reviewed	Rhot1
+Q2HJF8	MIRO1_BOVIN	Mitochondrial Rho GTPase 1 (MIRO-1) (EC 3.6.5.-) (Ras homolog gene family member T1)	reviewed	RHOT1
+Q13505	MTX1_HUMAN	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
+Q969V5	MUL1_HUMAN	Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 6.3.2.-) (E3 SUMO-protein ligase MUL1) (E3 ubiquitin-protein ligase MUL1) (Growth inhibition and death E3 ligase) (Mitochondrial-anchored protein ligase) (MAPL) (Putative NF-kappa-B-activating protein 266) (RING finger protein 218)	reviewed	MUL1
+Q2TBS1	MTX1_BOVIN	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
+P47802	MTX1_MOUSE	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	Mtx1
+Q4R7G8	MUL1_MACFA	Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 6.3.2.-) (E3 ubiquitin-protein ligase MUL1)	reviewed	MUL1
+Q4R3I0	MTX1_MACFA	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
+Q27HK4	MTX1_PIG	Metaxin-1 (Mitochondrial outer membrane import complex protein 1)	reviewed	MTX1
+Q8VCM5	MUL1_MOUSE	Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 6.3.2.-) (E3 ubiquitin-protein ligase MUL1) (Growth inhibition and death E3 ligase)	reviewed	Mul1
+Q9DAK2	PACRG_MOUSE	Parkin coregulated gene protein homolog (Hypertension-related protein 1-like protein) (PARK2 coregulated gene protein)	reviewed	Pacrg
+Q5E946	PARK7_BOVIN	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Parkinson disease protein 7 homolog)	reviewed	PARK7
+O88767	PARK7_RAT	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Contraception-associated protein 1) (Protein CAP1) (Fertility protein SP22) (Parkinson disease protein 7 homolog)	reviewed	Park7
+Q99497	PARK7_HUMAN	Protein deglycase DJ-1 (DJ-1) (EC 3.1.2.-) (EC 3.5.1.-) (Oncogene DJ1) (Parkinson disease protein 7)	reviewed	PARK7
+P47816	PDCD2_RAT	Programmed cell death protein 2 (Zinc finger protein Rp-8)	reviewed	Pdcd2
+Q15645	PCH2_HUMAN	Pachytene checkpoint protein 2 homolog (Human papillomavirus type 16 E1 protein-binding protein) (16E1-BP) (HPV16 E1 protein-binding protein) (Thyroid hormone receptor interactor 13) (Thyroid receptor-interacting protein 13) (TR-interacting protein 13) (TRIP-13)	reviewed	TRIP13
+Q16342	PDCD2_HUMAN	Programmed cell death protein 2 (Zinc finger MYND domain-containing protein 7) (Zinc finger protein Rp-8)	reviewed	PDCD2
+Q95LI9	PARK7_CHLAE	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Parkinson disease protein 7 homolog)	reviewed	PARK7
+Q7TQ35	PARK7_MESAU	Protein deglycase DJ-1 (EC 3.1.2.-) (EC 3.5.1.-) (Contraception-associated protein 1) (Parkinson disease protein 7 homolog) [Cleaved into: Protein deglycase DJ-1, N-terminally processed]	reviewed	PARK7
+Q2YDC9	PDCD2_BOVIN	Programmed cell death protein 2	reviewed	PDCD2
+P46718	PDCD2_MOUSE	Programmed cell death protein 2 (Zinc finger protein Rp-8)	reviewed	Pdcd2
+Q99MQ3	PINK1_MOUSE	Serine/threonine-protein kinase PINK1, mitochondrial (EC 2.7.11.1) (BRPK) (PTEN-induced putative kinase protein 1)	reviewed	Pink1
+Q99IB8	POLG_HCVJF	Genome polyprotein [Cleaved into: Core protein p21 (Capsid protein C) (p21); Core protein p19; Envelope glycoprotein E1 (gp32) (gp35); Envelope glycoprotein E2 (NS1) (gp68) (gp70); p7; Protease NS2-3 (p23) (EC 3.4.22.-); Serine protease NS3 (EC 3.4.21.98) (EC 3.6.1.15) (EC 3.6.4.13) (Hepacivirin) (NS3P) (p70); Non-structural protein 4A (NS4A) (p8); Non-structural protein 4B (NS4B) (p27); Non-structural protein 5A (NS5A) (p56); RNA-directed RNA polymerase (EC 2.7.7.48) (NS5B) (p68)]	reviewed	
+Q9Z2U0	PSA7_MOUSE	Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1)	reviewed	Psma7
+P48004	PSA7_RAT	Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1)	reviewed	Psma7
+O14818	PSA7_HUMAN	Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1) (Proteasome subunit XAPC7)	reviewed	PSMA7
+Q9Y3E5	PTH2_HUMAN	Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29) (Bcl-2 inhibitor of transcription 1)	reviewed	PTRH2
+Q3ZBL5	PTH2_BOVIN	Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29) (Bcl-2 inhibitor of transcription)	reviewed	PTRH2
+Q8R2Y8	PTH2_MOUSE	Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29)	reviewed	Ptrh2
+Q9QYS9	QKI_MOUSE	Protein quaking (MqkI) (qkI)	reviewed	Qki
+H2QII6	RBP2_PANTR	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (358 kDa nucleoporin) (Nuclear pore complex protein Nup358) (Nucleoporin Nup358) (Ran-binding protein 2) (RanBP2)	reviewed	RANBP2
+Q9ERU9	RBP2_MOUSE	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (Ran-binding protein 2) (RanBP2)	reviewed	Ranbp2
+P48820	RBP2_BOVIN	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (358 kDa nucleoporin) (Nuclear pore complex protein Nup358) (Nucleoporin Nup358) (Ran-binding protein 2) (RanBP2) (p270) (Fragment)	reviewed	RANBP2
+P49792	RBP2_HUMAN	E3 SUMO-protein ligase RanBP2 (EC 6.3.2.-) (358 kDa nucleoporin) (Nuclear pore complex protein Nup358) (Nucleoporin Nup358) (Ran-binding protein 2) (RanBP2) (p270)	reviewed	RANBP2
+P62984	RL40_MOUSE	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	Uba52
+P63050	RL40_CANLF	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
+P0C276	RL40_SHEEP	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
+P63048	RL40_BOVIN	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
+P62986	RL40_RAT	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	Uba52
+P63052	RL40_FELCA	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
+P0C273	RL40_MACFA	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
+P63053	RL40_PIG	Ubiquitin-60S ribosomal protein L40 (CEP52) (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40]	reviewed	UBA52
+P62987	RL40_HUMAN	Ubiquitin-60S ribosomal protein L40 (CEP52) (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40]	reviewed	UBA52
+Q5R7T5	RNF41_PONAB	E3 ubiquitin-protein ligase NRDP1 (EC 6.3.2.-) (RING finger protein 41)	reviewed	RNF41
+P0C275	RL40_PONPY	Ubiquitin-60S ribosomal protein L40 (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (CEP52)]	reviewed	UBA52
+Q9H4P4	RNF41_HUMAN	E3 ubiquitin-protein ligase NRDP1 (EC 6.3.2.-) (RING finger protein 41)	reviewed	RNF41
+Q8BH75	RNF41_MOUSE	E3 ubiquitin-protein ligase NRDP1 (EC 6.3.2.-) (RING finger protein 41)	reviewed	Rnf41
+P62992	RS27A_BOVIN	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	RPS27A
+P62983	RS27A_MOUSE	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	Rps27a
+P62978	RS27A_CAVPO	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	RPS27A
+P62979	RS27A_HUMAN	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	RPS27A
+P62982	RS27A_RAT	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	reviewed	Rps27a
+Q9JJM9	SEPT5_RAT	Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1)	reviewed	Sept5
+Q0VC68	SEPT5_BOVIN	Septin-5	reviewed	SEPT5
+Q99719	SEPT5_HUMAN	Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1)	reviewed	SEPT5
+Q9BGQ3	SEPT5_MACFA	Septin-5	reviewed	Sept5
+Q9Z2Q6	SEPT5_MOUSE	Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1)	reviewed	Sept5
+Q8IW03	SIAH3_HUMAN	Seven in absentia homolog 3 (Siah-3)	reviewed	SIAH3
+Q99ME3	SNCAP_MOUSE	Synphilin-1 (Alpha-synuclein-interacting protein)	reviewed	Sncaip
+Q9Y6H5	SNCAP_HUMAN	Synphilin-1 (Sph1) (Alpha-synuclein-interacting protein)	reviewed	SNCAIP
+Q9MZD5	SUMO1_CERNI	Small ubiquitin-related modifier 1 (SUMO-1) (Sentrin)	reviewed	SUMO1
+Q5E9D1	SUMO1_BOVIN	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
+P63166	SUMO1_MOUSE	Small ubiquitin-related modifier 1 (SUMO-1) (SMT3 homolog 3) (Ubiquitin-homology domain protein PIC1) (Ubiquitin-like protein SMT3C) (Smt3C)	reviewed	Sumo1
+A7WLH8	SUMO1_PIG	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
+P63165	SUMO1_HUMAN	Small ubiquitin-related modifier 1 (SUMO-1) (GAP-modifying protein 1) (GMP1) (SMT3 homolog 3) (Sentrin) (Ubiquitin-homology domain protein PIC1) (Ubiquitin-like protein SMT3C) (Smt3C) (Ubiquitin-like protein UBL1)	reviewed	SUMO1
+Q2EF74	SUMO1_ICTTR	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
+Q5R6J4	SUMO1_PONAB	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	SUMO1
+Q5I0H3	SUMO1_RAT	Small ubiquitin-related modifier 1 (SUMO-1)	reviewed	Sumo1
+Q9BT88	SYT11_HUMAN	Synaptotagmin-11 (Synaptotagmin XI) (SytXI)	reviewed	SYT11
+O08835	SYT11_RAT	Synaptotagmin-11 (Synaptotagmin XI) (SytXI)	reviewed	Syt11
+Q9R0N3	SYT11_MOUSE	Synaptotagmin-11 (Synaptotagmin XI) (SytXI)	reviewed	Syt11
+Q80VL1	TDRKH_MOUSE	Tudor and KH domain-containing protein (Tudor domain-containing protein 2)	reviewed	Tdrkh
+Q9Y2W6	TDRKH_HUMAN	Tudor and KH domain-containing protein (Tudor domain-containing protein 2)	reviewed	TDRKH
+Q5RA31	TOM20_PONAB	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	TOMM20
+Q9D173	TOM7_MOUSE	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	Tomm7
+A6H7B1	TOM20_BOVIN	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	TOMM20
+Q62760	TOM20_RAT	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	Tomm20
+Q15388	TOM20_HUMAN	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	TOMM20
+A1XQS2	TOM7_PIG	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	TOMM7
+Q9DCC8	TOM20_MOUSE	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	reviewed	Tomm20
+Q2KI08	TOM7_BOVIN	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	TOMM7
+Q9P0U1	TOM7_HUMAN	Mitochondrial import receptor subunit TOM7 homolog (Translocase of outer membrane 7 kDa subunit homolog)	reviewed	TOMM7
+Q3MHP1	UB2L3_BOVIN	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (Ubiquitin carrier protein L3) (Ubiquitin-protein ligase L3)	reviewed	UBE2L3
+P68036	UB2L3_HUMAN	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (L-UBC) (UbcH7) (Ubiquitin carrier protein L3) (Ubiquitin-conjugating enzyme E2-F1) (Ubiquitin-protein ligase L3)	reviewed	UBE2L3
+P61077	UB2D3_HUMAN	Ubiquitin-conjugating enzyme E2 D3 (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme D3) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme D3) (Ubiquitin carrier protein D3) (Ubiquitin-conjugating enzyme E2(17)KB 3) (Ubiquitin-conjugating enzyme E2-17 kDa 3) (Ubiquitin-protein ligase D3)	reviewed	UBE2D3
+Q5R5I4	UB2L3_PONAB	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (Ubiquitin carrier protein L3) (Ubiquitin-protein ligase L3)	reviewed	UBE2L3
+P0CG66	UBC_GORGO	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
+P0CG50	UBC_MOUSE	Polyubiquitin-C [Cleaved into: Ubiquitin; Ubiquitin-related 1; Ubiquitin-related 2]	reviewed	Ubc
+P0CG53	UBB_BOVIN	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
+Q8MKD1	UBB_HORSE	Polyubiquitin-B [Cleaved into: Ubiquitin; Ubiquitin-related]	reviewed	UBB
+P0CG60	UBB_PONPY	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
+P0CG55	UBB_SHEEP	Polyubiquitin-B [Cleaved into: Ubiquitin-related; Ubiquitin]	reviewed	UBB
+P0CG47	UBB_HUMAN	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
+P0CG49	UBB_MOUSE	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	Ubb
+P0CH28	UBC_BOVIN	Polyubiquitin-C [Cleaved into: Ubiquitin-related; Ubiquitin]	reviewed	UBC
+P0CG68	UBC_PIG	Polyubiquitin-C [Cleaved into: Ubiquitin-related; Ubiquitin]	reviewed	UBC
+P0CG48	UBC_HUMAN	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
+P0CG54	UBB_CAVPO	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
+P0CG51	UBB_RAT	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	Ubb
+P0CG61	UBC_PONPY	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
+Q70CQ3	UBP30_HUMAN	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	USP30
+P68037	UB2L3_MOUSE	Ubiquitin-conjugating enzyme E2 L3 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L3) (UbcM4) (Ubiquitin carrier protein L3) (Ubiquitin-protein ligase L3)	reviewed	Ube2l3
+P0CG67	UBB_GORGO	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
+P0CG65	UBB_PANTR	Polyubiquitin-B [Cleaved into: Ubiquitin]	reviewed	UBB
+P0CG64	UBC_PANTR	Polyubiquitin-C [Cleaved into: Ubiquitin]	reviewed	UBC
+Q63429	UBC_RAT	Polyubiquitin-C [Cleaved into: Ubiquitin; Ubiquitin-related]	reviewed	Ubc
+Q3UN04	UBP30_MOUSE	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	Usp30
+A4QNN3	UBP30_XENTR	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	usp30
+A2BGT0	UBP30_DANRE	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	usp30
+D3ZPG5	UBP30_RAT	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	reviewed	Usp30
+Q9MZ16	VDAC1_PIG	Voltage-dependent anion-selective channel protein 1 (VDAC-1)	reviewed	VDAC1
+P68002	VDAC2_BOVIN	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (Outer mitochondrial membrane protein porin 2)	reviewed	VDAC2
+Q60930	VDAC2_MOUSE	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (mVDAC2) (Outer mitochondrial membrane protein porin 2) (Voltage-dependent anion-selective channel protein 6) (VDAC-6) (mVDAC6)	reviewed	Vdac2
+Q5R7V4	VDAC3_PONAB	Voltage-dependent anion-selective channel protein 3 (VDAC-3)	reviewed	VDAC3
+Q9R1Z0	VDAC3_RAT	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (rVDAC3) (Outer mitochondrial membrane protein porin 3)	reviewed	Vdac3
+Q9Z2L0	VDAC1_RAT	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (rVDAC1) (Outer mitochondrial membrane protein porin 1)	reviewed	Vdac1
+P45880	VDAC2_HUMAN	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (hVDAC2) (Outer mitochondrial membrane protein porin 2)	reviewed	VDAC2
+Q9MZ13	VDAC3_BOVIN	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
+Q60931	VDAC3_MOUSE	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (mVDAC3) (Outer mitochondrial membrane protein porin 3)	reviewed	Vdac3
+Q9MZ15	VDAC2_PIG	Voltage-dependent anion-selective channel protein 2 (VDAC-2)	reviewed	VDAC2
+Q9Y277	VDAC3_HUMAN	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (hVDAC3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
+Q9TT15	VDAC1_RABIT	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (Outer mitochondrial membrane protein porin 1)	reviewed	VDAC1
+Q29380	VDAC3_PIG	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
+Q9TT13	VDAC3_RABIT	Voltage-dependent anion-selective channel protein 3 (VDAC-3) (Outer mitochondrial membrane protein porin 3)	reviewed	VDAC3
+P45879	VDAC1_BOVIN	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (Brain-derived voltage-dependent anion channel 1) (BR1-VDAC) (Plasmalemmal porin)	reviewed	VDAC1
+P21796	VDAC1_HUMAN	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (hVDAC1) (Outer mitochondrial membrane protein porin 1) (Plasmalemmal porin) (Porin 31HL) (Porin 31HM)	reviewed	VDAC1
+P86223	VDAC2_MESAU	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (Outer mitochondrial membrane protein porin 2) (Fragments)	reviewed	VDAC2
+P68003	VDAC2_RABIT	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (Outer mitochondrial membrane protein porin 2)	reviewed	VDAC2
+Q60932	VDAC1_MOUSE	Voltage-dependent anion-selective channel protein 1 (VDAC-1) (mVDAC1) (Outer mitochondrial membrane protein porin 1) (Plasmalemmal porin) (Voltage-dependent anion-selective channel protein 5) (VDAC-5) (mVDAC5)	reviewed	Vdac1
+P81155	VDAC2_RAT	Voltage-dependent anion-selective channel protein 2 (VDAC-2) (B36-VDAC) (Outer mitochondrial membrane protein porin 2)	reviewed	Vdac2
+Q3U133	ZN746_MOUSE	Zinc finger protein 746	reviewed	Znf746
+Q3B7M4	ZN746_BOVIN	Zinc finger protein 746	reviewed	ZNF746
+Q6NUN9	ZN746_HUMAN	Zinc finger protein 746 (Parkin-interacting substrate) (PARIS)	reviewed	ZNF746
+Q5XNR7	Q5XNR7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+B1AKC3	B1AKC3_HUMAN	E3 ubiquitin-protein ligase parkin (Parkinson protein 2 E3 ubiquitin protein ligase isoform 2)	unreviewed	PARK2
+D3JZW5	D3JZW5_HUMAN	Truncated parkin variant SV4,8DEL (EC 6.3.2.19) (Truncated parkin variant SV4DEL)	unreviewed	PARK2
+H0UI29	H0UI29_HUMAN	PARK2 co-regulated, isoform CRA_a	unreviewed	PACRG
+A0A0S2Z446	A0A0S2Z446_HUMAN	Parkinson disease (Autosomal recessive, juvenile) 2, parkin, isoform CRA_b (Parkinson protein 2 E3 ubiquitin protein ligase isoform 1) (Fragment)	unreviewed	PARK2
+A0A087X1E2	A0A087X1E2_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+M4T4F2	M4T4F2_HUMAN	PARK2 splice variant	unreviewed	PARK2
+A0A087WU39	A0A087WU39_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+D3K2X1	D3K2X1_HUMAN	Truncated parkin variant SV3,8,9DEL (EC 6.3.2.19)	unreviewed	PARK2
+S4X465	S4X465_HUMAN	E3 ubiquitin-protein ligase parkin isoform	unreviewed	PARK2
+X5DNX0	X5DNX0_HUMAN	Parkinson protein 2 isoform A (Fragment)	unreviewed	PARK2
+Q5XNR8	Q5XNR8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+Q6Q2I7	Q6Q2I7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+M4T2U2	M4T2U2_HUMAN	PARK2 splice variant	unreviewed	PARK2
+Q6Q2I8	Q6Q2I8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+X5DR79	X5DR79_HUMAN	Parkinson protein 2 isoform A (Fragment)	unreviewed	PARK2
+A0A087WX46	A0A087WX46_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+D3K2X2	D3K2X2_HUMAN	Truncated parkin variant SV1bINS (EC 6.3.2.19)	unreviewed	PARK2
+A0A087X0Z9	A0A087X0Z9_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+Q6S8G7	Q6S8G7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+A0A0S2Z447	A0A0S2Z447_HUMAN	Parkinson protein 2 E3 ubiquitin protein ligase isoform 3 (Fragment)	unreviewed	PARK2
+A0A0A9XSY6	A0A0A9XSY6_LYGHE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_1
+A0A146LNZ3	A0A146LNZ3_LYGHE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_1
+A0A0K8U0H6	A0A0K8U0H6_BACLA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2_3
+A0A0B2UTN0	A0A0B2UTN0_TOXCA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
+A0A0L0D9D8	A0A0L0D9D8_THETB	Park2 co-regulated	unreviewed	
+A0A0C9RZN4	A0A0C9RZN4_9HYME	Park2 protein	unreviewed	Park2
+T2MIZ5	T2MIZ5_HYDVU	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+W4YQE2	W4YQE2_STRPU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Sp-Park2
+A0A146KPN6	A0A146KPN6_LYGHE	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2_4
+A0A0K8V0M5	A0A0K8V0M5_BACLA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_0
+A0A0K8VI17	A0A0K8VI17_BACLA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2_1
+U3FQA1	U3FQA1_CALJA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+H2QZQ0	H2QZQ0_PANTR	PARK2 co-regulated-like (Uncharacterized protein)	unreviewed	PACRGL
+Q32P77	Q32P77_BOVIN	PARK2 co-regulated (Uncharacterized protein)	unreviewed	PACRG
+B8YP93	B8YP93_BOVIN	Truncated parkin variant SV6DEL (EC 6.3.2.19) (Uncharacterized protein)	unreviewed	PARK2
+H9FG96	H9FG96_MACMU	E3 ubiquitin-protein ligase parkin isoform 1 (Fragment)	unreviewed	PARK2
+H9F3T2	H9F3T2_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
+F6U1M2	F6U1M2_MACMU	Uncharacterized protein	unreviewed	PARK2
+H9EYJ1	H9EYJ1_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
+H9FL69	H9FL69_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
+G9KEZ1	G9KEZ1_MUSPF	PARK2 co-regulated-like protein (Fragment)	unreviewed	
+G3N0R1	G3N0R1_BOVIN	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+G3N0P4	G3N0P4_BOVIN	Uncharacterized protein	unreviewed	PARK2
+D2Y183	D2Y183_BOVIN	Truncated parkin variant SV3bINS (EC 6.3.2.19)	unreviewed	PARK2
+D2Y182	D2Y182_BOVIN	Truncated parkin variant SV8DEL (EC 6.3.2.19)	unreviewed	PARK2
+G3MYG1	G3MYG1_BOVIN	Uncharacterized protein	unreviewed	PARK2
+D3JW61	D3JW61_BOVIN	Parkin variant SV9bINS (EC 6.3.2.19)	unreviewed	PARK2
+G3N0A5	G3N0A5_BOVIN	Uncharacterized protein	unreviewed	PARK2
+D2Y181	D2Y181_BOVIN	Truncated parkin variant SV7DEL (EC 6.3.2.19)	unreviewed	PARK2
+F1MIV9	F1MIV9_BOVIN	Uncharacterized protein	unreviewed	PARK2
+D3JW60	D3JW60_BOVIN	Truncated parkin variant SV7bINS (EC 6.3.2.19)	unreviewed	PARK2
+F6TQI5	F6TQI5_ORNAN	Uncharacterized protein	unreviewed	PARK2
+W5P3W8	W5P3W8_SHEEP	Uncharacterized protein	unreviewed	PARK2
+F6SBC0	F6SBC0_HORSE	Uncharacterized protein	unreviewed	PARK2
+F6SY58	F6SY58_HORSE	Uncharacterized protein	unreviewed	PARK2
+G3SS82	G3SS82_LOXAF	Uncharacterized protein (Fragment)	unreviewed	PARK2
+A0A0D9RIL3	A0A0D9RIL3_CHLSB	Uncharacterized protein	unreviewed	PARK2
+Q2L7G1	Q2L7G1_PIG	Parkin (Fragment)	unreviewed	PARK2
+Q1WDP3	Q1WDP3_PIG	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+Q2L7G2	Q2L7G2_PIG	Parkin (Fragment)	unreviewed	PARK2
+Q2L7G3	Q2L7G3_PIG	Parkin (Fragment)	unreviewed	PARK2
+Q19K47	Q19K47_PIG	Parkin splice variant	unreviewed	PARK2
+Q2I0E9	Q2I0E9_PIG	Parkin (Fragment)	unreviewed	PARK2
+B9VH11	B9VH11_MACFA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+B8YGJ6	B8YGJ6_MACFA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+G1PXZ4	G1PXZ4_MYOLU	Uncharacterized protein	unreviewed	PARK2
+Q0VB91	Q0VB91_MOUSE	PARK2 co-regulated (Park2 co-regulated, isoform CRA_a) (Parkin coregulated gene protein homolog)	unreviewed	Pacrg
+S4X294	S4X294_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+S4X690	S4X690_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+Q8VHY5	Q8VHY5_RAT	E3 ubiquitin-protein ligase parkin isoform (Parkin transcript variant 7)	unreviewed	Park2
+D3JW63	D3JW63_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2
+S4X0T3	S4X0T3_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+S4X0T1	S4X0T1_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2
+A0JPP9	A0JPP9_RAT	Park2 co-regulated	unreviewed	Pacrg
+D3JVU6	D3JVU6_RAT	Parkin variant SV4bINS (EC 6.3.2.19)	unreviewed	Park2
+S4X470	S4X470_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+D3JW62	D3JW62_RAT	Parkin variant SV5DEL (EC 6.3.2.19)	unreviewed	Park2
+D3JZW3	D3JZW3_RAT	Truncated parkin variant SV4cINS (EC 6.3.2.19)	unreviewed	Park2
+D3JZW4	D3JZW4_RAT	Truncated parkin variant SV6bINS (EC 6.3.2.19)	unreviewed	Park2
+D3JVU5	D3JVU5_RAT	Truncated parkin variant SV2bINS (EC 6.3.2.19)	unreviewed	Park2
+A0A0P6JWS9	A0A0P6JWS9_HETGA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
+B8YP88	B8YP88_MOUSE	Truncated parkin variant SV3-6DEL (EC 6.3.2.19)	unreviewed	Park2
+D3JSV6	D3JSV6_MOUSE	Truncated parkin variant SV3-7DEL (EC 6.3.2.19)	unreviewed	Park2
+A0A087WQJ2	A0A087WQJ2_MOUSE	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2
+B8YP90	B8YP90_MOUSE	Truncated parkin variant SV6DEL (EC 6.3.2.19)	unreviewed	Park2
+J3QMF8	J3QMF8_MOUSE	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
+F6TNF2	F6TNF2_MOUSE	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
+Q3UVA0	Q3UVA0_MOUSE	Putative uncharacterized protein (Fragment)	unreviewed	Park2
+B8YP89	B8YP89_MOUSE	Truncated parkin variant SV3DEL (EC 6.3.2.19)	unreviewed	Park2
+Q561U2	Q561U2_DANRE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
+V9LE88	V9LE88_CALMI	Park2 co-regulated (Fragment)	unreviewed	
+V9KXI3	V9KXI3_CALMI	Park2 co-regulated	unreviewed	
+V8P2J5	V8P2J5_OPHHA	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2
+I3JJF6	I3JJF6_ORENI	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
+A0A0H2UKX4	A0A0H2UKX4_DANRE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
+F1Q9C4	F1Q9C4_DANRE	Uncharacterized protein (Fragment)	unreviewed	park2
+A5WUG4	A5WUG4_DANRE	Uncharacterized protein (Fragment)	unreviewed	park2
+A0A151M2I6	A0A151M2I6_ALLMI	E3 ubiquitin-protein ligase parkin isoform B	unreviewed	PARK2
+A0A151M2E6	A0A151M2E6_ALLMI	E3 ubiquitin-protein ligase parkin isoform A	unreviewed	PARK2
+H2SS28	H2SS28_TAKRU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
+H2SS25	H2SS25_TAKRU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
+H2SS26	H2SS26_TAKRU	Uncharacterized protein	unreviewed	park2
+H2SS27	H2SS27_TAKRU	Uncharacterized protein	unreviewed	park2
