@@ -1,7 +1,9 @@
 #!/opt/local/bin/python3.4
 
 import pymysql
-import csv 
+import csv
+import os
+import sys
 
 
 delimiter  = '\t';
@@ -23,90 +25,55 @@ restval    = 'uknownvalue';
 dialect    = 'excel-tab';
 
 # read payload
-with open( disgenetDataFile ) as csvfile:
-	reader = csv.DictReader( csvfile, disgenetFieldNames, restkey, restval, dialect );
-	next(reader, None) # skip the headers
+# disgenetCsvfile = open( disgenetDataFile )
+# disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
+# next(disgenetReader, None) # skip the headers
+
+# for row in disgenetReader:
+#	print( row )
+###########################################
 
 
-	for row in reader:
-		print( row )
-
-	# print ( "\n")
-	# csvfile.seek( 0, 0 )
-	# for row in reader:
-	# 	print( row['pmids'] )
 ## hintdb
+hintkbDir = './hintkb'
+hintkbDataFiles =  os.listdir( hintkbDir )
+hintkbFieldNames = [ 'uniprot_id1', 'uniprot_id2', 'go_function', 'go_component', 'go_process', 'sequence_similarity', 'coexpression1', 'coexpression2', 'coexpression3', 'coexpression4', 'coexpression5', 'coexpression6', 'coexpression7', 'coexpression8', 'coexpression9', 'coexpression10', 'coexpression11', 'coexpression12', 'coexpression13', 'coexpression14', 'coexpression15', 'localization', 'homology_yeast', 'domain_domain_interaction', 'score', 'hprd_flag' ]
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
+
+#read payload
+for hintkbDataFile in hintkbDataFiles: 
+	hintkbCvsFile =  open( hintkbDir + '/' + hintkbDataFile )
+	hintkbReader = csv.DictReader( hintkbCvsFile, hintkbFieldNames, restkey, restval, dialect );
+	next(hintkbReader, None) # skip the headers
+
+	print( )
+	print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + hintkbDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
+	print( )
+
+	for row in hintkbReader:
+		print( row )
+###########################################
+
+exit(-1)
 
 ##uniprot
+uniprotDataFile = 'hintkb/disgenet_data.tsv'
+unitprotFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'name', 'geneId', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
+
+#read payload
+uniprotCsvFile = open( uniprotDataFile )
+reader = csv.DictReader( csvfile, unitprotFieldNames, restkey, restval, dialect );
+next(reader, None) # skip the headers
+
+for row in reader:
+	print( row )
+###########################################
 
 
 exit()
 
-
-# connect to db
-conn = pymysql.connect( host, user, password, db )
-if conn != -1 :
-	print( 'database connection established' )
-else:
-	print( 'Houston we have a problem' )
-
-# init db
-conn.begin( )
-cursor = conn.cursor( )
-dropdb_query = 'drop database if exists ' + db
-createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
-cursor.execute( dropdb_query )
-cursor.execute( createdb_query )
-conn.commit( )
-# init tables
-droptable_query                = 'drop table if exists gene2disease, gene, disease'
-createtable_gene_query         = 'create table if not exists gene( geneId varchar(50) not null, geneName varchar(100) not null, primary key (geneId) )'
-createtable_disease_query      = 'create table if not exists disease( diseaseId varchar(50) not null, diseaseName varchar(100) not null, description varchar(100) not null, primary key (diseaseId) )'
-createtable_gene2disease_query = 'create table if not exists gene2disease ( geneId varchar(50) not null, diseaseId varchar(50) not null, foreign key (geneId) references gene(geneId) on update cascade on delete restrict, foreign key (diseaseId) references disease(diseaseId) on update cascade on delete restrict )'
-cursor.execute( "use " + db )
-print( droptable_query )
-cursor.execute( droptable_query )
-print( createtable_gene_query )
-cursor.execute( createtable_gene_query )
-print( createtable_gene_query )
-cursor.execute( createtable_disease_query )
-print( createtable_gene2disease_query )
-cursor.execute( createtable_gene2disease_query )
-conn.commit( )
-
-# insert payload
-with open( tsv_file ) as csvfile:
-	reader = csv.DictReader( csvfile, fieldnames, restkey, restval, dialect );
-	next(reader, None) # skip the headers
-	gene_keys    = [ ]
-	disease_keys = [ ]
-
-	for row in reader:
-		if row['geneId'] not in gene_keys:
-			gene_keys.append( row['geneId'] )
-			previous_gene_key = row['geneId']
-			insertgenedata_query = "insert into gene( geneId, geneName ) value ( '" + row['geneId'] + "', '" + row['geneName'] + "' )"
-			print( insertgenedata_query )
-			cursor.execute( insertgenedata_query )
-
-		if row['diseaseId'] not in disease_keys: 
-			disease_keys.append( row['diseaseId'] )
-			insertdiseasedata_query = "insert into disease( diseaseId, diseaseName, description ) value ( '" + row['diseaseId'] + "', " + conn.escape(row['diseaseName']) + ", " + conn.escape(row['description']) + " )"
-			print( insertdiseasedata_query )
-			cursor.execute( insertdiseasedata_query )
-		cursor.execute( "insert into gene2disease( geneId, diseaseId ) value ( '" + row['geneId'] + "', '" + row['diseaseId'] + "' )" )
-
-	conn.commit( )
-	cursor.close( )
-	exit( )
-
-
-# select gene and diseases
-conn.begin( )
-cursor = conn.cursor( )
-selectgene_query = ""
-selectdiseasedata_query = ""
-cursor.execute( selectgene_query )
-cursor.execute( selectdiseasedata_query )
-conn.commit( )
-cursor.close( )
