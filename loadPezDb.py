@@ -57,21 +57,25 @@ dialect    = 'excel-tab';
 ###########################################
 
 ##uniprot
-uniprotDataFile = 'uniprot/O60260'
-e = xml.etree.ElementTree.parse(uniprotDataFile).getroot()
-# unitprotFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'name', 'geneId', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
-# restkey    = 'unknownkey';
-# restval    = 'uknownvalue';
-# dialect    = 'excel-tab';
-for atype in e.findall('type'):
-    print(atype.get('foobar'))
-#read payload
-# uniprotCsvFile = open( uniprotDataFile )
-# reader = csv.DictReader( csvfile, unitprotFieldNames, restkey, restval, dialect );
-# next(reader, None) # skip the headers
+uniprotDir = './uniprot'
+uniprotDataFiles = os.listdir( uniprotDir )
+unitprotFieldNames = [ 'Entry name', 'Protein names', 'Status', 'Gene names  (primary )']
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
 
-# for row in reader:
-# 	print( row )
+# read payload
+for uniprotDataFile in uniprotDataFiles: 
+	uniprotCsvFile = open( uniprotDir + '/' + uniprotDataFile )
+	reader = csv.DictReader( uniprotCsvFile, unitprotFieldNames, restkey, restval, dialect );
+	next(reader, None) # skip the headers
+
+	print( )
+	print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
+	print( )
+
+	for row in reader:
+		print( row )
 ###########################################
 
 
