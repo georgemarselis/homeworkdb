@@ -57,9 +57,9 @@ for hintkbDataFile in hintkbDataFiles:
 ###########################################
 
 ##uniprot
-uniprotGenesDir         = './uniprot/genes'
-uniprotProteinsDir      = './uniprot/proteins'
-uniprotProteinDataFiles = os.listdir( uniprotProteinsDir + '/*.tsv' )
+uniprotGenesDir         = './uniprot/proteins'
+uniprotProteinsDir      = './uniprot/fasta'
+uniprotProteinDataFiles = os.listdir( uniprotGenes + '/*.tsv' )
 uniprotFastaDataFiles   = os.listdir( uniprotProteinsDir + '/*.fasta' )
 unitprotFieldNames = [ 'Entry', 'Entry name', 'Protein names', 'Status', 'Gene names  (primary )']
 restkey    = 'unknownkey';
