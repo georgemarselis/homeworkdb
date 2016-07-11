@@ -11,4 +11,4 @@ for file in uniprot/genes/*.tsv;
 
 
 for protein in $( < ./listofProteins.tsv );
-	do wget --no-verbose --output-document=uniprot/proteins/${protein}.tsv http://www.uniprot.org/uniprot/${protein}.fasta\?include=yes ; done
+	do wget --no-verbose --output-document=uniprot/proteins/${protein}.fasta http://www.uniprot.org/uniprot/${protein}.fasta\?include=yes ; done

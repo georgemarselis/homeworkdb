@@ -25,53 +25,55 @@ restval    = 'uknownvalue';
 dialect    = 'excel-tab';
 
 # read payload
-# disgenetCsvfile = open( disgenetDataFile )
-# disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
-# next(disgenetReader, None) # skip the headers
+disgenetCsvfile = open( disgenetDataFile )
+disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
+next(disgenetReader, None) # skip the headers
 
-# for row in disgenetReader:
-#	print( row )
+for row in disgenetReader:
+	print( row )
 ###########################################
 
 
 ## hintdb
-# hintkbDir = './hintkb'
-# hintkbDataFiles =  os.listdir( hintkbDir )
-# hintkbFieldNames = [ 'uniprot_id1', 'uniprot_id2', 'go_function', 'go_component', 'go_process', 'sequence_similarity', 'coexpression1', 'coexpression2', 'coexpression3', 'coexpression4', 'coexpression5', 'coexpression6', 'coexpression7', 'coexpression8', 'coexpression9', 'coexpression10', 'coexpression11', 'coexpression12', 'coexpression13', 'coexpression14', 'coexpression15', 'localization', 'homology_yeast', 'domain_domain_interaction', 'score', 'hprd_flag' ]
-# restkey    = 'unknownkey';
-# restval    = 'uknownvalue';
-# dialect    = 'excel-tab';
+hintkbDir = './hintkb'
+hintkbDataFiles =  os.listdir( hintkbDir )
+hintkbFieldNames = [ 'uniprot_id1', 'uniprot_id2', 'go_function', 'go_component', 'go_process', 'sequence_similarity', 'coexpression1', 'coexpression2', 'coexpression3', 'coexpression4', 'coexpression5', 'coexpression6', 'coexpression7', 'coexpression8', 'coexpression9', 'coexpression10', 'coexpression11', 'coexpression12', 'coexpression13', 'coexpression14', 'coexpression15', 'localization', 'homology_yeast', 'domain_domain_interaction', 'score', 'hprd_flag' ]
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
 
-# #read payload
-# for hintkbDataFile in hintkbDataFiles: 
-# 	hintkbCvsFile =  open( hintkbDir + '/' + hintkbDataFile )
-# 	hintkbReader = csv.DictReader( hintkbCvsFile, hintkbFieldNames, restkey, restval, dialect );
-# 	next(hintkbReader, None) # skip the headers
+#read payload
+for hintkbDataFile in hintkbDataFiles: 
+	hintkbCvsFile =  open( hintkbDir + '/' + hintkbDataFile )
+	hintkbReader = csv.DictReader( hintkbCvsFile, hintkbFieldNames, restkey, restval, dialect );
+	next(hintkbReader, None) # skip the headers
 
-# 	print( )
-# 	print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + hintkbDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
-# 	print( )
+	print( )
+	print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + hintkbDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
+	print( )
 
-# 	for row in hintkbReader:
-# 		print( row )
+	for row in hintkbReader:
+		print( row )
 ###########################################
 
 ##uniprot
-uniprotGenesDir = './uniprot/genes'
-uniprotDataFiles = os.listdir( uniprotDir )
+uniprotGenesDir         = './uniprot/genes'
+uniprotProteinsDir      = './uniprot/proteins'
+uniprotProteinDataFiles = os.listdir( uniprotProteinsDir + '/*.tsv' )
+uniprotFastaDataFiles   = os.listdir( uniprotProteinsDir + '/*.fasta' )
 unitprotFieldNames = [ 'Entry', 'Entry name', 'Protein names', 'Status', 'Gene names  (primary )']
 restkey    = 'unknownkey';
 restval    = 'uknownvalue';
 dialect    = 'excel-tab';
 
 # read payload
-for uniprotDataFile in uniprotDataFiles: 
-	uniprotCsvFile = open( uniprotDir + '/' + uniprotDataFile )
+for uniprotGeneDataFile in uniprotDataFiles: 
+	uniprotCsvFile = open( uniprotGenesDir + '/' + uniprotGeneDataFile )
 	reader = csv.DictReader( uniprotCsvFile, unitprotFieldNames, restkey, restval, dialect );
 	next(reader, None) # skip the headers
 
 	print( )
-	print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
+	print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotGeneDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
 	print( )
 
 	for row in reader:
