@@ -17,7 +17,7 @@ defaultcollation  = 'utf8_general_ci'
 
 ## disgenet
 disgenetDataFile = 'disgenet/disgenet_data.tsv'
-disgenetFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'geneId', 'gene', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
+disgenetFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'name', 'geneId', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
 restkey    = 'unknownkey';
 restval    = 'uknownvalue';
 dialect    = 'excel-tab';
