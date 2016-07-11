@@ -17,7 +17,7 @@ defaultcollation  = 'utf8_general_ci'
 
 ## disgenet
 disgenetDataFile = 'disgenet/disgenet_data.tsv'
-disgenetFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'geneId', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
+disgenetFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'geneId', 'gene', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
 restkey    = 'unknownkey';
 restval    = 'uknownvalue';
 dialect    = 'excel-tab';
@@ -26,12 +26,15 @@ dialect    = 'excel-tab';
 with open( disgenetDataFile ) as csvfile:
 	reader = csv.DictReader( csvfile, disgenetFieldNames, restkey, restval, dialect );
 	next(reader, None) # skip the headers
-	gene_keys    = [ ]
-	disease_keys = [ ]
+
 
 	for row in reader:
-		print( row['pmids'] )
+		print( row )
 
+	# print ( "\n")
+	# csvfile.seek( 0, 0 )
+	# for row in reader:
+	# 	print( row['pmids'] )
 ## hintdb
 
 ##uniprot

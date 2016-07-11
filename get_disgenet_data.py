@@ -14,7 +14,7 @@ ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
 	c1 (cui, name, hpoName, omimInt, diseaseId, STY, MESH, diseaseClassName, type, hdoName ),
-	c2 (geneId, uniprotId, description, pathName, pantherName ),
+	c2 (name, geneId, uniprotId, description, pathName, pantherName ),
 	c3 (PI, PL),
 	c0 (score, pmids, snps, sourceId ),
 	c4 (numberOfassocDiseases)
