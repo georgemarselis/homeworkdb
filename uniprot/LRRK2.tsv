@@ -1,0 +1,213 @@
+Entry name	Protein names	Status	Gene names  (primary )
+LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
+LRRK2_MOUSE	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1)	reviewed	Lrrk2
+F1LNJ1_RAT	Protein Lrrk2	unreviewed	Lrrk2
+PRKN2_HUMAN	E3 ubiquitin-protein ligase parkin (Parkin) (EC 6.3.2.-) (Parkinson juvenile disease protein 2) (Parkinson disease protein 2)	reviewed	PARK2
+F1PHH4_CANLF	Uncharacterized protein	unreviewed	LRRK2
+E1BPU0_BOVIN	Uncharacterized protein	unreviewed	LRRK2
+H2Q5Q4_PANTR	Leucine-rich repeat kinase 2 (Uncharacterized protein)	unreviewed	LRRK2
+M3XMD3_MUSPF	Uncharacterized protein	unreviewed	LRRK2
+E1C5R5_CHICK	Uncharacterized protein	unreviewed	LRRK2
+F1SHN7_PIG	Uncharacterized protein	unreviewed	LRRK2
+H0YYY0_TAEGU	Uncharacterized protein (Fragment)	unreviewed	LRRK2
+G1PDK4_MYOLU	Uncharacterized protein	unreviewed	LRRK2
+F6TJ12_CALJA	Uncharacterized protein	unreviewed	LRRK2
+M3VXC2_FELCA	Uncharacterized protein	unreviewed	LRRK2
+U3K680_FICAL	Uncharacterized protein	unreviewed	LRRK2
+A0A096MWP2_PAPAN	Uncharacterized protein	unreviewed	LRRK2
+W5QFE4_SHEEP	Uncharacterized protein	unreviewed	LRRK2
+G1KHH8_ANOCA	Uncharacterized protein	unreviewed	LRRK2
+U3IYL7_ANAPL	Uncharacterized protein	unreviewed	LRRK2
+F7D0F2_HORSE	Uncharacterized protein	unreviewed	LRRK2
+F7C7Z0_MACMU	Uncharacterized protein	unreviewed	LRRK2
+G1N5N3_MELGA	Uncharacterized protein (Fragment)	unreviewed	LRRK2
+G3QLE5_GORGO	Uncharacterized protein	unreviewed	LRRK2
+D2HTG2_AILME	Uncharacterized protein (Fragment)	unreviewed	LRRK2
+K7ETK2_PONAB	Uncharacterized protein	unreviewed	LRRK2
+H0WHJ6_OTOGA	Uncharacterized protein	unreviewed	LRRK2
+1433B_HUMAN	14-3-3 protein beta/alpha (Protein 1054) (Protein kinase C inhibitor protein 1) (KCIP-1) [Cleaved into: 14-3-3 protein beta/alpha, N-terminally processed]	reviewed	YWHAB
+1433E_HUMAN	14-3-3 protein epsilon (14-3-3E)	reviewed	YWHAE
+1433F_HUMAN	14-3-3 protein eta (Protein AS1)	reviewed	YWHAH
+1433G_HUMAN	14-3-3 protein gamma (Protein kinase C inhibitor protein 1) (KCIP-1) [Cleaved into: 14-3-3 protein gamma, N-terminally processed]	reviewed	YWHAG
+1433T_MOUSE	14-3-3 protein theta (14-3-3 protein tau)	reviewed	Ywhaq
+1433E_MOUSE	14-3-3 protein epsilon (14-3-3E)	reviewed	Ywhae
+1433Z_HUMAN	14-3-3 protein zeta/delta (Protein kinase C inhibitor protein 1) (KCIP-1)	reviewed	YWHAZ
+1433B_MOUSE	14-3-3 protein beta/alpha (Protein kinase C inhibitor protein 1) (KCIP-1) [Cleaved into: 14-3-3 protein beta/alpha, N-terminally processed]	reviewed	Ywhab
+1433F_MOUSE	14-3-3 protein eta	reviewed	Ywhah
+1433G_MOUSE	14-3-3 protein gamma [Cleaved into: 14-3-3 protein gamma, N-terminally processed]	reviewed	Ywhag
+1433G_RAT	14-3-3 protein gamma [Cleaved into: 14-3-3 protein gamma, N-terminally processed]	reviewed	Ywhag
+1433Z_MOUSE	14-3-3 protein zeta/delta (Protein kinase C inhibitor protein 1) (KCIP-1) (SEZ-2)	reviewed	Ywhaz
+1433T_HUMAN	14-3-3 protein theta (14-3-3 protein T-cell) (14-3-3 protein tau) (Protein HS1)	reviewed	YWHAQ
+ADT2_HUMAN	ADP/ATP translocase 2 (ADP,ATP carrier protein 2) (ADP,ATP carrier protein, fibroblast isoform) (Adenine nucleotide translocator 2) (ANT 2) (Solute carrier family 25 member 5) [Cleaved into: ADP/ATP translocase 2, N-terminally processed]	reviewed	SLC25A5
+ADT1_HUMAN	ADP/ATP translocase 1 (ADP,ATP carrier protein 1) (ADP,ATP carrier protein, heart/skeletal muscle isoform T1) (Adenine nucleotide translocator 1) (ANT 1) (Solute carrier family 25 member 4)	reviewed	SLC25A4
+AKT1_HUMAN	RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha)	reviewed	AKT1
+AGO2_HUMAN	Protein argonaute-2 (Argonaute2) (hAgo2) (EC 3.1.26.n2) (Argonaute RISC catalytic component 2) (Eukaryotic translation initiation factor 2C 2) (eIF-2C 2) (eIF2C 2) (PAZ Piwi domain protein) (PPD) (Protein slicer)	reviewed	AGO2
+ADT3_HUMAN	ADP/ATP translocase 3 (ADP,ATP carrier protein 3) (ADP,ATP carrier protein, isoform T2) (ANT 2) (Adenine nucleotide translocator 3) (ANT 3) (Solute carrier family 25 member 6) [Cleaved into: ADP/ATP translocase 3, N-terminally processed]	reviewed	SLC25A6
+ARHG7_HUMAN	Rho guanine nucleotide exchange factor 7 (Beta-Pix) (COOL-1) (PAK-interacting exchange factor beta) (p85)	reviewed	ARHGEF7
+ARFG1_HUMAN	ADP-ribosylation factor GTPase-activating protein 1 (ARF GAP 1) (ADP-ribosylation factor 1 GTPase-activating protein) (ARF1 GAP) (ARF1-directed GTPase-activating protein)	reviewed	ARFGAP1
+ARFG1_MOUSE	ADP-ribosylation factor GTPase-activating protein 1 (ARF GAP 1) (ADP-ribosylation factor 1 GTPase-activating protein) (ARF1 GAP) (ARF1-directed GTPase-activating protein)	reviewed	Arfgap1
+ARFG1_RAT	ADP-ribosylation factor GTPase-activating protein 1 (ARF GAP 1) (ADP-ribosylation factor 1 GTPase-activating protein) (ARF1 GAP) (ARF1-directed GTPase-activating protein)	reviewed	Arfgap1
+BAG3_HUMAN	BAG family molecular chaperone regulator 3 (BAG-3) (Bcl-2-associated athanogene 3) (Bcl-2-binding protein Bis) (Docking protein CAIR-1)	reviewed	BAG3
+BAG5_HUMAN	BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5)	reviewed	BAG5
+BAG2_HUMAN	BAG family molecular chaperone regulator 2 (BAG-2) (Bcl-2-associated athanogene 2)	reviewed	BAG2
+BCL2_HUMAN	Apoptosis regulator Bcl-2	reviewed	BCL2
+CDC37_HUMAN	Hsp90 co-chaperone Cdc37 (Hsp90 chaperone protein kinase-targeting subunit) (p50Cdc37) [Cleaved into: Hsp90 co-chaperone Cdc37, N-terminally processed]	reviewed	CDC37
+CDC42_HUMAN	Cell division control protein 42 homolog (G25K GTP-binding protein)	reviewed	CDC42
+DAPK1_HUMAN	Death-associated protein kinase 1 (DAP kinase 1) (EC 2.7.11.1)	reviewed	DAPK1
+DNM1L_HUMAN	Dynamin-1-like protein (EC 3.6.5.5) (Dnm1p/Vps1p-like protein) (DVLP) (Dynamin family member proline-rich carboxyl-terminal domain less) (Dymple) (Dynamin-like protein) (Dynamin-like protein 4) (Dynamin-like protein IV) (HdynIV) (Dynamin-related protein 1)	reviewed	DNM1L
+DVL3_HUMAN	Segment polarity protein dishevelled homolog DVL-3 (Dishevelled-3) (DSH homolog 3)	reviewed	DVL3
+DYN1_MOUSE	Dynamin-1 (EC 3.6.5.5)	reviewed	Dnm1
+DNM1L_MOUSE	Dynamin-1-like protein (EC 3.6.5.5) (Dynamin family member proline-rich carboxyl-terminal domain less) (Dymple) (Dynamin-related protein 1)	reviewed	Dnm1l
+DVL1_HUMAN	Segment polarity protein dishevelled homolog DVL-1 (Dishevelled-1) (DSH homolog 1)	reviewed	DVL1
+DYN1_HUMAN	Dynamin-1 (EC 3.6.5.5)	reviewed	DNM1
+DVL2_HUMAN	Segment polarity protein dishevelled homolog DVL-2 (Dishevelled-2) (DSH homolog 2)	reviewed	DVL2
+ECHM_HUMAN	Enoyl-CoA hydratase, mitochondrial (EC 4.2.1.17) (Enoyl-CoA hydratase 1) (Short-chain enoyl-CoA hydratase) (SCEH)	reviewed	ECHS1
+FADD_HUMAN	FAS-associated death domain protein (FAS-associating death domain-containing protein) (Growth-inhibiting gene 3 protein) (Mediator of receptor induced toxicity) (Protein FADD)	reviewed	FADD
+FUTSC_DROME	Microtubule-associated protein futsch (MAP1B homolog) [Cleaved into: Futsch heavy chain; Futsch light chain LC(f)]	reviewed	futsch
+GBPC_DICDI	Cyclic GMP-binding protein C (EC 2.7.11.1) (Ras guanine nucleotide exchange factor T) (RasGEF domain-containing protein T)	reviewed	gbpC
+GAK_HUMAN	Cyclin-G-associated kinase (EC 2.7.11.1)	reviewed	GAK
+GSK3B_HUMAN	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
+HSP7C_HUMAN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	reviewed	HSPA8
+KAP3_RAT	cAMP-dependent protein kinase type II-beta regulatory subunit	reviewed	Prkar2b
+KAP3_MOUSE	cAMP-dependent protein kinase type II-beta regulatory subunit	reviewed	Prkar2b
+KAPCA_HUMAN	cAMP-dependent protein kinase catalytic subunit alpha (PKA C-alpha) (EC 2.7.11.11)	reviewed	PRKACA
+KC1A_HUMAN	Casein kinase I isoform alpha (CKI-alpha) (EC 2.7.11.1) (CK1)	reviewed	CSNK1A1
+KCRU_MOUSE	Creatine kinase U-type, mitochondrial (EC 2.7.3.2) (Acidic-type mitochondrial creatine kinase) (Mia-CK) (Ubiquitous mitochondrial creatine kinase) (U-MtCK)	reviewed	Ckmt1
+JIP4_MOUSE	C-Jun-amino-terminal kinase-interacting protein 4 (JIP-4) (JNK-interacting protein 4) (JNK-associated leucine-zipper protein) (JLP) (JNK/SAPK-associated protein 2) (JSAP2) (Mitogen-activated protein kinase 8-interacting protein 4) (Sperm-associated antigen 9)	reviewed	Spag9
+LDHB_HUMAN	L-lactate dehydrogenase B chain (LDH-B) (EC 1.1.1.27) (LDH heart subunit) (LDH-H) (Renal carcinoma antigen NY-REN-46)	reviewed	LDHB
+LRP6_HUMAN	Low-density lipoprotein receptor-related protein 6 (LRP-6)	reviewed	LRP6
+MAP1B_HUMAN	Microtubule-associated protein 1B (MAP-1B) [Cleaved into: MAP1B heavy chain; MAP1 light chain LC1]	reviewed	MAP1B
+LRRK1_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 1 (EC 2.7.11.1)	reviewed	LRRK1
+MBP_BOVIN	Myelin basic protein (MBP) (20 kDa microtubule-stabilizing protein) (Myelin A1 protein)	reviewed	MBP
+MFN1_MOUSE	Mitofusin-1 (EC 3.6.5.-) (Transmembrane GTPase MFN1)	reviewed	Mfn1
+MATK_HUMAN	Megakaryocyte-associated tyrosine-protein kinase (EC 2.7.10.2) (CSK homologous kinase) (CHK) (Hematopoietic consensus tyrosine-lacking kinase) (Protein kinase HYL) (Tyrosine-protein kinase CTK)	reviewed	MATK
+MFN2_HUMAN	Mitofusin-2 (EC 3.6.5.-) (Transmembrane GTPase MFN2)	reviewed	MFN2
+MOES_HUMAN	Moesin (Membrane-organizing extension spike protein)	reviewed	MSN
+MP2K6_HUMAN	Dual specificity mitogen-activated protein kinase kinase 6 (MAP kinase kinase 6) (MAPKK 6) (EC 2.7.12.2) (MAPK/ERK kinase 6) (MEK 6) (Stress-activated protein kinase kinase 3) (SAPK kinase 3) (SAPKK-3) (SAPKK3)	reviewed	MAP2K6
+MP2K3_HUMAN	Dual specificity mitogen-activated protein kinase kinase 3 (MAP kinase kinase 3) (MAPKK 3) (EC 2.7.12.2) (MAPK/ERK kinase 3) (MEK 3) (Stress-activated protein kinase kinase 2) (SAPK kinase 2) (SAPKK-2) (SAPKK2)	reviewed	MAP2K3
+MP2K7_HUMAN	Dual specificity mitogen-activated protein kinase kinase 7 (MAP kinase kinase 7) (MAPKK 7) (EC 2.7.12.2) (JNK-activating kinase 2) (MAPK/ERK kinase 7) (MEK 7) (Stress-activated protein kinase kinase 4) (SAPK kinase 4) (SAPKK-4) (SAPKK4) (c-Jun N-terminal kinase kinase 2) (JNK kinase 2) (JNKK 2)	reviewed	MAP2K7
+NEK1_HUMAN	Serine/threonine-protein kinase Nek1 (EC 2.7.11.1) (Never in mitosis A-related kinase 1) (NimA-related protein kinase 1) (Renal carcinoma antigen NY-REN-55)	reviewed	NEK1
+NFAC2_HUMAN	Nuclear factor of activated T-cells, cytoplasmic 2 (NF-ATc2) (NFATc2) (NFAT pre-existing subunit) (NF-ATp) (T-cell transcription factor NFAT1)	reviewed	NFATC2
+NSF_MOUSE	Vesicle-fusing ATPase (EC 3.6.4.6) (N-ethylmaleimide-sensitive fusion protein) (NEM-sensitive fusion protein) (Suppressor of K(+) transport growth defect 2) (Protein SKD2) (Vesicular-fusion protein NSF)	reviewed	Nsf
+NU133_HUMAN	Nuclear pore complex protein Nup133 (133 kDa nucleoporin) (Nucleoporin Nup133)	reviewed	NUP133
+OPA1_HUMAN	Dynamin-like 120 kDa protein, mitochondrial (EC 3.6.5.5) (Optic atrophy protein 1) [Cleaved into: Dynamin-like 120 kDa protein, form S1]	reviewed	OPA1
+PAK6_HUMAN	Serine/threonine-protein kinase PAK 6 (EC 2.7.11.1) (PAK-5) (p21-activated kinase 6) (PAK-6)	reviewed	PAK6
+PINK1_HUMAN	Serine/threonine-protein kinase PINK1, mitochondrial (EC 2.7.11.1) (BRPK) (PTEN-induced putative kinase protein 1)	reviewed	PINK1
+PRDX3_BOVIN	Thioredoxin-dependent peroxide reductase, mitochondrial (EC 1.11.1.15) (Antioxidant protein 1) (AOP-1) (Peroxiredoxin-3) (Protein SP-22)	reviewed	PRDX3
+PRDX3_RAT	Thioredoxin-dependent peroxide reductase, mitochondrial (EC 1.11.1.15) (PRx III) (Peroxiredoxin-3) (PRX-3)	reviewed	Prdx3
+PP1A_HUMAN	Serine/threonine-protein phosphatase PP1-alpha catalytic subunit (PP-1A) (EC 3.1.3.16)	reviewed	PPP1CA
+PPB_ECOLI	Alkaline phosphatase (APase) (EC 3.1.3.1)	reviewed	phoA
+PRDX3_PONAB	Thioredoxin-dependent peroxide reductase, mitochondrial (EC 1.11.1.15) (Peroxiredoxin-3)	reviewed	PRDX3
+PRDX3_MOUSE	Thioredoxin-dependent peroxide reductase, mitochondrial (EC 1.11.1.15) (Antioxidant protein 1) (AOP-1) (PRX III) (Perioredoxin-3) (Protein MER5)	reviewed	Prdx3
+PRDX3_HUMAN	Thioredoxin-dependent peroxide reductase, mitochondrial (EC 1.11.1.15) (Antioxidant protein 1) (AOP-1) (HBC189) (Peroxiredoxin III) (Prx-III) (Peroxiredoxin-3) (Protein MER5 homolog)	reviewed	PRDX3
+PRKN2_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	reviewed	Park2
+RAB5B_HUMAN	Ras-related protein Rab-5B	reviewed	RAB5B
+RAB7L_HUMAN	Ras-related protein Rab-7L1 (Rab-7-like protein 1) (Ras-related protein Rab-29)	reviewed	RAB29
+RAB7L_MOUSE	Ras-related protein Rab-7L1 (Rab-7-like protein 1)	reviewed	Rab29
+RAB32_HUMAN	Ras-related protein Rab-32	reviewed	RAB32
+RAB5B_MOUSE	Ras-related protein Rab-5B	reviewed	Rab5b
+RAB7L_PONAB	Ras-related protein Rab-7L1 (Rab-7-like protein 1)	reviewed	RAB29
+RAC1_HUMAN	Ras-related C3 botulinum toxin substrate 1 (Cell migration-inducing gene 5 protein) (Ras-like protein TC25) (p21-Rac1)	reviewed	RAC1
+RAB7L_RAT	Ras-related protein Rab-7L1 (Rab-7-like protein 1) (Ras-related protein Rab-29)	reviewed	Rab29
+RGS2_HUMAN	Regulator of G-protein signaling 2 (RGS2) (Cell growth-inhibiting gene 31 protein) (G0/G1 switch regulatory protein 8)	reviewed	RGS2
+RL13_HUMAN	60S ribosomal protein L13 (Breast basic conserved protein 1)	reviewed	RPL13
+RL10A_HUMAN	60S ribosomal protein L10a (CSA-19) (Neural precursor cell expressed developmentally down-regulated protein 6) (NEDD-6)	reviewed	RPL10A
+RL14_HUMAN	60S ribosomal protein L14 (CAG-ISL 7)	reviewed	RPL14
+RL23A_HUMAN	60S ribosomal protein L23a	reviewed	RPL23A
+RS11_HUMAN	40S ribosomal protein S11	reviewed	RPS11
+RS16_HUMAN	40S ribosomal protein S16	reviewed	RPS16
+RS20_HUMAN	40S ribosomal protein S20	reviewed	RPS20
+RS27_HUMAN	40S ribosomal protein S27 (Metallopan-stimulin 1) (MPS-1)	reviewed	RPS27
+RS23_HUMAN	40S ribosomal protein S23	reviewed	RPS23
+RS15_HUMAN	40S ribosomal protein S15 (RIG protein)	reviewed	RPS15
+RS2_HUMAN	40S ribosomal protein S2 (40S ribosomal protein S4) (Protein LLRep3)	reviewed	RPS2
+RS3_HUMAN	40S ribosomal protein S3 (EC 4.2.99.18)	reviewed	RPS3
+SCG1_HUMAN	Secretogranin-1 (Chromogranin-B) (CgB) (Secretogranin I) (SgI) [Cleaved into: PE-11; GAWK peptide; CCB peptide]	reviewed	CHGB
+SC16A_HUMAN	Protein transport protein Sec16A (SEC16 homolog A)	reviewed	SEC16A
+SH3G2_HUMAN	Endophilin-A1 (EEN-B1) (Endophilin-1) (SH3 domain protein 2A) (SH3 domain-containing GRB2-like protein 2)	reviewed	SH3GL2
+SNAPN_HUMAN	SNARE-associated protein Snapin (Biogenesis of lysosome-related organelles complex 1 subunit 7) (BLOC-1 subunit 7) (Synaptosomal-associated protein 25-binding protein) (SNAP-associated protein)	reviewed	SNAPIN
+SYUA_HUMAN	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	SNCA
+TAOK1_HUMAN	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Kinase from chicken homolog B) (hKFC-B) (MARK Kinase) (MARKK) (Prostate-derived sterile 20-like kinase 2) (PSK-2) (PSK2) (Prostate-derived STE20-like kinase 2) (Thousand and one amino acid protein kinase 1) (TAOK1) (hTAOK1)	reviewed	TAOK1
+TAOK1_MOUSE	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Thousand and one amino acid protein 1)	reviewed	Taok1
+TAOK3_PONAB	Serine/threonine-protein kinase TAO3 (EC 2.7.11.1) (Thousand and one amino acid protein 3)	reviewed	TAOK3
+TBB5_HUMAN	Tubulin beta chain (Tubulin beta-5 chain)	reviewed	TUBB
+TAOK3_HUMAN	Serine/threonine-protein kinase TAO3 (EC 2.7.11.1) (Cutaneous T-cell lymphoma-associated antigen HD-CL-09) (CTCL-associated antigen HD-CL-09) (Dendritic cell-derived protein kinase) (JNK/SAPK-inhibitory kinase) (Jun kinase-inhibitory kinase) (Kinase from chicken homolog A) (hKFC-A) (Thousand and one amino acid protein 3)	reviewed	TAOK3
+TAOK1_RAT	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Thousand and one amino acid protein 1)	reviewed	Taok1
+TAOK3_RAT	Serine/threonine-protein kinase TAO3 (EC 2.7.11.1) (Axotomy-related gene 357 protein) (JNK/SAPK-inhibitory kinase) (Jun kinase-inhibitory kinase) (Thousand and one amino acid protein 3)	reviewed	Taok3
+TAOK3_MOUSE	Serine/threonine-protein kinase TAO3 (EC 2.7.11.1) (Thousand and one amino acid protein 3)	reviewed	Taok3
+TAU_HUMAN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+TBB4A_HUMAN	Tubulin beta-4A chain (Tubulin 5 beta) (Tubulin beta-4 chain)	reviewed	TUBB4A
+TPC2_MOUSE	Two pore calcium channel protein 2 (Voltage-dependent calcium channel protein TPC2)	reviewed	Tpcn2
+TPC2_HUMAN	Two pore calcium channel protein 2 (Voltage-dependent calcium channel protein TPC2)	reviewed	TPCN2
+VPS35_HUMAN	Vacuolar protein sorting-associated protein 35 (hVPS35) (Maternal-embryonic 3) (Vesicle protein sorting 35)	reviewed	VPS35
+VPS35_BOVIN	Vacuolar protein sorting-associated protein 35 (Vesicle protein sorting 35)	reviewed	VPS35
+VPS35_MOUSE	Vacuolar protein sorting-associated protein 35 (Maternal-embryonic 3) (Vesicle protein sorting 35)	reviewed	Vps35
+WIPI2_HUMAN	WD repeat domain phosphoinositide-interacting protein 2 (WIPI-2) (WIPI49-like protein 2)	reviewed	WIPI2
+E9PC85_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+A2VED2_HUMAN	Augmented in rheumatoid arthritis 17	unreviewed	AURA17
+C9JBF0_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H7C3B6_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+Q17RV3_HUMAN	Leucine-rich repeat kinase 2	unreviewed	LRRK2
+Q9VDJ9_DROME	Leucine-rich repeat kinase (Leucine-rich repeat kinase, isoform B) (EC 2.7.11.-)	unreviewed	Lrrk
+A0A0C9QCN2_9HYME	LRRK2_0 protein	unreviewed	LRRK2_0
+A0A0C9R774_9HYME	LRRK2_1 protein	unreviewed	LRRK2_1
+T2MCK2_HYDVU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+B0KW73_CALJA	Leucine-rich repeat kinase 2 (Predicted) (Fragment)	unreviewed	LRRK2
+U3DDK9_CALJA	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+H9FFV7_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+F7G7L3_CALJA	Uncharacterized protein	unreviewed	LRRK2
+H9F555_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H9FJV2_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H9FGK3_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H9FHA5_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H9FJ88_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+F7EB41_ORNAN	Uncharacterized protein	unreviewed	LRRK2
+B1MTC5_PLEMO	Leucine-rich repeat kinase 2 (Predicted)	unreviewed	LRRK2
+B4USX3_OTOGA	Leucine-rich repeat kinase 2 (Predicted) (Fragment)	unreviewed	LRRK2
+F7G2I3_MONDO	Uncharacterized protein	unreviewed	LRRK2
+A0A096N6C4_PAPAN	Uncharacterized protein	unreviewed	LRRK2
+A9RA99_PAPAN	Leucine-rich repeat kinase 2 (Predicted)	unreviewed	LRRK2
+G3WVN1_SARHA	Uncharacterized protein	unreviewed	LRRK2
+U6D911_NEOVI	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+A0A0D9R4H9_CHLSB	Uncharacterized protein	unreviewed	LRRK2
+A9XXE0_PIG	LRRK2	unreviewed	
+Q0PMX7_PIG	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A9XXE3_PIG	LRRK2/Dardarin (Fragment)	unreviewed	LRRK2
+A9XXE2_PIG	LRRK2/Dardarin (Fragment)	unreviewed	LRRK2
+G1S8H6_NOMLE	Uncharacterized protein	unreviewed	LRRK2
+G1MBF4_AILME	Uncharacterized protein	unreviewed	LRRK2
+G1STZ5_RABIT	Uncharacterized protein	unreviewed	LRRK2
+B2KI32_RHIFE	Leucine-rich repeat kinase 2 (Predicted) (Fragment)	unreviewed	LRRK2
+C1FXS1_DASNO	Leucine-rich repeat kinase 2 (Predicted)	unreviewed	LRRK2
+Q8KC98_CHLTE	Rab family protein	unreviewed	
+Q9CQG8_MOUSE	Putative uncharacterized protein	unreviewed	Lrrk2
+B4F7C3_RAT	Lrrk2 protein (Fragment)	unreviewed	Lrrk2
+Q5BJM3_RAT	Lrrk2 protein (Fragment)	unreviewed	Lrrk2
+H0VB76_CAVPO	Uncharacterized protein	unreviewed	LRRK2
+I3LWV1_ICTTR	Uncharacterized protein	unreviewed	LRRK2
+Q8BU87_MOUSE	Putative uncharacterized protein	unreviewed	Lrrk2
+H3AV73_LATCH	Uncharacterized protein	unreviewed	LRRK2
+F6URV2_XENTR	Uncharacterized protein	unreviewed	lrrk2
+V8N5E6_OPHHA	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	Lrrk2
+V8NH92_OPHHA	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+A0A0Q3WYF8_AMAAE	Leucine-rich repeat kinase 2	unreviewed	lrrk2
+I3J7H6_ORENI	Uncharacterized protein	unreviewed	lrrk2
+I3J7H5_ORENI	Uncharacterized protein	unreviewed	lrrk2
+F1QJL6_DANRE	Uncharacterized protein	unreviewed	lrrk2
+A0A0R4IY84_DANRE	Uncharacterized protein	unreviewed	lrrk2
+D9IG64_DANRE	Leucine-rich repeat kinase 2	unreviewed	lrrk2
+F8W598_DANRE	Uncharacterized protein	unreviewed	lrrk2
+K7FVW9_PELSI	Uncharacterized protein	unreviewed	LRRK2
+A0A0S7IJJ7_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7I814_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7FIG1_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7J1K8_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7H836_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7ME98_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7I504_9TELE	LRRK2	unreviewed	LRRK2
+A0A0S7IGT6_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7M5H5_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7IIV9_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7H7E5_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7HAZ1_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A151NP48_ALLMI	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2

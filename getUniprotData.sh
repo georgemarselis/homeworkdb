@@ -1,4 +1,6 @@
 #!/opt/local/bin/bash
 
-for protein in $( < listOfProteins.csv ) ; do wget --output-document=uniprot/${protein}.fasta http://www.uniprot.org/uniprot/${protein}.fasta?include=yes ; wget --output-document=uniprot/${protein} http://www.uniprot.org/uniprot/${protein}.txt ;done
+
+for gene in $( < listOfGenes.tsv ) ; 
+    do  wget --no-verbose --output-document=uniprot/${gene}.tsv http://www.uniprot.org/uniprot/\?query=${gene}\&sort=score\&columns=entry%20name,protein%20names,reviewed,genes\(PREFERRED\)\&format=tab ; done
 
