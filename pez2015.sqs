@@ -18,7 +18,7 @@
             <primaryKey>1</primaryKey>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[A649D981-6A52-4AE3-AE43-22FD63A2680A]]></uid>
-            <unique><![CDATA[1]]></unique>
+            <unique><![CDATA[0]]></unique>
         </SQLField>
         <SQLField>
             <name><![CDATA[isomorphName]]></name>
@@ -80,7 +80,7 @@
             <forcedUnique><![CDATA[1]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[04818486-2F37-4C5E-94E5-A85FE223F000]]></uid>
-            <unique><![CDATA[1]]></unique>
+            <unique><![CDATA[0]]></unique>
         </SQLField>
         <SQLField>
             <name><![CDATA[proteinName]]></name>
@@ -158,7 +158,7 @@
             <forcedUnique><![CDATA[0]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[5EF68D96-91F0-4E8E-A3FD-DC00D95109A7]]></uid>
-            <unique><![CDATA[1]]></unique>
+            <unique><![CDATA[0]]></unique>
         </SQLField>
         <SQLField>
             <name><![CDATA[ontologyName]]></name>
@@ -219,7 +219,7 @@
             <forcedUnique><![CDATA[0]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[27C17F6E-0E5A-4E61-8C9D-AA0925BC33FF]]></uid>
-            <unique><![CDATA[1]]></unique>
+            <unique><![CDATA[0]]></unique>
         </SQLField>
         <SQLField>
             <name><![CDATA[geneName]]></name>
@@ -229,13 +229,13 @@
         </SQLField>
         <SQLField>
             <name><![CDATA[disgenetScore]]></name>
-            <type><![CDATA[REAL]]></type>
+            <type><![CDATA[FLOAT]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[4D226442-ED32-4487-8802-3FB77C0462A6]]></uid>
         </SQLField>
         <SQLField>
             <name><![CDATA[noPubMedIDs]]></name>
-            <type><![CDATA[BIGINT]]></type>
+            <type><![CDATA[INTEGER]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[CD0AC4EC-4553-4A87-8C78-29B7C38DAF32]]></uid>
         </SQLField>
@@ -265,7 +265,7 @@
         <windowHeight><![CDATA[1039.000000]]></windowHeight>
         <windowLocationX><![CDATA[333.000000]]></windowLocationX>
         <windowLocationY><![CDATA[402.000000]]></windowLocationY>
-        <windowScrollOrigin><![CDATA[{0, 0}]]></windowScrollOrigin>
+        <windowScrollOrigin><![CDATA[{110, 0}]]></windowScrollOrigin>
         <windowWidth><![CDATA[2122.000000]]></windowWidth>
     </SQLDocumentInfo>
     <AllowsIndexRenamingOnInsert><![CDATA[1]]></AllowsIndexRenamingOnInsert>
