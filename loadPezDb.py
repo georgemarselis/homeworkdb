@@ -5,7 +5,9 @@ import csv
 import os
 import sys
 import xml.etree.ElementTree
+import re
 from Bio import SeqIO
+from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 
 
 delimiter  = '\t';
@@ -20,7 +22,7 @@ defaultcollation  = 'utf8_general_ci'
 db = "pez2015_project2501a"
 
 # # connect to db
-conn = pymysql.connect( host, user, password, db )
+conn = pymysql.connect( host, user, password )
 if conn != -1 :
 	print( 'database connection established' )
 else:
@@ -33,33 +35,44 @@ createdb_query = 'create database ' + db + ' default character set ' +  defaultc
 conn.begin( )
 cursor = conn.cursor( )
 dropdb_query = 'drop database if exists ' + db
-createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
+print( dropdb_query )
 cursor.execute( dropdb_query )
+createdb_query = 'create database if not exists ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
+print( createdb_query )
 cursor.execute( createdb_query )
 conn.commit( )
 
 cursor.execute( "use " + db )
+conn.commit( )
 
 # # clean tables if exist
 droptable_query     = "drop table if exists isomorph, geneOntology, protein, gene"
 print( droptable_query )
 cursor.execute( droptable_query )
 conn.commit( )
-
 # # create tables
-createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(255) NOT NULL, geneName VARCHAR(255) NOT NULL, disgenetScore FLOAT NOT NULL,noPubMedIDs INTEGER, PRIMARY KEY (geneId) )"
+createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(255) NOT NULL, geneName VARCHAR(255), disgenetScore FLOAT NOT NULL,noPubMedIDs INTEGER, PRIMARY KEY (geneId) )"
+createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(255) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneId VARCHAR(255) NOT NULL, PRIMARY KEY (proteinId) )"
 createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId VARCHAR(255) NOT NULL, ontologyName VARCHAR(255) NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId) )"
-createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph(isomorphId VARCHAR(255) NOT NULL, isomorphName VARCHAR(255) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (isomorphId) )"
-createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(255) NOT NULL, proteinName VARCHAR(255) NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneId VARCHAR(255) NOT NULL, PRIMARY KEY (proteinId) )"
+createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph ( isomorphName VARCHAR(255) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (isomorphName) );"
+createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from isomorph;"
+createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
+createViewIsoform   = "create algorithm=TEMPTABLE view isoform as select * from isomorph;"
 
 print( createTableGene )
 cursor.execute( createTableGene )
+print( createTableProtein )
+cursor.execute( createTableProtein )
 print( createTableOntology )
 cursor.execute( createTableOntology )
 print( createTableIsomorph )
 cursor.execute( createTableIsomorph )
-print( createTableProtein )
-cursor.execute( createTableProtein )
+print( createViewSequence )
+cursor.execute( createViewSequence )
+print( createViewSequence )
+cursor.execute( createViewFasta )
+print( createViewFasta )
+cursor.execute( createViewIsoform )
 conn.commit( )
 
 
@@ -79,11 +92,12 @@ conn.commit( )
 ##### load data from files
 ###########################################
 
+print( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n")
 
 ## disgenet
 ###########################################
 disgenetDataFile = 'disgenet/disgenet_data.tsv'
-disgenetFieldNames = ['cui', 'name', 'hpoName', 'omimInt', 'diseaseId', 'STY', 'MESH', 'diseaseClassName', 'type', 'hdoName', 'name', 'geneId', 'uniprotId', 'description', 'pathName', 'pantherName', 'PI', 'PL', 'score', 'pmids', 'snps', 'sourceId', 'numberOfassocDiseases' ]
+disgenetFieldNames = [ 'c1.cui', 'c1.name', 'c1.hpoName', 'c1.omimInt', 'c1.diseaseId', 'c1.STY', 'c1.MESH', 'c1.diseaseClassName', 'c1.type', 'c1.hdoName', 'c2.name', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pathName', 'c2.pantherName', 'c3.PI', 'c3.PL', 'c0.score', 'c0.pmids', 'c0.snps', 'c0.sourceId', 'c4.numberOfassocDiseases' ]
 restkey    = 'unknownkey';
 restval    = 'uknownvalue';
 dialect    = 'excel-tab';
@@ -98,40 +112,23 @@ for row in disgenetReader:
 	if kotikot == 0 :
 			kotikot = 1
 			continue
-	insertgenedata_query = "insert into gene( geneId, geneName, disgenetScore, noPubMedIDs ) value ( '" + row['geneId'] + "', '" + row['pathName'] + "', '" + row['score'] + "', '" + row['pmids'] +"' )"
-	print( insertgenedata_query )
-	cursor.execute( insertgenedata_query )
+	insertgenedataQuery = " "
+	if row['c2.pathName'] == 'null':
+		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', NULL, '" + row['c0.score'] + "', '" + row['c0.pmids'] +"' )"		
+	else:
+		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', '" + row['c2.pathName'] + "', '" + row['c0.score'] + "', '" + row['c0.pmids'] +"' )"
+	print( insertgenedataQuery )
+	cursor.execute( insertgenedataQuery )
 
 conn.commit( )
 ###########################################
 
 
-## hintdb
-###########################################
-hintkbDir = './hintkb'
-hintkbDataFiles =  os.listdir( hintkbDir )
-hintkbFieldNames = [ 'uniprot_id1', 'uniprot_id2', 'go_function', 'go_component', 'go_process', 'sequence_similarity', 'coexpression1', 'coexpression2', 'coexpression3', 'coexpression4', 'coexpression5', 'coexpression6', 'coexpression7', 'coexpression8', 'coexpression9', 'coexpression10', 'coexpression11', 'coexpression12', 'coexpression13', 'coexpression14', 'coexpression15', 'localization', 'homology_yeast', 'domain_domain_interaction', 'score', 'hprd_flag' ]
-restkey    = 'unknownkey';
-restval    = 'uknownvalue';
-dialect    = 'excel-tab';
-
-#read payload
-for hintkbDataFile in hintkbDataFiles: 
-	hintkbCvsFile =  open( hintkbDir + '/' + hintkbDataFile )
-	hintkbReaderFiles = csv.DictReader( hintkbCvsFile, hintkbFieldNames, restkey, restval, dialect );
-	for hintkbReaderFile in hintkbReaderFiles:
-		next(hintkbReader, None) # skip the headers
-
-	# print( )
-	# print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + hintkbDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
-	# print( )
-
-	# for row in hintkbReader:
-	# 	print( row )
-###########################################
+print( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n")
 
 
 ##uniprot
+###########################################
 uniprotProteinsDir      = './uniprot/proteins'
 uniprotFastaDir         = './uniprot/fasta'
 uniprotProteinDataFiles = os.listdir( uniprotProteinsDir )
@@ -141,43 +138,76 @@ restkey    = 'unknownkey';
 restval    = 'uknownvalue';
 dialect    = 'excel-tab';
 
-# # read payload
-# for uniprotProteinDataFile in uniprotProteinDataFiles: 
-# 	uniprotCsvFile = open( uniprotProteinsDir + '/' + uniprotProteinDataFile )
-# 	reader = csv.DictReader( uniprotCsvFile, unitprotFieldNames, restkey, restval, dialect );
-# 	for row in reader:
-# 		next(reader, None) # skip the headers
-# 		kot = "FALSE"
-# 		if row['Status'] == "reviewed":
-# 			kot = "TRUE"
-# 		insertgenedata_query = "insert into protein( proteinId, proteinName, proteinConfirmed, geneId ) value ( '" + row['Entry'] + "', '" + row['Protein names'] + "', '" + kot + "', '" + str.upper(row['Gene names  (primary )']) +"' )"
-# 		print( insertgenedata_query )
-# 		cursor.execute( insertgenedata_query )
+# read payload - proteins
+###########################################
+for uniprotProteinDataFile in uniprotProteinDataFiles: 
+	uniprotCsvFile = open( uniprotProteinsDir + '/' + uniprotProteinDataFile )
+	reader = csv.DictReader( uniprotCsvFile, unitprotFieldNames, restkey, restval, dialect );
+	for row in reader:
+		#	next(reader, None) # skip the headers
+		kot = 'FALSE'
+		if row['Status'] == 'reviewed':
+			kot = 'TRUE'
+		if row['Entry'] == 'Entry':
+			continue
+		gene , extension = os.path.splitext( uniprotProteinDataFile )
+		if gene != str.upper(row['Gene names  (primary )']):
+			continue
+		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + row['Protein names'] + "', " + kot + ", '" + str.upper(row['Gene names  (primary )']) +"' )"
+		print( insertgenedata_query )
+		cursor.execute( insertgenedata_query )
 
-# conn.commit( )
+	conn.commit( )
+
+
+# read payload - fasta
+################
+unitprotFieldNames = [ 'fasta sequence', 'name' ]
+for uniprotFastaDataFile in uniprotFastaDataFiles: 
+
+	print( )
+	print( "#>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
+	print( )
+
+	uniprotFastaFile = SeqIO.parse(open( uniprotFastaDir + '/' + uniprotFastaDataFile ) ,'fasta')
+	for fasta in uniprotFastaFile:
+		name, sequence = fasta.id, fasta.seq # .tostring() implied
+		# sp|O02828|TAU_CAPHI , sp|O02828-2|TAU_CAPHI , tr|A0A151NP48|A0A151NP48_ALLMI
+		_, proteinId, isomorphId = name.split( '|', 3 )
+		if re.search( "-\d+", proteinId ):
+			proteinId, _  = proteinId.split( '-', 1 )
+		insertgenedata_query = "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );"
+		print( insertgenedata_query )
+		#cursor.execute( insertgenedata_query )
+
+#	conn.commit( )
+###########################################
 
 exit( )
 
-# unitprotFieldNames = [ 'fasta sequence', 'name' ]
-# for uniprotFastaDataFile in uniprotFastaDataFiles: 
-# 	uniprotFastaFile = SeqIO.parse(open( uniprotFastaDir + '/' + uniprotFastaDataFile ) ,'fasta')
-# 	for fasta in uniprotFastaFile:
-# 		name, sequence = fasta.id, fasta.seq # .tostring() implied
-# 	# 	print( "Name: " + name )
-	# 	print( "Sequence: " + sequence)
+print( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n")
 
 
-	# print( )
-	# print( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
-	# print( )
-
-	# for row in reader:
-	# 	print( row )
-
+## GeneOntology/hintdb
 ###########################################
+# hintkbDir = './hintkb'
+# hintkbDataFiles =  os.listdir( hintkbDir )
+# hintkbFieldNames = [ 'uniprot_id1', 'uniprot_id2', 'go_function', 'go_component', 'go_process', 'sequence_similarity', 'coexpression1', 'coexpression2', 'coexpression3', 'coexpression4', 'coexpression5', 'coexpression6', 'coexpression7', 'coexpression8', 'coexpression9', 'coexpression10', 'coexpression11', 'coexpression12', 'coexpression13', 'coexpression14', 'coexpression15', 'localization', 'homology_yeast', 'domain_domain_interaction', 'score', 'hprd_flag' ]
+# restkey    = 'unknownkey';
+# restval    = 'uknownvalue';
+# dialect    = 'excel-tab';
 
+# #read payload
+# for hintkbDataFile in hintkbDataFiles: 
+# 	hintkbCvsFile =  open( hintkbDir + '/' + hintkbDataFile )
+# 	hintkbReader = csv.DictReader( hintkbCvsFile, hintkbFieldNames, restkey, restval, dialect );
+# 	for row in hintkbReader:
+# 		insertDataQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, proteinId ) values ( '" + row['coexpression14'] + "', '" +  row['coexpression2'] + "', '" +  row['coexpression2'] + "', '" +  row['coexpression2'] + "' )"
+# 		print( insertDataQuery )
+
+
+exit()
 
 cursor.close( )
 
-exit()
 

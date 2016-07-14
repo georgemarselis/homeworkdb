@@ -3,91 +3,10 @@ P27338	AOFB_HUMAN	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine ox
 P19643	AOFB_RAT	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	Maob
 Q8BW75	AOFB_MOUSE	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	Maob
 P56560	AOFB_BOVIN	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
+P80668	FEAB_ECOLI	Phenylacetaldehyde dehydrogenase (PAD) (EC 1.2.1.39)	reviewed	feaB
 P58028	AOFB_CAVPO	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
 Q7YRB7	AOFB_CANLF	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
 Q6PLK3	AOFB_PIG	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
 Q5RE98	AOFB_PONAB	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
-P80668	FEAB_ECOLI	Phenylacetaldehyde dehydrogenase (PAD) (EC 1.2.1.39)	reviewed	feaB
-Q556K3	AOFB_DICDI	Probable flavin-containing monoamine oxidase B (EC 1.4.3.4)	reviewed	maoB-1; maoB-2
 Q47129	FEAR_ECOLI	Transcriptional activator FeaR	reviewed	feaR
-K7GKH7	K7GKH7_PIG	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-F1PFF8	F1PFF8_CANLF	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-F1LPM4	F1LPM4_RAT	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	Maob
-Q5NU31	Q5NU31_HORSE	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-H2QYH6	H2QYH6_PANTR	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-G1SFF7	G1SFF7_RABIT	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-G1MD91	G1MD91_AILME	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (Fragment)	unreviewed	MAOB
-H0UV57	H0UV57_CAVPO	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	Maob
-I3M590	I3M590_ICTTR	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-M3YMT0	M3YMT0_MUSPF	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-G3VQG9	G3VQG9_SARHA	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (Fragment)	unreviewed	MAOB
-F7IRJ7	F7IRJ7_CALJA	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-H2PVD2	H2PVD2_PONAB	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-W5NZA9	W5NZA9_SHEEP	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (Fragment)	unreviewed	MAOB
-F6UIH3	F6UIH3_MONDO	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-P58027	AOFA_CANLF	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	MAOA
-Q64133	AOFA_MOUSE	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	Maoa
-P46883	AMO_ECOLI	Primary amine oxidase (EC 1.4.3.21) (2-phenylethylamine oxidase) (Copper amine oxidase) (Tyramine oxidase)	reviewed	tynA
-Q54IT3	AOFA_DICDI	Probable flavin-containing monoamine oxidase A (EC 1.4.3.4)	reviewed	maoA
-Q6NSN2	AOF_DANRE	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (MAO) (Z-MAO)	reviewed	mao
-P21398	AOFA_BOVIN	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	MAOA
-P21397	AOFA_HUMAN	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	MAOA
-Q556K4	AOFC_DICDI	Probable flavin-containing monoamine oxidase C (EC 1.4.3.4)	reviewed	maoC-1; maoC-2
-B8NU56	B8NU56_ASPFN	Mao-B, putative	unreviewed	
-B8N9K6	B8N9K6_ASPFN	Mao-B, putative	unreviewed	
-G3J7M2	G3J7M2_CORMM	Mao-B, putative	unreviewed	
-B8MAL6	B8MAL6_TALSN	Mao-B, putative	unreviewed	
-B7Z242	B7Z242_HUMAN	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	
-Q8TBI1	Q8TBI1_HUMAN	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-Q54RP5	Q54RP5_DICDI	Uncharacterized protein	unreviewed	
-W4Z7Z7	W4Z7Z7_STRPU	Uncharacterized protein	unreviewed	Sp-Maob
-U3EKD9	U3EKD9_CALJA	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-U3C6U3	U3C6U3_CALJA	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-H9EV22	H9EV22_MACMU	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-I2CVT8	I2CVT8_MACMU	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-F7D3H3	F7D3H3_MACMU	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-A0A140T837	A0A140T837_BOVIN	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-F6Q6A2	F6Q6A2_ORNAN	Uncharacterized protein	unreviewed	MAOB
-H2PVD3	H2PVD3_PONAB	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-K7ATT8	K7ATT8_PANTR	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-M3WI74	M3WI74_FELCA	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-A0A096P0S6	A0A096P0S6_PAPAN	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-A0A096P0S5	A0A096P0S5_PAPAN	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-Q0EAA9	Q0EAA9_HORSE	Monoamine oxidase B (Fragment)	unreviewed	MAOB
-G3TEC4	G3TEC4_LOXAF	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-G3UAR5	G3UAR5_LOXAF	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (Fragment)	unreviewed	MAOB
-A0A0D9RN88	A0A0D9RN88_CHLSB	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-I3LEH4	I3LEH4_PIG	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-K7GP88	K7GP88_PIG	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (Fragment)	unreviewed	MAOA
-F1RX00	F1RX00_PIG	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOA
-K7GN75	K7GN75_PIG	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (Fragment)	unreviewed	MAOA
-G1QPV3	G1QPV3_NOMLE	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-G3QD91	G3QD91_GORGO	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-G1NVL8	G1NVL8_MYOLU	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (Fragment)	unreviewed	MAOB
-A0A161LR16	A0A161LR16_9MICO	Phenylacetaldehyde dehydrogenase	unreviewed	maoB
-A1RDE6	A1RDE6_ARTAT	Phenylacetaldehyde dehydrogenase (EC 1.2.1.39)	unreviewed	feaB
-A1RAQ2	A1RAQ2_ARTAT	Phenylacetaldehyde dehydrogenase (EC 1.2.1.39)	unreviewed	maoB
-A1RCH3	A1RCH3_ARTAT	Phenylacetaldehyde dehydrogenase (EC 1.2.1.39)	unreviewed	maoB
-Q0KDE3	Q0KDE3_CUPNH	Monoamine oxidase (Flavin containing) (EC 1.4.3.4)	unreviewed	maoB
-G3V9Z3	G3V9Z3_RAT	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	Maoa
-Q99PC8	Q99PC8_RAT	Monoamine oxidase-B (Fragment)	unreviewed	Maob
-A0A0P6JED9	A0A0P6JED9_HETGA	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	MAOB
-E9PVL9	E9PVL9_MOUSE	Amine oxidase [flavin-containing] B	unreviewed	Maob
-E9Q3X6	E9Q3X6_MOUSE	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase)	unreviewed	Maob
-G3UZM5	G3UZM5_MOUSE	Amine oxidase [flavin-containing] B	unreviewed	Maob
-B1WAY3	B1WAY3_XENTR	LOC100145726 protein (Uncharacterized protein)	unreviewed	maoa
-H0Z7I8	H0Z7I8_TAEGU	Uncharacterized protein	unreviewed	
-H0ZZZ9	H0ZZZ9_TAEGU	Uncharacterized protein	unreviewed	
-H0Z785	H0Z785_TAEGU	Uncharacterized protein	unreviewed	MAOB
-F6V9F4	F6V9F4_XENTR	Uncharacterized protein (Fragment)	unreviewed	maob
-F6V922	F6V922_XENTR	Uncharacterized protein (Fragment)	unreviewed	maoa
-U3JFJ7	U3JFJ7_FICAL	Uncharacterized protein	unreviewed	MAOB
-F1NIY7	F1NIY7_CHICK	Uncharacterized protein	unreviewed	MAOA
-F1NAW4	F1NAW4_CHICK	Uncharacterized protein	unreviewed	MAOB
-G1KUI0	G1KUI0_ANOCA	Uncharacterized protein (Fragment)	unreviewed	MAOB
-D4QF59	D4QF59_COTJA	Monoamine oxidase B (Fragment)	unreviewed	MAOB
-U3IYQ3	U3IYQ3_ANAPL	Uncharacterized protein	unreviewed	MAOB
-K7G7V5	K7G7V5_PELSI	Uncharacterized protein	unreviewed	MAOB
-A0A151NR40	A0A151NR40_ALLMI	Amine oxidase [flavin-containing] B	unreviewed	MAOB
-H2UED3	H2UED3_TAKRU	Uncharacterized protein	unreviewed	maob
-G1NP38	G1NP38_MELGA	Uncharacterized protein (Fragment)	unreviewed	MAOB
+Q556K3	AOFB_DICDI	Probable flavin-containing monoamine oxidase B (EC 1.4.3.4)	reviewed	maoB-1; maoB-2

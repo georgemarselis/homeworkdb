@@ -8,21 +8,14 @@
             <y>405.00</y>
         </location>
         <size>
-            <width>250.00</width>
-            <height>120.00</height>
+            <width>253.00</width>
+            <height>100.00</height>
         </size>
         <zorder>4</zorder>
         <SQLField>
-            <name><![CDATA[isomorphId]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
-            <primaryKey>1</primaryKey>
-            <notNull><![CDATA[1]]></notNull>
-            <uid><![CDATA[A649D981-6A52-4AE3-AE43-22FD63A2680A]]></uid>
-            <unique><![CDATA[0]]></unique>
-        </SQLField>
-        <SQLField>
             <name><![CDATA[isomorphName]]></name>
             <type><![CDATA[VARCHAR(255)]]></type>
+            <primaryKey>1</primaryKey>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[3BD48A89-02BA-441E-9732-B769265C59EE]]></uid>
         </SQLField>
@@ -84,7 +77,7 @@
         </SQLField>
         <SQLField>
             <name><![CDATA[proteinName]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[TEXT]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[28A8E089-CA0F-4E4F-AE23-996662CAA605]]></uid>
         </SQLField>
@@ -131,8 +124,8 @@
             <y>227.00</y>
         </location>
         <size>
-            <width>917.00</width>
-            <height>330.00</height>
+            <width>933.00</width>
+            <height>341.00</height>
         </size>
         <zorder>0</zorder>
         <commentTitle><![CDATA[GeorgeMarselis - PEZ2015 Project]]></commentTitle>
@@ -263,8 +256,8 @@
         <SourceSidebarWidth><![CDATA[312.000000]]></SourceSidebarWidth>
         <uid><![CDATA[52B50FC5-5D50-4FF2-9C3B-554DE59767CA]]></uid>
         <windowHeight><![CDATA[1039.000000]]></windowHeight>
-        <windowLocationX><![CDATA[333.000000]]></windowLocationX>
-        <windowLocationY><![CDATA[402.000000]]></windowLocationY>
+        <windowLocationX><![CDATA[332.000000]]></windowLocationX>
+        <windowLocationY><![CDATA[404.000000]]></windowLocationY>
         <windowScrollOrigin><![CDATA[{110, 0}]]></windowScrollOrigin>
         <windowWidth><![CDATA[2122.000000]]></windowWidth>
     </SQLDocumentInfo>
