@@ -6,6 +6,7 @@ import os
 import sys
 import xml.etree.ElementTree
 import re
+import time
 from Bio import SeqIO
 from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 
@@ -171,16 +172,17 @@ for uniprotFastaDataFile in uniprotFastaDataFiles:
 
 	uniprotFastaFile = SeqIO.parse(open( uniprotFastaDir + '/' + uniprotFastaDataFile ) ,'fasta')
 	for fasta in uniprotFastaFile:
-		name, sequence = fasta.id, fasta.seq # .tostring() implied
+		name, sequence = fasta.id, fasta.seq.tostring( )
 		# sp|O02828|TAU_CAPHI , sp|O02828-2|TAU_CAPHI , tr|A0A151NP48|A0A151NP48_ALLMI
 		_, proteinId, isomorphId = name.split( '|', 3 )
+		name = proteinId
 		if re.search( "-\d+", proteinId ):
 			proteinId, _  = proteinId.split( '-', 1 )
 		insertgenedata_query = "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );"
 		print( insertgenedata_query )
-		#cursor.execute( insertgenedata_query )
+		cursor.execute( insertgenedata_query )
 
-#	conn.commit( )
+conn.commit( )
 ###########################################
 
 exit( )
@@ -208,6 +210,6 @@ print( "\n########################################### HINTKB -- HINTKB -- HINTKB
 
 exit()
 
-cursor.close( )
+#cursor.close( )
 
 
