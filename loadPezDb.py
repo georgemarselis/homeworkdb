@@ -13,7 +13,7 @@ from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 
 delimiter  = '\t';
 
-host       = '192.168.1.26';
+host       = '192.168.1.4';
 user       = 'root';
 password   = '12345'
 defaultcharset    = 'utf8'
