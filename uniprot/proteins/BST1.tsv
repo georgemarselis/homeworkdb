@@ -1,24 +1,24 @@
 Entry	Entry name	Protein names	Status	Gene names  (primary )
 Q10588	BST1_HUMAN	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2 (EC 3.2.2.6) (ADP-ribosyl cyclase 2) (Bone marrow stromal antigen 1) (BST-1) (Cyclic ADP-ribose hydrolase 2) (cADPr hydrolase 2) (CD antigen CD157)	reviewed	BST1
-Q05567	SGPL_YEAST	Sphingosine-1-phosphate lyase (S1PL) (SP-lyase) (ySPL) (EC 4.1.2.27) (Bestowed of sphingosine tolerance 1) (Sphingosine-1-phosphate aldolase)	reviewed	DPL1
 Q64277	BST1_MOUSE	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2 (EC 3.2.2.6) (ADP-ribosyl cyclase 2) (Antigen BP3) (BP-3 alloantigen) (Bone marrow stromal antigen 1) (BST-1) (Cyclic ADP-ribose hydrolase 2) (cADPr hydrolase 2) (Leukocyte antigen 65) (Ly-65) (CD antigen CD157)	reviewed	Bst1
+Q63072	BST1_RAT	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2 (EC 3.2.2.6) (ADP-ribosyl cyclase 2) (Bone marrow stromal antigen 1) (BST-1) (Cyclic ADP-ribose hydrolase 2) (cADPr hydrolase 2) (CD antigen CD157)	reviewed	Bst1
+Q05567	SGPL_YEAST	Sphingosine-1-phosphate lyase (S1PL) (SP-lyase) (ySPL) (EC 4.1.2.27) (Bestowed of sphingosine tolerance 1) (Sphingosine-1-phosphate aldolase)	reviewed	DPL1
 P43571	BST1_YEAST	GPI inositol-deacylase (EC 3.1.-.-) (Bypass of SEC30 protein 1)	reviewed	BST1
 Q66GQ6	IP5P5_ARATH	Type I inositol polyphosphate 5-phosphatase 5 (At5PTase5) (EC 3.1.3.-) (Protein BRISTLED 1) (Protein DEFORMED ROOT HAIRS 4)	reviewed	IP5P5
-Q63072	BST1_RAT	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2 (EC 3.2.2.6) (ADP-ribosyl cyclase 2) (Bone marrow stromal antigen 1) (BST-1) (Cyclic ADP-ribose hydrolase 2) (cADPr hydrolase 2) (CD antigen CD157)	reviewed	Bst1
 Q9UT41	BST1_SCHPO	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	bst1
+Q752Q2	BST1_ASHGO	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q6FLY9	BST1_CANGA	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q6CIN9	BST1_KLULA	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
-Q752Q2	BST1_ASHGO	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q6BRG1	BST1_DEBHA	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q7SAM0	BST1_NEUCR	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	bst-1
 Q5AYC8	BST1_EMENI	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	bst1
-Q2H102	BST1_CHAGB	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q0CIV4	BST1_ASPTN	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	bst1
+Q2H102	BST1_CHAGB	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
+Q1DWP9	BST1_COCIM	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q2USI0	BST1_ASPOR	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	bst1
 P0CM50	BST1_CRYNJ	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q4WGM4	BST1_ASPFU	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	bst1
-Q1DWP9	BST1_COCIM	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 P0CM51	BST1_CRYNB	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q4P782	BST1_USTMA	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
-Q59VP0	BST1_CANAL	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
 Q0UQV6	BST1_PHANO	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1
+Q59VP0	BST1_CANAL	GPI inositol-deacylase (EC 3.1.-.-)	reviewed	BST1

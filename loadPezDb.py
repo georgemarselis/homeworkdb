@@ -154,7 +154,11 @@ for uniprotProteinDataFile in uniprotProteinDataFiles:
 		gene , extension = os.path.splitext( uniprotProteinDataFile )
 		if gene != str.upper(row['Gene names  (primary )']):
 			continue
-		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + row['Protein names'] + "', " + kot + ", '" + str.upper(row['Gene names  (primary )']) +"' )"
+		geneId = str.upper(row['Gene names  (primary )'])
+		if re.search( "-\d+", geneId ):
+			geneId, _  = geneId.split( '-', 1 )
+		
+		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + row['Protein names'] + "', " + kot + ", '" + geneId +"' )"
 		print( insertgenedata_query )
 		cursor.execute( insertgenedata_query )
 
@@ -182,7 +186,7 @@ for uniprotFastaDataFile in uniprotFastaDataFiles:
 		print( insertgenedata_query )
 		cursor.execute( insertgenedata_query )
 
-conn.commit( )
+	conn.commit( )
 ###########################################
 
 exit( )

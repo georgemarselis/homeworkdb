@@ -3,10 +3,18 @@ P27338	AOFB_HUMAN	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine ox
 P19643	AOFB_RAT	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	Maob
 Q8BW75	AOFB_MOUSE	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	Maob
 P56560	AOFB_BOVIN	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
-P80668	FEAB_ECOLI	Phenylacetaldehyde dehydrogenase (PAD) (EC 1.2.1.39)	reviewed	feaB
 P58028	AOFB_CAVPO	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
 Q7YRB7	AOFB_CANLF	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
 Q6PLK3	AOFB_PIG	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
 Q5RE98	AOFB_PONAB	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	reviewed	MAOB
-Q47129	FEAR_ECOLI	Transcriptional activator FeaR	reviewed	feaR
+P80668	FEAB_ECOLI	Phenylacetaldehyde dehydrogenase (PAD) (EC 1.2.1.39)	reviewed	feaB
+P21397	AOFA_HUMAN	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	MAOA
+P46883	AMO_ECOLI	Primary amine oxidase (EC 1.4.3.21) (2-phenylethylamine oxidase) (Copper amine oxidase) (Tyramine oxidase)	reviewed	tynA
 Q556K3	AOFB_DICDI	Probable flavin-containing monoamine oxidase B (EC 1.4.3.4)	reviewed	maoB-1; maoB-2
+Q47129	FEAR_ECOLI	Transcriptional activator FeaR	reviewed	feaR
+Q6NSN2	AOF_DANRE	Amine oxidase [flavin-containing] (EC 1.4.3.4) (Monoamine oxidase) (MAO) (Z-MAO)	reviewed	mao
+Q64133	AOFA_MOUSE	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	Maoa
+P21398	AOFA_BOVIN	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	MAOA
+P58027	AOFA_CANLF	Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A)	reviewed	MAOA
+Q556K4	AOFC_DICDI	Probable flavin-containing monoamine oxidase C (EC 1.4.3.4)	reviewed	maoC-1; maoC-2
+Q54IT3	AOFA_DICDI	Probable flavin-containing monoamine oxidase A (EC 1.4.3.4)	reviewed	maoA

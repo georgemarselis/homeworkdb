@@ -2,16 +2,84 @@ Entry	Entry name	Protein names	Status	Gene names  (primary )
 P37840	SYUA_HUMAN	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	SNCA
 O55042	SYUA_MOUSE	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP)	reviewed	Snca
 P37377	SYUA_RAT	Alpha-synuclein	reviewed	Snca
+Q5S007	LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
+Q3I5G7	SYUA_PIG	Alpha-synuclein	reviewed	SNCA
+P00519	ABL1_HUMAN	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	reviewed	ABL1
 Q3T0G8	SYUA_BOVIN	Alpha-synuclein	reviewed	SNCA
 P61145	SYUA_PANTR	Alpha-synuclein	reviewed	SNCA
 P61140	SYUA_GORGO	Alpha-synuclein	reviewed	SNCA
-Q3I5G7	SYUA_PIG	Alpha-synuclein	reviewed	SNCA
+P49841	GSK3B_HUMAN	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	reviewed	GSK3B
+P42858	HD_HUMAN	Huntingtin (Huntington disease protein) (HD protein)	reviewed	HTT
+Q8IUQ4	SIAH1_HUMAN	E3 ubiquitin-protein ligase SIAH1 (EC 6.3.2.-) (Seven in absentia homolog 1) (Siah-1) (Siah-1a)	reviewed	SIAH1
+P06241	FYN_HUMAN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn)	reviewed	FYN
+P10636	TAU_HUMAN	Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired helical filament-tau) (PHF-tau)	reviewed	MAPT
+P10909	CLUS_HUMAN	Clusterin (Aging-associated gene 4 protein) (Apolipoprotein J) (Apo-J) (Complement cytolysis inhibitor) (CLI) (Complement-associated protein SP-40,40) (Ku70-binding protein 1) (NA1/NA2) (Testosterone-repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain (ApoJalpha) (Complement cytolysis inhibitor a chain); Clusterin alpha chain (ApoJbeta) (Complement cytolysis inhibitor b chain)]	reviewed	CLU
+P63018	HSP7C_RAT	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
+P11142	HSP7C_HUMAN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	reviewed	HSPA8
+P39688	FYN_MOUSE	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
+Q9Y6H5	SNCAP_HUMAN	Synphilin-1 (Sph1) (Alpha-synuclein-interacting protein)	reviewed	SNCAIP
+Q62844	FYN_RAT	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	Fyn
+P09936	UCHL1_HUMAN	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
 Q91448	SYUA_SERCA	Alpha-synuclein (Synelfin)	reviewed	SNCA
-P61143	SYUA_MACMU	Alpha-synuclein	reviewed	SNCA
-P61146	SYUA_PONAB	Alpha-synuclein	reviewed	SNCA
-P61144	SYUA_PANPA	Alpha-synuclein	reviewed	SNCA
-P61142	SYUA_MACFA	Alpha-synuclein	reviewed	SNCA
+Q61327	SC6A3_MOUSE	Sodium-dependent dopamine transporter (DA transporter) (DAT) (Solute carrier family 6 member 3)	reviewed	Slc6a3
+Q04917	1433F_HUMAN	14-3-3 protein eta (Protein AS1)	reviewed	YWHAH
+Q06890	CLUS_MOUSE	Clusterin (Apolipoprotein J) (Apo-J) (Clustrin) (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	Clu
+P53351	PLK2_MOUSE	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (Serine/threonine-protein kinase SNK) (Serum-inducible kinase)	reviewed	Plk2
+P68510	1433F_MOUSE	14-3-3 protein eta	reviewed	Ywhah
+P56211	ARP19_HUMAN	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
+P56212	ARP19_MOUSE	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	Arpp19
+P40458	ATG32_YEAST	Autophagy-related protein 32 (Extracellular mutant protein 37)	reviewed	ATG32
+Q28055	ARP19_BOVIN	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
+Q712U6	ARP19_PIG	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	ARPP19
+Q712U5	ARP19_RAT	cAMP-regulated phosphoprotein 19 (ARPP-19)	reviewed	Arpp19
+Q9XSC5	CLUS_RABIT	Clusterin (Apolipoprotein J) (Apo-J) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P05371	CLUS_RAT	Clusterin (Dimeric acid glycoprotein) (DAG) (Sulfated glycoprotein 2) (SGP-2) (Testosterone repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	Clu
+Q29482	CLUS_HORSE	Clusterin [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+Q29549	CLUS_PIG	Clusterin (CP40) (Complement cytolysis inhibitor) (CLI) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P17698	CLUS_SHEEP	Clusterin (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain] (Fragments)	reviewed	CLU
+P17697	CLUS_BOVIN	Clusterin (Glycoprotein III) (GpIII) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P14683	CLUS_MESAU	Clusterin (Sulfated glycoprotein 2) (SGP-2) [Cleaved into: Clusterin beta chain; Clusterin alpha chain] (Fragment)	reviewed	CLU
+P25473	CLUS_CANLF	Clusterin (Glycoprotein 80) (Gp80) [Cleaved into: Clusterin beta chain; Clusterin alpha chain]	reviewed	CLU
+P00414	COX3_HUMAN	Cytochrome c oxidase subunit 3 (Cytochrome c oxidase polypeptide III)	reviewed	MT-CO3
+P60840	ENSA_MOUSE	Alpha-endosulfine (ARPP-19e)	reviewed	Ensa
+P68211	ENSA_PIG	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
+P68210	ENSA_BOVIN	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
+O43768	ENSA_HUMAN	Alpha-endosulfine (ARPP-19e)	reviewed	ENSA
+P60841	ENSA_RAT	Alpha-endosulfine (ARPP-19e)	reviewed	Ensa
+A0JNB0	FYN_BOVIN	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
+A1Y2K1	FYN_PIG	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene c-Fyn) (p59-Fyn)	reviewed	FYN
+Q5NVM9	HSP7C_PONAB	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+Q71U34	HSP7C_SAGOE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Intracellular vitamin D-binding protein 1)	reviewed	HSPA8
+P19120	HSP7C_BOVIN	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	HSPA8
+P63017	HSP7C_MOUSE	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8)	reviewed	Hspa8
+Q9NYY3	PLK2_HUMAN	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (hPlk2) (Serine/threonine-protein kinase SNK) (hSNK) (Serum-inducible kinase)	reviewed	PLK2
+Q5R4L1	PLK2_PONAB	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2)	reviewed	PLK2
+Q9R012	PLK2_RAT	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (Serine/threonine-protein kinase SNK) (Serum-inducible kinase)	reviewed	Plk2
+Q9UI14	PRAF1_HUMAN	Prenylated Rab acceptor protein 1 (PRA1 family protein 1)	reviewed	RABAC1
+P55258	RAB8A_MOUSE	Ras-related protein Rab-8A (Oncogene c-mel)	reviewed	Rab8a
+Q8BHC1	RB39B_MOUSE	Ras-related protein Rab-39B	reviewed	Rab39b
+Q17QU4	RB39B_BOVIN	Ras-related protein Rab-39B	reviewed	RAB39B
+Q96DA2	RB39B_HUMAN	Ras-related protein Rab-39B	reviewed	RAB39B
+Q01959	SC6A3_HUMAN	Sodium-dependent dopamine transporter (DA transporter) (DAT) (Solute carrier family 6 member 3)	reviewed	SLC6A3
+Q8R4T2	SIAH2_RAT	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2)	reviewed	Siah2
+O43255	SIAH2_HUMAN	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2) (hSiah2)	reviewed	SIAH2
+Q99ME3	SNCAP_MOUSE	Synphilin-1 (Alpha-synuclein-interacting protein)	reviewed	Sncaip
+Q06986	SIAH2_MOUSE	E3 ubiquitin-protein ligase SIAH2 (EC 6.3.2.-) (Seven in absentia homolog 2) (Siah-2) (mSiah2)	reviewed	Siah2
+P17600	SYN1_HUMAN	Synapsin-1 (Brain protein 4.1) (Synapsin I)	reviewed	SYN1
 P61139	SYUA_ERYPA	Alpha-synuclein	reviewed	SNCA
+P61142	SYUA_MACFA	Alpha-synuclein	reviewed	SNCA
+Q16143	SYUB_HUMAN	Beta-synuclein	reviewed	SNCB
 P61138	SYUA_ATEGE	Alpha-synuclein	reviewed	SNCA
+P61144	SYUA_PANPA	Alpha-synuclein	reviewed	SNCA
+P61146	SYUA_PONAB	Alpha-synuclein	reviewed	SNCA
 P61147	SYUA_SAGLB	Alpha-synuclein	reviewed	SNCA
 P61141	SYUA_LAGLA	Alpha-synuclein	reviewed	SNCA
+P61143	SYUA_MACMU	Alpha-synuclein	reviewed	SNCA
+O94811	TPPP_HUMAN	Tubulin polymerization-promoting protein (TPPP) (25 kDa brain-specific protein) (TPPP/p25) (p24) (p25-alpha)	reviewed	TPPP
+Q9R0P9	UCHL1_MOUSE	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	Uchl1
+Q60HC8	UCHL1_MACFA	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+Q9GM50	UCHL1_HORSE	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+Q00981	UCHL1_RAT	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	Uchl1
+Q6SEG5	UCHL1_PIG	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+P23356	UCHL1_BOVIN	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
+P50103	UCHL1_MONDO	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (EC 6.-.-.-) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	reviewed	UCHL1
