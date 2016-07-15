@@ -57,7 +57,7 @@ conn.commit( )
 # # create tables
 createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(255) NOT NULL, geneName VARCHAR(255), disgenetScore FLOAT NOT NULL,noPubMedIDs INTEGER, PRIMARY KEY (geneId) )"
 createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(255) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneId VARCHAR(255) NOT NULL, PRIMARY KEY (proteinId) )"
-createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId VARCHAR(255) NOT NULL, ontologyName VARCHAR(255) NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, biological_process VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId, proteinId) )"
+createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId INTEGER NOT NULL, ontologyName INTEGER NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, biological_process VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId, proteinId) )"
 createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph ( isomorphName VARCHAR(255) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (isomorphName) );"
 createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from isomorph;"
 createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
@@ -198,9 +198,7 @@ print( "\n########################################### HINTKB -- HINTKB -- HINTKB
 
 ## GeneOntology/hintdb
 ###########################################
-# hintkbDir = './hintkb'
-# hintkbDataFiles =  os.listdir( hintkbDir )
-hintkbFieldNames = [ 'function_id', 'go_term', 'function_name', 'function_namespace' ]
+#hintkbFieldNames = [ 'function_id', 'go_term', 'function_name', 'function_namespace' ]
 
 # #read payload
 selectQuery = "select distinct protein.proteinid from protein order by proteinid"
@@ -222,7 +220,7 @@ for uniprotId in selectResult:
 			bar = re.sub( '_', ' ', item['function_namespace'] )
 			insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str(uniprotId[0]) + '\' )' 
 			print( insertGoQuery )
-			cursor.execute( insertGoQuery)
+			cursor.execute( insertGoQuery )
 			conn.commit( )
 
 exit( )
