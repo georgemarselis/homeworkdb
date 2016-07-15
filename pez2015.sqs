@@ -141,7 +141,7 @@
         </location>
         <size>
             <width>246.00</width>
-            <height>120.00</height>
+            <height>140.00</height>
         </size>
         <zorder>3</zorder>
         <SQLField>
@@ -189,6 +189,12 @@
             <indexNamePrefix><![CDATA[geneOntology]]></indexNamePrefix>
             <uid><![CDATA[2FC51D64-1C2B-4133-9032-E795CA5C7D85]]></uid>
         </SQLForeignKey>
+        <SQLField>
+            <name><![CDATA[biological_process]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <notNull><![CDATA[1]]></notNull>
+            <uid><![CDATA[4855E975-9F7B-4287-A7F4-163B317178A7]]></uid>
+        </SQLField>
         <labelWindowIndex><![CDATA[0]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[BC5CCABE-DCA6-4EC6-92A4-FC9FF8A7103E]]></uid>
