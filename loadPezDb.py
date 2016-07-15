@@ -7,6 +7,9 @@ import sys
 import xml.etree.ElementTree
 import re
 import time
+import urllib.request
+import json
+from io  import StringIO
 from Bio import SeqIO
 from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 
@@ -54,7 +57,7 @@ conn.commit( )
 # # create tables
 createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(255) NOT NULL, geneName VARCHAR(255), disgenetScore FLOAT NOT NULL,noPubMedIDs INTEGER, PRIMARY KEY (geneId) )"
 createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(255) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneId VARCHAR(255) NOT NULL, PRIMARY KEY (proteinId) )"
-createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId VARCHAR(255) NOT NULL, ontologyName VARCHAR(255) NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId) )"
+createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId VARCHAR(255) NOT NULL, ontologyName VARCHAR(255) NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, biological_process VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId, proteinId) )"
 createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph ( isomorphName VARCHAR(255) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (isomorphName) );"
 createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from isomorph;"
 createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
@@ -189,7 +192,6 @@ for uniprotFastaDataFile in uniprotFastaDataFiles:
 	conn.commit( )
 ###########################################
 
-exit( )
 
 print( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n")
 
@@ -198,22 +200,33 @@ print( "\n########################################### HINTKB -- HINTKB -- HINTKB
 ###########################################
 # hintkbDir = './hintkb'
 # hintkbDataFiles =  os.listdir( hintkbDir )
-# hintkbFieldNames = [ 'uniprot_id1', 'uniprot_id2', 'go_function', 'go_component', 'go_process', 'sequence_similarity', 'coexpression1', 'coexpression2', 'coexpression3', 'coexpression4', 'coexpression5', 'coexpression6', 'coexpression7', 'coexpression8', 'coexpression9', 'coexpression10', 'coexpression11', 'coexpression12', 'coexpression13', 'coexpression14', 'coexpression15', 'localization', 'homology_yeast', 'domain_domain_interaction', 'score', 'hprd_flag' ]
-# restkey    = 'unknownkey';
-# restval    = 'uknownvalue';
-# dialect    = 'excel-tab';
+hintkbFieldNames = [ 'function_id', 'go_term', 'function_name', 'function_namespace' ]
 
 # #read payload
-# for hintkbDataFile in hintkbDataFiles: 
-# 	hintkbCvsFile =  open( hintkbDir + '/' + hintkbDataFile )
-# 	hintkbReader = csv.DictReader( hintkbCvsFile, hintkbFieldNames, restkey, restval, dialect );
-# 	for row in hintkbReader:
-# 		insertDataQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, proteinId ) values ( '" + row['coexpression14'] + "', '" +  row['coexpression2'] + "', '" +  row['coexpression2'] + "', '" +  row['coexpression2'] + "' )"
-# 		print( insertDataQuery )
+selectQuery = "select distinct protein.proteinid from protein order by proteinid"
+cursor.execute( selectQuery )
+selectResult = cursor.fetchall( )
+# print( selectResult )
 
+response = [ ]
+hintkbUrl = "http://hintkb.ceid.upatras.gr/api/functions/byprotein/"
+for uniprotId in selectResult:
+	response = urllib.request.urlopen( hintkbUrl + uniprotId[0] )
+	restResult = response.read( ) 
+	# {"function_id":17269,"go_term":"0033603","function_name":"positive regulation of dopamine secretion","function_namespace":"biological_process"}
+	result =  restResult.decode( 'UTF-8' )
+	parsedJson = { }
+	parsedJson = json.loads( result )
+	if parsedJson:
+		for item in parsedJson:
+			bar = re.sub( '_', ' ', item['function_namespace'] )
+			insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str(uniprotId[0]) + '\' )' 
+			print( insertGoQuery )
+			cursor.execute( insertGoQuery)
+			conn.commit( )
 
-exit()
+exit( )
 
-#cursor.close( )
+cursor.close( )
 
 
