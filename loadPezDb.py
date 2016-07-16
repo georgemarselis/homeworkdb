@@ -14,8 +14,6 @@ from Bio import SeqIO
 from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 
 
-delimiter  = '\t';
-
 host       = '192.168.1.4';
 user       = 'root';
 password   = '12345'
@@ -57,7 +55,7 @@ conn.commit( )
 # # create tables
 createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(255) NOT NULL, geneName VARCHAR(255), disgenetScore FLOAT NOT NULL,noPubMedIDs INTEGER, PRIMARY KEY (geneId) )"
 createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(255) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneId VARCHAR(255) NOT NULL, PRIMARY KEY (proteinId) )"
-createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId INTEGER NOT NULL, ontologyName INTEGER NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, biological_process VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId, proteinId) )"
+createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId BIGINT NOT NULL, ontologyName BIGINT NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, biological_process VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId, proteinId) )"
 createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph ( isomorphName VARCHAR(255) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (isomorphName) );"
 createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from isomorph;"
 createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
@@ -222,8 +220,6 @@ for uniprotId in selectResult:
 			print( insertGoQuery )
 			cursor.execute( insertGoQuery )
 			conn.commit( )
-
-exit( )
 
 cursor.close( )
 

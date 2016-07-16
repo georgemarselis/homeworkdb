@@ -4,8 +4,8 @@
         <name><![CDATA[isomorph]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>739.00</x>
-            <y>405.00</y>
+            <x>743.00</x>
+            <y>398.00</y>
         </location>
         <size>
             <width>253.00</width>
@@ -61,8 +61,8 @@
         <name><![CDATA[protein]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>437.00</x>
-            <y>363.00</y>
+            <x>425.00</x>
+            <y>358.00</y>
         </location>
         <size>
             <width>236.00</width>
@@ -142,8 +142,8 @@
         <name><![CDATA[geneOntology]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>727.00</x>
-            <y>247.00</y>
+            <x>747.00</x>
+            <y>244.00</y>
         </location>
         <size>
             <width>246.00</width>
@@ -152,7 +152,7 @@
         <zorder>3</zorder>
         <SQLField>
             <name><![CDATA[ontologyId]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[BIGINT]]></type>
             <primaryKey>1</primaryKey>
             <forcedUnique><![CDATA[0]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
@@ -161,7 +161,7 @@
         </SQLField>
         <SQLField>
             <name><![CDATA[ontologyName]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[BIGINT]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[84A954C2-39CD-4C3D-9686-EE03243F37D7]]></uid>
         </SQLField>
@@ -211,8 +211,8 @@
         <name><![CDATA[gene]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>135.00</x>
-            <y>378.00</y>
+            <x>134.00</x>
+            <y>455.00</y>
         </location>
         <size>
             <width>223.00</width>
