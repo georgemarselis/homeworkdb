@@ -116,9 +116,9 @@ for row in disgenetReader:
 			continue
 	insertgenedataQuery = " "
 	if row['c2.pathName'] == 'null':
-		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', NULL, '" + row['c0.score'] + "', '" + row['c0.pmids'] +"' )"		
+		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', NULL, " + row['c0.score'] + ", " + row['c0.pmids'] +" )"
 	else:
-		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', '" + row['c2.pathName'] + "', '" + row['c0.score'] + "', '" + row['c0.pmids'] +"' )"
+		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', '" + row['c2.pathName'] + "', " + row['c0.score'] + ", " + row['c0.pmids'] +" )"
 	print( insertgenedataQuery )
 	cursor.execute( insertgenedataQuery )
 
