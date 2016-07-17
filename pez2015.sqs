@@ -125,7 +125,7 @@
         <name><![CDATA[Canvas Area1]]></name>
         <comment><![CDATA[]]></comment>
         <location>
-            <x>118.00</x>
+            <x>117.00</x>
             <y>227.00</y>
         </location>
         <size>
@@ -271,8 +271,8 @@
         <SourceSidebarWidth><![CDATA[312.000000]]></SourceSidebarWidth>
         <uid><![CDATA[52B50FC5-5D50-4FF2-9C3B-554DE59767CA]]></uid>
         <windowHeight><![CDATA[1039.000000]]></windowHeight>
-        <windowLocationX><![CDATA[332.000000]]></windowLocationX>
-        <windowLocationY><![CDATA[404.000000]]></windowLocationY>
+        <windowLocationX><![CDATA[246.000000]]></windowLocationX>
+        <windowLocationY><![CDATA[-298.000000]]></windowLocationY>
         <windowScrollOrigin><![CDATA[{110, 0}]]></windowScrollOrigin>
         <windowWidth><![CDATA[2122.000000]]></windowWidth>
     </SQLDocumentInfo>

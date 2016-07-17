@@ -159,7 +159,7 @@ for uniprotProteinDataFile in uniprotProteinDataFiles:
 		if re.search( "-\d+", geneId ):
 			geneId, _  = geneId.split( '-', 1 )
 		
-		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + row['Protein names'] + "', " + kot + ", '" + geneId +"' )"
+		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' )"
 		print( insertgenedata_query )
 		cursor.execute( insertgenedata_query )
 
