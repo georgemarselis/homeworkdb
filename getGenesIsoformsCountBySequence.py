@@ -6,10 +6,11 @@ import sys
 
 def usage( ):
 	helpString = """
-Script8. getGeneByIsoformSequence.py –s "ακολουθία"
-	Τυπώνει στην οθόνη του χρήστη το όνομα του γονιδίου και το όνομα της
-	αντίστοιχης πρωτεΐνης για την οποία υπάρχει κάποια ισομορφή που περιέχει
-	την ακολουθία X (όπου Χ η ακολουθία που δίνεται ως όρισμα)."""
+Script 10. getGenesIsoformsCountBySequence.py –s «ακολουθία» 
+	Τυπώνει στην οθόνη του χρήστη το σύμβολο του γονιδίου και το πλήθος των
+	ισομορφών της αντίστοιχης πρωτεΐνης που περιέχουν την ακολουθία X (όπου
+	Χ η ακολουθία που δίνεται ως όρισμα).
+"""
 
 	print( helpString )
 
@@ -56,7 +57,7 @@ def main():
 	cursor.execute( "use " + db )
 	conn.commit( )
 
-	selectQuery = "select protein.geneId, protein.proteinName from isomorph inner join protein on isomorph.proteinId = protein.proteinId where isomorph.isomorphFASTASequence like '%%%s%%';" % sequence
+	selectQuery = "select protein.geneId, foo.count from ( select count(isomorph.proteinId) as count, isomorph.proteinId from isomorph where isomorph.isomorphFASTASequence like '%%%s%%' group by isomorph.proteinId ) as foo inner join protein on foo.proteinId = protein.proteinId ;" % sequence
 	cursor.execute( selectQuery )
 
 
