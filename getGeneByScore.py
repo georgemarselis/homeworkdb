@@ -4,15 +4,23 @@ import pymysql
 import getopt
 import sys
 
+def usage( ):
+	helpString = """
+Τυπώνει στην οθόνη του χρήστη το όνομα, το σύμβολο και το σκορ σχετικότητας 
+με την ασθένεια για τα γονίδια που το σκορ συσχέτισης με την ασθένεια είναι 
+μεγαλύτερο του Χ (όπου Χ το σκορ που δίνεται ως όρισμα) σε κατάταξη σύμφωνα
+με το σκορ (το μεγαλύτερο σκορ πρώτο)
+"""
+	print( helpString )
+
 def main():
 	try:
-		opts, args = getopt.getopt(sys.argv[1:], "hs:v", ["help", "output="])
+		opts, args = getopt.getopt(sys.argv[1:], "hs:v", ["help", "score="])
 	except getopt.GetoptError as err:
 		# print help information and exit:
 		print( err ) # will print something like "option -a not recognized"
-		usage( )
 		sys.exit(2)
-	output = None
+	score = "0.01"
 	verbose = False
 	for o, a in opts:
 		if o == "-v":
@@ -20,8 +28,8 @@ def main():
 		elif o in ("-h", "--help"):
 			usage()
 			sys.exit()
-		elif o in ("-o", "--output"):
-			output = a
+		elif o in ("-s", "--score"):
+			score = a
 		else:
 			assert False, "unhandled option"
 
@@ -31,10 +39,7 @@ def main():
 	defaultcharset    = 'utf8'
 	defaultcollation  = 'utf8_general_ci'
 
-
 	db = "pez2015_project2501a"
-
-	optlist, args = getopt.getopt(args, 's:')
 
 	# # connect to db
 	conn = pymysql.connect( host, user, password )
@@ -49,9 +54,9 @@ def main():
 
 	cursor.execute( "use " + db )
 	conn.commit( )
-
-	selectQuery = "select isomorph.proteinid, count( isomorph.isomorphFASTASequence ) from isomorph group by proteinId;"
-	cursor.execute( selectQuery )
+	
+	selectQuery = "select gene.geneName, gene.geneId, gene.disgenetScore from gene where disgenetscore > %s order by disgenetscore desc"
+	cursor.execute( selectQuery, (score, ) )
 
 	#substitute for fetchone
 	for row in cursor:
