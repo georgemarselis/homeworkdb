@@ -5,17 +5,21 @@ import getopt
 import sys
 
 def usage( ):
-	print( "kot")
+	helpString = """
+Τυπώνει στην οθόνη του χρήστη τον κωδικό πρωτεΐνης και το όνομα της κάθε σχετιζόμενης λειτουργίας.
+"""
+
+	print( helpString )
 
 def main():
 	try:
-		opts, args = getopt.getopt(sys.argv[1:], "hv", ["help", "output="])
+		opts, args = getopt.getopt(sys.argv[1:], "hv", ["help", "function="])
 	except getopt.GetoptError as err:
 		# print help information and exit:
 		print( err ) # will print something like "option -a not recognized"
 		usage( )
 		sys.exit(2)
-	output = None
+	function = None
 	verbose = False
 	for o, a in opts:
 		if o == "-v":
@@ -23,8 +27,8 @@ def main():
 		elif o in ("-h", "--help"):
 			usage()
 			sys.exit()
-		elif o in ("-o", "--output"):
-			output = a
+		elif o in ("-f", "--function"):
+			function = a
 		else:
 			assert False, "unhandled option"
 
@@ -34,10 +38,7 @@ def main():
 	defaultcharset    = 'utf8'
 	defaultcollation  = 'utf8_general_ci'
 
-
 	db = "pez2015_project2501a"
-
-	optlist, args = getopt.getopt(args, 's:')
 
 	# # connect to db
 	conn = pymysql.connect( host, user, password )
@@ -53,8 +54,9 @@ def main():
 	cursor.execute( "use " + db )
 	conn.commit( )
 
-	selectQuery = "select geneOntology.proteinId, ontologyFunction from geneOntology;"
+	selectQuery = "select geneOntology.proteinId, geneOntology.ontologyFunction, geneOntology.ontologyName from geneOntology where geneOntology.ontologyFunction like \'%%%s%%\'" % function
 	cursor.execute( selectQuery )
+
 
 	#substitute for fetchone
 	for row in cursor:
