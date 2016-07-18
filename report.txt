@@ -1,0 +1,1399 @@
+\n>>>>>>>>>>>>>>>>>>>ergastirio_bashs.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import csv
+import os
+
+
+fieldnames = ['geneId', 'geneName', 'description', 'diseaseId', 'diseaseName', 'score', 'NofPmids', 'NofSnps', 'sources' ];
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+delimiter  = '\t';
+dialect    = 'excel-tab';
+host       = '192.168.1.26';
+user       = 'root';
+password   = '12345'
+db 		   = 'disgenet'
+defaultcharset    = 'utf8'
+defaultcollation  = 'utf8_general_ci'
+tsv_file   = 'out'
+
+db = "project2501a_pez"
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
+
+
+# connect to db
+conn = pymysql.connect( host, user, password, db )
+if conn != -1 :
+	print( 'database connection established' )
+else:
+	print( 'Houston we have a problem' )
+
+# init db
+conn.begin( )
+cursor = conn.cursor( )
+dropdb_query = 'drop database if exists ' + db
+createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
+cursor.execute( dropdb_query )
+cursor.execute( createdb_query )
+conn.commit( )
+# init tables
+droptable_query                = 'drop table if exists gene2disease, gene, disease'
+createtable_gene_query         = 'create table if not exists gene( geneId varchar(50) not null, geneName varchar(100) not null, primary key (geneId) )'
+createtable_disease_query      = 'create table if not exists disease( diseaseId varchar(50) not null, diseaseName varchar(100) not null, description varchar(100) not null, primary key (diseaseId) )'
+createtable_gene2disease_query = 'create table if not exists gene2disease ( geneId varchar(50) not null, diseaseId varchar(50) not null, foreign key (geneId) references gene(geneId) on update cascade on delete restrict, foreign key (diseaseId) references disease(diseaseId) on update cascade on delete restrict )'
+cursor.execute( "use " + db )
+print( droptable_query )
+cursor.execute( droptable_query )
+print( createtable_gene_query )
+cursor.execute( createtable_gene_query )
+print( createtable_gene_query )
+cursor.execute( createtable_disease_query )
+print( createtable_gene2disease_query )
+cursor.execute( createtable_gene2disease_query )
+conn.commit( )
+
+# insert payload
+with open( tsv_file ) as csvfile:
+	reader = csv.DictReader( csvfile, fieldnames, restkey, restval, dialect );
+	next(reader, None) # skip the headers
+	gene_keys    = [ ]
+	disease_keys = [ ]
+
+	for row in reader:
+		if row['geneId'] not in gene_keys:
+			gene_keys.append( row['geneId'] )
+			previous_gene_key = row['geneId']
+			insertgenedata_query = "insert into gene( geneId, geneName ) value ( '" + row['geneId'] + "', '" + row['geneName'] + "' )"
+			print( insertgenedata_query )
+			cursor.execute( insertgenedata_query )
+
+		if row['diseaseId'] not in disease_keys: 
+			disease_keys.append( row['diseaseId'] )
+			insertdiseasedata_query = "insert into disease( diseaseId, diseaseName, description ) value ( '" + row['diseaseId'] + "', " + conn.escape(row['diseaseName']) + ", " + conn.escape(row['description']) + " )"
+			print( insertdiseasedata_query )
+			cursor.execute( insertdiseasedata_query )
+		cursor.execute( "insert into gene2disease( geneId, diseaseId ) value ( '" + row['geneId'] + "', '" + row['diseaseId'] + "' )" )
+
+	conn.commit( )
+	cursor.close( )
+	exit( )
+
+
+# select gene and diseases
+conn.begin( )
+cursor = conn.cursor( )
+selectgene_query = ""
+selectdiseasedata_query = ""
+cursor.execute( selectgene_query )
+cursor.execute( selectdiseasedata_query )
+conn.commit( )
+cursor.close( )
+\n>>>>>>>>>>>>>>>>>>>getDisgenetData.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import urllib.request, urllib.error, urllib.parse
+
+query="""
+DEFINE
+	c0='/data/gene_disease_summary',
+	c1='/data/diseases',
+	c2='/data/genes',
+	c3='/data/gene_roles',
+	c4='/data/gene_to_associated_diseases',
+	c5='/data/sources'
+ON
+	'http://www.disgenet.org/web/DisGeNET'
+SELECT
+	c1 (cui, name, hpoName, omimInt, diseaseId, STY, MESH, diseaseClassName, type, hdoName ),
+	c2 (name, geneId, uniprotId, description, pathName, pantherName ),
+	c3 (PI, PL),
+	c0 (score, pmids, snps, sourceId ),
+	c4 (numberOfassocDiseases)
+FROM
+	c0
+WHERE
+	(
+		c1 = 'umls:C0030567'
+	AND
+		c5 = 'ALL'
+	AND
+		c0.score >= '0.25'
+	)
+ORDER BY
+	c0.score DESC"""
+
+binary_data = query.encode("utf-8")
+req = urllib.request.Request("http://www.disgenet.org/oql")
+res = urllib.request.urlopen(req, binary_data)
+print(res.read().decode('utf-8'))
+\n>>>>>>>>>>>>>>>>>>>getGeneByIsoformSequence.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	helpString = """
+Script8. getGeneByIsoformSequence.py –s "ακολουθία"
+	Τυπώνει στην οθόνη του χρήστη το όνομα του γονιδίου και το όνομα της
+	αντίστοιχης πρωτεΐνης για την οποία υπάρχει κάποια ισομορφή που περιέχει
+	την ακολουθία X (όπου Χ η ακολουθία που δίνεται ως όρισμα)."""
+
+	print( helpString )
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hs:v", ["help", "sequence="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	sequence = None
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-s", "--sequence"):
+			sequence = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select protein.geneId, protein.proteinName from isomorph inner join protein on isomorph.proteinId = protein.proteinId where isomorph.isomorphFASTASequence like '%%%s%%';" % sequence
+	cursor.execute( selectQuery )
+
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getGeneByScore.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	helpString = """
+Τυπώνει στην οθόνη του χρήστη το όνομα, το σύμβολο και το σκορ σχετικότητας 
+με την ασθένεια για τα γονίδια που το σκορ συσχέτισης με την ασθένεια είναι 
+μεγαλύτερο του Χ (όπου Χ το σκορ που δίνεται ως όρισμα) σε κατάταξη σύμφωνα
+με το σκορ (το μεγαλύτερο σκορ πρώτο)
+"""
+	print( helpString )
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hs:v", ["help", "score="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		sys.exit(2)
+	score = "0.01"
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-s", "--score"):
+			score = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+	
+	selectQuery = "select gene.geneName, gene.geneId, gene.disgenetScore from gene where disgenetscore > %s order by disgenetscore desc"
+	cursor.execute( selectQuery, (score, ) )
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getGenesIsoformsCountBySequence.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	helpString = """
+Script 10. 	.py –s «ακολουθία»
+	Τυπώνει στην οθόνη του χρήστη το σύμβολο του γονιδίου και το πλήθος των
+	ισομορφών της αντίστοιχης πρωτεΐνης που περιέχουν την ακολουθία X (όπου
+	Χ η ακολουθία που δίνεται ως όρισμα).
+"""
+
+	print( helpString )
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hs:v", ["help", "sequence="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	sequence = None
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-s", "--sequence"):
+			sequence = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select protein.geneId, foo.count from ( select count(isomorph.proteinId) as count, isomorph.proteinId from isomorph where isomorph.isomorphFASTASequence like '%%%s%%' group by isomorph.proteinId ) as foo inner join protein on foo.proteinId = protein.proteinId ;" % sequence
+	cursor.execute( selectQuery )
+
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getGenesPublications.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import os
+
+host       = '192.168.1.4';
+user       = 'root';
+password   = '12345'
+defaultcharset    = 'utf8'
+defaultcollation  = 'utf8_general_ci'
+
+
+db = "project2501a_pez2015"
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
+
+# # connect to db
+conn = pymysql.connect( host, user, password )
+if conn != -1 :
+	print( 'database connection established' )
+else:
+	print( 'Houston we have a problem' )
+
+conn.begin( )
+cursor = conn.cursor( )
+#turn this into a stored procedure
+
+cursor.execute( "use " + db )
+conn.commit( )
+
+selectQuery = "select gene.geneId, gene.geneName, gene.noPubMedIDs, protein.proteinId from gene inner join protein on gene.geneId = protein.geneId group by gene.geneId order by protein.proteinId;"
+cursor.execute( selectQuery )
+
+#substitute for fetchone
+for row in cursor:
+	print( row )
+
+cursor.close( )\n>>>>>>>>>>>>>>>>>>>getProteinExperimentalVerified.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	print( "kot")
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hv", ["help", "output="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	output = None
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-o", "--output"):
+			output = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	optlist, args = getopt.getopt(args, 's:')
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select protein.proteinId, protein.proteinName from protein where protein.proteinConfirmed = TRUE;"
+	cursor.execute( selectQuery )
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getProteinFunctions.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	helpString = """
+Τυπώνει στην οθόνη του χρήστη τον κωδικό πρωτεΐνης και το όνομα της κάθε σχετιζόμενης λειτουργίας.
+"""
+
+	print( helpString )
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hv", ["help","verbose"])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select geneOntology.proteinId, geneOntology.ontologyFunction, geneOntology.ontologyName from geneOntology"
+	cursor.execute( selectQuery )
+
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getProteinIsoformCountByPubsCount.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	helpString = """
+Script7. getProteinIsoformCountByPubsCount.py –p "αριθμός"
+	Τυπώνει στην οθόνη του χρήστη τον κωδικό και το πλήθος των ισομορφών των
+	πρωτεϊνών των οποίων το σχετιζόμενο γονίδιο έχει πάνω από X σχετικές με
+	την ασθένεια δημοσιεύσεις (όπου Χ ο αριθμός που δίνεται ως όρισμα).
+"""
+
+	print( helpString )
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hp:v", ["help", "publications="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	publications = None
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-p", "--publications"):
+			publications = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select isomorph.proteinId, count( isomorph.isomorphName ) from isomorph inner join ( select protein.proteinId, protein.proteinName, gene.geneName, gene.disgenetScore, gene.noPubMedIDs from protein inner join gene where (protein.geneId = gene.geneId ) and ( gene.noPubMedIDs > %s ) group by protein.geneId ) as foo group by isomorph.proteinId;" % publications
+	cursor.execute( selectQuery )
+
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getProteinsByFunction.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	helpString = """
+Τυπώνει στην οθόνη του χρήστη τον κωδικό πρωτεΐνης και το όνομα της κάθε σχετιζόμενης λειτουργίας.
+"""
+
+	print( helpString )
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hv", ["help", "function="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	function = None
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-f", "--function"):
+			function = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select geneOntology.proteinId, geneOntology.ontologyFunction, geneOntology.ontologyName from geneOntology where geneOntology.ontologyFunction like \'%%%s%%\'" % function
+	cursor.execute( selectQuery )
+
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getProteinsFunctionByNamespace.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+import os
+
+def usage( ):
+	helpString = """
+getProteinsFunctionByNamespace.py –n "κατηγορία λειτουργίας"
+	Τυπώνει στην οθόνη του χρήστη τον όρο και το όνομα των λειτουργιών που
+	σχετίζονται με πρωτεΐνες που ο κωδικός πρωτεΐνης τους ξεκινάει από "P"
+	και η λειτουργία ανήκει στην κατηγορία Χ (όπου Χ η κατηγορία λειτουργίας
+	που δίνεται ως όρισμα).
+
+"""
+
+	print( helpString )
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hn:v", ["help", "namespace="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	namespace = None
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-n", "--namespace"):
+			namespace = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select geneOntology.proteinId, geneOntology.biological_process from geneOntology where ontologyFunction like '%%%s%%' and geneOntology.proteinid like 'P%%';" % namespace
+	cursor.execute( selectQuery )
+
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>getProteinsIsoformsCount.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import os
+
+
+host       = '192.168.1.4';
+user       = 'root';
+password   = '12345'
+defaultcharset    = 'utf8'
+defaultcollation  = 'utf8_general_ci'
+
+
+db = "project2501a_pez"
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
+
+# # connect to db
+conn = pymysql.connect( host, user, password )
+if conn != -1 :
+	print( 'database connection established' )
+else:
+	print( 'Houston we have a problem' )
+
+conn.begin( )
+cursor = conn.cursor( )
+#turn this into a stored procedure
+
+cursor.execute( "use " + db )
+conn.commit( )
+
+selectQuery = "select isomorph.proteinid, count( isomorph.isomorphFASTASequence ) from isomorph group by proteinId;"
+cursor.execute( selectQuery )
+
+#substitute for fetchone
+for row in cursor:
+	print( row )
+
+cursor.close( )#!/opt/local/bin/python3.4
+
+import pymysql
+import getopt
+import sys
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hs:v", ["help", "output="])
+	except getopt.GetoptError as err:
+		# print help information and exit:
+		print( err ) # will print something like "option -a not recognized"
+		usage( )
+		sys.exit(2)
+	output = None
+	verbose = False
+	for o, a in opts:
+		if o == "-v":
+		    verbose = True
+		elif o in ("-h", "--help"):
+			usage()
+			sys.exit()
+		elif o in ("-o", "--output"):
+			output = a
+		else:
+			assert False, "unhandled option"
+
+	host       = '192.168.1.4';
+	user       = 'root';
+	password   = '12345'
+	defaultcharset    = 'utf8'
+	defaultcollation  = 'utf8_general_ci'
+
+
+	db = "pez2015_project2501a"
+
+	optlist, args = getopt.getopt(args, 's:')
+
+	# # connect to db
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( 'database connection established' )
+	else:
+		print( 'Houston we have a problem' )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	#turn this into a stored procedure
+
+	cursor.execute( "use " + db )
+	conn.commit( )
+
+	selectQuery = "select isomorph.proteinid, count( isomorph.isomorphFASTASequence ) from isomorph group by proteinId;"
+	cursor.execute( selectQuery )
+
+	#substitute for fetchone
+	for row in cursor:
+		print( row )
+
+	cursor.close( )
+
+if __name__ == "__main__":
+	main()
+\n>>>>>>>>>>>>>>>>>>>loadPezDb.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import csv
+import os
+import sys
+import xml.etree.ElementTree
+import re
+import time
+import urllib.request
+import json
+from io  import StringIO
+from Bio import SeqIO
+from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
+
+
+
+host       = '192.168.1.4';
+user       = 'root';
+password   = '12345'
+defaultcharset    = 'utf8'
+defaultcollation  = 'utf8_general_ci'
+
+
+db = "project2501a_pez"
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
+
+# # connect to db
+conn = pymysql.connect( host, user, password )
+if conn != -1 :
+	print( 'database connection established' )
+else:
+	print( 'Houston we have a problem' )
+
+dropdb_query = 'drop database if exists ' + db
+createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
+
+# # init db
+conn.begin( )
+cursor = conn.cursor( )
+dropdb_query = 'drop database if exists ' + db
+print( dropdb_query )
+cursor.execute( dropdb_query )
+createdb_query = 'create database if not exists ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
+print( createdb_query )
+cursor.execute( createdb_query )
+conn.commit( )
+
+cursor.execute( "use " + db )
+conn.commit( )
+
+# # clean tables if exist
+droptable_query     = "drop table if exists isomorph, geneOntology, protein, gene"
+print( droptable_query )
+cursor.execute( droptable_query )
+conn.commit( )
+# # create tables
+createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(255) NOT NULL, geneName VARCHAR(255), disgenetScore FLOAT NOT NULL,noPubMedIDs INTEGER, PRIMARY KEY (geneId) )"
+createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(255) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneId VARCHAR(255) NOT NULL, PRIMARY KEY (proteinId) )"
+createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId BIGINT NOT NULL, ontologyName BIGINT NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, biological_process VARCHAR(255) NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId, proteinId) )"
+createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph ( isomorphName VARCHAR(255) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(255) NOT NULL, PRIMARY KEY (isomorphName) );"
+createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from isomorph;"
+createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
+createViewIsoform   = "create algorithm=TEMPTABLE view isoform as select * from isomorph;"
+
+print( createTableGene )
+cursor.execute( createTableGene )
+print( createTableProtein )
+cursor.execute( createTableProtein )
+print( createTableOntology )
+cursor.execute( createTableOntology )
+print( createTableIsomorph )
+cursor.execute( createTableIsomorph )
+print( createViewSequence )
+cursor.execute( createViewSequence )
+print( createViewSequence )
+cursor.execute( createViewFasta )
+print( createViewFasta )
+cursor.execute( createViewIsoform )
+conn.commit( )
+
+
+# # constraints
+geneOntologyRestraint = "ALTER TABLE geneOntology ADD CONSTRAINT geneOntology_fk_1 FOREIGN KEY (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE ON UPDATE CASCADE"
+isomorphRestraint     = "ALTER TABLE isomorph ADD CONSTRAINT Isomorph_fk_1 FOREIGN KEY (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE ON UPDATE CASCADE"
+proteinRestraint      = "ALTER TABLE protein ADD CONSTRAINT Protein2Gene_fk_1 FOREIGN KEY (geneId) REFERENCES gene (geneId) ON DELETE CASCADE ON UPDATE CASCADE"
+
+print( geneOntologyRestraint )
+cursor.execute( geneOntologyRestraint )
+print( isomorphRestraint )
+cursor.execute( isomorphRestraint )
+print( proteinRestraint )
+cursor.execute( proteinRestraint )
+conn.commit( )
+
+##### load data from files
+###########################################
+
+print( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n")
+
+## disgenet
+###########################################
+disgenetDataFile = 'disgenet/disgenet_data.tsv'
+disgenetFieldNames = [ 'c1.cui', 'c1.name', 'c1.hpoName', 'c1.omimInt', 'c1.diseaseId', 'c1.STY', 'c1.MESH', 'c1.diseaseClassName', 'c1.type', 'c1.hdoName', 'c2.name', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pathName', 'c2.pantherName', 'c3.PI', 'c3.PL', 'c0.score', 'c0.pmids', 'c0.snps', 'c0.sourceId', 'c4.numberOfassocDiseases' ]
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
+
+# read payload
+###########################################
+disgenetCsvfile = open( disgenetDataFile )
+disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
+kotikot = 0 ;
+koko = ""
+for row in disgenetReader:
+	if kotikot == 0 :
+			kotikot = 1
+			continue
+	insertgenedataQuery = " "
+	if row['c2.pathName'] == 'null':
+		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', NULL, " + row['c0.score'] + ", " + row['c0.pmids'] +" )"
+	else:
+		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', '" + row['c2.pathName'] + "', " + row['c0.score'] + ", " + row['c0.pmids'] +" )"
+	print( insertgenedataQuery )
+	cursor.execute( insertgenedataQuery )
+
+conn.commit( )
+###########################################
+
+
+print( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n")
+
+
+##uniprot
+###########################################
+uniprotProteinsDir      = './uniprot/proteins'
+uniprotFastaDir         = './uniprot/fasta'
+uniprotProteinDataFiles = os.listdir( uniprotProteinsDir )
+uniprotFastaDataFiles   = os.listdir( uniprotFastaDir )
+unitprotFieldNames = [ 'Entry', 'Entry name', 'Protein names', 'Status', 'Gene names  (primary )']
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
+
+# read payload - proteins
+###########################################
+for uniprotProteinDataFile in uniprotProteinDataFiles: 
+	uniprotCsvFile = open( uniprotProteinsDir + '/' + uniprotProteinDataFile )
+	reader = csv.DictReader( uniprotCsvFile, unitprotFieldNames, restkey, restval, dialect );
+	for row in reader:
+		#	next(reader, None) # skip the headers
+		kot = 'FALSE'
+		if row['Status'] == 'reviewed':
+			kot = 'TRUE'
+		if row['Entry'] == 'Entry':
+			continue
+		gene , extension = os.path.splitext( uniprotProteinDataFile )
+		if gene != str.upper(row['Gene names  (primary )']):
+			continue
+		geneId = str.upper(row['Gene names  (primary )'])
+		if re.search( "-\d+", geneId ):
+			geneId, _  = geneId.split( '-', 1 )
+		
+		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' )"
+		print( insertgenedata_query )
+		cursor.execute( insertgenedata_query )
+
+	conn.commit( )
+
+
+# read payload - fasta
+################
+unitprotFieldNames = [ 'fasta sequence', 'name' ]
+for uniprotFastaDataFile in uniprotFastaDataFiles: 
+
+	print( )
+	print( "#>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
+	print( )
+
+	uniprotFastaFile = SeqIO.parse(open( uniprotFastaDir + '/' + uniprotFastaDataFile ) ,'fasta')
+	for fasta in uniprotFastaFile:
+		name, sequence = fasta.id, fasta.seq.tostring( )
+		# sp|O02828|TAU_CAPHI , sp|O02828-2|TAU_CAPHI , tr|A0A151NP48|A0A151NP48_ALLMI
+		_, proteinId, isomorphId = name.split( '|', 3 )
+		name = proteinId
+		if re.search( "-\d+", proteinId ):
+			proteinId, _  = proteinId.split( '-', 1 )
+		insertgenedata_query = "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );"
+		print( insertgenedata_query )
+		cursor.execute( insertgenedata_query )
+
+	conn.commit( )
+###########################################
+
+
+print( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n")
+
+
+## GeneOntology/hintdb
+###########################################
+#hintkbFieldNames = [ 'function_id', 'go_term', 'function_name', 'function_namespace' ]
+
+# #read payload
+selectQuery = "select distinct protein.proteinid from protein order by proteinid"
+cursor.execute( selectQuery )
+selectResult = cursor.fetchall( )
+# print( selectResult )
+
+response = [ ]
+hintkbUrl = "http://hintkb.ceid.upatras.gr/api/functions/byprotein/"
+for uniprotId in selectResult:
+	response = urllib.request.urlopen( hintkbUrl + uniprotId[0] )
+	restResult = response.read( ) 
+	# {"function_id":17269,"go_term":"0033603","function_name":"positive regulation of dopamine secretion","function_namespace":"biological_process"}
+	result =  restResult.decode( 'UTF-8' )
+	parsedJson = { }
+	parsedJson = json.loads( result )
+	if parsedJson:
+		for item in parsedJson:
+			bar = re.sub( '_', ' ', item['function_namespace'] )
+			insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str(uniprotId[0]) + '\' )' 
+			print( insertGoQuery )
+			cursor.execute( insertGoQuery )
+			conn.commit( )
+
+cursor.close( )
+
+
+\n>>>>>>>>>>>>>>>>>>>project2501a_nosokomio_20160718_0244GMT+3.sql<<<<<<<<<<<<<<<<<<<<<\n#
+# SQL Export
+# Created by Querious (1042)
+# Created: 18 July 2016 at 02:45:22 GMT+3
+# Encoding: Unicode (UTF-8)
+#
+
+
+DROP DATABASE IF EXISTS `project2501a_nosokomio`;
+CREATE DATABASE `project2501a_nosokomio` DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+USE `project2501a_nosokomio`;
+
+
+
+
+SET @PREVIOUS_FOREIGN_KEY_CHECKS = @@FOREIGN_KEY_CHECKS;
+SET FOREIGN_KEY_CHECKS = 0;
+
+
+DROP TABLE IF EXISTS `test`;
+DROP TABLE IF EXISTS `nosileia`;
+DROP TABLE IF EXISTS `patient`;
+DROP TABLE IF EXISTS `gene2disease`;
+DROP TABLE IF EXISTS `gene`;
+DROP TABLE IF EXISTS `doctor`;
+DROP TABLE IF EXISTS `disease`;
+DROP TABLE IF EXISTS `clinic`;
+
+
+CREATE TABLE `clinic` (
+  `clinic_id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `beds` int(11) NOT NULL,
+  `location` varchar(255) NOT NULL,
+  PRIMARY KEY (`clinic_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `disease` (
+  `diseaseId` varchar(10) NOT NULL,
+  `diseaseName` varchar(50) NOT NULL,
+  PRIMARY KEY (`diseaseId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `doctor` (
+  `doctor_id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `surname` varchar(255) NOT NULL,
+  `speciality` varchar(255) NOT NULL,
+  `clinic` int(11) NOT NULL,
+  PRIMARY KEY (`doctor_id`),
+  KEY `fk_doctor_clinic` (`clinic`),
+  CONSTRAINT `fk_doctor_clinic` FOREIGN KEY (`clinic`) REFERENCES `clinic` (`clinic_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `gene` (
+  `geneId` varchar(10) NOT NULL,
+  `geneName` varchar(20) NOT NULL,
+  PRIMARY KEY (`geneId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `gene2disease` (
+  `geneId` varchar(10) DEFAULT NULL,
+  `diseaseId` varchar(10) DEFAULT NULL,
+  KEY `geneId` (`geneId`),
+  KEY `diseaseId` (`diseaseId`),
+  CONSTRAINT `gene2disease_ibfk_1` FOREIGN KEY (`geneId`) REFERENCES `gene` (`geneId`) ON UPDATE CASCADE,
+  CONSTRAINT `gene2disease_ibfk_2` FOREIGN KEY (`diseaseId`) REFERENCES `disease` (`diseaseId`) ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `patient` (
+  `afm` varchar(10) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `surname` varchar(255) NOT NULL,
+  `birth_year` int(4) DEFAULT NULL,
+  PRIMARY KEY (`afm`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `nosileia` (
+  `nosileia_id` int(11) NOT NULL AUTO_INCREMENT,
+  `patient` varchar(10) NOT NULL,
+  `clinic` int(11) NOT NULL,
+  `startdate` date NOT NULL,
+  `days` int(11) NOT NULL,
+  PRIMARY KEY (`nosileia_id`),
+  KEY `fk_nosileia_clinic` (`clinic`),
+  KEY `fk_nosileia_patient` (`patient`),
+  CONSTRAINT `fk_nosileia_clinic` FOREIGN KEY (`clinic`) REFERENCES `clinic` (`clinic_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `fk_nosileia_patient` FOREIGN KEY (`patient`) REFERENCES `patient` (`afm`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `test` (
+  `counter` int(11) DEFAULT NULL,
+  `string` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+
+SET FOREIGN_KEY_CHECKS = @PREVIOUS_FOREIGN_KEY_CHECKS;
+
+
+SET @PREVIOUS_FOREIGN_KEY_CHECKS = @@FOREIGN_KEY_CHECKS;
+SET FOREIGN_KEY_CHECKS = 0;
+
+
+LOCK TABLES `clinic` WRITE;
+ALTER TABLE `clinic` DISABLE KEYS;
+INSERT INTO `clinic` (`clinic_id`, `title`, `beds`, `location`) VALUES 
+	(1,'Γενικής Χειρουργικής',20,'2ος όροφος'),
+	(2,'Ψυχιατρική',30,'5ος όροφος'),
+	(3,'Ακτινολογική',10,'1ος όροφος'),
+	(4,'Αγγειοπλαστική',100,'3ος όροφος'),
+	(5,'Νευρολογική',200,'6ος όροφος'),
+	(6,'Ενδοκρινολογική',1000,'4ος όροφος');
+ALTER TABLE `clinic` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+LOCK TABLES `disease` WRITE;
+ALTER TABLE `disease` DISABLE KEYS;
+ALTER TABLE `disease` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+LOCK TABLES `doctor` WRITE;
+ALTER TABLE `doctor` DISABLE KEYS;
+INSERT INTO `doctor` (`doctor_id`, `name`, `surname`, `speciality`, `clinic`) VALUES 
+	(0,'Άννα','Καϊάφα','Ψυχίατρος',2),
+	(1,'Άννα','Καϊάφα','Ψυχίατρος',2),
+	(2,'Κότης','Κοτόπουλος','Χειρούργος-ΩΡΛ',1),
+	(3,'Κοκό','Φουμπαρά','Ψυχίατρος-Ψυχολόγος',2),
+	(4,'Φτιάχτος','Ματζαφλάρης','Χειρούργος',1),
+	(5,'Άλφα','Ματζαφλάρης','Ακτινολόγος',3),
+	(6,'Γάμμα','Ματζαφλάρης','Νοσοκόμος',5),
+	(7,'Δέλτα','Ματζαφλάρης','Λογιστής',6),
+	(8,'Έψιλον','Ματζαφλάρης','Λατζιέρης',1),
+	(9,'Ζήτα','Ματζαφλάρης','Αποεντομοτής',2),
+	(10,'Ήτα','Ματζαφλάρης','Ορθοπεδικός',3),
+	(11,'Θήτα','Ματζαφλάρης','Χαρτορίχτρα',4),
+	(12,'Ιώτα','Ματζαφλάρης','Ενδοκρινολόγος',5),
+	(13,'Κάππα','Ματζαφλάρης','Παθολόγος',6),
+	(14,'Λάμδα','Ματζαφλάρης','Πολλάβαρύςκαιόχι',1),
+	(15,'Βήτα','Ματζαφλάρης','Ψυχογιός',4);
+ALTER TABLE `doctor` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+LOCK TABLES `gene` WRITE;
+ALTER TABLE `gene` DISABLE KEYS;
+ALTER TABLE `gene` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+LOCK TABLES `gene2disease` WRITE;
+ALTER TABLE `gene2disease` DISABLE KEYS;
+ALTER TABLE `gene2disease` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+LOCK TABLES `patient` WRITE;
+ALTER TABLE `patient` DISABLE KEYS;
+INSERT INTO `patient` (`afm`, `name`, `surname`, `birth_year`) VALUES 
+	('9874563217','Τζιμ','Ο Μαύρος Θερμαστής',1988),
+	('9874563218','Όπερα της','Πεντάρας',1989),
+	('9874563219','Δημητριάδη','Αντάρτικα 1',1979),
+	('9874563220','Δημητριάδη','Αντάρτικα 2',1980),
+	('9874563221','Δημητριάδη','Αντάρτικα 3',1999),
+	('9874563222','Δημητριάδη','Αντάρτικα 4',1929),
+	('9874563223','Δημητριάδη','Αντάρτικα 4',1929),
+	('9874563224','Δημητριάδη','Αντάρτικα 5',1949),
+	('9874563225','Δημητριάδη','Αντάρτικα 6',1959),
+	('9874563226','Δημητριάδη','Αντάρτικα 7',1969),
+	('9874563227','Δημητριάδη','Αντάρτικα 8',1919),
+	('9874563228','Δημητριάδη','Αντάρτικα 9',1929),
+	('9874563229','Δημητριάδη','Αντάρτικα 10',1959),
+	('9874563230','Δημητριάδη','Αντάρτικα 11',1989),
+	('9874563231','Δημητριάδη','Αντάρτικα 12',1989),
+	('9874563232','Δημητριάδη','Αντάρτικα 13',1989),
+	('9874563233','Δημητριάδη','Αντάρτικα 14',1989),
+	('9874563234','Δημητριάδη','Αντάρτικα 15',1989),
+	('9874563235','Δημητριάδη','Αντάρτικα 16',1989),
+	('9874563236','Δημητριάδη','Αντάρτικα 17',1989),
+	('9874563237','Δημητριάδη','Αντάρτικα 18',1989),
+	('9874563238','Δημητριάδη','Αντάρτικα 19',1989),
+	('9874563239','Δημητριάδη','Αντάρτικα 20',1989),
+	('9874563240','Δημητριάδη','Αντάρτικα 21',1989),
+	('9874563241','Δημητριάδη','Αντάρτικα 22',1989),
+	('9874563242','Δημητριάδη','Αντάρτικα 23',1989),
+	('9874563243','Δημητριάδη','Αντάρτικα 23',1989);
+ALTER TABLE `patient` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+LOCK TABLES `nosileia` WRITE;
+ALTER TABLE `nosileia` DISABLE KEYS;
+INSERT INTO `nosileia` (`nosileia_id`, `patient`, `clinic`, `startdate`, `days`) VALUES 
+	(1,'9874563217',1,'2014-07-01',5),
+	(2,'9874563218',1,'2014-06-01',3),
+	(3,'9874563219',1,'2014-07-07',5),
+	(4,'9874563221',2,'2014-07-08',2),
+	(5,'9874563222',3,'2014-07-09',1),
+	(6,'9874563223',4,'2014-07-10',4),
+	(7,'9874563224',5,'2014-07-11',5),
+	(8,'9874563225',6,'2014-07-12',53),
+	(9,'9874563226',1,'2014-07-13',14),
+	(10,'9874563227',1,'2014-07-15',12),
+	(11,'9874563228',4,'2014-07-15',13),
+	(12,'9874563229',6,'2014-07-15',11),
+	(13,'9874563230',6,'2014-07-15',16),
+	(14,'9874563231',6,'2014-07-15',14),
+	(15,'9874563232',5,'2014-07-15',15),
+	(16,'9874563233',1,'2014-07-15',5),
+	(17,'9874563234',2,'2014-07-15',35),
+	(18,'9874563235',3,'2014-07-15',535),
+	(19,'9874563236',2,'2014-07-15',535),
+	(20,'9874563237',1,'2014-07-15',13),
+	(21,'9874563238',4,'2014-07-15',15),
+	(22,'9874563240',4,'2014-07-15',122),
+	(23,'9874563241',5,'2014-07-07',35),
+	(24,'9874563242',6,'2014-07-07',156),
+	(25,'9874563243',6,'2014-07-07',115);
+ALTER TABLE `nosileia` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+LOCK TABLES `test` WRITE;
+ALTER TABLE `test` DISABLE KEYS;
+INSERT INTO `test` (`counter`, `string`) VALUES 
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3'),
+	(NULL,'Hello3');
+ALTER TABLE `test` ENABLE KEYS;
+UNLOCK TABLES;
+
+
+
+
+SET FOREIGN_KEY_CHECKS = @PREVIOUS_FOREIGN_KEY_CHECKS;
+
+
+\n>>>>>>>>>>>>>>>>>>>select_queries.py<<<<<<<<<<<<<<<<<<<<<\n#!/opt/local/bin/python3.4
+
+import pymysql
+import os
+
+fieldnames = ['geneId', 'geneName', 'description', 'diseaseId', 'diseaseName', 'score', 'NofPmids', 'NofSnps', 'sources' ];
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+delimiter  = '\t';
+dialect    = 'excel-tab';
+host       = '192.168.1.26';
+user       = 'root';
+password   = '12345'
+db 		   = 'disgenet'
+defaultcollation  = 'utf8_general_ci'
+defaultcharset    = 'utf8'
+tsv_file   = 'out'
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
+
+# connect to db
+conn = pymysql.connect( host, user, password, db )
+if conn != -1 :
+	print( 'database connection established' )
+else:
+	print( 'Houston we have a problem' )
+
+conn.begin( )
+cursor = conn.cursor( )
+cursor.execute( "use " + db )
+
+# select all the things!
+selectrelevantgenes_query = 'SELECT geneId, description FROM gene2disease g2d INNER JOIN ( SELECT d.diseaseId, d.diseaseName, d.description FROM disease AS d WHERE d.diseaseName LIKE \'%heimer%\' ) dd ON g2d.diseaseId = dd.diseaseId'
+cursor.execute( selectrelevantgenes_query )
+row = cursor.fetchone( )
+while row is not None:
+	print( row )
+	row = cursor.fetchone()
+
+# select all the other things!
+selectrelevantdiseases_query = "SELECT di.diseaseName FROM disease AS di INNER JOIN ( SELECT g2d.diseaseId FROM gene2disease g2d INNER JOIN ( SELECT g.geneId, g.geneName FROM gene AS g WHERE g.geneName = 'PTEN' ) gg ON g2d.geneId = gg.geneId ) dd ON di.diseaseId = dd.diseaseId "
+cursor.execute( selectrelevantdiseases_query )
+row = cursor.fetchone( )
+while row is not None:
+	print( row )
+	row = cursor.fetchone()
+
+# FIN
