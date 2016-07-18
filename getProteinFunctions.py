@@ -3,6 +3,7 @@
 import pymysql
 import getopt
 import sys
+import os
 
 def usage( ):
 	helpString = """
@@ -35,7 +36,10 @@ def main():
 	defaultcharset    = 'utf8'
 	defaultcollation  = 'utf8_general_ci'
 
-	db = "pez2015_project2501a"
+	db = "project2501a_pez"
+
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
 
 	# # connect to db
 	conn = pymysql.connect( host, user, password )

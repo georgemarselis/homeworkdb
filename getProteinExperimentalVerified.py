@@ -3,6 +3,7 @@
 import pymysql
 import getopt
 import sys
+import os
 
 def usage( ):
 	print( "kot")
@@ -34,8 +35,10 @@ def main():
 	defaultcharset    = 'utf8'
 	defaultcollation  = 'utf8_general_ci'
 
+	db = "project2501a_pez"
 
-	db = "pez2015_project2501a"
+	if str(os.environ['PEZ_HOST']):
+		host = str(os.environ['PEZ_HOST'])
 
 	optlist, args = getopt.getopt(args, 's:')
 

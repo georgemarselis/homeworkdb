@@ -1,6 +1,7 @@
 #!/opt/local/bin/python3.4
 
 import pymysql
+import os
 
 fieldnames = ['geneId', 'geneName', 'description', 'diseaseId', 'diseaseName', 'score', 'NofPmids', 'NofSnps', 'sources' ];
 restkey    = 'unknownkey';
@@ -15,6 +16,8 @@ defaultcollation  = 'utf8_general_ci'
 defaultcharset    = 'utf8'
 tsv_file   = 'out'
 
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
 
 # connect to db
 conn = pymysql.connect( host, user, password, db )

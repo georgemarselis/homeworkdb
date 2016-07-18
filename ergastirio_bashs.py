@@ -1,7 +1,8 @@
 #!/opt/local/bin/python3.4
 
 import pymysql
-import csv 
+import csv
+import os
 
 
 fieldnames = ['geneId', 'geneName', 'description', 'diseaseId', 'diseaseName', 'score', 'NofPmids', 'NofSnps', 'sources' ];
@@ -16,6 +17,11 @@ db 		   = 'disgenet'
 defaultcharset    = 'utf8'
 defaultcollation  = 'utf8_general_ci'
 tsv_file   = 'out'
+
+db = "project2501a_pez"
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
 
 
 # connect to db

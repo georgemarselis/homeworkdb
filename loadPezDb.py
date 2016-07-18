@@ -14,6 +14,7 @@ from Bio import SeqIO
 from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 
 
+
 host       = '192.168.1.4';
 user       = 'root';
 password   = '12345'
@@ -21,7 +22,10 @@ defaultcharset    = 'utf8'
 defaultcollation  = 'utf8_general_ci'
 
 
-db = "pez2015_project2501a"
+db = "project2501a_pez"
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
 
 # # connect to db
 conn = pymysql.connect( host, user, password )

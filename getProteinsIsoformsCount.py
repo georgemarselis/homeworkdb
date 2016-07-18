@@ -1,6 +1,7 @@
 #!/opt/local/bin/python3.4
 
 import pymysql
+import os
 
 
 host       = '192.168.1.4';
@@ -10,7 +11,10 @@ defaultcharset    = 'utf8'
 defaultcollation  = 'utf8_general_ci'
 
 
-db = "pez2015_project2501a"
+db = "project2501a_pez"
+
+if str(os.environ['PEZ_HOST']):
+	host = str(os.environ['PEZ_HOST'])
 
 # # connect to db
 conn = pymysql.connect( host, user, password )
