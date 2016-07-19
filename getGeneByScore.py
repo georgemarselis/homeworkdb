@@ -44,10 +44,13 @@ def main():
 
 	if str(os.environ['PEZ_HOST']):
 		host = str(os.environ['PEZ_HOST'])
+	if str(os.environ['PEZ_DATABASE']):
+		db = str(os.environ['PEZ_DATABASE'])
 	if str(os.environ['PEZ_USER']):
 		user = str(os.environ['PEZ_USER'])
 	if str(os.environ['PEZ_PASSWORD']):
 		password = str(os.environ['PEZ_PASSWORD'])
+
 
 	# # connect to db
 	conn = pymysql.connect( host, user, password )
