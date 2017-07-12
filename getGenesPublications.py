@@ -10,7 +10,7 @@ defaultcharset    = 'utf8'
 defaultcollation  = 'utf8_general_ci'
 
 
-db = "project2501a_pez2015"
+db = "project2501a_pez"
 
 if str(os.environ['PEZ_HOST']):
 	host = str(os.environ['PEZ_HOST'])

@@ -14,12 +14,13 @@ def usage( ):
 
 def main():
 	try:
-		opts, args = getopt.getopt(sys.argv[1:], "hv", ["help","verbose"])
+		opts, args = getopt.getopt(sys.argv[1:], "hv:f", ["help","verbose","function"])
 	except getopt.GetoptError as err:
 		# print help information and exit:
 		print( err ) # will print something like "option -a not recognized"
 		usage( )
 		sys.exit(2)
+	function = None
 	verbose = False
 	for o, a in opts:
 		if o == "-v":
@@ -27,6 +28,8 @@ def main():
 		elif o in ("-h", "--help"):
 			usage()
 			sys.exit()
+		elif o in ("-f", "--function"):
+			function = a
 		else:
 			assert False, "unhandled option"
 
@@ -62,7 +65,11 @@ def main():
 	cursor.execute( "use " + db )
 	conn.commit( )
 
-	selectQuery = "select geneOntology.proteinId, geneOntology.ontologyFunction, geneOntology.ontologyName from geneOntology"
+	if function: 
+		selectQuery = "select geneOntology.proteinId, geneOntology.ontologyFunction, geneOntology.ontologyName from geneOntology where geneOntology.ontologyFunction = '%s'" % function
+	else:
+		selectQuery = "select geneOntology.proteinId, geneOntology.ontologyFunction, geneOntology.ontologyName from geneOntology"
+
 	cursor.execute( selectQuery )
 
 

@@ -46,7 +46,6 @@ def main():
 	if str(os.environ['PEZ_PASSWORD'] ):
 		password = str(os.environ['PEZ_PASSWORD'])
 
-	optlist, args = getopt.getopt(args, 's:')
 
 	# # connect to db
 	conn = pymysql.connect( host, user, password )

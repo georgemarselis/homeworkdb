@@ -1,10 +1,10 @@
-./gEtgenEspublications.py 
-./gEtproteiNsisoforMscount.py
-./gEtproteInexperimentAlverified.py
-./gEtgeNeByscore.py -s .4
-./gEtproteInfunctions.py
-./EtproteiNsByfunction.py -F E
-./gEtproteInisofoRmcouNtBypuBscount.py -p 2
-./gEtgeNeByisofoRmsequence.py -S E
+./getGenesPublications.py
+./getProteinsIsoformsCount.py
+./getProteinExperimentalVerified.py
+./getGeneByScore.py -s .4
+./getProteinFunctions.py
+./getProteiNsByfunction.py -F E
+./getProteInisofoRmcouNtBypuBscount.py -p 2
+./getgeNeByisofoRmsequence.py -S E
 ./gEtproteiNsfunctiOnBynamespace.py -N E
 ./gEtgenEsisoforMscouNtBysequence.py -s E
