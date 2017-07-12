@@ -1,0 +1,141 @@
+== Fast search of thousands of short-read sequencing experiments ==
+
+We are presenting a probabilistic hash data structure, called the Sequence Bloom Tree (SBT). This data structure is useful in indexing and searching Big Genomic Data. The current data structures and the tools that utilize them do not allow searching sequence archives of this scale.
+
+
+=== Basic Concepts ===
+
+Before we define what an SBT is, we will go through the basic concepts that define such a tree.
+
+
+==== Hash tables ====
+
+In a regular (deterministic) hash table:
+	We have one single hash function that writes or locates a data record. 
+	We care a lot about collisions.
+	The values are stored along with the keys in memory. 
+
+As the values are loaded in memory along with the keys, hash tables can be come very inefficient for large data sets.
+
+
+==== Bloom Filters ====
+
+In a Bloom Filter
+	We use k hash functions to get k array positions
+	We do not keep track of the keys
+	we ignore collisions. 
+
+A Monte Carlo algorithm is a randomized algorithm whose output may be incorrect with a certain (typically small) probability. Monte Calo algorithms can be one-sided error-prone or two-sided. The "one-sided" refers to the bias of the algorithm to always be correct when returning false (false-biased), or always correct when returning true (true-biased). There are also Monte Carlo algorithms which have no bias at all. They are called "two-sided errors". In those algorithms there is a probability of having false-positives or false negatives or both.
+
+Bloom filters are an application of a false-biased (one-sided) Monte Calo algorithm: It is always correct when it returns false. 
+
+That is why this is a probabilistic data structure: We don't care about collisions looking for a key: the data structure either returns "no" or "maybe". This relates to the properties of Bloom-filters (see below).
+
+
+===== Properties of A Bloom Filter =====
+
+	* Never returning a false negative: Data set is maybe in the set or not in it.
+		** The "maybe" comes from the way you read back data, as close-enough k-mers can cause the structure to return false results
+	* Storage of keys can be different from the storage of value
+		** Keys can be in core memory which has fast access time, value(s) can be in disk, which has slow access time.
+			*** Minimize query time and efficient memory usage, as only a percentage of the whole data is in memory (the keys)
+
+==== Binary Trees ====
+
+	* Binary Tree: A tree data structure in which each node has at most two children: the left child and the right child.
+	* The tree is built recursively, from a single root node, according to some predefined mathematical inequality
+	* From a graph theory perspective, a binary tree is a ordered, rooted tree graph
+
+==== RRR Compression ====
+
+A static bit sequence data structure, which answers arbitrary length rank queries in O(1) time. It implicitly provides compression, as it utilizes bits instead of words while performing the search
+
+
+==== Sequence Bloom Tree (SBT) ====
+
+A Sequence Bloom Tree is a hierarchy of compressed bloom filters in a binary tree data structure format. The filters play the part of the nodes.
+
+
+RRR Compression allows for fast accesss to any k-mer on a specified mnode
+
+===== Use of Sequence Bloom Trees =====
+
+It is a data structure used in indexing. In the paper, it is used to index all experiments in a database that contains a given query sequence q.
+
+
+===== Properties of a Sequence Bloom Tree =====
+
+	* Greatly reduced storage requirements
+	* Insertion/construction time lowered
+	* Reduced query times 
+	* Low computational requirements: Low memory usagage / single threaded
+
+
+===== Construction and insertion of SBT =====
+
+Three major tasks:
+	* Computing bloom filters for each of the experiments included at leaves
+	* Building the tree and internal node representation
+	* RRR compression of each of the filters
+
+
+Construction:
+	Compute the bloom filter b(s) of k-mers present in s
+	Walk the tree
+	Insert at the bottom
+	Insertion Criterion:
+		Single child: second node represending second child is inserted. node represents s and has value b(s)
+		Two children: 
+			compare current b(s) against the bloom filters b(left(u)) and b(right(u)) of the left left(u) and right right(u) children of u.
+			More similar Hamming distance, become current node
+			Repeat until hit the bottom
+		No children:
+			New experiment represented: add new node that has two children: the current node u and s
+
+	Due to binary tree properties, experiments with similar bloom trees, get grouped together.
+		Faster query time
+
+	While walking down the tree, the top of each subtree is the union of all of its leafs, including b(s)
+		Potential oproblem at the root of the tree ( filter saturation at root)
+		Moving to leafs, greater possibility of false-possitive
+
+===== Quering SBT =====
+
+RRR :A Select Index using Bit Vectors
+	Has O(1) access time
+	Each filter consists of a bit vector of length m and a set of h hash functions h1
+	Insertion of k ∈ U is performed by setting to 1 the bits specified by hi(k) for i = 1, …, h. 
+	Querying for membership of k in b(k) checks these same bits; if they are all 1, the filter is reported to contain key k
+
+One-sided error: 
+	Because of overlapping hash results bloom filters have one-sided error: they can report a k-mer k is present when it is not
+
+
+===== Setting Bloom Filter Size  =====
+
+Two important parameters:
+	* Bloom filter length (m)
+	* Number of hash functions (h) in the filter
+
+====== Lemma 1 ======
+
+Expected number of distinct k-mers in the union is n(1 − (1 − p)r)/p
+
+
+====== Theorem 1 ======
+
+The number of hashes that minimizes the false-positive rate of a union filter U with the expected number of elements h is (1/2)^h
+
+====== Theorem 2 ======
+
+Probability that  false-positive k-mers appear in a filter U with FPR ξ is
+
+
+===== Results =====
+
+All the above lead to:
+
+	* 97.7% reduction in storage ( 200GB out of 1PB)
+	* Low computational requirements Xeon 2.60 GHz CPUs using a single thread using only 239 MB of RAM
+	* Minutes to return a result vs days for SRA-BLAST/STAR (emulated time)
+		* Fastest data structure/indexing technique available currently to searge Big Genomic Data
