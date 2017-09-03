@@ -1,4 +1,6 @@
 
+./ergastirio_bashs.py
+
 ./getGenesPublications.py 
 ./getProteinsIsoformsCount.py
 ./getProteinExperimentalVerified.py
