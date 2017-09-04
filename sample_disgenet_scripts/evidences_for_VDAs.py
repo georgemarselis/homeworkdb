@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.6
+
 import urllib.request, urllib.error, urllib.parse
 
 query="""
@@ -12,7 +14,7 @@ ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
 	c1 (coord, symbol, geneId, AF_1000G, class, snpId, AF_EXAC, most_severe_consequence),
-	c2 (hpoName, diseaseId, name, STY, MESH, diseaseClassName, doName, type, OMIM, diseaseId, name),
+	c2 (hpoName, diseaseId, name, STY, MESH, diseaseClassName, doName, type, OMIM ),
 	c3 (score),
 	c0 (originalSource, sentence, pmid),
 	c4 (year)
@@ -28,6 +30,6 @@ ORDER BY
 	c3.score DESC"""
 
 binary_data = query.encode("utf-8")
-req = urllib.request.Request("http://www.disgenet.org/oql")
-res = urllib.request.urlopen(req, binary_data)
-print(res.read().decode('utf-8'))
+req         = urllib.request.Request("http://www.disgenet.org/oql")
+res         = urllib.request.urlopen(req, binary_data)
+print(res.read().decode( encoding = 'UTF-8', errors = 'ignore' ))

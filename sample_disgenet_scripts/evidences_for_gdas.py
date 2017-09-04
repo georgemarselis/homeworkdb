@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.6
+
 import urllib.request, urllib.error, urllib.parse
 
 query="""
@@ -11,9 +13,9 @@ DEFINE
 ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
-	c0 (source, geneId, source, geneId, source, geneId, associationType, originalSource, originalSource, originalSource, sentence, pmid),
-	c1 (pantherName, symbol, geneId, description, symbol, geneId),
-	c2 (diseaseId, name, hpoName, diseaseId, name, STY, MESH, diseaseClassName, doName, type, OMIM, type),
+	c0 (source, geneId, associationType, originalSource, sentence, pmid),
+	c1 (pantherName, symbol, description ),
+	c2 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
 	c3 (score),
 	c4 (year)
 FROM
@@ -30,4 +32,4 @@ ORDER BY
 binary_data = query.encode("utf-8")
 req = urllib.request.Request("http://www.disgenet.org/oql")
 res = urllib.request.urlopen(req, binary_data)
-print(res.read().decode('utf-8'))
+print(res.read().decode( encoding = 'UTF-8', errors = 'ignore' ) ) #UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 1120: invalid start byte

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.6
+
 import urllib.request, urllib.error, urllib.parse
 
 query="""
@@ -10,7 +12,7 @@ ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
 	c1 (diseaseId, name),
-	c2 (diseaseId, name, type, diseaseClassName),
+	c2 (type, diseaseClassName),
 	c0 (Ngenes, diseaseId2, source)
 FROM
 	c0
