@@ -1,4 +1,4 @@
-#!/opt/local/bin/python3.4
+#!/opt/local/bin/python3.z6
 
 import urllib.request, urllib.error, urllib.parse
 
@@ -22,7 +22,7 @@ FROM
 	c0
 WHERE
 	(
-		c1 = 'umls:C0030567'
+		c1 = 'diseaseid:C0030567'
 	AND
 		c5 = 'ALL'
 	AND

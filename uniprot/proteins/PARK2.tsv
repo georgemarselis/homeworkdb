@@ -1,119 +1,111 @@
 Entry	Entry name	Protein names	Status	Gene names  (primary )
-O60260	PRKN2_HUMAN	E3 ubiquitin-protein ligase parkin (Parkin) (EC 6.3.2.-) (Parkinson juvenile disease protein 2) (Parkinson disease protein 2)	reviewed	PARK2
-Q9WVS6	PRKN2_MOUSE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	reviewed	Park2
-Q9JK66	PRKN2_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	reviewed	Park2
-F1NWU0	F1NWU0_CHICK	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-H2QU08	H2QU08_PANTR	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-F6U1L3	F6U1L3_MACMU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-H0ZGE3	H0ZGE3_TAEGU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-H0X3U6	H0X3U6_OTOGA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-I3N341	I3N341_ICTTR	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-U3KCF7	U3KCF7_FICAL	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-G1KBB3	G1KBB3_ANOCA	Uncharacterized protein	unreviewed	PARK2
+O60260	PRKN_HUMAN	E3 ubiquitin-protein ligase parkin (Parkin) (EC 2.3.2.-) (Parkin RBR E3 ubiquitin-protein ligase) (Parkinson juvenile disease protein 2) (Parkinson disease protein 2)	reviewed	PRKN
+Q9WVS6	PRKN_MOUSE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-) (Parkin RBR E3 ubiquitin-protein ligase)	reviewed	Prkn
+Q9JK66	PRKN_RAT	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-) (Parkin RBR E3 ubiquitin-protein ligase)	reviewed	Prkn
+F1NWU0	F1NWU0_CHICK	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
 G3MY23	G3MY23_BOVIN	Uncharacterized protein	unreviewed	PARK2
-U3IYU6	U3IYU6_ANAPL	Uncharacterized protein	unreviewed	PARK2
-G1P0U2	G1P0U2_MYOLU	Uncharacterized protein	unreviewed	PARK2
-H2PKT8	H2PKT8_PONAB	Uncharacterized protein	unreviewed	PARK2
-H0V739	H0V739_CAVPO	Uncharacterized protein	unreviewed	PARK2
-F7HWP0	F7HWP0_CALJA	Uncharacterized protein	unreviewed	PARK2
-F7C8N2	F7C8N2_ORNAN	Uncharacterized protein	unreviewed	PARK2
-G3VUX3	G3VUX3_SARHA	Uncharacterized protein (Fragment)	unreviewed	PARK2
-D2HF43	D2HF43_AILME	Uncharacterized protein (Fragment)	unreviewed	PARK2
-A0A096MX93	A0A096MX93_PAPAN	Uncharacterized protein	unreviewed	PARK2
-M3WQZ4	M3WQZ4_FELCA	Uncharacterized protein	unreviewed	PARK2
-F6RA22	F6RA22_HORSE	Uncharacterized protein	unreviewed	PARK2
-G3SS82	G3SS82_LOXAF	Uncharacterized protein (Fragment)	unreviewed	PARK2
-H2SS28	H2SS28_TAKRU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-A0A0H2UKX4	A0A0H2UKX4_DANRE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-Q5XNR7	Q5XNR7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-B1AKC3	B1AKC3_HUMAN	E3 ubiquitin-protein ligase parkin (Parkinson protein 2 E3 ubiquitin protein ligase isoform 2)	unreviewed	PARK2
-D3JZW5	D3JZW5_HUMAN	Truncated parkin variant SV4,8DEL (EC 6.3.2.19) (Truncated parkin variant SV4DEL)	unreviewed	PARK2
-A0A0S2Z446	A0A0S2Z446_HUMAN	Parkinson disease (Autosomal recessive, juvenile) 2, parkin, isoform CRA_b (Parkinson protein 2 E3 ubiquitin protein ligase isoform 1) (Fragment)	unreviewed	PARK2
-A0A087X1E2	A0A087X1E2_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-M4T4F2	M4T4F2_HUMAN	PARK2 splice variant	unreviewed	PARK2
-A0A087WU39	A0A087WU39_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-D3K2X1	D3K2X1_HUMAN	Truncated parkin variant SV3,8,9DEL (EC 6.3.2.19)	unreviewed	PARK2
-S4X465	S4X465_HUMAN	E3 ubiquitin-protein ligase parkin isoform	unreviewed	PARK2
-X5DNX0	X5DNX0_HUMAN	Parkinson protein 2 isoform A (Fragment)	unreviewed	PARK2
-Q5XNR8	Q5XNR8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-Q6Q2I7	Q6Q2I7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
-M4T2U2	M4T2U2_HUMAN	PARK2 splice variant	unreviewed	PARK2
-Q6Q2I8	Q6Q2I8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+A0A146LNZ3	A0A146LNZ3_LYGHE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	Park2_1
+A0A0H2UKX4	A0A0H2UKX4_DANRE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
+Q561U2	Q561U2_DANRE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
 X5DR79	X5DR79_HUMAN	Parkinson protein 2 isoform A (Fragment)	unreviewed	PARK2
-A0A087WX46	A0A087WX46_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-D3K2X2	D3K2X2_HUMAN	Truncated parkin variant SV1bINS (EC 6.3.2.19)	unreviewed	PARK2
-A0A087X0Z9	A0A087X0Z9_HUMAN	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+A0A0A9XSY6	A0A0A9XSY6_LYGHE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	Park2_1
+H2SS28	H2SS28_TAKRU	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
+F1Q9C4	F1Q9C4_DANRE	Parkin RBR E3 ubiquitin protein ligase (Fragment)	unreviewed	park2
+I3JJF6	I3JJF6_ORENI	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
+A0A0K8V0M5	A0A0K8V0M5_BACLA	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	Park2_0
+B8YGJ6	B8YGJ6_MACFA	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+U3FQA1	U3FQA1_CALJA	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+B9VH11	B9VH11_MACFA	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+A0A1S3FVD1	A0A1S3FVD1_DIPOR	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	Park2
+A0A1S3N287	A0A1S3N287_SALSA	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
+D3JW62	D3JW62_RAT	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	Park2
+A0A1W5B828	A0A1W5B828_9TELE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
+T2MIZ5	T2MIZ5_HYDVU	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+S4X0T1	S4X0T1_RAT	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	Park2
+A0A0P6JWS9	A0A0P6JWS9_HETGA	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+Q1WDP3	Q1WDP3_PIG	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+Q19K47	Q19K47_PIG	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+A0A1W5XGD7	A0A1W5XGD7_HUMAN	Parkin RBR E3 ubiquitin protein ligase (Fragment)	unreviewed	PARK2
+D3JZW5	D3JZW5_HUMAN	Truncated parkin variant SV4,8DEL (Truncated parkin variant SV4DEL) (EC 6.3.2.19)	unreviewed	PARK2
+B1AKC3	B1AKC3_HUMAN	E3 ubiquitin-protein ligase parkin (Parkinson protein 2 E3 ubiquitin protein ligase isoform 2)	unreviewed	PRKN
+Q5XNR7	Q5XNR7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+A0A0S2Z446	A0A0S2Z446_HUMAN	Parkinson disease (Autosomal recessive, juvenile) 2, parkin, isoform CRA_b (Parkinson protein 2 E3 ubiquitin protein ligase isoform 1) (Fragment)	unreviewed	PARK2
+A0A1W5XGE1	A0A1W5XGE1_HUMAN	Parkin RBR E3 ubiquitin protein ligase (Fragment)	unreviewed	PARK2
+M4T2U2	M4T2U2_HUMAN	PARK2 splice variant	unreviewed	PARK2
+A0A1W5XGE7	A0A1W5XGE7_HUMAN	Parkin RBR E3 ubiquitin protein ligase (Fragment)	unreviewed	PARK2
+Q6Q2I8	Q6Q2I8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+S4X465	S4X465_HUMAN	E3 ubiquitin-protein ligase parkin isoform	unreviewed	PARK2
 Q6S8G7	Q6S8G7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+M4T4F2	M4T4F2_HUMAN	PARK2 splice variant	unreviewed	PARK2
+Q5XNR8	Q5XNR8_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+D3K2X1	D3K2X1_HUMAN	Truncated parkin variant SV3,8,9DEL (EC 6.3.2.19)	unreviewed	PARK2
+Q6Q2I7	Q6Q2I7_HUMAN	Parkin (Fragment)	unreviewed	PARK2
+D3K2X2	D3K2X2_HUMAN	Truncated parkin variant SV1bINS (EC 6.3.2.19)	unreviewed	PARK2
 A0A0S2Z447	A0A0S2Z447_HUMAN	Parkinson protein 2 E3 ubiquitin protein ligase isoform 3 (Fragment)	unreviewed	PARK2
-A0A0A9XSY6	A0A0A9XSY6_LYGHE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_1
-A0A146LNZ3	A0A146LNZ3_LYGHE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_1
+X5DNX0	X5DNX0_HUMAN	Parkinson protein 2 isoform A (Fragment)	unreviewed	PARK2
 A0A0K8U0H6	A0A0K8U0H6_BACLA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2_3
 A0A0B2UTN0	A0A0B2UTN0_TOXCA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
 A0A0C9RZN4	A0A0C9RZN4_9HYME	Park2 protein	unreviewed	Park2
-T2MIZ5	T2MIZ5_HYDVU	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
-W4YQE2	W4YQE2_STRPU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Sp-Park2
-A0A146KPN6	A0A146KPN6_LYGHE	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2_4
-A0A0K8V0M5	A0A0K8V0M5_BACLA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2_0
-A0A0K8VI17	A0A0K8VI17_BACLA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2_1
-U3FQA1	U3FQA1_CALJA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-B8YP93	B8YP93_BOVIN	Truncated parkin variant SV6DEL (EC 6.3.2.19) (Uncharacterized protein)	unreviewed	PARK2
+B8YP93	B8YP93_BOVIN	Truncated parkin variant SV6DEL (EC 6.3.2.19)	unreviewed	PARK2
 H9FG96	H9FG96_MACMU	E3 ubiquitin-protein ligase parkin isoform 1 (Fragment)	unreviewed	PARK2
-H9F3T2	H9F3T2_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
-F6U1M2	F6U1M2_MACMU	Uncharacterized protein	unreviewed	PARK2
 H9EYJ1	H9EYJ1_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
+H9F3T2	H9F3T2_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
 H9FL69	H9FL69_MACMU	E3 ubiquitin-protein ligase parkin isoform 2 (Fragment)	unreviewed	PARK2
-G3N0R1	G3N0R1_BOVIN	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
 G3N0P4	G3N0P4_BOVIN	Uncharacterized protein	unreviewed	PARK2
 D2Y183	D2Y183_BOVIN	Truncated parkin variant SV3bINS (EC 6.3.2.19)	unreviewed	PARK2
-D2Y182	D2Y182_BOVIN	Truncated parkin variant SV8DEL (EC 6.3.2.19)	unreviewed	PARK2
-G3MYG1	G3MYG1_BOVIN	Uncharacterized protein	unreviewed	PARK2
-D3JW61	D3JW61_BOVIN	Parkin variant SV9bINS (EC 6.3.2.19)	unreviewed	PARK2
 G3N0A5	G3N0A5_BOVIN	Uncharacterized protein	unreviewed	PARK2
-D2Y181	D2Y181_BOVIN	Truncated parkin variant SV7DEL (EC 6.3.2.19)	unreviewed	PARK2
 F1MIV9	F1MIV9_BOVIN	Uncharacterized protein	unreviewed	PARK2
+D3JW61	D3JW61_BOVIN	Parkin variant SV9bINS (EC 6.3.2.19)	unreviewed	PARK2
+G3MYG1	G3MYG1_BOVIN	Uncharacterized protein	unreviewed	PARK2
+D2Y181	D2Y181_BOVIN	Truncated parkin variant SV7DEL (EC 6.3.2.19)	unreviewed	PARK2
+D2Y182	D2Y182_BOVIN	Truncated parkin variant SV8DEL (EC 6.3.2.19)	unreviewed	PARK2
+G3N0R1	G3N0R1_BOVIN	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
 D3JW60	D3JW60_BOVIN	Truncated parkin variant SV7bINS (EC 6.3.2.19)	unreviewed	PARK2
-F6TQI5	F6TQI5_ORNAN	Uncharacterized protein	unreviewed	PARK2
-W5P3W8	W5P3W8_SHEEP	Uncharacterized protein	unreviewed	PARK2
-F6SBC0	F6SBC0_HORSE	Uncharacterized protein	unreviewed	PARK2
-F6SY58	F6SY58_HORSE	Uncharacterized protein	unreviewed	PARK2
-A0A0D9RIL3	A0A0D9RIL3_CHLSB	Uncharacterized protein	unreviewed	PARK2
-Q2L7G1	Q2L7G1_PIG	Parkin (Fragment)	unreviewed	PARK2
-Q1WDP3	Q1WDP3_PIG	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-Q2L7G2	Q2L7G2_PIG	Parkin (Fragment)	unreviewed	PARK2
-Q2L7G3	Q2L7G3_PIG	Parkin (Fragment)	unreviewed	PARK2
-Q19K47	Q19K47_PIG	Parkin splice variant	unreviewed	PARK2
 Q2I0E9	Q2I0E9_PIG	Parkin (Fragment)	unreviewed	PARK2
-B9VH11	B9VH11_MACFA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-B8YGJ6	B8YGJ6_MACFA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-G1PXZ4	G1PXZ4_MYOLU	Uncharacterized protein	unreviewed	PARK2
-S4X294	S4X294_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+Q2L7G3	Q2L7G3_PIG	Parkin (Fragment)	unreviewed	PARK2
+Q2L7G1	Q2L7G1_PIG	Parkin (Fragment)	unreviewed	PARK2
+Q2L7G2	Q2L7G2_PIG	Parkin (Fragment)	unreviewed	PARK2
+A0A1U7TPK4	A0A1U7TPK4_TARSY	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+A0A1S3WJL3	A0A1S3WJL3_ERIEU	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+A0A0K8VI17	A0A0K8VI17_BACLA	E3 ubiquitin-protein ligase parkin	unreviewed	Park2_1
+A0A146KPN6	A0A146KPN6_LYGHE	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2_4
+A0A1U8CXW5	A0A1U8CXW5_MESAU	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
+A0A1S7IWU1	A0A1S7IWU1_RAT	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
 S4X690	S4X690_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
 Q8VHY5	Q8VHY5_RAT	E3 ubiquitin-protein ligase parkin isoform (Parkin transcript variant 7)	unreviewed	Park2
-D3JW63	D3JW63_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2
-S4X0T3	S4X0T3_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
-S4X0T1	S4X0T1_RAT	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	Park2
-D3JVU6	D3JVU6_RAT	Parkin variant SV4bINS (EC 6.3.2.19)	unreviewed	Park2
-S4X470	S4X470_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
-D3JW62	D3JW62_RAT	Parkin variant SV5DEL (EC 6.3.2.19)	unreviewed	Park2
-D3JZW3	D3JZW3_RAT	Truncated parkin variant SV4cINS (EC 6.3.2.19)	unreviewed	Park2
-D3JZW4	D3JZW4_RAT	Truncated parkin variant SV6bINS (EC 6.3.2.19)	unreviewed	Park2
-D3JVU5	D3JVU5_RAT	Truncated parkin variant SV2bINS (EC 6.3.2.19)	unreviewed	Park2
-A0A0P6JWS9	A0A0P6JWS9_HETGA	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	PARK2
-B8YP88	B8YP88_MOUSE	Truncated parkin variant SV3-6DEL (EC 6.3.2.19)	unreviewed	Park2
+S4X294	S4X294_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+A0A087WQJ2	A0A087WQJ2_MOUSE	Parkinson disease (autosomal recessive, juvenile) 2, parkin (Fragment)	unreviewed	Park2
+A0A1W2P7W2	A0A1W2P7W2_MOUSE	Parkinson disease (autosomal recessive, juvenile) 2, parkin	unreviewed	Park2
+J3QMF8	J3QMF8_MOUSE	Parkinson disease (autosomal recessive, juvenile) 2, parkin	unreviewed	Park2
 D3JSV6	D3JSV6_MOUSE	Truncated parkin variant SV3-7DEL (EC 6.3.2.19)	unreviewed	Park2
-A0A087WQJ2	A0A087WQJ2_MOUSE	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2
+Q3UVA0	Q3UVA0_MOUSE	Uncharacterized protein (Fragment)	unreviewed	Park2
+B8YP88	B8YP88_MOUSE	Truncated parkin variant SV3-6DEL (EC 6.3.2.19)	unreviewed	Park2
 B8YP90	B8YP90_MOUSE	Truncated parkin variant SV6DEL (EC 6.3.2.19)	unreviewed	Park2
-J3QMF8	J3QMF8_MOUSE	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
-F6TNF2	F6TNF2_MOUSE	E3 ubiquitin-protein ligase parkin	unreviewed	Park2
-Q3UVA0	Q3UVA0_MOUSE	Putative uncharacterized protein (Fragment)	unreviewed	Park2
+F6TNF2	F6TNF2_MOUSE	Parkinson disease (autosomal recessive, juvenile) 2, parkin	unreviewed	Park2
 B8YP89	B8YP89_MOUSE	Truncated parkin variant SV3DEL (EC 6.3.2.19)	unreviewed	Park2
-Q561U2	Q561U2_DANRE	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
+D3JW63	D3JW63_RAT	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	Park2
+D3JVU5	D3JVU5_RAT	Truncated parkin variant SV2bINS (EC 6.3.2.19)	unreviewed	Park2
+D3JVU6	D3JVU6_RAT	Parkin variant SV4bINS (EC 6.3.2.19)	unreviewed	Park2
+S4X0T3	S4X0T3_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+D3JZW4	D3JZW4_RAT	Truncated parkin variant SV6bINS (EC 6.3.2.19)	unreviewed	Park2
+S4X470	S4X470_RAT	E3 ubiquitin-protein ligase parkin isoform	unreviewed	Park2
+D3JZW3	D3JZW3_RAT	Truncated parkin variant SV4cINS (EC 6.3.2.19)	unreviewed	Park2
+A0A1A8VKL5	A0A1A8VKL5_NOTFU	Parkinson disease (Autosomal recessive, juvenile) 2, parkin	unreviewed	PARK2
+A0A1A8FCC7	A0A1A8FCC7_9TELE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+A0A1A7X2X4	A0A1A7X2X4_9TELE	Parkinson disease (Autosomal recessive, juvenile) 2, parkin	unreviewed	PARK2
+A0A1A8JKJ1	A0A1A8JKJ1_NOTKU	Parkinson disease (Autosomal recessive, juvenile) 2, parkin (Fragment)	unreviewed	PARK2
+A0A1A8IRW7	A0A1A8IRW7_NOTKU	Parkinson disease (Autosomal recessive, juvenile) 2, parkin (Fragment)	unreviewed	PARK2
+A0A1A8P7P8	A0A1A8P7P8_9TELE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
 V8P2J5	V8P2J5_OPHHA	E3 ubiquitin-protein ligase parkin (Fragment)	unreviewed	Park2
-I3JJF6	I3JJF6_ORENI	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-F1Q9C4	F1Q9C4_DANRE	Uncharacterized protein (Fragment)	unreviewed	park2
-A5WUG4	A5WUG4_DANRE	Uncharacterized protein (Fragment)	unreviewed	park2
-A0A151M2I6	A0A151M2I6_ALLMI	E3 ubiquitin-protein ligase parkin isoform B	unreviewed	PARK2
 A0A151M2E6	A0A151M2E6_ALLMI	E3 ubiquitin-protein ligase parkin isoform A	unreviewed	PARK2
-H2SS25	H2SS25_TAKRU	E3 ubiquitin-protein ligase parkin (EC 6.3.2.-)	unreviewed	park2
-H2SS26	H2SS26_TAKRU	Uncharacterized protein	unreviewed	park2
-H2SS27	H2SS27_TAKRU	Uncharacterized protein	unreviewed	park2
+A0A151M2I6	A0A151M2I6_ALLMI	E3 ubiquitin-protein ligase parkin isoform B	unreviewed	PARK2
+A0A1A8BK64	A0A1A8BK64_9TELE	Parkinson disease (Autosomal recessive, juvenile) 2, parkin (Fragment)	unreviewed	PARK2
+A0A1A8EB55	A0A1A8EB55_9TELE	Parkinson disease (Autosomal recessive, juvenile) 2, parkin (Fragment)	unreviewed	PARK2
+H2SS26	H2SS26_TAKRU	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
+H2SS27	H2SS27_TAKRU	Parkin RBR E3 ubiquitin protein ligase	unreviewed	park2
+H2SS25	H2SS25_TAKRU	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	park2
+A0A1A8PV91	A0A1A8PV91_9TELE	E3 ubiquitin-protein ligase parkin (EC 2.3.2.-)	unreviewed	PARK2
+A5WUG4	A5WUG4_DANRE	Parkin RBR E3 ubiquitin protein ligase (Fragment)	unreviewed	park2
+A0A1U8CZV2	A0A1U8CZV2_ALLSI	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+A0A1V4JM44	A0A1V4JM44_PATFA	E3 ubiquitin-protein ligase parkin	unreviewed	PARK2
+A0A1V4JKW3	A0A1V4JKW3_PATFA	E3 ubiquitin-protein ligase parkin isoform A	unreviewed	PARK2

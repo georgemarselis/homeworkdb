@@ -1,90 +1,120 @@
 Entry	Entry name	Protein names	Status	Gene names  (primary )
 Q5S007	LRRK2_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin)	reviewed	LRRK2
 Q5S006	LRRK2_MOUSE	Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1)	reviewed	Lrrk2
-F1LNJ1	F1LNJ1_RAT	Protein Lrrk2	unreviewed	Lrrk2
-F1PHH4	F1PHH4_CANLF	Uncharacterized protein	unreviewed	LRRK2
+F1LNJ1	F1LNJ1_RAT	Leucine-rich repeat kinase 2	unreviewed	Lrrk2
+F1PHH4	F1PHH4_CANLF	Leucine rich repeat kinase 2	unreviewed	LRRK2
 E1BPU0	E1BPU0_BOVIN	Uncharacterized protein	unreviewed	LRRK2
-H2Q5Q4	H2Q5Q4_PANTR	Leucine-rich repeat kinase 2 (Uncharacterized protein)	unreviewed	LRRK2
-M3XMD3	M3XMD3_MUSPF	Uncharacterized protein	unreviewed	LRRK2
-E1C5R5	E1C5R5_CHICK	Uncharacterized protein	unreviewed	LRRK2
+H2Q5Q4	H2Q5Q4_PANTR	Leucine-rich repeat kinase 2	unreviewed	LRRK2
 F1SHN7	F1SHN7_PIG	Uncharacterized protein	unreviewed	LRRK2
-H0YYY0	H0YYY0_TAEGU	Uncharacterized protein (Fragment)	unreviewed	LRRK2
-G1PDK4	G1PDK4_MYOLU	Uncharacterized protein	unreviewed	LRRK2
-F6TJ12	F6TJ12_CALJA	Uncharacterized protein	unreviewed	LRRK2
-M3VXC2	M3VXC2_FELCA	Uncharacterized protein	unreviewed	LRRK2
-U3K680	U3K680_FICAL	Uncharacterized protein	unreviewed	LRRK2
-A0A096MWP2	A0A096MWP2_PAPAN	Uncharacterized protein	unreviewed	LRRK2
-W5QFE4	W5QFE4_SHEEP	Uncharacterized protein	unreviewed	LRRK2
-G1KHH8	G1KHH8_ANOCA	Uncharacterized protein	unreviewed	LRRK2
-U3IYL7	U3IYL7_ANAPL	Uncharacterized protein	unreviewed	LRRK2
-F7D0F2	F7D0F2_HORSE	Uncharacterized protein	unreviewed	LRRK2
-F7C7Z0	F7C7Z0_MACMU	Uncharacterized protein	unreviewed	LRRK2
-G1N5N3	G1N5N3_MELGA	Uncharacterized protein (Fragment)	unreviewed	LRRK2
-G3QLE5	G3QLE5_GORGO	Uncharacterized protein	unreviewed	LRRK2
-D2HTG2	D2HTG2_AILME	Uncharacterized protein (Fragment)	unreviewed	LRRK2
-K7ETK2	K7ETK2_PONAB	Uncharacterized protein	unreviewed	LRRK2
-H0WHJ6	H0WHJ6_OTOGA	Uncharacterized protein	unreviewed	LRRK2
-G3WVN1	G3WVN1_SARHA	Uncharacterized protein	unreviewed	LRRK2
+M3VXC2	M3VXC2_FELCA	Leucine rich repeat kinase 2	unreviewed	LRRK2
+G1KHH8	G1KHH8_ANOCA	Leucine rich repeat kinase 2	unreviewed	LRRK2
+F7D0F2	F7D0F2_HORSE	Leucine rich repeat kinase 2	unreviewed	LRRK2
+F7G2I3	F7G2I3_MONDO	Leucine rich repeat kinase 2	unreviewed	LRRK2
+F7C7Z0	F7C7Z0_MACMU	Leucine rich repeat kinase 2	unreviewed	LRRK2
+M3XMD3	M3XMD3_MUSPF	Leucine rich repeat kinase 2	unreviewed	LRRK2
+H0YYY0	H0YYY0_TAEGU	Leucine rich repeat kinase 2	unreviewed	LRRK2
+U3K680	U3K680_FICAL	Leucine rich repeat kinase 2	unreviewed	LRRK2
+F6TJ12	F6TJ12_CALJA	Leucine rich repeat kinase 2	unreviewed	LRRK2
+G1PDK4	G1PDK4_MYOLU	Leucine rich repeat kinase 2	unreviewed	LRRK2
+A0A0D9R4H9	A0A0D9R4H9_CHLSB	Leucine rich repeat kinase 2	unreviewed	LRRK2
+A0A096MWP2	A0A096MWP2_PAPAN	Leucine rich repeat kinase 2	unreviewed	LRRK2
+W5QFE4	W5QFE4_SHEEP	Leucine rich repeat kinase 2	unreviewed	LRRK2
+U3IYL7	U3IYL7_ANAPL	Leucine rich repeat kinase 2	unreviewed	LRRK2
+G3QLE5	G3QLE5_GORGO	Leucine rich repeat kinase 2	unreviewed	LRRK2
+G1N5N3	G1N5N3_MELGA	Leucine rich repeat kinase 2	unreviewed	LRRK2
+D2HTG2	D2HTG2_AILME	Leucine rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+G1STZ5	G1STZ5_RABIT	Leucine rich repeat kinase 2	unreviewed	LRRK2
+H0VB76	H0VB76_CAVPO	Leucine rich repeat kinase 2	unreviewed	LRRK2
+H7C3B6	H7C3B6_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1B0GUQ3	A0A1B0GUQ3_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
 E9PC85	E9PC85_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
 C9JBF0	C9JBF0_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-H7C3B6	H7C3B6_HUMAN	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
 Q17RV3	Q17RV3_HUMAN	Leucine-rich repeat kinase 2	unreviewed	LRRK2
 A0A0C9QCN2	A0A0C9QCN2_9HYME	LRRK2_0 protein	unreviewed	LRRK2_0
 A0A0C9R774	A0A0C9R774_9HYME	LRRK2_1 protein	unreviewed	LRRK2_1
-T2MCK2	T2MCK2_HYDVU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H9FFV7	H9FFV7_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H9FJ88	H9FJ88_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+H9FHA5	H9FHA5_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+F7G7L3	F7G7L3_CALJA	Leucine rich repeat kinase 2	unreviewed	LRRK2
+H9FJV2	H9FJV2_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1D5Q305	A0A1D5Q305_MACMU	Leucine rich repeat kinase 2	unreviewed	LRRK2
+H9FGK3	H9FGK3_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
 B0KW73	B0KW73_CALJA	Leucine-rich repeat kinase 2 (Predicted) (Fragment)	unreviewed	LRRK2
 U3DDK9	U3DDK9_CALJA	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
-H9FFV7	H9FFV7_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-F7G7L3	F7G7L3_CALJA	Uncharacterized protein	unreviewed	LRRK2
 H9F555	H9F555_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-H9FJV2	H9FJV2_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-H9FGK3	H9FGK3_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-H9FHA5	H9FHA5_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-H9FJ88	H9FJ88_MACMU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-F7EB41	F7EB41_ORNAN	Uncharacterized protein	unreviewed	LRRK2
-B1MTC5	B1MTC5_PLEMO	Leucine-rich repeat kinase 2 (Predicted)	unreviewed	LRRK2
+G1MBF4	G1MBF4_AILME	Leucine rich repeat kinase 2	unreviewed	LRRK2
+H0WHJ6	H0WHJ6_OTOGA	Leucine rich repeat kinase 2	unreviewed	LRRK2
 B4USX3	B4USX3_OTOGA	Leucine-rich repeat kinase 2 (Predicted) (Fragment)	unreviewed	LRRK2
-F7G2I3	F7G2I3_MONDO	Uncharacterized protein	unreviewed	LRRK2
-A0A096N6C4	A0A096N6C4_PAPAN	Uncharacterized protein	unreviewed	LRRK2
+G3WVN1	G3WVN1_SARHA	Leucine rich repeat kinase 2	unreviewed	LRRK2
 A9RA99	A9RA99_PAPAN	Leucine-rich repeat kinase 2 (Predicted)	unreviewed	LRRK2
-U6D911	U6D911_NEOVI	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
-A0A0D9R4H9	A0A0D9R4H9_CHLSB	Uncharacterized protein	unreviewed	LRRK2
-Q0PMX7	Q0PMX7_PIG	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
-A9XXE3	A9XXE3_PIG	LRRK2/Dardarin (Fragment)	unreviewed	LRRK2
-A9XXE2	A9XXE2_PIG	LRRK2/Dardarin (Fragment)	unreviewed	LRRK2
-G1S8H6	G1S8H6_NOMLE	Uncharacterized protein	unreviewed	LRRK2
-G1MBF4	G1MBF4_AILME	Uncharacterized protein	unreviewed	LRRK2
-G1STZ5	G1STZ5_RABIT	Uncharacterized protein	unreviewed	LRRK2
 B2KI32	B2KI32_RHIFE	Leucine-rich repeat kinase 2 (Predicted) (Fragment)	unreviewed	LRRK2
+A0A096N6C4	A0A096N6C4_PAPAN	Leucine rich repeat kinase 2	unreviewed	LRRK2
+A9XXE3	A9XXE3_PIG	LRRK2/Dardarin (Fragment)	unreviewed	LRRK2
+Q0PMX7	Q0PMX7_PIG	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A9XXE2	A9XXE2_PIG	LRRK2/Dardarin (Fragment)	unreviewed	LRRK2
+B1MTC5	B1MTC5_PLEMO	Leucine-rich repeat kinase 2 (Predicted)	unreviewed	LRRK2
+A0A1U7U4B5	A0A1U7U4B5_TARSY	leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+A0A1S3WM38	A0A1S3WM38_ERIEU	leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+U6D911	U6D911_NEOVI	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
+G1S8H6	G1S8H6_NOMLE	Leucine rich repeat kinase 2	unreviewed	LRRK2
+T2MCK2	T2MCK2_HYDVU	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	LRRK2
 C1FXS1	C1FXS1_DASNO	Leucine-rich repeat kinase 2 (Predicted)	unreviewed	LRRK2
-Q9CQG8	Q9CQG8_MOUSE	Putative uncharacterized protein	unreviewed	Lrrk2
-B4F7C3	B4F7C3_RAT	Lrrk2 protein (Fragment)	unreviewed	Lrrk2
+A0A1U7Q7Z2	A0A1U7Q7Z2_MESAU	leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	Lrrk2
+Q9CQG8	Q9CQG8_MOUSE	Uncharacterized protein	unreviewed	Lrrk2
+Q8BU87	Q8BU87_MOUSE	Uncharacterized protein	unreviewed	Lrrk2
+A0A1S3FE68	A0A1S3FE68_DIPOR	leucine-rich repeat serine/threonine-protein kinase 2 isoform X2	unreviewed	Lrrk2
+A0A1S3FCQ6	A0A1S3FCQ6_DIPOR	leucine-rich repeat serine/threonine-protein kinase 2 isoform X1	unreviewed	Lrrk2
+A0A1S3FCD5	A0A1S3FCD5_DIPOR	leucine-rich repeat serine/threonine-protein kinase 2 isoform X3	unreviewed	Lrrk2
 Q5BJM3	Q5BJM3_RAT	Lrrk2 protein (Fragment)	unreviewed	Lrrk2
-H0VB76	H0VB76_CAVPO	Uncharacterized protein	unreviewed	LRRK2
-I3LWV1	I3LWV1_ICTTR	Uncharacterized protein	unreviewed	LRRK2
-Q8BU87	Q8BU87_MOUSE	Putative uncharacterized protein	unreviewed	Lrrk2
-H3AV73	H3AV73_LATCH	Uncharacterized protein	unreviewed	LRRK2
-F6URV2	F6URV2_XENTR	Uncharacterized protein	unreviewed	lrrk2
+B4F7C3	B4F7C3_RAT	Lrrk2 protein (Fragment)	unreviewed	Lrrk2
+A0A1W4YWF8	A0A1W4YWF8_9TELE	leucine-rich repeat serine/threonine-protein kinase 2 isoform X3	unreviewed	lrrk2
+A0A1A8JSF6	A0A1A8JSF6_NOTKU	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A8J097	A0A1A8J097_NOTKU	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
 V8N5E6	V8N5E6_OPHHA	Leucine-rich repeat serine/threonine-protein kinase 2 (Fragment)	unreviewed	Lrrk2
 V8NH92	V8NH92_OPHHA	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+A0A151NP48	A0A151NP48_ALLMI	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+A0A1A8J0E0	A0A1A8J0E0_NOTKU	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
 A0A0Q3WYF8	A0A0Q3WYF8_AMAAE	Leucine-rich repeat kinase 2	unreviewed	lrrk2
-I3J7H6	I3J7H6_ORENI	Uncharacterized protein	unreviewed	lrrk2
-I3J7H5	I3J7H5_ORENI	Uncharacterized protein	unreviewed	lrrk2
-F1QJL6	F1QJL6_DANRE	Uncharacterized protein	unreviewed	lrrk2
-A0A0R4IY84	A0A0R4IY84_DANRE	Uncharacterized protein	unreviewed	lrrk2
+A0A1A8BB60	A0A1A8BB60_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+I3J7H6	I3J7H6_ORENI	Leucine-rich repeat kinase 2	unreviewed	lrrk2
+I3J7H5	I3J7H5_ORENI	Leucine-rich repeat kinase 2	unreviewed	lrrk2
+A0A1A7X9S6	A0A1A7X9S6_9TELE	Leucine-rich repeat kinase 2	unreviewed	LRRK2
+A0A1A7XPW3	A0A1A7XPW3_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1D5PI42	A0A1D5PI42_CHICK	Leucine rich repeat kinase 2	unreviewed	LRRK2
+F1QJL6	F1QJL6_DANRE	Leucine-rich repeat kinase 2	unreviewed	lrrk2
+A0A0R4IY84	A0A0R4IY84_DANRE	Leucine-rich repeat kinase 2	unreviewed	lrrk2
 D9IG64	D9IG64_DANRE	Leucine-rich repeat kinase 2	unreviewed	lrrk2
-F8W598	F8W598_DANRE	Uncharacterized protein	unreviewed	lrrk2
-K7FVW9	K7FVW9_PELSI	Uncharacterized protein	unreviewed	LRRK2
+F8W598	F8W598_DANRE	Leucine-rich repeat kinase 2	unreviewed	lrrk2
+E1C5R5	E1C5R5_CHICK	Leucine rich repeat kinase 2	unreviewed	LRRK2
+A0A1A8LSC1	A0A1A8LSC1_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A8PHV1	A0A1A8PHV1_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A8PHV6	A0A1A8PHV6_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A8P8C2	A0A1A8P8C2_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A7ZKJ5	A0A1A7ZKJ5_NOTFU	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A7ZXW7	A0A1A7ZXW7_NOTFU	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A8VE98	A0A1A8VE98_NOTFU	Leucine-rich repeat kinase 2	unreviewed	LRRK2
+A0A1A8B023	A0A1A8B023_NOTFU	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1V4K020	A0A1V4K020_PATFA	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+A0A1W4Z5S5	A0A1W4Z5S5_9TELE	leucine-rich repeat serine/threonine-protein kinase 2 isoform X1	unreviewed	lrrk2
+F6URV2	F6URV2_XENTR	Leucine-rich repeat kinase 2	unreviewed	lrrk2
 A0A0S7IJJ7	A0A0S7IJJ7_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
-A0A0S7I814	A0A0S7I814_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
 A0A0S7FIG1	A0A0S7FIG1_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7I814	A0A0S7I814_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7ME98	A0A0S7ME98_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A1A8F4T4	A0A1A8F4T4_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1A8G486	A0A1A8G486_9TELE	Leucine-rich repeat kinase 2 (Fragment)	unreviewed	LRRK2
+A0A1U8DB72	A0A1U8DB72_ALLSI	leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2
+H3AV73	H3AV73_LATCH	Leucine rich repeat kinase 2	unreviewed	LRRK2
+A0A1W4YWF1	A0A1W4YWF1_9TELE	leucine-rich repeat serine/threonine-protein kinase 2 isoform X2	unreviewed	lrrk2
+A0A1S3KS91	A0A1S3KS91_SALSA	leucine-rich repeat serine/threonine-protein kinase 2 isoform X3	unreviewed	lrrk2
+A0A1S3KRD5	A0A1S3KRD5_SALSA	leucine-rich repeat serine/threonine-protein kinase 2 isoform X1	unreviewed	lrrk2
+A0A1S3KR55	A0A1S3KR55_SALSA	leucine-rich repeat serine/threonine-protein kinase 2 isoform X2	unreviewed	lrrk2
+K7FVW9	K7FVW9_PELSI	Leucine rich repeat kinase 2	unreviewed	LRRK2
 A0A0S7J1K8	A0A0S7J1K8_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
 A0A0S7H836	A0A0S7H836_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
-A0A0S7ME98	A0A0S7ME98_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
-A0A0S7I504	A0A0S7I504_9TELE	LRRK2	unreviewed	LRRK2
+A0A0S7H7E5	A0A0S7H7E5_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
 A0A0S7IGT6	A0A0S7IGT6_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
 A0A0S7M5H5	A0A0S7M5H5_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
+A0A0S7I504	A0A0S7I504_9TELE	LRRK2	unreviewed	LRRK2
 A0A0S7IIV9	A0A0S7IIV9_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
-A0A0S7H7E5	A0A0S7H7E5_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
 A0A0S7HAZ1	A0A0S7HAZ1_9TELE	LRRK2 (Fragment)	unreviewed	LRRK2
-A0A151NP48	A0A151NP48_ALLMI	Leucine-rich repeat serine/threonine-protein kinase 2	unreviewed	LRRK2

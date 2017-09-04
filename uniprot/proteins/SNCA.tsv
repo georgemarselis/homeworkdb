@@ -4,40 +4,38 @@ O55042	SYUA_MOUSE	Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 c
 P37377	SYUA_RAT	Alpha-synuclein	reviewed	Snca
 Q3T0G8	SYUA_BOVIN	Alpha-synuclein	reviewed	SNCA
 P61145	SYUA_PANTR	Alpha-synuclein	reviewed	SNCA
+P61143	SYUA_MACMU	Alpha-synuclein	reviewed	SNCA
 P61140	SYUA_GORGO	Alpha-synuclein	reviewed	SNCA
 Q3I5G7	SYUA_PIG	Alpha-synuclein	reviewed	SNCA
-Q9I9H1	Q9I9H1_CHICK	Alpha-synuclein	unreviewed	SNCA
+Q4JHT6	Q4JHT6_TAEGU	Alpha-synuclein	unreviewed	SNCA
 E2RDD9	E2RDD9_CANLF	Alpha-synuclein	unreviewed	SNCA
-G1M951	G1M951_AILME	Alpha-synuclein	unreviewed	SNCA
-H2PDW8	H2PDW8_PONAB	Alpha-synuclein	unreviewed	SNCA
 G1U0V2	G1U0V2_RABIT	Alpha-synuclein	unreviewed	SNCA
+G1M951	G1M951_AILME	Alpha-synuclein	unreviewed	SNCA
 F7GY62	F7GY62_CALJA	Alpha-synuclein	unreviewed	SNCA
+H2PDW8	H2PDW8_PONAB	Alpha-synuclein	unreviewed	SNCA
+H0VPZ2	H0VPZ2_CAVPO	Alpha-synuclein	unreviewed	SNCA
 K7FW98	K7FW98_PELSI	Alpha-synuclein	unreviewed	SNCA
 M3Z596	M3Z596_MUSPF	Alpha-synuclein	unreviewed	SNCA
-H0VPZ2	H0VPZ2_CAVPO	Alpha-synuclein	unreviewed	SNCA
 G1PBR4	G1PBR4_MYOLU	Gamma-synuclein	unreviewed	SNCA
-I3N7G4	I3N7G4_ICTTR	Alpha-synuclein	unreviewed	SNCA
 U3JU64	U3JU64_FICAL	Alpha-synuclein	unreviewed	SNCA
 M3WF70	M3WF70_FELCA	Alpha-synuclein	unreviewed	SNCA
+I3N7G4	I3N7G4_ICTTR	Alpha-synuclein	unreviewed	SNCA
+A0A0D9QW44	A0A0D9QW44_CHLSB	Alpha-synuclein	unreviewed	SNCA
+A0A096MQY7	A0A096MQY7_PAPAN	Alpha-synuclein	unreviewed	SNCA
 W5QAX7	W5QAX7_SHEEP	Gamma-synuclein	unreviewed	SNCA
 U3IPK7	U3IPK7_ANAPL	Gamma-synuclein	unreviewed	SNCA
 F6U044	F6U044_HORSE	Alpha-synuclein	unreviewed	SNCA
-G3T7Z3	G3T7Z3_LOXAF	Alpha-synuclein	unreviewed	SNCA
-R4GAF5	R4GAF5_ANOCA	Alpha-synuclein	unreviewed	SNCA
-G1N1K5	G1N1K5_MELGA	Alpha-synuclein	unreviewed	SNCA
-P61139	SYUA_ERYPA	Alpha-synuclein	reviewed	SNCA
 P61142	SYUA_MACFA	Alpha-synuclein	reviewed	SNCA
-P61138	SYUA_ATEGE	Alpha-synuclein	reviewed	SNCA
-P61144	SYUA_PANPA	Alpha-synuclein	reviewed	SNCA
-P61146	SYUA_PONAB	Alpha-synuclein	reviewed	SNCA
 P61147	SYUA_SAGLB	Alpha-synuclein	reviewed	SNCA
-P61141	SYUA_LAGLA	Alpha-synuclein	reviewed	SNCA
-P61143	SYUA_MACMU	Alpha-synuclein	reviewed	SNCA
+P61138	SYUA_ATEGE	Alpha-synuclein	reviewed	SNCA
+P61139	SYUA_ERYPA	Alpha-synuclein	reviewed	SNCA
+P61146	SYUA_PONAB	Alpha-synuclein	reviewed	SNCA
 Q91448	SYUA_SERCA	Alpha-synuclein (Synelfin)	reviewed	SNCA
-B3RFW0	B3RFW0_ASPNG	V-SNARE	unreviewed	sncA
+P61141	SYUA_LAGLA	Alpha-synuclein	reviewed	SNCA
+P61144	SYUA_PANPA	Alpha-synuclein	reviewed	SNCA
 H6UYS7	H6UYS7_HUMAN	Alpha-synuclein	unreviewed	SNCA
-H6UYS5	H6UYS5_HUMAN	Alpha-synuclein	unreviewed	SNCA
 H6UYS0	H6UYS0_HUMAN	Alpha-synuclein	unreviewed	SNCA
+H6UYS5	H6UYS5_HUMAN	Alpha-synuclein	unreviewed	SNCA
 Q4W5L2	Q4W5L2_HUMAN	Alpha-synuclein (Fragment)	unreviewed	SNCA
 D6RA31	D6RA31_HUMAN	Alpha-synuclein (Fragment)	unreviewed	SNCA
 E7EPV7	E7EPV7_HUMAN	Alpha-synuclein	unreviewed	SNCA
@@ -45,43 +43,67 @@ G7MTE2	G7MTE2_MACMU	Alpha-synuclein	unreviewed	SNCA
 F7H8L8	F7H8L8_MACMU	Alpha-synuclein	unreviewed	SNCA
 F7HDW6	F7HDW6_CALJA	Alpha-synuclein	unreviewed	SNCA
 F7HDN5	F7HDN5_CALJA	Alpha-synuclein	unreviewed	SNCA
-C6K8P8	C6K8P8_BALAC	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A1D5RI91	A0A1D5RI91_MACMU	Alpha-synuclein	unreviewed	SNCA
 A6QQ08	A6QQ08_BOVIN	SNCA protein (Fragment)	unreviewed	SNCA
-H0XI37	H0XI37_OTOGA	Uncharacterized protein	unreviewed	SNCA
-K7AKQ9	K7AKQ9_PANTR	Alpha-synuclein	unreviewed	SNCA
-D0FH84	D0FH84_SAISC	Alpha-synuclein	unreviewed	SNCA
-A0A096MQY7	A0A096MQY7_PAPAN	Uncharacterized protein	unreviewed	SNCA
-C6K8P9	C6K8P9_LOXAF	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A0A0D9QW44	A0A0D9QW44_CHLSB	Alpha-synuclein	unreviewed	SNCA
-Q4PNS0	Q4PNS0_PIG	Alpha-synuclein (Fragment)	unreviewed	SNCA
-C6K8Q0	C6K8Q0_PHOPH	Alpha-synuclein (Fragment)	unreviewed	SNCA
-G1RW17	G1RW17_NOMLE	Alpha-synuclein	unreviewed	SNCA
+H0XI37	H0XI37_OTOGA	Synuclein alpha	unreviewed	SNCA
 C6K8Q1	C6K8Q1_9CARN	Alpha-synuclein (Fragment)	unreviewed	SNCA
+K7AKQ9	K7AKQ9_PANTR	Alpha-synuclein	unreviewed	SNCA
 A0A0G4ALB0	A0A0G4ALB0_CHODI	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A1L2YZJ0	A0A1L2YZJ0_GLOME	Alpha-synuclein	unreviewed	SNCA
+D0FH84	D0FH84_SAISC	Alpha-synuclein	unreviewed	SNCA
+C6K8P8	C6K8P8_BALAC	Alpha-synuclein (Fragment)	unreviewed	SNCA
+Q4PNS0	Q4PNS0_PIG	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A1U7UV15	A0A1U7UV15_TARSY	Alpha-synuclein	unreviewed	SNCA
+A0A1L4APK6	A0A1L4APK6_BALMY	Alpha-synuclein	unreviewed	SNCA
+A0A1S3A5B4	A0A1S3A5B4_ERIEU	Alpha-synuclein	unreviewed	SNCA
+C6K8P9	C6K8P9_LOXAF	Alpha-synuclein (Fragment)	unreviewed	SNCA
+G3T7Z3	G3T7Z3_LOXAF	Alpha-synuclein	unreviewed	SNCA
+G1RW17	G1RW17_NOMLE	Alpha-synuclein	unreviewed	SNCA
+C6K8Q0	C6K8Q0_PHOPH	Alpha-synuclein (Fragment)	unreviewed	SNCA
+B3RFW0	B3RFW0_ASPNG	V-SNARE	unreviewed	sncA
+A0A1U8CC65	A0A1U8CC65_MESAU	Alpha-synuclein	unreviewed	Snca
+A0A1U8C123	A0A1U8C123_MESAU	Alpha-synuclein	unreviewed	Snca
 Q3LVE5	Q3LVE5_RAT	Alpha-synuclein (Fragment)	unreviewed	Snca
-C6K8Q5	C6K8Q5_CYPCA	Alpha-synuclein (Fragment)	unreviewed	SNCA
-H3AWG4	H3AWG4_LATCH	Gamma-synuclein	unreviewed	SNCA
-C6K8Q7	C6K8Q7_9TELE	Alpha-synuclein (Fragment)	unreviewed	SNCA
-F7D9Y2	F7D9Y2_XENTR	Gamma-synuclein	unreviewed	snca
-A4IH15	A4IH15_XENTR	Alpha-synuclein	unreviewed	snca
-C6KE77	C6KE77_OSTTE	Alpha-synuclein (Fragment)	unreviewed	SNCA
-C6K8Q2	C6K8Q2_TESGR	Alpha-synuclein (Fragment)	unreviewed	SNCA
+A0A1S3GAZ7	A0A1S3GAZ7_DIPOR	Alpha-synuclein	unreviewed	Snca
+A0A1A7ZLV6	A0A1A7ZLV6_NOTFU	Synuclein, alpha (Non A4 component of amyloid)	unreviewed	SNCA
+A0A1W4Z7F3	A0A1W4Z7F3_9TELE	Alpha-synuclein	unreviewed	snca
+A0A1A8HFR8	A0A1A8HFR8_9TELE	Synuclein, alpha (Non A4 component of amyloid)	unreviewed	SNCA
+A0A1A7Y6Q7	A0A1A7Y6Q7_9TELE	Synuclein, alpha (Non A4 component of amyloid)	unreviewed	SNCA
+A0A1A8DEQ7	A0A1A8DEQ7_9TELE	Synuclein, alpha (Non A4 component of amyloid)	unreviewed	SNCA
+Q9I9H1	Q9I9H1_CHICK	Alpha-synuclein	unreviewed	SNCA
+C6K8Q3	C6K8Q3_CHENI	Alpha-synuclein (Fragment)	unreviewed	SNCA
+W5KJF9	W5KJF9_ASTMX	Synuclein alpha	unreviewed	SNCA
+Q7SZ02	Q7SZ02_XENLA	Alpha-synuclein	unreviewed	snca
+A0A1A8P053	A0A1A8P053_9TELE	Synuclein, alpha (Non A4 component of amyloid)	unreviewed	SNCA
+A0A1A8J4V2	A0A1A8J4V2_NOTKU	Synuclein, alpha (Non A4 component of amyloid)	unreviewed	SNCA
+A0A1A8MMJ7	A0A1A8MMJ7_9TELE	Synuclein, alpha (Non A4 component of amyloid)	unreviewed	SNCA
 A0A090D865	A0A090D865_ORYLA	RNA-dependent DNA polymerase	unreviewed	SNCA
 C7E3N4	C7E3N4_NESNO	Alpha-synuclein (Fragment)	unreviewed	SNCA
-W5KJF9	W5KJF9_ASTMX	Uncharacterized protein	unreviewed	SNCA
 V8NTX1	V8NTX1_OPHHA	Alpha-synuclein	unreviewed	Snca
+A0A151NMH8	A0A151NMH8_ALLMI	Alpha-synuclein	unreviewed	SNCA
+A0A151NNJ7	A0A151NNJ7_ALLMI	Alpha-synuclein	unreviewed	SNCA
 C6K8Q4	C6K8Q4_AMAAE	Alpha-synuclein (Fragment)	unreviewed	SNCA
 U3JU67	U3JU67_FICAL	Gamma-synuclein	unreviewed	SNCA
-I3KCI5	I3KCI5_ORENI	Uncharacterized protein	unreviewed	SNCA
+H2THY4	H2THY4_TAKRU	Synuclein alpha	unreviewed	SNCA
+I3KCI5	I3KCI5_ORENI	Synuclein alpha	unreviewed	SNCA
+H2THY3	H2THY3_TAKRU	Synuclein alpha	unreviewed	SNCA
 C6K8Q6	C6K8Q6_ACISU	Alpha-synuclein (Fragment)	unreviewed	SNCA
-H3C635	H3C635_TETNG	Uncharacterized protein	unreviewed	SNCA
-A0A087XWK0	A0A087XWK0_POEFO	Uncharacterized protein	unreviewed	SNCA
-G3PW48	G3PW48_GASAC	Uncharacterized protein	unreviewed	SNCA
+C6K8Q5	C6K8Q5_CYPCA	Alpha-synuclein (Fragment)	unreviewed	SNCA
+H3C635	H3C635_TETNG	Synuclein alpha	unreviewed	SNCA
+A0A1D5P8R1	A0A1D5P8R1_CHICK	Alpha-synuclein	unreviewed	SNCA
+R4GAF5	R4GAF5_ANOCA	Alpha-synuclein	unreviewed	SNCA
+A4IH15	A4IH15_XENTR	Alpha-synuclein	unreviewed	snca
+F7D9Y2	F7D9Y2_XENTR	Gamma-synuclein	unreviewed	snca
 C6K8Q8	C6K8Q8_CRORO	Alpha-synuclein (Fragment)	unreviewed	SNCA
-M4AI59	M4AI59_XIPMA	Uncharacterized protein	unreviewed	SNCA
-C6K8Q3	C6K8Q3_CHENI	Alpha-synuclein (Fragment)	unreviewed	SNCA
-A0A151NNJ7	A0A151NNJ7_ALLMI	Alpha-synuclein	unreviewed	SNCA
-A0A151NMH8	A0A151NMH8_ALLMI	Alpha-synuclein	unreviewed	SNCA
-Q7SZ02	Q7SZ02_XENLA	Alpha-synuclein	unreviewed	snca
-H2THY4	H2THY4_TAKRU	Uncharacterized protein	unreviewed	SNCA
-H2THY3	H2THY3_TAKRU	Uncharacterized protein	unreviewed	SNCA
+A0A1U7RPT7	A0A1U7RPT7_ALLSI	Alpha-synuclein	unreviewed	SNCA
+M4AI59	M4AI59_XIPMA	Synuclein alpha	unreviewed	SNCA
+A0A1V4JTX8	A0A1V4JTX8_PATFA	Alpha-synuclein	unreviewed	SNCA
+C6K8Q7	C6K8Q7_9TELE	Alpha-synuclein (Fragment)	unreviewed	SNCA
+H3AWG4	H3AWG4_LATCH	Gamma-synuclein	unreviewed	SNCA
+A0A1W4Z7F5	A0A1W4Z7F5_9TELE	Alpha-synuclein	unreviewed	snca
+A0A1W4ZG06	A0A1W4ZG06_9TELE	Alpha-synuclein	unreviewed	snca
+A0A087XWK0	A0A087XWK0_POEFO	Synuclein alpha	unreviewed	SNCA
+C6KE77	C6KE77_OSTTE	Alpha-synuclein (Fragment)	unreviewed	SNCA
+C6K8Q2	C6K8Q2_TESGR	Alpha-synuclein (Fragment)	unreviewed	SNCA
+G3PW48	G3PW48_GASAC	Synuclein alpha	unreviewed	SNCA
+G1N1K5	G1N1K5_MELGA	Alpha-synuclein	unreviewed	SNCA

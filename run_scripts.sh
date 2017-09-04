@@ -1,4 +1,5 @@
 
+./getUniprotData.sh
 ./ergastirio_bashs.py
 
 ./getGenesPublications.py 
