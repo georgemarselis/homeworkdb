@@ -11,7 +11,7 @@ DEFINE
 ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
-	c0 (snpId, score, EI, source, diseaseId, Npmids),
+	c0 (snpId, score, EI, diseaseId, Npmids),
 	c1 (name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM),
 	c2 (DSI, DPI, chromosome, coord, most_severe_consequence, REF_ALT, class, AF_EXAC, AF_1000G)
 FROM

@@ -2,6 +2,11 @@
 
 import urllib.request, urllib.error, urllib.parse
 
+# 	c0 (source, geneId, associationType, originalSource, sentence, pmid),
+# c0.source comes out as 'ALL' for the entire collumn
+# 	c2 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
+# c2.hpoName is NULL in our data
+
 query="""
 DEFINE
 	c0='/data/gene_disease',
@@ -15,7 +20,7 @@ ON
 SELECT
 	c0 (source, geneId, associationType, originalSource, sentence, pmid),
 	c1 (pantherName, symbol, description ),
-	c2 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
+	c2 (diseaseId, name, STY, MESH, diseaseClassName, doName, type, OMIM ),
 	c3 (score),
 	c4 (year)
 FROM

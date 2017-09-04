@@ -3,6 +3,9 @@
 import urllib.request, urllib.error, urllib.parse
 import csv
 
+
+# 	c1 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
+
 query="""
 DEFINE
 	c0='/data/gene_disease_summary',
@@ -13,7 +16,7 @@ DEFINE
 ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
-	c1 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
+	c1 (diseaseId, name, STY, MESH, diseaseClassName, doName, type, OMIM ),
 	c2 (symbol, geneId, uniprotId, description, DPI, DSI, pantherName ),
 	c0 (score, EI, Npmids, Nsnps, source ),
 	c3 (Ndiseases)
