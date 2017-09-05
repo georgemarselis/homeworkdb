@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <SQLContainer>
     <SQLTable>
         <name><![CDATA[isomorph]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>743.00</x>
-            <y>398.00</y>
+            <x>23.00</x>
+            <y>57.00</y>
         </location>
         <size>
-            <width>253.00</width>
+            <width>246.00</width>
             <height>100.00</height>
         </size>
         <zorder>4</zorder>
         <SQLField>
             <name><![CDATA[isomorphName]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[VARCHAR(12)]]></type>
             <primaryKey>1</primaryKey>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[3BD48A89-02BA-441E-9732-B769265C59EE]]></uid>
@@ -27,7 +27,7 @@
             <unique><![CDATA[0]]></unique>
         </SQLField>
         <SQLForeignKey>
-            <name><![CDATA[Isomorph_fk_1]]></name>
+            <name><![CDATA[isomorph_fk_1]]></name>
             <deleteAction><![CDATA[1]]></deleteAction>
             <updateAction><![CDATA[1]]></updateAction>
             <sourceCardinality><![CDATA[5]]></sourceCardinality>
@@ -41,37 +41,99 @@
                 <sourceFieldName><![CDATA[proteinId]]></sourceFieldName>
                 <sourceFieldUid><![CDATA[423499B4-119B-4207-9C16-51E87F1BAF6E]]></sourceFieldUid>
             </SQLForeignKeyEntry>
-            <indexNamePrefix><![CDATA[Isomorph]]></indexNamePrefix>
+            <indexNamePrefix><![CDATA[isomorph]]></indexNamePrefix>
             <targetTableName><![CDATA[protein]]></targetTableName>
             <uid><![CDATA[DF105010-1715-4E65-BFA2-A41702433D14]]></uid>
         </SQLForeignKey>
         <SQLField>
             <name><![CDATA[proteinId]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[VARCHAR(8)]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[423499B4-119B-4207-9C16-51E87F1BAF6E]]></uid>
             <unique><![CDATA[0]]></unique>
         </SQLField>
         <forcedUnique><![CDATA[1]]></forcedUnique>
+        <hidden><![CDATA[0]]></hidden>
         <labelWindowIndex><![CDATA[4]]></labelWindowIndex>
+        <table_character_set><![CDATA[ascii]]></table_character_set>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[0A5314A2-62FA-4F95-AF49-6A36A0B94D4D]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ProteinGeneontology]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>621.00</x>
+            <y>125.00</y>
+        </location>
+        <size>
+            <width>278.00</width>
+            <height>116.00</height>
+        </size>
+        <zorder>5</zorder>
+        <SQLField>
+            <name><![CDATA[proteinId]]></name>
+            <type><![CDATA[VARCHAR(8)]]></type>
+            <uid><![CDATA[E5B527D1-D15F-421B-94B7-28DDB2CD799C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[ontologyId]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[2D27A149-8D09-41FD-BE8B-E66BF49E0ECD]]></uid>
+        </SQLField>
+        <SQLForeignKey>
+            <name><![CDATA[ProteinGeneontology_fk_1]]></name>
+            <deleteAction><![CDATA[1]]></deleteAction>
+            <updateAction><![CDATA[1]]></updateAction>
+            <sourceCardinality><![CDATA[1]]></sourceCardinality>
+            <destinationCardinality><![CDATA[5]]></destinationCardinality>
+            <targetTableName><![CDATA[protein]]></targetTableName>
+            <targetTableUid><![CDATA[447E25CF-A340-4598-8E4D-AF887CB765F4]]></targetTableUid>
+            <SQLForeignKeyEntry>
+                <entryIndex>0</entryIndex>
+                <targetFieldName><![CDATA[proteinId]]></targetFieldName>
+                <targetFieldUid><![CDATA[04818486-2F37-4C5E-94E5-A85FE223F000]]></targetFieldUid>
+                <sourceFieldName><![CDATA[proteinId]]></sourceFieldName>
+                <sourceFieldUid><![CDATA[E5B527D1-D15F-421B-94B7-28DDB2CD799C]]></sourceFieldUid>
+            </SQLForeignKeyEntry>
+            <indexNamePrefix><![CDATA[ProteinGeneontology]]></indexNamePrefix>
+            <uid><![CDATA[D6284BFB-ED92-48A8-86C5-E65DC0E7CE2B]]></uid>
+        </SQLForeignKey>
+        <SQLForeignKey>
+            <name><![CDATA[ProteinGeneontology_fk_2]]></name>
+            <deleteAction><![CDATA[1]]></deleteAction>
+            <updateAction><![CDATA[1]]></updateAction>
+            <sourceCardinality><![CDATA[1]]></sourceCardinality>
+            <destinationCardinality><![CDATA[5]]></destinationCardinality>
+            <targetTableName><![CDATA[geneOntology]]></targetTableName>
+            <targetTableUid><![CDATA[BC5CCABE-DCA6-4EC6-92A4-FC9FF8A7103E]]></targetTableUid>
+            <SQLForeignKeyEntry>
+                <entryIndex>0</entryIndex>
+                <targetFieldName><![CDATA[ontologyId]]></targetFieldName>
+                <targetFieldUid><![CDATA[5EF68D96-91F0-4E8E-A3FD-DC00D95109A7]]></targetFieldUid>
+                <sourceFieldName><![CDATA[ontologyId]]></sourceFieldName>
+                <sourceFieldUid><![CDATA[2D27A149-8D09-41FD-BE8B-E66BF49E0ECD]]></sourceFieldUid>
+            </SQLForeignKeyEntry>
+            <indexNamePrefix><![CDATA[ProteinGeneontology]]></indexNamePrefix>
+            <uid><![CDATA[AC290667-1BE2-4969-97BF-58415A340E9E]]></uid>
+        </SQLForeignKey>
+        <uid><![CDATA[16ABB30A-7038-445A-B698-E08010B718CF]]></uid>
     </SQLTable>
     <SQLTable>
         <name><![CDATA[protein]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>425.00</x>
-            <y>358.00</y>
+            <x>335.00</x>
+            <y>119.00</y>
         </location>
         <size>
-            <width>236.00</width>
+            <width>211.00</width>
             <height>120.00</height>
         </size>
         <zorder>2</zorder>
         <SQLField>
             <name><![CDATA[proteinId]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[VARCHAR(8)]]></type>
             <primaryKey>1</primaryKey>
             <forcedUnique><![CDATA[1]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
@@ -92,7 +154,7 @@
         </SQLField>
         <SQLField>
             <name><![CDATA[geneId]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[VARCHAR(11)]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[FD9DD191-DF23-4284-A89F-580DB5D1AAC6]]></uid>
         </SQLField>
@@ -117,6 +179,7 @@
             <uid><![CDATA[C495C057-75EC-4F83-AC0F-D2A3E005FC1E]]></uid>
         </SQLForeignKey>
         <forcedUnique><![CDATA[1]]></forcedUnique>
+        <hidden><![CDATA[0]]></hidden>
         <labelWindowIndex><![CDATA[3]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[447E25CF-A340-4598-8E4D-AF887CB765F4]]></uid>
@@ -125,15 +188,16 @@
         <name><![CDATA[Canvas Area1]]></name>
         <comment><![CDATA[]]></comment>
         <location>
-            <x>117.00</x>
-            <y>227.00</y>
+            <x>0.00</x>
+            <y>0.00</y>
         </location>
         <size>
-            <width>933.00</width>
-            <height>341.00</height>
+            <width>1308.00</width>
+            <height>600.00</height>
         </size>
         <zorder>0</zorder>
         <commentTitle><![CDATA[GeorgeMarselis - PEZ2015 Project]]></commentTitle>
+        <hidden><![CDATA[0]]></hidden>
         <labelColor><![CDATA[{0.68,1,0.6,0.5}]]></labelColor>
         <labelWindowIndex><![CDATA[2]]></labelWindowIndex>
         <uid><![CDATA[63C17743-0E66-4758-BEB4-C0459F5128E5]]></uid>
@@ -142,11 +206,11 @@
         <name><![CDATA[geneOntology]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>747.00</x>
-            <y>244.00</y>
+            <x>751.00</x>
+            <y>275.00</y>
         </location>
         <size>
-            <width>246.00</width>
+            <width>245.00</width>
             <height>140.00</height>
         </size>
         <zorder>3</zorder>
@@ -154,7 +218,7 @@
             <name><![CDATA[ontologyId]]></name>
             <type><![CDATA[BIGINT]]></type>
             <primaryKey>1</primaryKey>
-            <forcedUnique><![CDATA[0]]></forcedUnique>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[5EF68D96-91F0-4E8E-A3FD-DC00D95109A7]]></uid>
             <unique><![CDATA[0]]></unique>
@@ -162,6 +226,7 @@
         <SQLField>
             <name><![CDATA[ontologyName]]></name>
             <type><![CDATA[BIGINT]]></type>
+            <forcedUnique><![CDATA[0]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[84A954C2-39CD-4C3D-9686-EE03243F37D7]]></uid>
         </SQLField>
@@ -173,7 +238,7 @@
         </SQLField>
         <SQLField>
             <name><![CDATA[proteinId]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[VARCHAR(8)]]></type>
             <primaryKey>1</primaryKey>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[F5EBEE31-3197-4D15-AD6D-940A9AE52063]]></uid>
@@ -184,8 +249,6 @@
             <updateAction><![CDATA[1]]></updateAction>
             <sourceCardinality><![CDATA[5]]></sourceCardinality>
             <destinationCardinality><![CDATA[5]]></destinationCardinality>
-            <targetTableName><![CDATA[protein]]></targetTableName>
-            <targetTableUid><![CDATA[447E25CF-A340-4598-8E4D-AF887CB765F4]]></targetTableUid>
             <SQLForeignKeyEntry>
                 <entryIndex>0</entryIndex>
                 <targetFieldName><![CDATA[proteinId]]></targetFieldName>
@@ -203,6 +266,7 @@
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[4855E975-9F7B-4287-A7F4-163B317178A7]]></uid>
         </SQLField>
+        <hidden><![CDATA[0]]></hidden>
         <labelWindowIndex><![CDATA[1]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[BC5CCABE-DCA6-4EC6-92A4-FC9FF8A7103E]]></uid>
@@ -211,17 +275,17 @@
         <name><![CDATA[gene]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>134.00</x>
-            <y>455.00</y>
+            <x>37.00</x>
+            <y>217.00</y>
         </location>
         <size>
-            <width>223.00</width>
+            <width>205.00</width>
             <height>100.00</height>
         </size>
         <zorder>1</zorder>
         <SQLField>
             <name><![CDATA[geneId]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[VARCHAR(11)]]></type>
             <primaryKey>1</primaryKey>
             <forcedUnique><![CDATA[0]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
@@ -247,6 +311,7 @@
             <uid><![CDATA[CD0AC4EC-4553-4A87-8C78-29B7C38DAF32]]></uid>
         </SQLField>
         <forcedUnique><![CDATA[1]]></forcedUnique>
+        <hidden><![CDATA[0]]></hidden>
         <labelWindowIndex><![CDATA[0]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[E3A8824A-1604-4D18-98E8-EEC3CC7AF6EB]]></uid>
@@ -255,7 +320,7 @@
         <encodedPrintInfo><![CDATA[BAtzdHJlYW10eXBlZIHoA4QBQISEhAtOU1ByaW50SW5mbwGEhAhOU09iamVjdACFkoSEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCUhAFpDZKEhIQITlNTdHJpbmcBlIQBKw5OU1BNUGFnZUZvcm1hdIaShISEDU5TTXV0YWJsZURhdGEAhIQGTlNEYXRhAJSXgZ0bhAdbNzA2OWNdPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1Ib3Jpem9udGFsUmVzPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTUhvcml6b250YWxSZXM8L2tleT4KCQkJCTxyZWFsPjcyPC9yZWFsPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNT3JpZW50YXRpb248L2tleT4KCTxkaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCTxhcnJheT4KCQkJPGRpY3Q+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNT3JpZW50YXRpb248L2tleT4KCQkJCTxpbnRlZ2VyPjE8L2ludGVnZXI+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1TY2FsaW5nPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTVNjYWxpbmc8L2tleT4KCQkJCTxyZWFsPjE8L3JlYWw+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFJlczwva2V5PgoJPGRpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJPGFycmF5PgoJCQk8ZGljdD4KCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFJlczwva2V5PgoJCQkJPHJlYWw+NzI8L3JlYWw+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFNjYWxpbmc8L2tleT4KCTxkaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCTxhcnJheT4KCQkJPGRpY3Q+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNVmVydGljYWxTY2FsaW5nPC9rZXk+CgkJCQk8cmVhbD4xPC9yZWFsPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5zdWJUaWNrZXQucGFwZXJfaW5mb190aWNrZXQ8L2tleT4KCTxkaWN0PgoJCTxrZXk+UE1QUERQYXBlckNvZGVOYW1lPC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+UE1QUERQYXBlckNvZGVOYW1lPC9rZXk+CgkJCQkJPHN0cmluZz5BNDwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PlBNUFBEVHJhbnNsYXRpb25TdHJpbmdQYXBlck5hbWU8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5QTVBQRFRyYW5zbGF0aW9uU3RyaW5nUGFwZXJOYW1lPC9rZXk+CgkJCQkJPHN0cmluZz5BNDwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PlBNVGlvZ2FQYXBlck5hbWU8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5QTVRpb2dhUGFwZXJOYW1lPC9rZXk+CgkJCQkJPHN0cmluZz5pc28tYTQ8L3N0cmluZz4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTUFkanVzdGVkUGFnZVJlY3Q8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTUFkanVzdGVkUGFnZVJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxyZWFsPjc4MzwvcmVhbD4KCQkJCQkJPHJlYWw+NTU5PC9yZWFsPgoJCQkJCTwvYXJyYXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1BZGp1c3RlZFBhcGVyUmVjdDwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNQWRqdXN0ZWRQYXBlclJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+CgkJCQkJCTxyZWFsPi0xODwvcmVhbD4KCQkJCQkJPHJlYWw+LTE4PC9yZWFsPgoJCQkJCQk8cmVhbD44MjQ8L3JlYWw+CgkJCQkJCTxyZWFsPjU3NzwvcmVhbD4KCQkJCQk8L2FycmF5PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1QUERQYXBlckRpbWVuc2lvbjwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1QUERQYXBlckRpbWVuc2lvbjwva2V5PgoJCQkJCTxhcnJheT4KCQkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCQkJPHJlYWw+NTk1PC9yZWFsPgoJCQkJCQk8cmVhbD44NDI8L3JlYWw+CgkJCQkJPC9hcnJheT4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFwZXJJbmZvLlBNUGFwZXJOYW1lPC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVBhcGVyTmFtZTwva2V5PgoJCQkJCTxzdHJpbmc+aXNvLWE0PC9zdHJpbmc+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVVuYWRqdXN0ZWRQYWdlUmVjdDwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1VbmFkanVzdGVkUGFnZVJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxyZWFsPjc4MzwvcmVhbD4KCQkJCQkJPHJlYWw+NTU5PC9yZWFsPgoJCQkJCTwvYXJyYXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVVuYWRqdXN0ZWRQYXBlclJlY3Q8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFwZXJJbmZvLlBNVW5hZGp1c3RlZFBhcGVyUmVjdDwva2V5PgoJCQkJCTxhcnJheT4KCQkJCQkJPHJlYWw+LTE4PC9yZWFsPgoJCQkJCQk8cmVhbD4tMTg8L3JlYWw+CgkJCQkJCTxyZWFsPjgyNDwvcmVhbD4KCQkJCQkJPHJlYWw+NTc3PC9yZWFsPgoJCQkJCTwvYXJyYXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5wcGQuUE1QYXBlck5hbWU8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFwZXJJbmZvLnBwZC5QTVBhcGVyTmFtZTwva2V5PgoJCQkJCTxzdHJpbmc+QTQ8L3N0cmluZz4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LkFQSVZlcnNpb248L2tleT4KCQk8c3RyaW5nPjAwLjIwPC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnR5cGU8L2tleT4KCQk8c3RyaW5nPmNvbS5hcHBsZS5wcmludC5QYXBlckluZm9UaWNrZXQ8L3N0cmluZz4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5BUElWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjAwLjIwPC9zdHJpbmc+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQudHlwZTwva2V5PgoJPHN0cmluZz5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdFRpY2tldDwvc3RyaW5nPgo8L2RpY3Q+CjwvcGxpc3Q+CoaShJmZC05TUGFwZXJTaXplhpKEhIQHTlNWYWx1ZQCUhAEqhIQLe0NHU2l6ZT1kZH2fgVMCgUoDhpKEmZkWTlNIb3Jpem9udGFsbHlDZW50ZXJlZIaShISECE5TTnVtYmVyAJ+ehIQBY6EBhpKEmZkUTlNWZXJ0aWNhbGx5Q2VudGVyZWSGkqKShJmZDE5TTGVmdE1hcmdpboaShKOehIQBZKIShpKEmZkNTlNSaWdodE1hcmdpboaSp5KEmZkLTlNUb3BNYXJnaW6GkoSjnqiiHoaShJmZDU5TT3JpZW50YXRpb26GkoSjnoSEAXGjAIaShJmZFU5TSG9yaXpvbmFsUGFnaW5hdGlvboaSrZKEmZkUTlNWZXJ0aWNhbFBhZ2luYXRpb26Gkq2ShJmZDk5TQm90dG9tTWFyZ2luhpKEo56oojWGkoSZmQ9OU1NjYWxpbmdGYWN0b3KGkoSjnqiiAYaShJmZC05TUGFwZXJOYW1lhpKEmZkGaXNvLWE0hoaG]]></encodedPrintInfo>
         <autoSizeTablesOption><![CDATA[0]]></autoSizeTablesOption>
         <cardinalityNotationStyle><![CDATA[1]]></cardinalityNotationStyle>
-        <documentScaleFactor><![CDATA[1]]></documentScaleFactor>
+        <documentScaleFactor><![CDATA[1.35]]></documentScaleFactor>
         <exportDialect><![CDATA[mysql]]></exportDialect>
         <fileversion><![CDATA[3.1]]></fileversion>
         <generator><![CDATA[com.malcolmhardie.sqleditor]]></generator>
@@ -265,16 +330,17 @@
         <overviewPanelHidden><![CDATA[0]]></overviewPanelHidden>
         <pageBoundariesVisible><![CDATA[0]]></pageBoundariesVisible>
         <PageGridVisible><![CDATA[0]]></PageGridVisible>
-        <RightSidebarWidth><![CDATA[1845.000000]]></RightSidebarWidth>
+        <RightSidebarWidth><![CDATA[2009.000000]]></RightSidebarWidth>
         <sidebarIndex><![CDATA[0]]></sidebarIndex>
         <snapToGrid><![CDATA[0]]></snapToGrid>
         <SourceSidebarWidth><![CDATA[312.000000]]></SourceSidebarWidth>
+        <SQLEditorFileFormatVersion><![CDATA[3.1]]></SQLEditorFileFormatVersion>
         <uid><![CDATA[52B50FC5-5D50-4FF2-9C3B-554DE59767CA]]></uid>
-        <windowHeight><![CDATA[1039.000000]]></windowHeight>
-        <windowLocationX><![CDATA[246.000000]]></windowLocationX>
-        <windowLocationY><![CDATA[-298.000000]]></windowLocationY>
-        <windowScrollOrigin><![CDATA[{110, 0}]]></windowScrollOrigin>
-        <windowWidth><![CDATA[2122.000000]]></windowWidth>
+        <windowHeight><![CDATA[1110.000000]]></windowHeight>
+        <windowLocationX><![CDATA[184.000000]]></windowLocationX>
+        <windowLocationY><![CDATA[127.000000]]></windowLocationY>
+        <windowScrollOrigin><![CDATA[{0, 0}]]></windowScrollOrigin>
+        <windowWidth><![CDATA[2286.000000]]></windowWidth>
     </SQLDocumentInfo>
     <AllowsIndexRenamingOnInsert><![CDATA[1]]></AllowsIndexRenamingOnInsert>
     <containerName><![CDATA[model controller orginal container]]></containerName>

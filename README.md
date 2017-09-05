@@ -7,9 +7,9 @@ HOW TO RUN THIS MESS:
 
 1. Run getDisgenetData.py: it will connect to disgenet and get you the list of genes you want. The result will be printed on the output. Save the output to a file called listOfGenes.tsv . File must be in the same directory as the rest of the programs. Output will be about 15 lines
 
-2.
+2. Use the loadPezDb.py python script to load the db. The loadPez.py script is the pythonized version of pez_project2501.sql file
 
-
+Make sure you change the host IP.
 
 
 

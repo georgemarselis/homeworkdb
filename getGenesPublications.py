@@ -3,7 +3,7 @@
 import pymysql
 import os
 
-host       = '192.168.1.4';
+host       = '192.168.1.5';
 user       = 'root';
 password   = '12345'
 defaultcharset    = 'utf8'
@@ -12,13 +12,13 @@ defaultcollation  = 'utf8_general_ci'
 
 db = "project2501a_pez"
 
-if str(os.environ['PEZ_HOST']):
+if "PEZ_HOST" in os.environ:
 	host = str(os.environ['PEZ_HOST'])
-if str(os.environ['PEZ_DATABASE'] ):
+if "PEZ_DATABASE" in os.environ:
 	db = str(os.environ['PEZ_DATABASE'])
-if str(os.environ['PEZ_USER'] ):
+if "PEZ_USER" in os.environ:
 	user = str(os.environ['PEZ_USER'])
-if str(os.environ['PEZ_PASSWORD'] ):
+if "PEZ_PASSWORD" in os.environ:
 	password = str(os.environ['PEZ_PASSWORD'])
 
 # # connect to db

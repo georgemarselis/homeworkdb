@@ -3,29 +3,16 @@
 import pymysql
 import getopt
 import sys
-import os
-
-def usage( ):
-	helpString = """
-getProteinsFunctionByNamespace.py –n "κατηγορία λειτουργίας"
-	Τυπώνει στην οθόνη του χρήστη τον όρο και το όνομα των λειτουργιών που
-	σχετίζονται με πρωτεΐνες που ο κωδικός πρωτεΐνης τους ξεκινάει από "P"
-	και η λειτουργία ανήκει στην κατηγορία Χ (όπου Χ η κατηγορία λειτουργίας
-	που δίνεται ως όρισμα).
-
-"""
-
-	print( helpString )
 
 def main():
 	try:
-		opts, args = getopt.getopt(sys.argv[1:], "hn:v", ["help", "namespace="])
+		opts, args = getopt.getopt(sys.argv[1:], "hs:v", ["help", "output="])
 	except getopt.GetoptError as err:
 		# print help information and exit:
 		print( err ) # will print something like "option -a not recognized"
 		usage( )
 		sys.exit(2)
-	namespace = None
+	output = None
 	verbose = False
 	for o, a in opts:
 		if o == "-v":
@@ -33,19 +20,20 @@ def main():
 		elif o in ("-h", "--help"):
 			usage()
 			sys.exit()
-		elif o in ("-n", "--namespace"):
-			namespace = a
+		elif o in ("-o", "--output"):
+			output = a
 		else:
 			assert False, "unhandled option"
 
-	host       = '192.168.1.5';
+	host       = '192.168.1.4';
 	user       = 'root';
 	password   = '12345'
 	defaultcharset    = 'utf8'
 	defaultcollation  = 'utf8_general_ci'
 
-	db = "project2501a_pez"
 
+	db = "pez2015_project2501a"
+	
 	if "PEZ_HOST" in os.environ:
 		host = str(os.environ['PEZ_HOST'])
 	if "PEZ_DATABASE" in os.environ:
@@ -55,6 +43,7 @@ def main():
 	if "PEZ_PASSWORD" in os.environ:
 		password = str(os.environ['PEZ_PASSWORD'])
 
+	optlist, args = getopt.getopt(args, 's:')
 
 	# # connect to db
 	conn = pymysql.connect( host, user, password )
@@ -70,9 +59,8 @@ def main():
 	cursor.execute( "use " + db )
 	conn.commit( )
 
-	selectQuery = "select geneOntology.proteinId, geneOntology.biological_process from geneOntology where ontologyFunction like '%%%s%%' and geneOntology.proteinid like 'P%%';" % namespace
+	selectQuery = "select isomorph.proteinid, count( isomorph.isomorphFASTASequence ) from isomorph group by proteinId;"
 	cursor.execute( selectQuery )
-
 
 	#substitute for fetchone
 	for row in cursor:
