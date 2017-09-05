@@ -1,32 +1,34 @@
-#!/opt/local/bin/python3.z6
+#!/usr/bin/env python3.6
 
 import urllib.request, urllib.error, urllib.parse
+import csv
+
+
+# 	c1 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
 
 query="""
 DEFINE
 	c0='/data/gene_disease_summary',
 	c1='/data/diseases',
 	c2='/data/genes',
-	c3='/data/gene_roles',
-	c4='/data/gene_to_associated_diseases',
-	c5='/data/sources'
+	c3='/data/gene_to_associated_diseases',
+	c4='/data/sources'
 ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
-	c1 (cui, name, hpoName, omimInt, diseaseId, STY, MESH, diseaseClassName, type, hdoName ),
-	c2 (name, geneId, uniprotId, description, pathName, pantherName ),
-	c3 (PI, PL),
-	c0 (score, pmids, snps, sourceId ),
-	c4 (numberOfassocDiseases)
+	c1 (diseaseId, name, STY, MESH, diseaseClassName, doName, type, OMIM ),
+	c2 (symbol, geneId, uniprotId, description, DPI, DSI, pantherName ),
+	c0 (score, EI, Npmids, Nsnps, source ),
+	c3 (Ndiseases)
 FROM
 	c0
 WHERE
 	(
-		c1 = 'diseaseid:C0030567'
+		c1 = 'C0030567'
 	AND
-		c5 = 'ALL'
+		c4 = 'ALL'
 	AND
-		c0.score >= '0.25'
+		c0.score > '0.25'
 	)
 ORDER BY
 	c0.score DESC"""
@@ -35,3 +37,10 @@ binary_data = query.encode("utf-8")
 req = urllib.request.Request("http://www.disgenet.org/oql")
 res = urllib.request.urlopen(req, binary_data)
 print(res.read().decode('utf-8'))
+
+# trying to directly manipulate the data into an array or CVS reader format
+#cr = csv.reader(res)
+#stuff = res.read().decode('utf-8')  #)
+#for row in cr:
+#    print( row )
+#print( type (stuff ) )

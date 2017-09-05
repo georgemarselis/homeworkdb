@@ -27,6 +27,8 @@ WHERE
 		c1 = 'C0030567'
 	AND
 		c4 = 'ALL'
+	AND
+		c0.score > '0.25'
 	)
 ORDER BY
 	c0.score DESC"""
