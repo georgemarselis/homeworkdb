@@ -63,3 +63,7 @@ target/
 
 \~\$disgenet_data.xlsx
 ~$Pez2015.pptx
+sample_disgenet_scripts/*
+uniprot/fasta/*
+uniprot/proteins/*
+uniprot/*

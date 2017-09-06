@@ -14,7 +14,10 @@ HOW TO RUN THIS MESS:
    		Secondary output is the 'listOfGenes.tsv' file: it drives the Uniprot script bellow.
    		
 1.2 Uniprot:
- 	* Run getUniprotData.sh (depends on getDisgenetData.py, you cannot run it without having run the above at least once)
+ 	* Run getUniprotData.sh
+ 		Depends on getDisgenetData.py;
+ 			You cannot run it without having run the above at least once
+ 		Downloads the list of candidate proteins and isomorphs
  		Takes a minute or two.
 
 1.3 Hintkb2:
@@ -33,12 +36,13 @@ HOW TO RUN THIS MESS:
 			PEZ_PASSWORD
 
 3. ./loadPezData.py: loads the data from disk to the database
+	***********************************************************************************
+	* Run this to load the data to the database, without having to REAQUIRE the data
+	***********************************************************************************
 	Disgenet goes first
 	Uniprot second
 	Hintkb data are being wrangled on the spot
 		Takes about 20 minutes
-
-
 
 
 
