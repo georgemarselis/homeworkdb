@@ -12,6 +12,10 @@ HOW TO RUN THIS MESS:
 		Tt will connect to disgenet and get you the list of genes you want. 
    		The result will be printed on the output, and written to a file called disgenet/disgenet_data.tsv. Output will be about 15 lines. 
    		After saving disGenet.out, data will be processed and the list of relevant genes will be saved in listOfGenes.tsv, in the same directory as the rest of the files. Output should be around 6 lines
+
+   	* after running getDisgenetData.py: 
+   		open LibreOffice and convert disgenet/disgenet_data.tsv to .xlsx: The damn delimiters fuck up the reading of the file in python.
+
 1.2 Hintkb2:
 	* Run 
 

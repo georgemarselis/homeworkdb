@@ -1,7 +1,9 @@
 #!/usr/bin/env python3.4
 
+import sys
 import urllib.request, urllib.error, urllib.parse
-import csv
+import pandas
+import numpy
 from clint.textui import colored
 
 # 	c1 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
@@ -16,9 +18,9 @@ DEFINE
 ON
 	'http://www.disgenet.org/web/DisGeNET'
 SELECT
-	c1 (diseaseId, name, STY, MESH, diseaseClassName, doName, type, OMIM ),
-	c2 (symbol, geneId, uniprotId, description, DPI, DSI, pantherName ),
-	c0 (score, EI, Npmids, Nsnps, source ),
+	c1 (diseaseId, OMIM ),
+	c2 (symbol, geneId, uniprotId, description, pantherName ),
+	c0 (score, Npmids, Nsnps, source ),
 	c3 (Ndiseases)
 FROM
 	c0
@@ -45,3 +47,13 @@ disgenetDataFile = 'disgenet/disgenet_data.tsv'
 with open( disgenetDataFile, 'w' ) as file:
 		for row in csvresults:
 			file.write( row )
+
+# over here, we open LibreOffice and convert the above file from .tsv to .xlsx
+# because the damn delimiters fuck up the reading of the file in python.
+
+disgenetDataFileXLS = 'disgenet/disgenet_data.xlsx'
+disgenetFieldNames = [ 'c1.diseaseId', 'c1.OMIM', 'c2.symbol', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pantherName', 'c0.score', 'c0.Npmids', 'c0.Nsnps', 'c3.Ndiseases' ]
+
+df = pandas.read_excel( DisGeNETtDataFileXLS, header=0, skiprows=[0], names = disgenetFieldNames )
+#print the column names
+print( colored.red ( df.columns ) )
