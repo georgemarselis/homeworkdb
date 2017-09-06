@@ -5,7 +5,15 @@ Directly what's on the tin.
 
 HOW TO RUN THIS MESS:
 
-1. Run getDisgenetData.py: it will connect to disgenet and get you the list of genes you want. The result will be printed on the output. Save the output to a file called listOfGenes.tsv . File must be in the same directory as the rest of the programs. Output will be about 15 lines
+1. GET THE DATA YOU WILL NEED:
+
+1.1 DisGeNet:
+	*  Run getDisgenetData.py
+		Tt will connect to disgenet and get you the list of genes you want. 
+   		The result will be printed on the output, and written to a file called disgenet/disgenet_data.tsv. Output will be about 15 lines. 
+   		After saving disGenet.out, data will be processed and the list of relevant genes will be saved in listOfGenes.tsv, in the same directory as the rest of the files. Output should be around 6 lines
+1.2 Hintkb2:
+	* Run 
 
 
 

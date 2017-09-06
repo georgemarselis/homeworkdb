@@ -1,8 +1,8 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python3.4
 
 import urllib.request, urllib.error, urllib.parse
 import csv
-
+from clint.textui import colored
 
 # 	c1 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
 
@@ -36,11 +36,12 @@ ORDER BY
 binary_data = query.encode("utf-8")
 req = urllib.request.Request("http://www.disgenet.org/oql")
 res = urllib.request.urlopen(req, binary_data)
-print(res.read().decode('utf-8'))
 
-# trying to directly manipulate the data into an array or CVS reader format
-#cr = csv.reader(res)
-#stuff = res.read().decode('utf-8')  #)
-#for row in cr:
-#    print( row )
-#print( type (stuff ) )
+csvresults = res.read().decode( 'utf-8' )
+
+print( colored.green( csvresults ) )
+
+disgenetDataFile = 'disgenet/disgenet_data.tsv'
+with open( disgenetDataFile, 'w' ) as file:
+		for row in csvresults:
+			file.write( row )

@@ -37,20 +37,26 @@ if "PEZ_PASSWORD" in os.environ:
 # # connect to db
 conn = pymysql.connect( host, user, password )
 if conn != -1 :
-	print( 'database connection established' )
+	print( colored.green( 'database connection established' ) )
 else:
-	print( 'Houston we have a problem' )
+	print( colored.red ('Houston we have a problem' ) )
+	sys.exit( 255 )
 
+conn.begin( )
+cursor = conn.cursor( )
+# select our database
+cursor.execute( "use " + db )
+conn.commit( )
 
 ##### load data from files
 ###########################################
 
-print( colored.red( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n" ) )
+print( colored.yellow( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n" ) )
 
 ## disgenet
 ###########################################
 disgenetDataFile = 'disgenet/disgenet_data.tsv'
-disgenetFieldNames = [ 'c1.cui', 'c1.name', 'c1.hpoName', 'c1.omimInt', 'c1.diseaseId', 'c1.STY', 'c1.MESH', 'c1.diseaseClassName', 'c1.type', 'c1.hdoName', 'c2.name', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pathName', 'c2.pantherName', 'c3.PI', 'c3.PL', 'c0.score', 'c0.pmids', 'c0.snps', 'c0.sourceId', 'c4.numberOfassocDiseases' ]
+disgenetFieldNames = [ 'c1.diseaseId', 'c1.OMIM', 'c2.symbol', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pantherName', 'c0.score', 'c0.Npmids', 'c0.Nsnps', 'c3.Ndiseases' ]
 restkey    = 'unknownkey';
 restval    = 'uknownvalue';
 dialect    = 'excel-tab';
@@ -59,25 +65,19 @@ dialect    = 'excel-tab';
 ###########################################
 disgenetCsvfile = open( disgenetDataFile )
 disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
-kotikot = 0 ;
-koko = ""
+
 for row in disgenetReader:
-	if kotikot == 0 :
-			kotikot = 1
-			continue
 	insertgenedataQuery = " "
-	if row['c2.pathName'] == 'null':
-		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', NULL, " + row['c0.score'] + ", " + row['c0.pmids'] +" )"
-	else:
-		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.name'] + "', '" + row['c2.pathName'] + "', " + row['c0.score'] + ", " + row['c0.pmids'] +" )"
-	print( insertgenedataQuery )
+	insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.geneId'] + "', '" + row['c2.symbol'] + "', " + row['c0.score'] + ", " + row['c0.Npmids'] +" )"
+	print( colored.white( insertgenedataQuery ) )
 	cursor.execute( insertgenedataQuery )
 
 conn.commit( )
 ###########################################
 
+sys.exit( 0 )
 
-print( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n")
+print( colored.cyan( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n") )
 
 
 ##uniprot
@@ -111,7 +111,7 @@ for uniprotProteinDataFile in uniprotProteinDataFiles:
 			geneId, _  = geneId.split( '-', 1 )
 		
 		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' )"
-		print( insertgenedata_query )
+		print( colored.white( insertgenedata_query ) )
 		cursor.execute( insertgenedata_query )
 
 	conn.commit( )
@@ -123,7 +123,7 @@ unitprotFieldNames = [ 'fasta sequence', 'name' ]
 for uniprotFastaDataFile in uniprotFastaDataFiles: 
 
 	print( )
-	print( "#>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" )
+	print( colored.magenta( "#>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" ) )
 	print( )
 
 	uniprotFastaFile = SeqIO.parse(open( uniprotFastaDir + '/' + uniprotFastaDataFile ) ,'fasta')
@@ -135,15 +135,16 @@ for uniprotFastaDataFile in uniprotFastaDataFiles:
 		if re.search( "-\d+", proteinId ):
 			proteinId, _  = proteinId.split( '-', 1 )
 		insertgenedata_query = "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );"
-		print( insertgenedata_query )
+		print( colored.white( insertgenedata_query ) )
 		cursor.execute( insertgenedata_query )
 
 	conn.commit( )
 
 ###########################################
 
+# sys.exit( 0 )
 
-print( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n")
+print( colored.cyan( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n") )
 
 
 ## GeneOntology/hintdb
@@ -169,7 +170,7 @@ for uniprotId in selectResult:
 		for item in parsedJson:
 			bar = re.sub( '_', ' ', item['function_namespace'] )
 			insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str(uniprotId[0]) + '\' )' 
-			print( insertGoQuery )
+			print( colored.white( insertGoQuery ) )
 			cursor.execute( insertGoQuery )
 			conn.commit( )
 
