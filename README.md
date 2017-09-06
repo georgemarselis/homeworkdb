@@ -26,8 +26,13 @@ HOW TO RUN THIS MESS:
 	* Hintkb2 data are being wrangled directly from the 'loadPezData.py'
 		Run 'loadPezData.py', after creating the schema.
 
-Essentially, type in the command line:
-./make_clean.sh && ./getDisgenetData.py && ./getUniprotData.sh
+
+LOADING THE DATABASE:
+
+************************************************************************************************************
+* Essentially, to load the database, type in the command line:
+*     ./make_clean.sh && ./getDisgenetData.py && ./getUniprotData.sh && ./loadPezDb.py && ./loadPezData.py
+************************************************************************************************************
 
 
 2. Use the 'loadPezDb.py' python script to create the db. The 'loadPezDb.py' script is the pythonized version of pez_project2501.sql file

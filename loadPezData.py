@@ -81,7 +81,7 @@ conn.commit( )
 
 # sys.exit( 0 )
 
-print( colored.cyan( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n") )
+print( colored.yellow( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n") )
 
 
 ##uniprot
@@ -115,11 +115,12 @@ for uniprotProteinDataFile in uniprotProteinDataFiles:
 			geneId, _  = geneId.split( '-', 1 )
 		
 		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' )"
-		print( colored.white( insertgenedata_query ) )
+		print( colored.cyan( insertgenedata_query ) )
 		cursor.execute( insertgenedata_query )
 
 	conn.commit( )
 
+sys.exit( 0 )
 
 # read payload - fasta
 ################
@@ -139,7 +140,7 @@ for uniprotFastaDataFile in uniprotFastaDataFiles:
 		if re.search( "-\d+", proteinId ):
 			proteinId, _  = proteinId.split( '-', 1 )
 		insertgenedata_query = "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );"
-		print( colored.white( insertgenedata_query ) )
+		print( colored.cyan( insertgenedata_query ) )
 		cursor.execute( insertgenedata_query )
 
 	conn.commit( )
@@ -148,7 +149,7 @@ for uniprotFastaDataFile in uniprotFastaDataFiles:
 
 # sys.exit( 0 )
 
-print( colored.cyan( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n") )
+print( colored.yellow( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n") )
 
 
 ## GeneOntology/hintdb
@@ -174,7 +175,7 @@ for uniprotId in selectResult:
 		for item in parsedJson:
 			bar = re.sub( '_', ' ', item['function_namespace'] )
 			insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str(uniprotId[0]) + '\' )' 
-			print( colored.white( insertGoQuery ) )
+			print( colored.cyan( insertGoQuery ) )
 			cursor.execute( insertGoQuery )
 			conn.commit( )
 
