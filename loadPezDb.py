@@ -72,10 +72,10 @@ conn.commit( )
 print( colored.green( "Creating tables..." ) )
 # # create tables
 createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(10) NOT NULL, geneName VARCHAR(10) NOT NULL, disgenetScore FLOAT NOT NULL, noPubMedIDs INTEGER NOT NULL, PRIMARY KEY (geneName) );"
-createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(8) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneName VARCHAR(10) NOT NULL, PRIMARY KEY (proteinId) );"
-createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId BIGINT NOT NULL, ontologyName BIGINT NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, proteinId VARCHAR(8) NOT NULL, biological_process VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId));"
-createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph( isomorphName VARCHAR(12) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(8) NOT NULL, PRIMARY KEY (isomorphName) );"		
-createTableBullshit = "CREATE TABLE IF NOT EXISTS ProteinGeneOntology( proteinId VARCHAR(8) NOT NULL, ontologyId BIGINT NOT NULL, PRIMARY KEY (proteinId,ontologyId) );"
+createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(14) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneName VARCHAR(10) NOT NULL, PRIMARY KEY (proteinId) );"
+createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId BIGINT NOT NULL, ontologyName BIGINT NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, proteinId VARCHAR(14) NOT NULL, biological_process VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId));"
+createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph( isomorphName VARCHAR(12) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(14) NOT NULL, PRIMARY KEY (isomorphName) );"		
+createTableBullshit = "CREATE TABLE IF NOT EXISTS ProteinGeneOntology( proteinId VARCHAR(14) NOT NULL, ontologyId BIGINT NOT NULL, PRIMARY KEY (proteinId,ontologyId) );"
 createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from isomorph;"
 createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
 createViewIsoform   = "create algorithm=TEMPTABLE view isoform as select * from isomorph;"

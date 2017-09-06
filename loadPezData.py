@@ -114,13 +114,15 @@ for uniprotProteinDataFile in uniprotProteinDataFiles:
 		if re.search( "-\d+", geneId ):
 			geneId, _  = geneId.split( '-', 1 )
 		
-		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' )"
+		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneName ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' )"
 		print( colored.cyan( insertgenedata_query ) )
-		#cursor.execute( insertgenedata_query )
+		cursor.execute( insertgenedata_query )
 
-	#	conn.commit( )
+	conn.commit( )
 
-sys.exit( 0 )
+# sys.exit( 0 )
+
+###########################################
 
 # read payload - fasta
 ################
@@ -141,13 +143,18 @@ for uniprotFastaDataFile in uniprotFastaDataFiles:
 			proteinId, _  = proteinId.split( '-', 1 )
 		insertgenedata_query = "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );"
 		print( colored.cyan( insertgenedata_query ) )
-		cursor.execute( insertgenedata_query )
+		try:
+			cursor.execute( insertgenedata_query )
+		except pymysql.err.IntegrityError:
+			continue
+		else:
+			continue
 
 	conn.commit( )
 
 ###########################################
 
-# sys.exit( 0 )
+sys.exit( 0 )
 
 print( colored.yellow( "\n########################################### HINTKB -- HINTKB -- HINTKB -- ###########################################\n") )
 

@@ -21,18 +21,11 @@ PRIMARY KEY (ontologyId)
 
 CREATE TABLE IF NOT EXISTS protein
 (
-proteinId VARCHAR(8) NOT NULL,
+proteinId VARCHAR(14) NOT NULL,
 proteinName TEXT NOT NULL,
 proteinConfirmed BOOLEAN NOT NULL,
 geneName VARCHAR(10) NOT NULL,
 PRIMARY KEY (proteinId)
-);
-
-CREATE TABLE IF NOT EXISTS ProteinGeneOntology
-(
-proteinId VARCHAR(8) NOT NULL,
-ontologyId BIGINT NOT NULL,
-PRIMARY KEY (proteinId,ontologyId)
 );
 
 CREATE TABLE IF NOT EXISTS isomorph
@@ -43,11 +36,17 @@ proteinId VARCHAR(8) NOT NULL,
 PRIMARY KEY (isomorphName)
 );
 
-/*Foreign Key geneOntology geneOntology_fk_1 not exportable, Mismatched Columns, No Target Table*/
+CREATE TABLE IF NOT EXISTS ProteinGeneOntology
+(
+proteinId VARCHAR(14) NOT NULL,
+ontologyId BIGINT NOT NULL,
+PRIMARY KEY (proteinId,ontologyId)
+);
+
 ALTER TABLE protein ADD CONSTRAINT Protein2Gene_fk_1 FOREIGN KEY Protein2Gene_fk_1 (geneName) REFERENCES gene (geneName) ON DELETE CASCADE  ON UPDATE CASCADE;
 
-ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneontology_fk_1 FOREIGN KEY ProteinGeneontology_fk_1 (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE  ON UPDATE CASCADE;
-
-ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneontology_fk_2 FOREIGN KEY ProteinGeneontology_fk_2 (ontologyId) REFERENCES geneOntology (ontologyId) ON DELETE CASCADE  ON UPDATE CASCADE;
-
 ALTER TABLE isomorph ADD CONSTRAINT isomorph_fk_1 FOREIGN KEY isomorph_fk_1 (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE  ON UPDATE CASCADE;
+
+ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneOntology_fk_2 FOREIGN KEY ProteinGeneOntology_fk_2 (ontologyId) REFERENCES geneOntology (ontologyId) ON DELETE CASCADE  ON UPDATE CASCADE;
+
+ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneOntology_fk_1 FOREIGN KEY ProteinGeneOntology_fk_1 (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE  ON UPDATE CASCADE;

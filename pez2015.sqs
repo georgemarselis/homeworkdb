@@ -59,6 +59,34 @@
         <uid><![CDATA[0A5314A2-62FA-4F95-AF49-6A36A0B94D4D]]></uid>
     </SQLTable>
     <SQLTable>
+        <name><![CDATA[gene_expression]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>92.00</x>
+            <y>375.00</y>
+        </location>
+        <size>
+            <width>200.00</width>
+            <height>100.00</height>
+        </size>
+        <zorder>6</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INTEGER]]></type>
+            <primaryKey>1</primaryKey>
+            <autoIncrement><![CDATA[1]]></autoIncrement>
+            <notNull><![CDATA[1]]></notNull>
+            <uid><![CDATA[71769CC1-00CE-4205-8888-9CCA6C07EF7F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[ID_REF]]></name>
+            <type><![CDATA[VARCHAR(24)]]></type>
+            <notNull><![CDATA[1]]></notNull>
+            <uid><![CDATA[D0238BFB-10C4-4C3B-8B3D-7CB638D2497F]]></uid>
+        </SQLField>
+        <uid><![CDATA[1491CD57-967B-4A3F-B901-8630D549C785]]></uid>
+    </SQLTable>
+    <SQLTable>
         <name><![CDATA[ProteinGeneOntology]]></name>
         <schema><![CDATA[]]></schema>
         <location>
@@ -72,7 +100,7 @@
         <zorder>5</zorder>
         <SQLField>
             <name><![CDATA[proteinId]]></name>
-            <type><![CDATA[VARCHAR(8)]]></type>
+            <type><![CDATA[VARCHAR(14)]]></type>
             <primaryKey>1</primaryKey>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[E5B527D1-D15F-421B-94B7-28DDB2CD799C]]></uid>
@@ -141,7 +169,7 @@
         <zorder>2</zorder>
         <SQLField>
             <name><![CDATA[proteinId]]></name>
-            <type><![CDATA[VARCHAR(8)]]></type>
+            <type><![CDATA[VARCHAR(14)]]></type>
             <primaryKey>1</primaryKey>
             <forcedUnique><![CDATA[1]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
@@ -321,7 +349,7 @@
         <overviewPanelHidden><![CDATA[0]]></overviewPanelHidden>
         <pageBoundariesVisible><![CDATA[0]]></pageBoundariesVisible>
         <PageGridVisible><![CDATA[0]]></PageGridVisible>
-        <RightSidebarWidth><![CDATA[2246.000000]]></RightSidebarWidth>
+        <RightSidebarWidth><![CDATA[1970.000000]]></RightSidebarWidth>
         <sidebarIndex><![CDATA[0]]></sidebarIndex>
         <snapToGrid><![CDATA[0]]></snapToGrid>
         <SourceSidebarWidth><![CDATA[312.000000]]></SourceSidebarWidth>
