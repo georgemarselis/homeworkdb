@@ -51,17 +51,3 @@ with open( disgenetDataFile, 'w' ) as file:
 
 # over here, we open LibreOffice and convert the above file from .tsv to .xlsx
 # because the damn delimiters fuck up the reading of the file in python.
-
-disgenetDataFile = 'disgenet/disgenet_data.tsv'
-disgenetFieldNames = [ 'c1.diseaseId', 'c1.OMIM', 'c2.symbol', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pantherName', 'c0.score', 'c0.Npmids', 'c0.Nsnps', 'c3.Ndiseases' ]
-restkey    = 'unknownkey';
-restval    = 'uknownvalue';
-dialect    = 'excel-tab';
-
-# read payload
-###########################################
-disgenetCsvfile = open( disgenetDataFile )
-disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
-
-for row in disgenetReader:
-	print( colored.red ( row ) )

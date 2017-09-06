@@ -70,9 +70,9 @@ for row in disgenetReader:
 	insertgenedataQuery = " "
 	insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.geneId'] + "', '" + row['c2.symbol'] + "', " + row['c0.score'] + ", " + row['c0.Npmids'] +" )"
 	print( colored.white( insertgenedataQuery ) )
-	cursor.execute( insertgenedataQuery )
+	#cursor.execute( insertgenedataQuery )
 
-conn.commit( )
+#conn.commit( )
 ###########################################
 
 sys.exit( 0 )
