@@ -79,7 +79,7 @@ for row in disgenetReader:
 conn.commit( )
 ###########################################
 
-sys.exit( 0 )
+# sys.exit( 0 )
 
 print( colored.cyan( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n") )
 

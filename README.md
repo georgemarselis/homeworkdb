@@ -9,11 +9,14 @@ HOW TO RUN THIS MESS:
 
 1.1 DisGeNet:
 	*  Run getDisgenetData.py
-		Tt will connect to disgenet and get you the list of genes you want. 
+		It will connect to disgenet and get you the list of genes you want. 
    		The result will be printed on the output, and written to a file called disgenet/disgenet_data.tsv. Output will be about 15 lines. 
+   		Secondary output is the 'listOfGenes.tsv' file: it drives the Uniprot script bellow.
    		
-	
-1.2 Hintkb2:
+1.2 Uniprot:
+ 	* Run getUniprotData.sh (depends on getDisgenetData.py, you cannot run it without having run the above at least once) 
+
+1.3 Hintkb2:
 	* Run 
 
 

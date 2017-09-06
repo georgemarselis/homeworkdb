@@ -49,5 +49,30 @@ with open( disgenetDataFile, 'w' ) as file:
 		for row in csvresults:
 			file.write( row )
 
-# over here, we open LibreOffice and convert the above file from .tsv to .xlsx
-# because the damn delimiters fuck up the reading of the file in python.
+## disgenet
+###########################################
+disgenetDataFile = 'disgenet/disgenet_data.tsv'
+disgenetFieldNames = [ 'c1.diseaseId', 'c1.OMIM', 'c2.symbol', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pantherName', 'c0.score', 'c0.Npmids', 'c0.Nsnps', 'c3.Ndiseases' ]
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
+
+# read payload
+###########################################
+disgenetCsvfile = open( disgenetDataFile )
+disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
+
+array = []
+kot = 0 # magic to skip the first header row
+for row in disgenetReader:
+	if kot == 0 :
+		kot = 1
+		continue
+	if row['c2.symbol'] not in array:
+		array.append( row['c2.symbol'] )
+
+print( "Array of genes to be writen to disk: " + colored.yellow( array ) )
+
+listOfGenes = 'listOfGenes.tsv'
+with open( listOfGenes, 'w' ) as file:
+	file.write( '\n'.join( array ) )
