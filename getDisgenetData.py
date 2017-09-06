@@ -4,6 +4,7 @@ import sys
 import urllib.request, urllib.error, urllib.parse
 import pandas
 import numpy
+import csv
 from clint.textui import colored
 
 # 	c1 (diseaseId, name, hpoName, STY, MESH, diseaseClassName, doName, type, OMIM ),
@@ -57,6 +58,10 @@ restkey    = 'unknownkey';
 restval    = 'uknownvalue';
 dialect    = 'excel-tab';
 
-df = pandas.read_csv( disgenetFieldNames, header=0, skiprows=[0], names = disgenetFieldNames )
-#print the column names
-print( colored.red ( df.columns ) )
+# read payload
+###########################################
+disgenetCsvfile = open( disgenetDataFile )
+disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
+
+for row in disgenetReader:
+	print( colored.red ( row ) )
