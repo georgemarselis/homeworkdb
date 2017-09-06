@@ -1,0 +1,415 @@
+Entry	Entry name	Protein names	Status	Gene names  (primary )
+P04062	GLCM_HUMAN	Glucosylceramidase (EC 3.2.1.45) (Acid beta-glucosidase) (Alglucerase) (Beta-glucocerebrosidase) (Beta-GC) (D-glucosyl-N-acylsphingosine glucohydrolase) (Imiglucerase)	reviewed	GBA
+Q9H227	GBA3_HUMAN	Cytosolic beta-glucosidase (EC 3.2.1.21) (Cytosolic beta-glucosidase-like protein 1)	reviewed	GBA3
+P17439	GLCM_MOUSE	Glucosylceramidase (EC 3.2.1.45) (Acid beta-glucosidase) (Beta-glucocerebrosidase) (D-glucosyl-N-acylsphingosine glucohydrolase)	reviewed	Gba
+Q9HCG7	GBA2_HUMAN	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45) (Beta-glucocerebrosidase 2) (Beta-glucosidase 2) (Glucosylceramidase 2)	reviewed	GBA2
+B2RYC9	B2RYC9_RAT	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba
+Q69ZF3	GBA2_MOUSE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45) (Beta-glucocerebrosidase 2) (Beta-glucosidase 2) (Glucosylceramidase 2)	reviewed	Gba2
+P97265	GBA3_CAVPO	Cytosolic beta-glucosidase (EC 3.2.1.21)	reviewed	Gba3
+E2R0I8	E2R0I8_CANLF	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+M3VVL7	M3VVL7_FELCA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F6VKK2	F6VKK2_MONDO	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F1RGS2	F1RGS2_PIG	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+G3W179	G3W179_SARHA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F7GZ96	F7GZ96_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H0XZ17	H0XZ17_OTOGA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+G1PMP8	G1PMP8_MYOLU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+M3Y2I6	M3Y2I6_MUSPF	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+G1SD48	G1SD48_RABIT	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+I3MCK4	I3MCK4_ICTTR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A096NDR2	A0A096NDR2_PAPAN	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0D9S589	A0A0D9S589_CHLSB	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+G3SLB1	G3SLB1_LOXAF	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F6WDY8	F6WDY8_HORSE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F1N1D5	F1N1D5_BOVIN	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H0V090	H0V090_CAVPO	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+Q5M868	GBA2_RAT	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45) (Beta-glucocerebrosidase 2) (Beta-glucosidase 2) (Glucosylceramidase 2)	reviewed	Gba2
+W5P1A5	W5P1A5_SHEEP	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+P0DI69	CSPL1_GINBI	CASP-like protein 5A2 (GbCASPL5A2)	reviewed	
+P0DI71	CSPL3_GINBI	CASP-like protein 5B1 (GbCASPL5B1)	reviewed	
+P0DI70	CSPL2_GINBI	CASP-like protein 5A1 (GbCASPL5A1)	reviewed	
+Q70KH2	GLCM_PIG	Glucosylceramidase (EC 3.2.1.45) (Acid beta-glucosidase) (Beta-glucocerebrosidase) (D-glucosyl-N-acylsphingosine glucohydrolase)	reviewed	GBA
+Q5RF65	GBA3_PONAB	Cytosolic beta-glucosidase (EC 3.2.1.21)	reviewed	GBA3
+Q2KHZ8	GLCM_BOVIN	Glucosylceramidase (EC 3.2.1.45) (Acid beta-glucosidase) (Beta-glucocerebrosidase) (D-glucosyl-N-acylsphingosine glucohydrolase)	reviewed	GBA
+O16580	GLCM1_CAEEL	Putative glucosylceramidase 1 (EC 3.2.1.45)	reviewed	gba-1
+Q9UB00	GLCM4_CAEEL	Putative glucosylceramidase 4 (EC 3.2.1.45)	reviewed	gba-4
+G5ECR8	GLCM3_CAEEL	Putative glucosylceramidase 3 (EC 3.2.1.45)	reviewed	gba-3
+Q5R8E3	GLCM_PONAB	Glucosylceramidase (EC 3.2.1.45) (Acid beta-glucosidase) (Beta-glucocerebrosidase) (D-glucosyl-N-acylsphingosine glucohydrolase)	reviewed	GBA
+O16581	GLCM2_CAEEL	Putative glucosylceramidase 2 (EC 3.2.1.45)	reviewed	gba-2
+Q9BDT0	GLCM_PANTR	Glucosylceramidase (EC 3.2.1.45) (Acid beta-glucosidase) (Beta-glucocerebrosidase) (D-glucosyl-N-acylsphingosine glucohydrolase)	reviewed	GBA
+A8K9N1	A8K9N1_HUMAN	Glucosidase, beta, acid 3 (Cytosolic) (Glucosidase, beta, acid 3 (Cytosolic), isoform CRA_b) (cDNA FLJ78196, highly similar to Homo sapiens glucosidase, beta, acid 3 (cytosolic) (GBA3), mRNA) (cDNA, FLJ93688, Homo sapiens glucosidase, beta, acid 3 (cytosolic) (GBA3), mRNA)	unreviewed	GBA3
+D3DV87	D3DV87_HUMAN	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0G2JLB3	A0A0G2JLB3_HUMAN	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A087WWR5	A0A087WWR5_HUMAN	Cytosolic beta-glucosidase	unreviewed	GBA3
+A0A068F658	A0A068F658_HUMAN	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A087WTY7	A0A087WTY7_HUMAN	Cytosolic beta-glucosidase	unreviewed	GBA3
+A0A0A0MRV1	A0A0A0MRV1_HUMAN	Non-lysosomal glucosylceramidase	unreviewed	GBA2
+A0A0G2JNZ0	A0A0G2JNZ0_HUMAN	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0G2JNZ5	A0A0G2JNZ5_HUMAN	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0B2VJ74	A0A0B2VJ74_TOXCA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0A9Z3A6	A0A0A9Z3A6_LYGHE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2_0
+A0A0V1E1H2	A0A0V1E1H2_TRIPS	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0A1XGL7	A0A0A1XGL7_BACCU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA_0
+A0A0V1E1U3	A0A0V1E1U3_TRIPS	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0I9R2W7	A0A0I9R2W7_BRUMA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	bma-gba-3
+A0A0V1HRC5	A0A0V1HRC5_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+Q8IMY3	Q8IMY3_DROME	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba1b
+Q9VCJ4	Q9VCJ4_DROME	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba1a
+A0A0K8WJN4	A0A0K8WJN4_BACLA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA_4
+V5G1H9	V5G1H9_ANOGL	Cytosolic beta-glucosidase (Fragment)	unreviewed	GBA3
+A0A0B2VZJ3	A0A0B2VZJ3_TOXCA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A0B2VJU2	A0A0B2VJU2_TOXCA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	Gba2
+A0A0C9QXG4	A0A0C9QXG4_9HYME	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba
+D1L2M5	D1L2M5_BALBN	Glucosidase beta acid (Fragment)	unreviewed	GBA
+G7NFD0	G7NFD0_MACMU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+D1L2R8	D1L2R8_BALBN	Glucosidase beta acid (Fragment)	unreviewed	GBA
+H2QX87	H2QX87_PANTR	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+K7AGY4	K7AGY4_PANTR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+U3DTR8	U3DTR8_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+K7BQ28	K7BQ28_PANTR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+D1L2L1	D1L2L1_BALBN	Glucosidase beta acid (Fragment)	unreviewed	GBA
+H9FSU9	H9FSU9_MACMU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+D1L2C8	D1L2C8_MEGNO	Glucosidase beta acid (Fragment)	unreviewed	GBA
+D1L2S0	D1L2S0_BALPH	Glucosidase beta acid (Fragment)	unreviewed	GBA
+Q70KG9	Q70KG9_PIG	Putative lysosomal glucocerebrosidase (EC 3.2.1.45) (Fragment)	unreviewed	GBA
+D1L2B0	D1L2B0_MEGNO	Glucosidase beta acid (Fragment)	unreviewed	GBA
+A0A141GNM8	A0A141GNM8_OTABY	Beta acid glucosidase (Fragment)	unreviewed	GBA
+D1L2S2	D1L2S2_BALMU	Glucosidase beta acid (Fragment)	unreviewed	GBA
+D1L2I9	D1L2I9_EUBAS	Glucosidase beta acid (Fragment)	unreviewed	GBA
+D1L2S5	D1L2S5_CEPHE	Glucosidase beta acid (Fragment)	unreviewed	GBA
+D1L2S6	D1L2S6_GLOMA	Glucosidase beta acid (Fragment)	unreviewed	GBA
+D1L2S4	D1L2S4_CEPHE	Glucosidase beta acid (Fragment)	unreviewed	GBA
+F6XBY5	F6XBY5_CANLF	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+F7GB62	F7GB62_MACMU	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+F6WS88	F6WS88_MACMU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F7GRM5	F7GRM5_MACMU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F7DB39	F7DB39_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F6X8A5	F6X8A5_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1D5RKE7	A0A1D5RKE7_MACMU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F7H1I4	F7H1I4_CALJA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F7BI18	F7BI18_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+J9P6J8	J9P6J8_CANLF	Glucosylceramidase beta 2	unreviewed	GBA2
+F7GLB8	F7GLB8_CALJA	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+F7EPW4	F7EPW4_MACMU	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+F7I3H9	F7I3H9_CALJA	Glucosylceramidase beta	unreviewed	GBA
+U3DIF4	U3DIF4_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+I2CYJ8	I2CYJ8_MACMU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+U3CTH3	U3CTH3_CALJA	Cytosolic beta-glucosidase isoform a	unreviewed	GBA3
+F7HL19	F7HL19_MACMU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F7H1J0	F7H1J0_CALJA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F5CB39	F5CB39_MONMO	Beta-glucosidase (Fragment)	unreviewed	GBA
+F7E7A2	F7E7A2_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1D5Q5T7	A0A1D5Q5T7_MACMU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F7E7C1	F7E7C1_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+U3FUA9	U3FUA9_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F7DS78	F7DS78_CALJA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+G1LIT3	G1LIT3_AILME	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G3RCM8	G3RCM8_GORGO	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G1LT89	G1LT89_AILME	Glucosylceramidase beta 2	unreviewed	GBA2
+G9BHQ1	G9BHQ1_BOVIN	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+G3QWP2	G3QWP2_GORGO	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F1MNT6	F1MNT6_BOVIN	Uncharacterized protein	unreviewed	GBA3
+G1KZN3	G1KZN3_AILME	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F1MND2	F1MND2_BOVIN	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+G9BHQ2	G9BHQ2_SHEEP	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+W5P654	W5P654_SHEEP	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+W5PQE2	W5PQE2_SHEEP	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+W5PQE3	W5PQE3_SHEEP	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+H0WQW5	H0WQW5_OTOGA	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+H0XMQ0	H0XMQ0_OTOGA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H0X5K6	H0X5K6_OTOGA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F5CB32	F5CB32_LAGOB	Beta-glucosidase (Fragment)	unreviewed	GBA
+G9BHR0	G9BHR0_TURAD	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+F5CB28	F5CB28_TURAD	Beta-glucosidase (Fragment)	unreviewed	GBA
+F5CB37	F5CB37_PSECS	Beta-glucosidase (Fragment)	unreviewed	GBA
+G1PD63	G1PD63_MYOLU	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G1PIN4	G1PIN4_MYOLU	Glucosylceramidase beta 2	unreviewed	GBA2
+I6L537	I6L537_PONAB	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H2PRS3	H2PRS3_PONAB	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F5CB36	F5CB36_FERAT	Beta-glucosidase (Fragment)	unreviewed	GBA
+F5CB29	F5CB29_STECO	Beta-glucosidase (Fragment)	unreviewed	GBA
+G9BHQ0	G9BHQ0_STECO	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+F5CB41	F5CB41_PLAMN	Beta-glucosidase (Fragment)	unreviewed	GBA
+M3X8P2	M3X8P2_FELCA	Glucosylceramidase beta 2	unreviewed	GBA2
+M3WHI6	M3WHI6_FELCA	Glucosylceramidase beta 2	unreviewed	GBA2
+M3X3X5	M3X3X5_FELCA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+G3WQ63	G3WQ63_SARHA	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G9BHQ7	G9BHQ7_LIPVE	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+G3WMQ4	G3WMQ4_SARHA	Glucosylceramidase beta 2	unreviewed	GBA2
+F5CB34	F5CB34_LAGAL	Beta-glucosidase (Fragment)	unreviewed	GBA
+G1SP80	G1SP80_RABIT	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G9BHQ4	G9BHQ4_NEOPH	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+H2Q075	H2Q075_PANTR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H2R8L0	H2R8L0_PANTR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F5CB38	F5CB38_NEOPH	Beta-glucosidase (Fragment)	unreviewed	GBA
+G1SYY1	G1SYY1_RABIT	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F5CB40	F5CB40_ZIPCA	Beta-glucosidase (Fragment)	unreviewed	GBA
+A0A0D9RVI9	A0A0D9RVI9_CHLSB	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+A0A0D9RDV3	A0A0D9RDV3_CHLSB	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F5CB35	F5CB35_LAGAC	Beta-glucosidase (Fragment)	unreviewed	GBA
+M3XE54	M3XE54_FELCA	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G9BHP9	G9BHP9_BALOM	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+F6X525	F6X525_MONDO	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+F7FQX2	F7FQX2_MONDO	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A096NZJ5	A0A096NZJ5_PAPAN	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+A0A096P172	A0A096P172_PAPAN	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+M3YZ74	M3YZ74_MUSPF	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G9BHQ3	G9BHQ3_BALAC	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+M3Y230	M3Y230_MUSPF	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+Q70KH1	Q70KH1_PIG	Putative lysosomal glucocerebrosidase (EC 3.2.1.45) (Fragment)	unreviewed	GBA
+F5CB31	F5CB31_LISBO	Beta-glucosidase (Fragment)	unreviewed	GBA
+F1STB6	F1STB6_PIG	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+G9BHP7	G9BHP7_GRAGR	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+G9BHQ9	G9BHQ9_TURTR	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+F5CB27	F5CB27_DELCA	Beta-glucosidase (Fragment)	unreviewed	GBA
+G9BHP6	G9BHP6_DELCA	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+G9BHP8	G9BHP8_STEAT	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+F5CB30	F5CB30_STEAT	Beta-glucosidase (Fragment)	unreviewed	GBA
+G9BHQ5	G9BHQ5_SOUCH	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+A0A1U7T338	A0A1U7T338_TARSY	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1U7TMQ3	A0A1U7TMQ3_TARSY	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1U7SVT9	A0A1U7SVT9_TARSY	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+G9BHQ8	G9BHQ8_DELLE	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+A0A1S2ZQ88	A0A1S2ZQ88_ERIEU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F6ZR94	F6ZR94_HORSE	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+A0A1S2ZVZ5	A0A1S2ZVZ5_ERIEU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F7D2A3	F7D2A3_HORSE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1S3WEK3	A0A1S3WEK3_ERIEU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+F5CB42	F5CB42_KOGSI	Beta-glucosidase (Fragment)	unreviewed	GBA
+G9BHQ6	G9BHQ6_KOGSI	Glucocerebrosidase-like protein (Fragment)	unreviewed	GBA
+Q9N1W0	Q9N1W0_HORSE	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+F6WDS3	F6WDS3_ORNAN	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+F6X965	F6X965_ORNAN	Glucosylceramidase beta 2	unreviewed	GBA2
+G3TE96	G3TE96_LOXAF	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+G3UH20	G3UH20_LOXAF	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G3UJK4	G3UJK4_LOXAF	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+F6X975	F6X975_ORNAN	Glucosylceramidase beta 2	unreviewed	GBA2
+G1QVS5	G1QVS5_NOMLE	Glucosylceramidase beta 2	unreviewed	GBA2
+G1S496	G1S496_NOMLE	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+G1RMZ7	G1RMZ7_NOMLE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A141GNN0	A0A141GNN0_OTABY	Beta acid glucosidase (Fragment)	unreviewed	GBA
+F5CB33	F5CB33_LAGOL	Beta-glucosidase (Fragment)	unreviewed	GBA
+A0A0X3NNW9	A0A0X3NNW9_SCHSO	Non-lysosomal glucosylceramidase (Fragment)	unreviewed	GBA2
+A0A0X3PNL9	A0A0X3PNL9_SCHSO	Non-lysosomal glucosylceramidase (Fragment)	unreviewed	GBA2
+A0A0V0WY35	A0A0V0WY35_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0V0WYN0	A0A0V0WYN0_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0V1L3M7	A0A0V1L3M7_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V1CLG1	A0A0V1CLG1_TRIBR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0V0SAQ1	A0A0V0SAQ1_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0V0SAL8	A0A0V0SAL8_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0V1CM01	A0A0V1CM01_TRIBR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0A1X8J7	A0A0A1X8J7_BACCU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA_3
+A0A0V1B0D1	A0A0V1B0D1_TRISP	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0K8UF56	A0A0K8UF56_BACLA	Glucosylceramidase (EC 3.2.1.45) (Fragment)	unreviewed	GBA_0
+A0A0K8UEG9	A0A0K8UEG9_BACLA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba_0
+A0A0V1MYB0	A0A0V1MYB0_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+T2M517	T2M517_HYDVU	Non-lysosomal glucosylceramidase (Fragment)	unreviewed	GBA2
+A0A0V1L300	A0A0V1L300_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V1FS54	A0A0V1FS54_TRIPS	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V1E152	A0A0V1E152_TRIPS	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V1K8V9	A0A0V1K8V9_TRIPS	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V0SAK7	A0A0V0SAK7_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0V1HQP1	A0A0V1HQP1_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V1B1T8	A0A0V1B1T8_TRISP	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0A1X1L1	A0A0A1X1L1_BACCU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA_2
+A8WN30	A8WN30_CAEBR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V1PLW3	A0A0V1PLW3_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0K8UCW9	A0A0K8UCW9_BACLA	Glucosylceramidase (Fragment)	unreviewed	GBA_2
+A0A0K8VX34	A0A0K8VX34_BACLA	Glucosylceramidase (EC 3.2.1.45) (Fragment)	unreviewed	GBA_1
+A0A0K8U5E6	A0A0K8U5E6_BACLA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba_1
+R4LVN1	R4LVN1_9ACTN	Glycosyl hydrolase	unreviewed	gba
+A0A1D1XK58	A0A1D1XK58_9ARAE	Non-lysosomal glucosylceramidase (Fragment)	unreviewed	Gba2_7
+A0A1D1XZ18	A0A1D1XZ18_9ARAE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	Gba2_11
+A0A1D1YKB4	A0A1D1YKB4_9ARAE	Non-lysosomal glucosylceramidase	unreviewed	Gba2_4
+A0A1D1Y1Y8	A0A1D1Y1Y8_9ARAE	Non-lysosomal glucosylceramidase	unreviewed	Gba2_1
+A0A146M6P3	A0A146M6P3_LYGHE	Non-lysosomal glucosylceramidase (Fragment)	unreviewed	GBA2
+A0A0V0VCT0	A0A0V0VCT0_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0A9YVP6	A0A0A9YVP6_LYGHE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2_1
+A0A0V0VD25	A0A0V0VD25_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A8XWU0	A8XWU0_CAEBR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-4
+A0A0V1AAG4	A0A0V1AAG4_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V1AAJ8	A0A0V1AAJ8_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba-3
+A0A0V0TI09	A0A0V0TI09_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A0V0TZ91	A0A0V0TZ91_9BILA	AP-1 complex subunit gamma-1	unreviewed	Gba2
+A0A0V0U0C7	A0A0V0U0C7_9BILA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	Gba2
+A0A0V0TZD7	A0A0V0TZD7_9BILA	AP-1 complex subunit gamma-1	unreviewed	Gba2
+A0A0V0TIA4	A0A0V0TIA4_9BILA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A8JCK3	A8JCK3_CHLRE	GTP binding protein TypA	unreviewed	GBA1
+G8S242	G8S242_ACTS5	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+A0A0P8C1M8	A0A0P8C1M8_9CYAN	Non-lysosomal glucosylceramidase Gba2	unreviewed	gba2
+A0A1J0LIQ9	A0A1J0LIQ9_9FLAO	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA|srfJ
+H0UTV6	H0UTV6_CAVPO	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+H0VV29	H0VV29_CAVPO	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+A0A191VMR8	A0A191VMR8_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XUE5	V9XUE5_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XRP8	V9XRP8_ZAPTR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMN8	A0A191VMN8_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A1U7QQN7	A0A1U7QQN7_MESAU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	Gba2
+A0A191VMR1	A0A191VMR1_UROEL	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMR2	A0A191VMR2_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A1U7R3D6	A0A1U7R3D6_MESAU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba
+A0A191VMP4	A0A191VMP4_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+I3M5Q7	I3M5Q7_ICTTR	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A191VMS7	A0A191VMS7_AMMLU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XVH8	V9XVH8_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XX46	V9XX46_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A0G2JVP8	A0A0G2JVP8_RAT	Glucosylceramidase beta 3	unreviewed	Gba3
+V9XVM4	V9XVM4_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMQ4	A0A191VMQ4_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+D4A6U0	D4A6U0_RAT	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	Gba2
+G3V8Y1	G3V8Y1_RAT	Glucosidase, beta, acid 3 (Cytosolic) (Predicted) (Glucosylceramidase beta 3)	unreviewed	Gba3
+V9XVL8	V9XVL8_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+W5U2Z9	W5U2Z9_ZAPPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XVM9	V9XVM9_ZAPTR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XUN5	V9XUN5_ZAPTR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XX58	V9XX58_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+W5U342	W5U342_ZAPPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XXA0	V9XXA0_ZAPTR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMQ6	A0A191VMQ6_URORI	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMP3	A0A191VMP3_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XRI1	V9XRI1_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+W5U3Y5	W5U3Y5_ZAPPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMQ9	A0A191VMQ9_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMQ7	A0A191VMQ7_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+W5U3G4	W5U3G4_ZAPPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XV50	V9XV50_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XRJ7	V9XRJ7_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XVL3	V9XVL3_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A1S3F3F8	A0A1S3F3F8_DIPOR	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba
+V9XRL9	V9XRL9_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XX15	V9XX15_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XX09	V9XX09_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMS6	A0A191VMS6_UROWA	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMR0	A0A191VMR0_UROTO	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XUH4	V9XUH4_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XVI3	V9XVI3_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XX63	V9XX63_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XRJ2	V9XRJ2_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XV85	V9XV85_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+W5U3Y0	W5U3Y0_ZAPPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XRK9	V9XRK9_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XUM0	V9XUM0_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XX68	V9XX68_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMR4	A0A191VMR4_UROAR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XRI7	V9XRI7_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XRL4	V9XRL4_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMR6	A0A191VMR6_UROEL	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XUI2	V9XUI2_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XRM9	V9XRM9_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XUG0	V9XUG0_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XVC0	V9XVC0_ZAPTR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XVE3	V9XVE3_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMP6	A0A191VMP6_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMR7	A0A191VMR7_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XV70	V9XV70_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XVF1	V9XVF1_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMN7	A0A191VMN7_UROTO	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XUF0	V9XUF0_NAPIN	Beta acid glucosidase (Fragment)	unreviewed	GBA
+V9XUJ0	V9XUJ0_ZAPHU	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMS0	A0A191VMS0_UROEL	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMQ0	A0A191VMQ0_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A0N8ETX3	A0A0N8ETX3_HETGA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A0P6JH06	A0A0P6JH06_HETGA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A191VMP8	A0A191VMP8_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XRN3	V9XRN3_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMT4	A0A191VMT4_UROCO	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+V9XVA2	V9XVA2_ZAPPR	Beta acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMP1	A0A191VMP1_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A0G2JDK2	A0A0G2JDK2_MOUSE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	Gba
+B1AWI3	B1AWI3_MOUSE	Non-lysosomal glucosylceramidase (Fragment)	unreviewed	Gba2
+W5U329	W5U329_ZAPHU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMP9	A0A191VMP9_UROUN	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A1S3G192	A0A1S3G192_DIPOR	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	Gba2
+A0A191VMS5	A0A191VMS5_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+B5DF30	B5DF30_RAT	Gba3 protein (Fragment)	unreviewed	Gba3
+A0A191VMQ5	A0A191VMQ5_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMR9	A0A191VMR9_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMQ3	A0A191VMQ3_UROCO	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMS8	A0A191VMS8_SPEBE	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMQ2	A0A191VMQ2_UROUN	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMS4	A0A191VMS4_UROUN	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMR5	A0A191VMR5_UROPR	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A191VMS3	A0A191VMS3_9SCIU	Beta-acid glucosidase (Fragment)	unreviewed	GBA
+A0A061QBR1	A0A061QBR1_9PROT	Non-lysosomal glucosylceramidase	unreviewed	Gba2
+A0A1A8VIY1	A0A1A8VIY1_NOTFU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+W5ULT4	W5ULT4_ICTPU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+Q0V997	Q0V997_XENTR	Beta-glucosidase (3D533) (Glucosidase, beta, acid 3 (gene/pseudogene))	unreviewed	gba3
+Q502A1	Q502A1_DANRE	Zgc:112375 (Zgc:112375 protein)	unreviewed	gba3
+A0A1A7W8F0	A0A1A7W8F0_9TELE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1A8BUL8	A0A1A8BUL8_9TELE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1A8P227	A0A1A8P227_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8J899	A0A1A8J899_NOTKU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8QWL5	A0A1A8QWL5_9TELE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1S3N887	A0A1S3N887_SALSA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	gba2
+A0A1A8VEJ5	A0A1A8VEJ5_NOTFU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+E7F5W0	E7F5W0_DANRE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	gba2
+A0A1A8IE23	A0A1A8IE23_NOTKU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A090D8A0	A0A090D8A0_ORYLA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H2M2J5	H2M2J5_ORYLA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+H2LUF8	H2LUF8_ORYLA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	gba2
+V8NCD7	V8NCD7_OPHHA	Glucosylceramidase (EC 3.2.1.45) (Fragment)	unreviewed	GBA
+A0A151PA66	A0A151PA66_ALLMI	Cytosolic beta-glucosidase	unreviewed	GBA3
+A0A151MRU9	A0A151MRU9_ALLMI	Non-lysosomal glucosylceramidase	unreviewed	GBA2
+A0A151N939	A0A151N939_ALLMI	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1J6IA06	A0A1J6IA06_NICAT	CASP-like protein	unreviewed	GBA_LOCUS
+A0A1Q9EGW0	A0A1Q9EGW0_SYMMI	Glucosylceramidase	unreviewed	GBA
+A0A1Q9DWN9	A0A1Q9DWN9_SYMMI	Putative glucosylceramidase 3	unreviewed	gba-3
+A0A1Q9EPN8	A0A1Q9EPN8_SYMMI	Putative glucosylceramidase 4	unreviewed	gba-4
+A0A068EYG9	A0A068EYG9_EMIHU	Glucocerebrosidase 1	unreviewed	Gba1
+A0A1A8EGL1	A0A1A8EGL1_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8CNT0	A0A1A8CNT0_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8CLN2	A0A1A8CLN2_9TELE	Glucosidase, beta (Bile acid) 2	unreviewed	GBA2
+Q66IW2	Q66IW2_XENLA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+U3JHQ3	U3JHQ3_FICAL	Uncharacterized protein	unreviewed	GBA2
+Q66J37	Q66J37_XENLA	MGC82041 protein	unreviewed	gba3
+U3JJS0	U3JJS0_FICAL	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+I3JGM4	I3JGM4_ORENI	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+I3K565	I3K565_ORENI	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	gba2
+H2VAT7	H2VAT7_TAKRU	Glucosidase, beta (bile acid) 2	unreviewed	gba2
+H2VAT6	H2VAT6_TAKRU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	gba2
+H2TS47	H2TS47_TAKRU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+E7EZM1	E7EZM1_DANRE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+F8W624	F8W624_DANRE	Glucosidase, beta (bile acid) 2 (Fragment)	unreviewed	gba2
+H0YUD6	H0YUD6_TAEGU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1A7XJA4	A0A1A7XJA4_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H1A258	H1A258_TAEGU	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8Q3J7	A0A1A8Q3J7_9TELE	Glucosidase, beta (Bile acid) 2	unreviewed	GBA2
+G1K8Z8	G1K8Z8_ANOCA	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+A0A0R4IKG9	A0A0R4IKG9_DANRE	Glucosidase, beta, acid 3 (gene/pseudogene)	unreviewed	gba3
+F1QHY5	F1QHY5_DANRE	Glucosidase, beta, acid 3 (gene/pseudogene)	unreviewed	gba3
+A0A1A7WYD2	A0A1A7WYD2_9TELE	Glucosidase, beta (Bile acid) 2	unreviewed	GBA2
+W5U686	W5U686_ICTPU	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	Gba2
+A0A1D5PLB3	A0A1D5PLB3_CHICK	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F1NYQ3	F1NYQ3_CHICK	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1A8LUZ3	A0A1A8LUZ3_9TELE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1A8N2H2	A0A1A8N2H2_9TELE	Glucosidase, beta (Bile acid) 2 (Fragment)	unreviewed	GBA2
+A0A1A8QXH6	A0A1A8QXH6_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H9GHP9	H9GHP9_ANOCA	Glucosylceramidase beta 2	unreviewed	GBA2
+H9G623	H9G623_ANOCA	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+A0A1A8QQ60	A0A1A8QQ60_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8RVT4	A0A1A8RVT4_9TELE	Glucosidase, beta (Bile acid) 2	unreviewed	GBA2
+A0A1A8G3V6	A0A1A8G3V6_9TELE	Glucosidase, beta (Bile acid) 2	unreviewed	GBA2
+A0A1A8H465	A0A1A8H465_9TELE	Glucosidase, beta (Bile acid) 2 (Fragment)	unreviewed	GBA2
+A0A1A8FKF9	A0A1A8FKF9_9TELE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+F7ETU7	F7ETU7_XENTR	Glucosidase, beta (bile acid) 2	unreviewed	gba2
+A0A1A8EHM4	A0A1A8EHM4_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8HCI6	A0A1A8HCI6_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1A8GFE0	A0A1A8GFE0_9TELE	Glucosidase, beta (Bile acid) 2 (Fragment)	unreviewed	GBA2
+A0A1U7SJU8	A0A1U7SJU8_ALLSI	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+A0A1V4JTG6	A0A1V4JTG6_PATFA	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+H3B804	H3B804_LATCH	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+H3AB73	H3AB73_LATCH	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+H3AXX8	H3AXX8_LATCH	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	GBA2
+H3AB74	H3AB74_LATCH	Glucosylceramidase (EC 3.2.1.45)	unreviewed	GBA
+A0A1W4YG72	A0A1W4YG72_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+A0A1W4YR19	A0A1W4YR19_9TELE	Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45)	unreviewed	gba2
+A0A1W4YQE2	A0A1W4YQE2_9TELE	Glucosylceramidase (EC 3.2.1.45)	unreviewed	gba
+F6ZI77	F6ZI77_XENTR	Glucosidase, beta (bile acid) 2	unreviewed	gba2
+K7FYC8	K7FYC8_PELSI	Glucosylceramidase beta 3 (gene/pseudogene)	unreviewed	GBA3
+A0A0S7I760	A0A0S7I760_9TELE	GBA2 (Fragment)	unreviewed	GBA2
+A0A0S7HMP3	A0A0S7HMP3_9TELE	GBA2 (Fragment)	unreviewed	GBA2
+A0A0S7I8A8	A0A0S7I8A8_9TELE	GBA2 (Fragment)	unreviewed	GBA2
+A0A0S7I822	A0A0S7I822_9TELE	GBA2 (Fragment)	unreviewed	GBA2
+A0A0S7HSL2	A0A0S7HSL2_9TELE	GBA2 (Fragment)	unreviewed	GBA2
+A0A0S7I3V3	A0A0S7I3V3_9TELE	GBA2 (Fragment)	unreviewed	GBA2
+G1N2L2	G1N2L2_MELGA	Glucosylceramidase beta 2	unreviewed	GBA2

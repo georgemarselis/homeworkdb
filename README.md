@@ -14,29 +14,29 @@ HOW TO RUN THIS MESS:
    		Secondary output is the 'listOfGenes.tsv' file: it drives the Uniprot script bellow.
    		
 1.2 Uniprot:
- 	* Run getUniprotData.sh (depends on getDisgenetData.py, you cannot run it without having run the above at least once) 
+ 	* Run getUniprotData.sh (depends on getDisgenetData.py, you cannot run it without having run the above at least once)
+ 		Takes a minute or two.
 
 1.3 Hintkb2:
-	* Run 
+	* Hintkb2 data are being wrangled directly from the 'loadPezData.py'
+		Run 'loadPezData.py', after creating the schema.
 
 
+2. Use the 'loadPezDb.py' python script to create the db. The 'loadPezDb.py' script is the pythonized version of pez_project2501.sql file
+	Make sure you change the host IP, should you need to.
 
+	2.1. If any of the connection details do not match, alter the ./loadConfiguration.sh script and execute it. 
+		It exports the enviromental variables:
+			PEZ_HOST
+			PEZ_DATABASE
+			PEZ_USER
+			PEZ_PASSWORD
 
-***** need more to get the data proper ******
-
-
-
-
-
-
-
-2. Use the loadPezDb.py python script to create the db. The loadPez.py script is the pythonized version of pez_project2501.sql file
-
-Make sure you change the host IP.
-
-3. If any of the connection details do not match, alter the ./loadConfiguration.sh script and execute it. It exports the variables
-
-4. ./loadPezData.py: loads the data from disk to the database
+3. ./loadPezData.py: loads the data from disk to the database
+	Disgenet goes first
+	Uniprot second
+	Hintkb data are being wrangled on the spot
+		Takes about 20 minutes
 
 
 

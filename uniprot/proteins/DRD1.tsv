@@ -1,0 +1,84 @@
+Entry	Entry name	Protein names	Status	Gene names  (primary )
+P18901	DRD1_RAT	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	Drd1
+Q61616	DRD1_MOUSE	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	Drd1
+P21728	DRD1_HUMAN	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	DRD1
+Q9SIW2	CHR35_ARATH	Protein CHROMATIN REMODELING 35 (Protein DEFECTIVE IN MERISTEM SILENCING 1) (Protein DEFECTIVE IN RNA-DIRECTED DNA METHYLATION 1)	reviewed	DRD1
+H0YPZ4	H0YPZ4_TAEGU	Uncharacterized protein	unreviewed	DRD1
+Q95136	DRD1_BOVIN	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	DRD1
+O77680	DRD1_MACMU	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	DRD1
+G1NR41	G1NR41_MELGA	Dopamine receptor D1	unreviewed	DRD1
+F1PI21	F1PI21_CANLF	Dopamine receptor D1	unreviewed	DRD1
+G3V933	G3V933_RAT	D(1A) dopamine receptor (Dopamine receptor D1A, isoform CRA_a)	unreviewed	Drd1
+H2QS18	H2QS18_PANTR	Dopamine receptor D1	unreviewed	DRD1
+M3VVD1	M3VVD1_FELCA	Dopamine receptor D1	unreviewed	DRD1
+G1KQJ5	G1KQJ5_ANOCA	Dopamine receptor D1	unreviewed	DRD1
+F6T0L6	F6T0L6_MONDO	Dopamine receptor D1	unreviewed	DRD1
+G1SML2	G1SML2_RABIT	D(1A) dopamine receptor	unreviewed	DRD1
+H2PHF2	H2PHF2_PONAB	Dopamine receptor D1	unreviewed	DRD1
+F7GPB6	F7GPB6_CALJA	D(1A) dopamine receptor (Dopamine receptor D1)	unreviewed	DRD1
+H0WHG7	H0WHG7_OTOGA	Dopamine receptor D1	unreviewed	DRD1
+G1PW11	G1PW11_MYOLU	Dopamine receptor D1	unreviewed	DRD1
+K7EWF7	K7EWF7_PELSI	Dopamine receptor D1	unreviewed	DRD1
+I3MTN2	I3MTN2_ICTTR	Dopamine receptor D1	unreviewed	DRD1
+W5PPK6	W5PPK6_SHEEP	Dopamine receptor D1	unreviewed	DRD1
+M3Z6H4	M3Z6H4_MUSPF	Dopamine receptor D1	unreviewed	DRD1
+H0VES0	H0VES0_CAVPO	Dopamine receptor D1	unreviewed	DRD1
+A0A096MZY6	A0A096MZY6_PAPAN	Dopamine receptor D1	unreviewed	DRD1
+U3KJ18	U3KJ18_FICAL	Dopamine receptor D1	unreviewed	DRD1
+P50130	DRD1_PIG	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	DRD1
+P42288	DRD1_DIDVI	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	DRD1
+O02664	DRD1_RABIT	D(1A) dopamine receptor (Dopamine D1 receptor) (Fragment)	reviewed	DRD1
+P42289	DRD1_XENLA	D(1A) dopamine receptor (Dopamine D1 receptor)	reviewed	drd1
+Q6FH34	Q6FH34_HUMAN	DRD1 protein (Fragment)	unreviewed	DRD1
+G7MU06	G7MU06_MACMU	D(1A) dopamine receptor	unreviewed	DRD1
+G1LK07	G1LK07_AILME	Dopamine receptor D1	unreviewed	DRD1
+G3S8S2	G3S8S2_GORGO	Dopamine receptor D1	unreviewed	DRD1
+G3RXE8	G3RXE8_GORGO	Dopamine receptor D1	unreviewed	DRD1
+F2WVH2	F2WVH2_SHEEP	Dopamine D1 receptor (Fragment)	unreviewed	Drd1
+Q5I6B7	Q5I6B7_MACFA	D1 dopamine receptor (Fragment)	unreviewed	DRD1
+G3VDD8	G3VDD8_SARHA	Dopamine receptor D1	unreviewed	DRD1
+A0A0D9RAW0	A0A0D9RAW0_CHLSB	Dopamine receptor D1	unreviewed	DRD1
+A1E499	A1E499_VULLA	Dopamine D1 receptor (Fragment)	unreviewed	DRD1
+I3L8T6	I3L8T6_PIG	D(1A) dopamine receptor	unreviewed	DRD1
+A0A1U7SZN6	A0A1U7SZN6_TARSY	D(1A) dopamine receptor	unreviewed	DRD1
+A0A1S2ZTS6	A0A1S2ZTS6_ERIEU	D(1A) dopamine receptor	unreviewed	DRD1
+U6CRT0	U6CRT0_NEOVI	D(1A) dopamine receptor	unreviewed	DRD1
+B1P1T6	B1P1T6_NEOVI	DRD1 (Fragment)	unreviewed	DRD1
+G3T5L8	G3T5L8_LOXAF	Dopamine receptor D1	unreviewed	DRD1
+G1QI92	G1QI92_NOMLE	Dopamine receptor D1	unreviewed	DRD1
+Q20611	Q20611_CAEEL	Dietary restriction down regulated	unreviewed	drd-1
+A5JYS2	A5JYS2_CAEEL	Dietary restriction down regulated	unreviewed	drd-1
+A8WND9	A8WND9_CAEBR	Protein CBG00644	unreviewed	drd-1
+A0A1U8CGF1	A0A1U8CGF1_MESAU	D(1A) dopamine receptor	unreviewed	Drd1
+A0A1Y7VK92	A0A1Y7VK92_MOUSE	D(1A) dopamine receptor (Dopamine receptor D1A)	unreviewed	Drd1
+A0A0P6JSW8	A0A0P6JSW8_HETGA	D(1A) dopamine receptor	unreviewed	DRD1
+Q80T33	Q80T33_MOUSE	D1A dopamine receptor (Fragment)	unreviewed	Drd1
+A0A1S3F5I5	A0A1S3F5I5_DIPOR	D(1A) dopamine receptor	unreviewed	Drd1
+A0A1A8VDZ8	A0A1A8VDZ8_NOTFU	Dopamine receptor D1	unreviewed	DRD1
+A0A1A8GYH2	A0A1A8GYH2_9TELE	Dopamine receptor D1	unreviewed	DRD1
+A0A0P7V463	A0A0P7V463_9TELE	D(1)-like dopamine receptor-like (D(1A) dopamine receptor)	unreviewed	drd1
+B6E506	B6E506_DANRE	Dopamine receptor D1 (Dopamine receptor D1b)	unreviewed	drd1b
+X2JBJ7	X2JBJ7_ANSCY	Dopamine D1 receptor	unreviewed	DRD1
+A0A1A8IKM2	A0A1A8IKM2_NOTKU	Dopamine receptor D1 (Fragment)	unreviewed	DRD1
+A0A1A8KDI3	A0A1A8KDI3_NOTKU	Dopamine receptor D1 (Fragment)	unreviewed	DRD1
+H2LSU2	H2LSU2_ORYLA	Dopamine receptor D1a	unreviewed	drd1
+V8P291	V8P291_OPHHA	D(1A) dopamine receptor (Fragment)	unreviewed	drd1
+A0A151M6R6	A0A151M6R6_ALLMI	D(1A) dopamine receptor	unreviewed	DRD1
+A0A1J6JBM9	A0A1J6JBM9_NICAT	Protein chromatin remodeling 35	unreviewed	DRD1
+D7L1V4	D7L1V4_ARALL	Defective in RNA-directed DNA methylation 1	unreviewed	DRD1
+A0A1P8B0G3	A0A1P8B0G3_ARATH	SNF2 domain-containing protein / helicase domain-containing protein	unreviewed	DRD1
+Q8H0L8	Q8H0L8_SOLTU	Alcohol NADP+ oxidoreductase	unreviewed	drd-1
+A0A1A8BU22	A0A1A8BU22_9TELE	Dopamine receptor D1 (Fragment)	unreviewed	DRD1
+A0A1A8DX07	A0A1A8DX07_9TELE	Dopamine receptor D1 (Fragment)	unreviewed	DRD1
+A0A1A8QI34	A0A1A8QI34_9TELE	Dopamine receptor D1	unreviewed	DRD1
+A0A1A7YMC6	A0A1A7YMC6_9TELE	Dopamine receptor D1 (Fragment)	unreviewed	DRD1
+A0A1A7WBT5	A0A1A7WBT5_9TELE	Dopamine receptor D1	unreviewed	DRD1
+A0A1D5PNU9	A0A1D5PNU9_CHICK	Uncharacterized protein	unreviewed	DRD1
+A0A1V4KU97	A0A1V4KU97_PATFA	D(1A) dopamine receptor	unreviewed	DRD1
+U3I221	U3I221_ANAPL	Dopamine receptor D1	unreviewed	DRD1
+I6Q8X7	I6Q8X7_ANAPL	Dopamine D1 receptor	unreviewed	DRD1
+F6RJ06	F6RJ06_XENTR	Dopamine receptor D1	unreviewed	drd1
+A0A0C5L0I9	A0A0C5L0I9_AMPSE	Dopamine receptor D1	unreviewed	DRD1
+A0A1U7SDX7	A0A1U7SDX7_ALLSI	D(1A) dopamine receptor	unreviewed	DRD1
+H3BDP9	H3BDP9_LATCH	Dopamine receptor D1	unreviewed	DRD1
+A0A0S7EN82	A0A0S7EN82_9TELE	DRD1 (Fragment)	unreviewed	DRD1
