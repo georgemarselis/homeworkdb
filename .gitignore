@@ -67,3 +67,4 @@ sample_disgenet_scripts/*
 uniprot/fasta/*
 uniprot/proteins/*
 uniprot/*
+.*.swp

@@ -24,6 +24,10 @@ for protein in $( < ./listOfProteins.tsv );
 for emptyfasta in $( find uniprot/fasta -size 0);
 	do wget --no-verbose --output-document=uniprot/fasta/${emptyfasta}.fasta http://www.uniprot.org/uniprot/${emptyfasta}.fasta\?include=yes; done
 
+for emptyfasta in $( find uniprot/fasta -size 0);
+	do echo -e "File $emptyfasta sitll has zero size."; done
+
+
 # cleanup; not sure it is still needed
 # rm -f uniprot/fasta/{B9VTE0.fasta,E3M4K9.fasta,P49792.fasta,P54252.fasta,P80668.fasta,Q05567.fasta,Q09298.fasta,Q15645.fasta,Q16342.fasta,Q47129.fasta,Q4P782.fasta,Q556K3.fasta,Q66GQ6.fasta,Q6NUN9.fasta,Q7SAM0.fasta,Q6AX34.fasta,Q8IXI2.fasta,Q8IZ52.fasta,Q99IB8.fasta,Q9Y3I1.fasta,Q9Z2Q6.fasta,U3NGQ0.fasta,W4YQE2.fasta,W4Z7Z7.fasta}
 
