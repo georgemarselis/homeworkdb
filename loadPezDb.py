@@ -47,9 +47,9 @@ if "PEZ_PASSWORD" in os.environ:
 # # connect to db
 conn = pymysql.connect( host, user, password )
 if conn != -1 :
-	print( 'database connection established' )
+	print( colored.red( 'database connection established' ) )
 else:
-	print( 'Houston we have a problem' )
+	print( colored.red( 'Houston we have a problem' ) )
 
 dropdb_query = 'drop database if exists ' + db
 createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation

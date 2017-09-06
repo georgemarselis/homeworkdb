@@ -12,7 +12,7 @@ import json
 from io  import StringIO
 from Bio import SeqIO
 from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
-
+from clint.textui import colored
 
 
 host       = '192.168.1.5';
@@ -45,7 +45,7 @@ else:
 ##### load data from files
 ###########################################
 
-print( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n")
+print( colored.red( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n" ) )
 
 ## disgenet
 ###########################################

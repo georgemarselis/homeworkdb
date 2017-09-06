@@ -55,12 +55,11 @@
         <forcedUnique><![CDATA[1]]></forcedUnique>
         <hidden><![CDATA[0]]></hidden>
         <labelWindowIndex><![CDATA[4]]></labelWindowIndex>
-        <table_character_set><![CDATA[ascii]]></table_character_set>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[0A5314A2-62FA-4F95-AF49-6A36A0B94D4D]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[ProteinGeneontology]]></name>
+        <name><![CDATA[ProteinGeneOntology]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>621.00</x>
@@ -74,11 +73,15 @@
         <SQLField>
             <name><![CDATA[proteinId]]></name>
             <type><![CDATA[VARCHAR(8)]]></type>
+            <primaryKey>1</primaryKey>
+            <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[E5B527D1-D15F-421B-94B7-28DDB2CD799C]]></uid>
         </SQLField>
         <SQLField>
             <name><![CDATA[ontologyId]]></name>
             <type><![CDATA[BIGINT]]></type>
+            <primaryKey>1</primaryKey>
+            <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[2D27A149-8D09-41FD-BE8B-E66BF49E0ECD]]></uid>
         </SQLField>
         <SQLForeignKey>
@@ -117,6 +120,7 @@
             <indexNamePrefix><![CDATA[ProteinGeneontology]]></indexNamePrefix>
             <uid><![CDATA[AC290667-1BE2-4969-97BF-58415A340E9E]]></uid>
         </SQLForeignKey>
+        <hidden><![CDATA[0]]></hidden>
         <uid><![CDATA[16ABB30A-7038-445A-B698-E08010B718CF]]></uid>
     </SQLTable>
     <SQLTable>
@@ -330,7 +334,7 @@
         <overviewPanelHidden><![CDATA[0]]></overviewPanelHidden>
         <pageBoundariesVisible><![CDATA[0]]></pageBoundariesVisible>
         <PageGridVisible><![CDATA[0]]></PageGridVisible>
-        <RightSidebarWidth><![CDATA[2009.000000]]></RightSidebarWidth>
+        <RightSidebarWidth><![CDATA[1970.000000]]></RightSidebarWidth>
         <sidebarIndex><![CDATA[0]]></sidebarIndex>
         <snapToGrid><![CDATA[0]]></snapToGrid>
         <SourceSidebarWidth><![CDATA[312.000000]]></SourceSidebarWidth>
@@ -339,8 +343,8 @@
         <windowHeight><![CDATA[1110.000000]]></windowHeight>
         <windowLocationX><![CDATA[184.000000]]></windowLocationX>
         <windowLocationY><![CDATA[127.000000]]></windowLocationY>
-        <windowScrollOrigin><![CDATA[{0, 0}]]></windowScrollOrigin>
-        <windowWidth><![CDATA[2286.000000]]></windowWidth>
+        <windowScrollOrigin><![CDATA[{2, 0}]]></windowScrollOrigin>
+        <windowWidth><![CDATA[2247.000000]]></windowWidth>
     </SQLDocumentInfo>
     <AllowsIndexRenamingOnInsert><![CDATA[1]]></AllowsIndexRenamingOnInsert>
     <containerName><![CDATA[model controller orginal container]]></containerName>
