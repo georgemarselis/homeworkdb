@@ -12,17 +12,22 @@ HOW TO RUN THIS MESS:
 		It will connect to disgenet and get you the list of genes you want. 
    		The result will be printed on the output, and written to a file called disgenet/disgenet_data.tsv. Output will be about 15 lines. 
    		Secondary output is the 'listOfGenes.tsv' file: it drives the Uniprot script bellow.
-   		
+
 1.2 Uniprot:
  	* Run getUniprotData.sh
  		Depends on getDisgenetData.py;
  			You cannot run it without having run the above at least once
  		Downloads the list of candidate proteins and isomorphs
- 		Takes a minute or two.
+   		Uses GNU parallel for a significant speedup in download time.
+ 			Takes a minute or two.
+ 			Used to take 20-30 minutes.
 
 1.3 Hintkb2:
 	* Hintkb2 data are being wrangled directly from the 'loadPezData.py'
 		Run 'loadPezData.py', after creating the schema.
+
+Essentially, type in the command line:
+./make_clean.sh && ./getDisgenetData.py && ./getUniprotData.sh
 
 
 2. Use the 'loadPezDb.py' python script to create the db. The 'loadPezDb.py' script is the pythonized version of pez_project2501.sql file
