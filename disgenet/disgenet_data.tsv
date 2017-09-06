@@ -1,14 +1,14 @@
 c1.diseaseId	c1.OMIM	c2.symbol	c2.geneId	c2.uniprotId	c2.description	c2.pantherName	c0.score	c0.Npmids	c0.Nsnps	c0.source	c3.Ndiseases
-C0030567	516000	PARK7	11315	Q99497	Parkinsonism associated deglycase	transcription factor; protease; nucleic acid binding; hydrolase	0.305236237771581	96	6	ALL	59
+C0030567	516000	PARK7	11315	Q99497	Parkinsonism associated deglycase	transcription factor; protease; nucleic acid binding; hydrolase	0.3052362378	96	6	ALL	59
 C0030567	516000	LRRK2	120892	Q5S007	leucine rich repeat kinase 2	transferase; kinase	0.44	700	25	ALL	105
-C0030567	516000	CYP2D6	1565	P10635	cytochrome P450 family 2 subfamily D member 6	null	0.254721336641181	65	0	ALL	340
-C0030567	516000	DRD1	1812	P21728	dopamine receptor D1	receptor	0.282956482091714	6	0	ALL	107
-C0030567	516000	GBA	2629	P04062	glucosylceramidase beta	null	0.315490167940078	126	3	ALL	244
+C0030567	516000	CYP2D6	1565	P10635	cytochrome P450 family 2 subfamily D member 6	null	0.2547213366	65	0	ALL	340
+C0030567	516000	DRD1	1812	P21728	dopamine receptor D1	receptor	0.2829564821	6	0	ALL	107
+C0030567	516000	GBA	2629	P04062	glucosylceramidase beta	null	0.3154901679	126	3	ALL	244
 C0030567	516000	IGF1R	3480	P08069	insulin like growth factor 1 receptor	null	0.28	2	0	ALL	370
-C0030567	516000	MAOB	4129	P27338	monoamine oxidase B	transferase; oxidoreductase; nucleic acid binding	0.27805540045873	53	0	ALL	75
-C0030567	516000	MAPT	4137	P10636	microtubule associated protein tau	null	0.323045972857553	108	13	ALL	247
-C0030567	516000	PARK2	5071	O60260	parkin RBR E3 ubiquitin protein ligase	ligase	0.413846449705768	270	14	ALL	210
-C0030567	516000	BDNF	627	P23560	brain derived neurotrophic factor	signaling molecule	0.251405674232974	44	4	ALL	526
-C0030567	516000	PINK1	65018	Q9BXM7	PTEN induced putative kinase 1	transferase; kinase; receptor	0.397570682881075	259	7	ALL	74
-C0030567	516000	SLC6A3	6531	Q01959	solute carrier family 6 member 3	transporter	0.256248442034184	69	1	ALL	241
+C0030567	516000	MAOB	4129	P27338	monoamine oxidase B	transferase; oxidoreductase; nucleic acid binding	0.2780554005	53	0	ALL	75
+C0030567	516000	MAPT	4137	P10636	microtubule associated protein tau	null	0.3230459729	108	13	ALL	247
+C0030567	516000	PARK2	5071	O60260	parkin RBR E3 ubiquitin protein ligase	ligase	0.4138464497	270	14	ALL	210
+C0030567	516000	BDNF	627	P23560	brain derived neurotrophic factor	signaling molecule	0.2514056742	44	4	ALL	526
+C0030567	516000	PINK1	65018	Q9BXM7	PTEN induced putative kinase 1	transferase; kinase; receptor	0.3975706829	259	7	ALL	74
+C0030567	516000	SLC6A3	6531	Q01959	solute carrier family 6 member 3	transporter	0.256248442	69	1	ALL	241
 C0030567	516000	SNCA	6622	P37840	synuclein alpha	membrane traffic protein; chaperone	0.44	563	21	ALL	142

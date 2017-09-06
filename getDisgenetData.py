@@ -20,7 +20,7 @@ ON
 SELECT
 	c1 (diseaseId, OMIM ),
 	c2 (symbol, geneId, uniprotId, description, pantherName ),
-	c0 (score, Npmids, Nsnps, source ),
+	c0 (score, Npmids, Nsnps ),
 	c3 (Ndiseases)
 FROM
 	c0
@@ -51,9 +51,12 @@ with open( disgenetDataFile, 'w' ) as file:
 # over here, we open LibreOffice and convert the above file from .tsv to .xlsx
 # because the damn delimiters fuck up the reading of the file in python.
 
-disgenetDataFileXLS = 'disgenet/disgenet_data.xlsx'
+disgenetDataFile = 'disgenet/disgenet_data.tsv'
 disgenetFieldNames = [ 'c1.diseaseId', 'c1.OMIM', 'c2.symbol', 'c2.geneId', 'c2.uniprotId', 'c2.description', 'c2.pantherName', 'c0.score', 'c0.Npmids', 'c0.Nsnps', 'c3.Ndiseases' ]
+restkey    = 'unknownkey';
+restval    = 'uknownvalue';
+dialect    = 'excel-tab';
 
-df = pandas.read_excel( DisGeNETtDataFileXLS, header=0, skiprows=[0], names = disgenetFieldNames )
+df = pandas.read_csv( disgenetFieldNames, header=0, skiprows=[0], names = disgenetFieldNames )
 #print the column names
 print( colored.red ( df.columns ) )
