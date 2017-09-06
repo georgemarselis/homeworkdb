@@ -54,7 +54,7 @@
         </SQLField>
         <forcedUnique><![CDATA[1]]></forcedUnique>
         <hidden><![CDATA[0]]></hidden>
-        <labelWindowIndex><![CDATA[4]]></labelWindowIndex>
+        <labelWindowIndex><![CDATA[5]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[0A5314A2-62FA-4F95-AF49-6A36A0B94D4D]]></uid>
     </SQLTable>
@@ -62,8 +62,8 @@
         <name><![CDATA[ProteinGeneOntology]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>621.00</x>
-            <y>125.00</y>
+            <x>632.00</x>
+            <y>100.00</y>
         </location>
         <size>
             <width>278.00</width>
@@ -85,25 +85,7 @@
             <uid><![CDATA[2D27A149-8D09-41FD-BE8B-E66BF49E0ECD]]></uid>
         </SQLField>
         <SQLForeignKey>
-            <name><![CDATA[ProteinGeneontology_fk_1]]></name>
-            <deleteAction><![CDATA[1]]></deleteAction>
-            <updateAction><![CDATA[1]]></updateAction>
-            <sourceCardinality><![CDATA[1]]></sourceCardinality>
-            <destinationCardinality><![CDATA[5]]></destinationCardinality>
-            <targetTableName><![CDATA[protein]]></targetTableName>
-            <targetTableUid><![CDATA[447E25CF-A340-4598-8E4D-AF887CB765F4]]></targetTableUid>
-            <SQLForeignKeyEntry>
-                <entryIndex>0</entryIndex>
-                <targetFieldName><![CDATA[proteinId]]></targetFieldName>
-                <targetFieldUid><![CDATA[04818486-2F37-4C5E-94E5-A85FE223F000]]></targetFieldUid>
-                <sourceFieldName><![CDATA[proteinId]]></sourceFieldName>
-                <sourceFieldUid><![CDATA[E5B527D1-D15F-421B-94B7-28DDB2CD799C]]></sourceFieldUid>
-            </SQLForeignKeyEntry>
-            <indexNamePrefix><![CDATA[ProteinGeneontology]]></indexNamePrefix>
-            <uid><![CDATA[D6284BFB-ED92-48A8-86C5-E65DC0E7CE2B]]></uid>
-        </SQLForeignKey>
-        <SQLForeignKey>
-            <name><![CDATA[ProteinGeneontology_fk_2]]></name>
+            <name><![CDATA[ProteinGeneOntology_fk_2]]></name>
             <deleteAction><![CDATA[1]]></deleteAction>
             <updateAction><![CDATA[1]]></updateAction>
             <sourceCardinality><![CDATA[1]]></sourceCardinality>
@@ -117,10 +99,32 @@
                 <sourceFieldName><![CDATA[ontologyId]]></sourceFieldName>
                 <sourceFieldUid><![CDATA[2D27A149-8D09-41FD-BE8B-E66BF49E0ECD]]></sourceFieldUid>
             </SQLForeignKeyEntry>
-            <indexNamePrefix><![CDATA[ProteinGeneontology]]></indexNamePrefix>
+            <indexNamePrefix><![CDATA[ProteinGeneOntology]]></indexNamePrefix>
+            <targetTableName><![CDATA[geneOntology]]></targetTableName>
             <uid><![CDATA[AC290667-1BE2-4969-97BF-58415A340E9E]]></uid>
         </SQLForeignKey>
+        <SQLForeignKey>
+            <name><![CDATA[ProteinGeneOntology_fk_1]]></name>
+            <deleteAction><![CDATA[1]]></deleteAction>
+            <updateAction><![CDATA[1]]></updateAction>
+            <sourceCardinality><![CDATA[1]]></sourceCardinality>
+            <destinationCardinality><![CDATA[5]]></destinationCardinality>
+            <targetTableName><![CDATA[protein]]></targetTableName>
+            <targetTableUid><![CDATA[447E25CF-A340-4598-8E4D-AF887CB765F4]]></targetTableUid>
+            <SQLForeignKeyEntry>
+                <entryIndex>0</entryIndex>
+                <targetFieldName><![CDATA[proteinId]]></targetFieldName>
+                <targetFieldUid><![CDATA[04818486-2F37-4C5E-94E5-A85FE223F000]]></targetFieldUid>
+                <sourceFieldName><![CDATA[proteinId]]></sourceFieldName>
+                <sourceFieldUid><![CDATA[E5B527D1-D15F-421B-94B7-28DDB2CD799C]]></sourceFieldUid>
+            </SQLForeignKeyEntry>
+            <indexNamePrefix><![CDATA[ProteinGeneOntology]]></indexNamePrefix>
+            <targetTableName><![CDATA[protein]]></targetTableName>
+            <uid><![CDATA[5694D848-B94F-4748-A0BB-30635E4447DF]]></uid>
+        </SQLForeignKey>
         <hidden><![CDATA[0]]></hidden>
+        <labelWindowIndex><![CDATA[1]]></labelWindowIndex>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[16ABB30A-7038-445A-B698-E08010B718CF]]></uid>
     </SQLTable>
     <SQLTable>
@@ -132,7 +136,7 @@
         </location>
         <size>
             <width>211.00</width>
-            <height>120.00</height>
+            <height>140.00</height>
         </size>
         <zorder>2</zorder>
         <SQLField>
@@ -157,8 +161,8 @@
             <uid><![CDATA[C5ABF9FC-BD7A-4EC5-8807-6AF5772AAAD1]]></uid>
         </SQLField>
         <SQLField>
-            <name><![CDATA[geneId]]></name>
-            <type><![CDATA[VARCHAR(11)]]></type>
+            <name><![CDATA[geneName]]></name>
+            <type><![CDATA[VARCHAR(10)]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[FD9DD191-DF23-4284-A89F-580DB5D1AAC6]]></uid>
         </SQLField>
@@ -166,15 +170,15 @@
             <name><![CDATA[Protein2Gene_fk_1]]></name>
             <deleteAction><![CDATA[1]]></deleteAction>
             <updateAction><![CDATA[1]]></updateAction>
-            <sourceCardinality><![CDATA[1]]></sourceCardinality>
+            <sourceCardinality><![CDATA[5]]></sourceCardinality>
             <destinationCardinality><![CDATA[1]]></destinationCardinality>
             <targetTableName><![CDATA[gene]]></targetTableName>
             <targetTableUid><![CDATA[E3A8824A-1604-4D18-98E8-EEC3CC7AF6EB]]></targetTableUid>
             <SQLForeignKeyEntry>
                 <entryIndex>0</entryIndex>
-                <targetFieldName><![CDATA[geneId]]></targetFieldName>
-                <targetFieldUid><![CDATA[27C17F6E-0E5A-4E61-8C9D-AA0925BC33FF]]></targetFieldUid>
-                <sourceFieldName><![CDATA[geneId]]></sourceFieldName>
+                <targetFieldName><![CDATA[geneName]]></targetFieldName>
+                <targetFieldUid><![CDATA[DAF5E7AA-2ED8-4123-BB12-4B69ECE609B0]]></targetFieldUid>
+                <sourceFieldName><![CDATA[geneName]]></sourceFieldName>
                 <sourceFieldUid><![CDATA[FD9DD191-DF23-4284-A89F-580DB5D1AAC6]]></sourceFieldUid>
             </SQLForeignKeyEntry>
             <connectorLineStyle><![CDATA[0]]></connectorLineStyle>
@@ -184,7 +188,7 @@
         </SQLForeignKey>
         <forcedUnique><![CDATA[1]]></forcedUnique>
         <hidden><![CDATA[0]]></hidden>
-        <labelWindowIndex><![CDATA[3]]></labelWindowIndex>
+        <labelWindowIndex><![CDATA[4]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[447E25CF-A340-4598-8E4D-AF887CB765F4]]></uid>
     </SQLTable>
@@ -203,7 +207,7 @@
         <commentTitle><![CDATA[GeorgeMarselis - PEZ2015 Project]]></commentTitle>
         <hidden><![CDATA[0]]></hidden>
         <labelColor><![CDATA[{0.68,1,0.6,0.5}]]></labelColor>
-        <labelWindowIndex><![CDATA[2]]></labelWindowIndex>
+        <labelWindowIndex><![CDATA[3]]></labelWindowIndex>
         <uid><![CDATA[63C17743-0E66-4758-BEB4-C0459F5128E5]]></uid>
     </SQLCanvasArea>
     <SQLTable>
@@ -243,35 +247,18 @@
         <SQLField>
             <name><![CDATA[proteinId]]></name>
             <type><![CDATA[VARCHAR(8)]]></type>
-            <primaryKey>1</primaryKey>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[F5EBEE31-3197-4D15-AD6D-940A9AE52063]]></uid>
         </SQLField>
-        <SQLForeignKey>
-            <name><![CDATA[geneOntology_fk_1]]></name>
-            <deleteAction><![CDATA[1]]></deleteAction>
-            <updateAction><![CDATA[1]]></updateAction>
-            <sourceCardinality><![CDATA[5]]></sourceCardinality>
-            <destinationCardinality><![CDATA[5]]></destinationCardinality>
-            <SQLForeignKeyEntry>
-                <entryIndex>0</entryIndex>
-                <targetFieldName><![CDATA[proteinId]]></targetFieldName>
-                <targetFieldUid><![CDATA[04818486-2F37-4C5E-94E5-A85FE223F000]]></targetFieldUid>
-                <sourceFieldName><![CDATA[proteinId]]></sourceFieldName>
-                <sourceFieldUid><![CDATA[F5EBEE31-3197-4D15-AD6D-940A9AE52063]]></sourceFieldUid>
-            </SQLForeignKeyEntry>
-            <indexNamePrefix><![CDATA[geneOntology]]></indexNamePrefix>
-            <targetTableName><![CDATA[protein]]></targetTableName>
-            <uid><![CDATA[2FC51D64-1C2B-4133-9032-E795CA5C7D85]]></uid>
-        </SQLForeignKey>
         <SQLField>
             <name><![CDATA[biological_process]]></name>
             <type><![CDATA[VARCHAR(255)]]></type>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[4855E975-9F7B-4287-A7F4-163B317178A7]]></uid>
         </SQLField>
+        <forcedUnique><![CDATA[1]]></forcedUnique>
         <hidden><![CDATA[0]]></hidden>
-        <labelWindowIndex><![CDATA[1]]></labelWindowIndex>
+        <labelWindowIndex><![CDATA[2]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[BC5CCABE-DCA6-4EC6-92A4-FC9FF8A7103E]]></uid>
     </SQLTable>
@@ -283,14 +270,13 @@
             <y>217.00</y>
         </location>
         <size>
-            <width>205.00</width>
+            <width>219.00</width>
             <height>100.00</height>
         </size>
         <zorder>1</zorder>
         <SQLField>
             <name><![CDATA[geneId]]></name>
-            <type><![CDATA[VARCHAR(11)]]></type>
-            <primaryKey>1</primaryKey>
+            <type><![CDATA[VARCHAR(10)]]></type>
             <forcedUnique><![CDATA[0]]></forcedUnique>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[27C17F6E-0E5A-4E61-8C9D-AA0925BC33FF]]></uid>
@@ -298,7 +284,8 @@
         </SQLField>
         <SQLField>
             <name><![CDATA[geneName]]></name>
-            <type><![CDATA[VARCHAR(255)]]></type>
+            <type><![CDATA[VARCHAR(10)]]></type>
+            <primaryKey>1</primaryKey>
             <notNull><![CDATA[1]]></notNull>
             <uid><![CDATA[DAF5E7AA-2ED8-4123-BB12-4B69ECE609B0]]></uid>
         </SQLField>
@@ -334,16 +321,16 @@
         <overviewPanelHidden><![CDATA[0]]></overviewPanelHidden>
         <pageBoundariesVisible><![CDATA[0]]></pageBoundariesVisible>
         <PageGridVisible><![CDATA[0]]></PageGridVisible>
-        <RightSidebarWidth><![CDATA[1970.000000]]></RightSidebarWidth>
+        <RightSidebarWidth><![CDATA[2246.000000]]></RightSidebarWidth>
         <sidebarIndex><![CDATA[0]]></sidebarIndex>
         <snapToGrid><![CDATA[0]]></snapToGrid>
         <SourceSidebarWidth><![CDATA[312.000000]]></SourceSidebarWidth>
         <SQLEditorFileFormatVersion><![CDATA[3.1]]></SQLEditorFileFormatVersion>
         <uid><![CDATA[52B50FC5-5D50-4FF2-9C3B-554DE59767CA]]></uid>
         <windowHeight><![CDATA[1110.000000]]></windowHeight>
-        <windowLocationX><![CDATA[184.000000]]></windowLocationX>
-        <windowLocationY><![CDATA[127.000000]]></windowLocationY>
-        <windowScrollOrigin><![CDATA[{2, 0}]]></windowScrollOrigin>
+        <windowLocationX><![CDATA[160.000000]]></windowLocationX>
+        <windowLocationY><![CDATA[203.000000]]></windowLocationY>
+        <windowScrollOrigin><![CDATA[{0, 0}]]></windowScrollOrigin>
         <windowWidth><![CDATA[2247.000000]]></windowWidth>
     </SQLDocumentInfo>
     <AllowsIndexRenamingOnInsert><![CDATA[1]]></AllowsIndexRenamingOnInsert>

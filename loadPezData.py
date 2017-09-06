@@ -116,9 +116,9 @@ for uniprotProteinDataFile in uniprotProteinDataFiles:
 		
 		insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneId ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' )"
 		print( colored.cyan( insertgenedata_query ) )
-		cursor.execute( insertgenedata_query )
+		#cursor.execute( insertgenedata_query )
 
-	conn.commit( )
+	#	conn.commit( )
 
 sys.exit( 0 )
 

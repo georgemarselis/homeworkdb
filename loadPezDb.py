@@ -71,10 +71,10 @@ conn.commit( )
 
 print( colored.green( "Creating tables..." ) )
 # # create tables
-createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(11) NOT NULL, geneName VARCHAR(255), disgenetScore FLOAT NOT NULL,noPubMedIDs INTEGER, PRIMARY KEY ( geneId ) )"
-createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(8) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneId VARCHAR(11) NOT NULL, PRIMARY KEY (proteinId) )"
-createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId BIGINT NOT NULL, ontologyName BIGINT NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, biological_process VARCHAR(255) NOT NULL, proteinId VARCHAR(8) NOT NULL, PRIMARY KEY (ontologyId, proteinId) )"
-createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph ( isomorphName VARCHAR(255) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(8) NOT NULL, PRIMARY KEY (isomorphName) );"
+createTableGene     = "CREATE TABLE IF NOT EXISTS gene( geneId VARCHAR(10) NOT NULL, geneName VARCHAR(10) NOT NULL, disgenetScore FLOAT NOT NULL, noPubMedIDs INTEGER NOT NULL, PRIMARY KEY (geneName) );"
+createTableProtein  = "CREATE TABLE IF NOT EXISTS protein( proteinId VARCHAR(8) NOT NULL, proteinName TEXT NOT NULL, proteinConfirmed BOOLEAN NOT NULL, geneName VARCHAR(10) NOT NULL, PRIMARY KEY (proteinId) );"
+createTableOntology = "CREATE TABLE IF NOT EXISTS geneOntology( ontologyId BIGINT NOT NULL, ontologyName BIGINT NOT NULL, ontologyFunction VARCHAR(255) NOT NULL, proteinId VARCHAR(8) NOT NULL, biological_process VARCHAR(255) NOT NULL, PRIMARY KEY (ontologyId));"
+createTableIsomorph = "CREATE TABLE IF NOT EXISTS isomorph( isomorphName VARCHAR(12) NOT NULL, isomorphFASTASequence TEXT NOT NULL, proteinId VARCHAR(8) NOT NULL, PRIMARY KEY (isomorphName) );"		
 createTableBullshit = "CREATE TABLE IF NOT EXISTS ProteinGeneOntology( proteinId VARCHAR(8) NOT NULL, ontologyId BIGINT NOT NULL, PRIMARY KEY (proteinId,ontologyId) );"
 createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from isomorph;"
 createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
@@ -104,9 +104,9 @@ print( colored.green(  "Database tables created" ) )
 print( colored.green(  "Creating database constraints..." ) )
 # # constraints
 
-proteinRestraint              = "ALTER TABLE protein ADD CONSTRAINT Protein2Gene_fk_1 FOREIGN KEY Protein2Gene_fk_1 (geneId) REFERENCES gene (geneId) ON DELETE CASCADE  ON UPDATE CASCADE;"
-proteinGeneOntologyRestraint1 = "ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneontology_fk_1 FOREIGN KEY ProteinGeneontology_fk_1 (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE  ON UPDATE CASCADE;"
-ProteinGeneOntologyRestraint2 = "ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneontology_fk_2 FOREIGN KEY ProteinGeneontology_fk_2 (ontologyId) REFERENCES geneOntology (ontologyId) ON DELETE CASCADE  ON UPDATE CASCADE;"
+proteinRestraint              = "ALTER TABLE protein ADD CONSTRAINT Protein2Gene_fk_1 FOREIGN KEY Protein2Gene_fk_1 (geneName) REFERENCES gene (geneName) ON DELETE CASCADE  ON UPDATE CASCADE;"
+proteinGeneOntologyRestraint1 = "ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneOntology_fk_1 FOREIGN KEY ProteinGeneOntology_fk_1 (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE  ON UPDATE CASCADE;"
+ProteinGeneOntologyRestraint2 = "ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneOntology_fk_2 FOREIGN KEY ProteinGeneOntology_fk_2 (ontologyId) REFERENCES geneOntology (ontologyId) ON DELETE CASCADE  ON UPDATE CASCADE;"
 isomorphRestraint             = "ALTER TABLE isomorph ADD CONSTRAINT isomorph_fk_1 FOREIGN KEY isomorph_fk_1 (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE  ON UPDATE CASCADE;"
 
 print( colored.cyan( proteinRestraint ) )
