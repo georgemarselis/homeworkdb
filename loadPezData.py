@@ -66,13 +66,17 @@ dialect    = 'excel-tab';
 disgenetCsvfile = open( disgenetDataFile )
 disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
 
+kot = 0 # magic to skip the first header row
 for row in disgenetReader:
+	if kot == 0 :
+		kot = 1
+		continue
 	insertgenedataQuery = " "
 	insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.geneId'] + "', '" + row['c2.symbol'] + "', " + row['c0.score'] + ", " + row['c0.Npmids'] +" )"
-	print( colored.white( insertgenedataQuery ) )
-	#cursor.execute( insertgenedataQuery )
+	print( colored.cyan( insertgenedataQuery ) )
+	cursor.execute( insertgenedataQuery )
 
-#conn.commit( )
+conn.commit( )
 ###########################################
 
 sys.exit( 0 )

@@ -47,22 +47,22 @@ if "PEZ_PASSWORD" in os.environ:
 # # connect to db
 conn = pymysql.connect( host, user, password )
 if conn != -1 :
-	print( colored.red( 'database connection established' ) )
+	print( colored.green( 'database connection established' ) )
 else:
 	print( colored.red( 'Houston we have a problem' ) )
 
 dropdb_query = 'drop database if exists ' + db
 createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
 
-print ( colored.green( "Creating database schema..." ) )
+print ( colored.yellow( "Creating database schema..." ) )
 # # init db
 conn.begin( )
 cursor = conn.cursor( )
 dropdb_query = 'drop database if exists ' + db
-print( colored.yellow( dropdb_query ) )
+print( colored.cyan( dropdb_query ) )
 cursor.execute( dropdb_query )
 createdb_query = 'create database if not exists ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
-print( colored.yellow( createdb_query ) )
+print( colored.cyan( createdb_query ) )
 cursor.execute( createdb_query )
 conn.commit( )
 
@@ -80,21 +80,21 @@ createViewSequence  = "create algorithm=TEMPTABLE view sequence as select * from
 createViewFasta     = "create algorithm=TEMPTABLE view fasta as select * from isomorph;"
 createViewIsoform   = "create algorithm=TEMPTABLE view isoform as select * from isomorph;"
 
-print( colored.yellow( createTableGene ) )
+print( colored.cyan( createTableGene ) )
 cursor.execute( createTableGene )
-print( colored.yellow( createTableProtein ) )
+print( colored.cyan( createTableProtein ) )
 cursor.execute( createTableProtein )
-print( colored.yellow( createTableOntology ) )
+print( colored.cyan( createTableOntology ) )
 cursor.execute( createTableOntology )
-print( colored.yellow( createTableIsomorph ) )
+print( colored.cyan( createTableIsomorph ) )
 cursor.execute( createTableIsomorph )
-print( colored.yellow( createTableBullshit ) )
+print( colored.cyan( createTableBullshit ) )
 cursor.execute( createTableBullshit )
-print( colored.yellow( createViewSequence ) )
+print( colored.cyan( createViewSequence ) )
 cursor.execute( createViewSequence )
-print( colored.yellow( createViewSequence ) )
+print( colored.cyan( createViewSequence ) )
 cursor.execute( createViewFasta )
-print( colored.yellow( createViewFasta ) )
+print( colored.cyan( createViewFasta ) )
 cursor.execute( createViewIsoform )
 conn.commit( )
 
@@ -109,13 +109,13 @@ proteinGeneOntologyRestraint1 = "ALTER TABLE ProteinGeneOntology ADD CONSTRAINT 
 ProteinGeneOntologyRestraint2 = "ALTER TABLE ProteinGeneOntology ADD CONSTRAINT ProteinGeneontology_fk_2 FOREIGN KEY ProteinGeneontology_fk_2 (ontologyId) REFERENCES geneOntology (ontologyId) ON DELETE CASCADE  ON UPDATE CASCADE;"
 isomorphRestraint             = "ALTER TABLE isomorph ADD CONSTRAINT isomorph_fk_1 FOREIGN KEY isomorph_fk_1 (proteinId) REFERENCES protein (proteinId) ON DELETE CASCADE  ON UPDATE CASCADE;"
 
-print( colored.yellow( proteinRestraint ) )
+print( colored.cyan( proteinRestraint ) )
 cursor.execute( proteinRestraint )                          #1
-print( colored.yellow( proteinGeneOntologyRestraint1 ) )
+print( colored.cyan( proteinGeneOntologyRestraint1 ) )
 cursor.execute( proteinGeneOntologyRestraint1 )             #2
-print( colored.yellow( ProteinGeneOntologyRestraint2 ) )
+print( colored.cyan( ProteinGeneOntologyRestraint2 ) )
 cursor.execute( ProteinGeneOntologyRestraint2 )             #3
-print( colored.yellow( isomorphRestraint ) )
+print( colored.cyan( isomorphRestraint ) )
 cursor.execute( isomorphRestraint )                         #4
 conn.commit( )
 cursor.close( )
