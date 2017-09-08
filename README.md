@@ -47,22 +47,53 @@ LOADING THE DATABASE:
 
 3. ./loadPezData.py: loads the data from disk to the database
 	***********************************************************************************
-	* Run this to load the data to the database, without having to REAQUIRE the data
+	* Run this to load the data to the database, without having to REAQUIRE the data:
+	* 		./loadPezDb.py && ./loadPezData.py
+	* 	You need ./loadPezDb.py to re-init the database
 	***********************************************************************************
 	Disgenet goes first
 	Uniprot second
 	Hintkb data are being wrangled on the spot
-		Takes about 20 minutes
+		Currently runs for about 6'30" 
+			Largest part is HintKB2, but I am trying to thread that part, so I speed it up
 
 
+	************************************************************************************************************
+	*
+	* DANGER DANGER DANGER
+	*
+	* There are two issues?bugs? running multithreaded code from  MacOSX
+	* 	1. urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+	*		Solution: edit /etc/hosts, insert ip and hostname ( wintermute wintermute.local )
+	*			per StackOverflow: https://stackoverflow.com/questions/24812752/nodename-nor-servname-provided-or-not-known
+	* 			Looks like some sort of lookup issue
+	*
+	*	2. Little Snitch does not have a rule/code signature for python performing http/https requests.
+	*		Set Little Snitch to "silent permissive", and edit the rule later.
+	* 
+	*	3. Do not run lots of processes in the pool for HintKB2
+	*		It is probably a VM with low resources, so it might die
+	*		Currently using 40 processes
+	*
+	************************************************************************************************************
 
 
-
-
-
-
-
-
+TODO:
+	1. Multithread all the things:
+		* sql inserts 
+		* http requests
+		* writing to disk?
+	* counter on hintkb http requests
+	* be able to run each part of the loading independently
+		* functions for now
+			* objects later
+	* pretty print list of disregarded proteins under uniprot
+	* tabulate/pretty print queries as columns on output (sprintf?()?)
+	* write sql to files, for revire or dump.
+	* use termcap/screen capabilities, in order to have a small counter at the bottom incrementing the status
+	* maybe write the HintKB2 URLs to disk, just in case we need them later.
+	* use SQL objects instead of naked statements 
+		still be able to output full statements with color
 
 
 
@@ -77,5 +108,4 @@ Version 4.0 is at http://www.disgenet.org/web/DisGeNET/menu/rdf
 
 Note: looks like the RDF changed ever since the last time I did the homework. The original question does not work: There is no /data/gene_roles any more. Solution is to resubmit the search and get a new python script.s
 
-
-The rest of the scripts in the directory are sample scripts
+2. THey asked to see the restrictions and cardinality. Need a visual way of doing so.

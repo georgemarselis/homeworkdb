@@ -51,17 +51,17 @@ if conn != -1 :
 else:
 	print( colored.red( 'Houston we have a problem' ) )
 
-dropdb_query = 'drop database if exists ' + db
-createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
+dropdb_query = 'drop database if exists ' + db + ';'
+createdb_query = 'create database ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation + ';'
 
 print ( colored.yellow( "Creating database schema..." ) )
 # # init db
 conn.begin( )
 cursor = conn.cursor( )
-dropdb_query = 'drop database if exists ' + db
+dropdb_query = 'drop database if exists ' + db + ';'
 print( colored.cyan( dropdb_query ) )
 cursor.execute( dropdb_query )
-createdb_query = 'create database if not exists ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation
+createdb_query = 'create database if not exists ' + db + ' default character set ' +  defaultcharset + ' default collate ' + defaultcollation + ';'
 print( colored.cyan( createdb_query ) )
 cursor.execute( createdb_query )
 conn.commit( )
@@ -90,11 +90,12 @@ print( colored.cyan( createTableIsomorph ) )
 cursor.execute( createTableIsomorph )
 print( colored.cyan( createTableBullshit ) )
 cursor.execute( createTableBullshit )
-print( colored.cyan( createViewSequence ) )
+print( colored.yellow( "Creating views"))
+print( colored.blue( createViewSequence ) )
 cursor.execute( createViewSequence )
-print( colored.cyan( createViewSequence ) )
+print( colored.blue( createViewSequence ) )
 cursor.execute( createViewFasta )
-print( colored.cyan( createViewFasta ) )
+print( colored.blue( createViewFasta ) )
 cursor.execute( createViewIsoform )
 conn.commit( )
 
