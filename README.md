@@ -74,6 +74,7 @@ LOADING THE DATABASE:
 	*	3. Do not run lots of processes in the pool for HintKB2
 	*		It is probably a VM with low resources, so it might die
 	*		Currently using 40 processes
+	*		Also the mac mini chokes
 	*
 	************************************************************************************************************
 
@@ -83,10 +84,13 @@ TODO:
 		* sql inserts 
 		* http requests
 		* writing to disk?
+	* Get back result from url call
 	* counter on hintkb http requests
 	* be able to run each part of the loading independently
 		* functions for now
 			* objects later
+			__SINGLETHREADED__ = 0 #turn this into an Debug member variable
+
 	* pretty print list of disregarded proteins under uniprot
 	* tabulate/pretty print queries as columns on output (sprintf?()?)
 	* write sql to files, for revire or dump.

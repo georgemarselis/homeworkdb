@@ -54,26 +54,6 @@ These aint the droids you are looking for.
 
 """)
 
-def callHintkb( selectResult ):
-	hintkbURL = "http://hintkb.ceid.upatras.gr/api/functions/byprotein/"
-	URL = hintkbURL + selectResult[0]  # protein is a list of lists, actually
-	time.sleep(0.1 + random.uniform( 0.1, 0.8 ) ) # stager
-	response = urllib.request.urlopen( "http://google.com" )
-	counter = 5500
-
-	try:
-		response = urllib.request.urlopen( URL )
-	except urllib.error.URLError as e:
- 		print( colored.red(  "Failed: " + hintkbURL + selectResult[0] ) + colored.magenta( "\t( " + str( counter ) + " / " + str( len( selectResult ) ) + " )" ) )
-	else:
- 		print( colored.green(  "\t" + hintkbURL + selectResult[0] ) + colored.magenta( "\t( " + str( counter ) + " / " + str( len( selectResult ) ) + " )" ) )
-
-	restResult = response.read( ) 
-	# {"function_id":17269,"go_term":"0033603","function_name":"positive regulation of dopamine secretion","function_namespace":"biological_process"}
-	result = restResult.decode( 'UTF-8' ) 
-	return result
-
-
 
 def disgenet( ):
 	print( colored.yellow( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n" ) )
@@ -282,8 +262,69 @@ def uniprot( ):
 		sys.exit( 0 )
 
 
+def insertintoGeneOntology( results ):
+
+	ignoredOntologiesQuery = [ ]
+	counter = 1; # incremented at the end of the loop
+	for result in results:
+		parsedJson = { }
+		parsedJson = json.loads( result )
+		if parsedJson:
+			for item in parsedJson:
+				bar = re.sub( '_', ' ', item['function_namespace'] )
+				insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str( result.key ) + '\' );' 
+				try:
+					cursor.execute( insertGoQuery )
+				except:
+					print( colored.magenta( " ( " + str ( counter ) + " of " + str( len ( list( parsedJson ) ) ) + " ) " ) + colored.red( insertGoQuery ) )
+					ignoredOntologiesQuery.append( insertGoQuery )
+				else:
+					print( colored.magenta( " ( " + str ( counter ) + " of " + str( len ( list( parsedJson ) ) ) + " ) " ) + colored.cyan( insertGoQuery ) )
+		counter += 1
+
+	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
+	cursor.close( )
+
+	sys.exit( 0 )
+
+	# write failed ongologies entries to disk
+	if ignoredOntologiesQuery: 
+		ignoredOntologiesFile = "ignoredOntologies.txt"
+		print( colored.yellow( "##############################################################################"))
+		print( "The following ontologies were ignored. They where written to disk (" + ignoredOntologiesFile + ") for follow up: " )
+		for item in ignoredOntologiesQuery:
+			print( colored.yellow( item ) )
+		print( colored.yellow( "##############################################################################"))
+		with open( ignoredOntologiesFile, 'w' ) as file:
+			for ontology in ignoredOntologiesQuery:
+				file.write( ontology )
+
+	###########################################
+
+
+def callHintkb( result, output, counter, totalCount ):
+	hintkbURL = "http://hintkb.ceid.upatras.gr/api/functions/byprotein/"
+	URL = hintkbURL + result[0]  # protein is a list of lists, actually
+
+	try:
+		response = urllib.request.urlopen( URL )
+	except urllib.error.URLError as e:
+		print( colored.red(  "Failed: " + hintkbURL + result[0] ) + colored.magenta( "\t( " + str( counter ) + " / " + str( totalCount ) + " )" ) )
+		sys.stdout.flush( )
+	except urllib.error.HTTPError as e:
+		variable = ""
+	else:
+		print( colored.green(  "\t" + hintkbURL + result[0] ) + colored.magenta( "\t( " + str( counter ) + " / " + str( totalCount ) + " )" ) )
+		sys.stdout.flush( )
+		restResult = response.read( ) 
+		# {"function_id":17269,"go_term":"0033603","function_name":"positive regulation of dopamine secretion","function_namespace":"biological_process"}
+		result1 = restResult.decode( 'UTF-8' ) 
+		output.put( result1 )
+
+
 def hintkb2( ):
 
+	__SINGLETHREADED__ = 0 #turn this into an Debug member variable
 	print( colored.yellow( "\n########################################### HINTKB2 -- HINTKB2 -- HINTKB2 -- ###########################################\n") )
 
 	## GeneOntology/hintdb
@@ -312,64 +353,58 @@ def hintkb2( ):
 	# print( selectResult )
 	# sys.exit( 0 )
 
-	ignoredOntologiesQuery = [ ]
+#
+# The following time is just for data to be retrieved from HintKB2
+#
+#       20 workers gets us | 50 workers gets us | 100 workers gets us | 150 workers gets us | 200 workers gets us | No workers gets us
+# real	      4m44.325s    |       5m53.480s    |        5m40.438s    |        5m42.387s    |        4m29.458s*   |       64m47.450s
+# user	      0m10.795s    |       0m13.203s    |        0m14.236s    |        0m17.817s    |        0m19.321s    |        0m10.543s
+# sys	      0m5.367s     |       0m6.900s     |        0m7.495s     |        0m10.103s    |        0m11.621s    |        0m4.755s
+#
+# 																								* dropped HTTP requests
+# At 400 processes, there were a lot of failed http requests, possibly more than the successfurl ones
+# 		multiprocessing.pool.RemoteTraceback:
+#			TimeoutError: [Errno 60] Operation timed out
+#		server timed out
+#
+# At 500 processes, the mac mini gives up the spirit:
+#		`BlockingIOError: [Errno 35] Resource temporarily unavailable
+
 	response  = " "
 	results   = { }
+	if __SINGLETHREADED__:
+		print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " results, using 1 process" ) )
+		for result in selectResult:
+			callHintkb( result )
+	else:
+		# processes = 40
+		# with multiprocessing.Pool( processes ) as p:
+		# 	p.map( callHintkb, selectResult )
 
-	# manager = multiprocessing.Manager()
-	# return_dict = manager.dict()
-	processes = 100
+		output = multiprocessing.Queue( )
+		counter = 1; 
+		totalCount = len( list ( selectResult ) )
+		print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " results, using multiprocessing.Process( )" ) )
+		procs = [  ]
+		for result  in selectResult:
+			p = multiprocessing.Process( target = callHintkb , args =  ( result, output, counter, totalCount ) )
+			time.sleep( 0.05 ) # stager # for no stager, the script starts to choke # for sleep = 0.1, runtime = 9m49.826s # for sleep = 0.01 , script starts to choke # for sleep = 0.05, run time = 5m17.392s
+										# for sleep = 0.03 run time = 4m29.409s, started chocking after about 1200 processed results | for sleep = 0.03 but with a .join( ) run time = 4m28.917s, and started chocking into about 1000 results
+			p.start()
+			procs.append( p )
+			counter += 1
 
-# 50 workers gets us | 100 workers gets us | 150 workers gets us
-# real	5m53.480s    |   5m40.438s         | 5m42.387s
-# user	0m13.203s    |   0m14.236s         | 0m17.817s
-# sys	0m6.900s     |   0m7.495s          | 0m10.103s
+		for p in processes:
+			p.join() # for sleep = 0.01 with join 	4m3.752s, but urlopen was returning errors
 
-	print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " results, using " + str(processes) + " processes" ) )
-	with multiprocessing.Pool( processes ) as p:
-		p.map( callHintkb, selectResult )
+		results = [ output.get( ) for p in processes ]
+		print( results )
 
-	sys.exit( 0 )
-
-	counter = 1; # incremented at the end of the loop
-	for result in results:
-		parsedJson = { }
-		parsedJson = json.loads( result )
-		if parsedJson:
-			for item in parsedJson:
-				bar = re.sub( '_', ' ', item['function_namespace'] )
-				insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str( result.key ) + '\' );' 
-				try:
-					cursor.execute( insertGoQuery )
-				except:
-					print( colored.magenta( " ( " + str ( counter ) + " of " + str( len ( list( parsedJson ) ) ) + " ) " ) + colored.red( insertGoQuery ) )
-					ignoredOntologiesQuery.append( insertGoQuery )
-				else:
-					print( colored.magenta( " ( " + str ( counter ) + " of " + str( len ( list( parsedJson ) ) ) + " ) " ) + colored.cyan( insertGoQuery ) )
-		counter += 1
-
-	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
 
 	sys.exit( 0 )
 
-	#################
-	# Currently attempting to turn this code to multithreadeds
-	################
+	insertintoGeneOntology( results )
 
-	# write failed ongologies entries to disk
-	if ignoredOntologiesQuery: 
-		ignoredOntologiesFile = "ignoredOntologies.txt"
-		print( colored.yellow( "##############################################################################"))
-		print( "The following ontologies were ignored. They where written to disk (" + ignoredOntologiesFile + ") for follow up: " )
-		for item in ignoredOntologiesQuery:
-			print( colored.yellow( item ) )
-		print( colored.yellow( "##############################################################################"))
-		with open( ignoredOntologiesFile, 'w' ) as file:
-			for ontology in ignoredOntologiesQuery:
-				file.write( ontology )
-
-	#cursor.close( )
-	###########################################
 
 def connection_details( ):
 	host       = '192.168.1.5';
