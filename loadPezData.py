@@ -58,6 +58,7 @@ These aint the droids you are looking for.
 def disgenet( ):
 	print( colored.yellow( "\n########################################### DISGENET -- DISGENET -- DISGENET -- ###########################################\n" ) )
 
+	__DEBUG__ = 0
 	# # connect to db
 	host, user, password, db = connection_details( )
 	conn = pymysql.connect( host, user, password )
@@ -165,6 +166,7 @@ def uniprot( ):
 	# read payload - proteins
 	###########################################
 	counter = 1
+	insertgenedata_query = [ ]
 	for uniprotProteinDataFile in uniprotProteinDataFiles: 
 		uniprotCsvFile = open( uniprotProteinsDir + '/' + uniprotProteinDataFile )
 		reader = csv.DictReader( uniprotCsvFile, unitprotFieldNames, restkey, restval, dialect );
@@ -182,21 +184,24 @@ def uniprot( ):
 			if re.search( "-\d+", geneId ):
 				geneId, _  = geneId.split( '-', 1 )
 			
-			insertgenedata_query = "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneName ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' );"
-			try:
-				cursor.execute( insertgenedata_query )
-			except pymysql.err.IntegrityError:
-				print( colored.magenta( " ( " + str ( counter ) + " of " + str( uniprotDataFilesLength ) + " ) " ) + colored.red( " FAILED: " + insertgenedata_query ) )
-				sys.exit( 255 )
-			else:
-				print( colored.magenta( " ( " + str ( counter ) + " of " + str( uniprotDataFilesLength ) + " ) " ) + colored.cyan( insertgenedata_query ) )
-			counter += 1
+			insertgenedata_query.append( "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneName ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' );" )
+
+	counter = 1
+	for query in insertgenedata_query:
+		try:
+			cursor.execute( query )
+		except pymysql.err.IntegrityError:
+			print( colored.magenta( " ( " + str ( counter ) + " of " + str( uniprotDataFilesLength ) + " ) " ) + colored.red( " FAILED: " + query ) )
+			sys.exit( 255 )
+		else:
+			print( colored.magenta( " ( " + str ( counter ) + " of " + str( uniprotDataFilesLength ) + " ) " ) + colored.cyan( query ) )
+		counter += 1
 
 	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
 	cursor.close( )
 
-	if __DEBUG1__:
-		sys.exit( 0 )
+	#if __DEBUG1__:
+	sys.exit( 0 )
 
 	###########################################
 
@@ -399,6 +404,7 @@ def hintkb2( ):
 		with Pool( processes = 40, initializer = init, initargs = (counter, totalCount ), maxtasksperchild = 40 ) as p: # maxtasksperchild = 10, real	4m47.476s | maxtasksperchild = 40, 4m40.327s
 			results.append( p.map( callHintkb, selectResult ) )
 
+	# serialize the output
 	for i in results:
 		for stuff in results[ i ]:
 			print(  "\n".join( stuff ) )
@@ -462,9 +468,9 @@ def main():
 
 	##### load data from files
 	###########################################
-	#disgenet( )
-	#uniprot( )
-	hintkb2( )
+	disgenet( )
+	uniprot( )
+	#hintkb2( )
 
 
 
