@@ -324,7 +324,7 @@ def callHintkb( result ):
 		#output.put( result1 )
 		with counter.get_lock():
 			counter.value += 1
-		return response.read( ).decode( 'UTF-8' )
+		return ( result, response.read( ).decode( 'UTF-8' ) )
 
 counter = None
 totalCount = None
@@ -396,9 +396,15 @@ def hintkb2( ):
 		counter = Value('i', 1 )
 		totalCount = Value( 'i', len( selectResult )  )
 
-		with Pool( processes = 40, initializer = init, initargs = (counter, totalCount ), maxtasksperchild = 1 ) as p:
+		with Pool( processes = 40, initializer = init, initargs = (counter, totalCount ), maxtasksperchild = 40 ) as p: # maxtasksperchild = 10, real	4m47.476s | maxtasksperchild = 40, 4m40.327s
 			results.append( p.map( callHintkb, selectResult ) )
-	# sys.exit( 0 )
+
+	for i in results:
+		for stuff in results[ i ]:
+			print(  "\n".join( stuff ) )
+
+	sys.exit( 0 )
+	# https://stackoverflow.com/questions/2080660/python-multiprocessing-and-a-shared-counter
 	insertintoGeneOntology( results )
 
 
