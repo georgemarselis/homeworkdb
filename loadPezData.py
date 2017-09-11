@@ -119,7 +119,6 @@ def disgenet( ):
 
 	###########################################
 
-
 def uniprot( ):
 	print( colored.yellow( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n") )
 
@@ -171,7 +170,6 @@ def uniprot( ):
 
 	# read payload - proteins
 	###########################################
-	counter = 1
 	insertgenedata_query = [ ]
 	for uniprotProteinDataFile in uniprotProteinDataFiles: 
 		uniprotCsvFile = open( uniprotProteinsDir + '/' + uniprotProteinDataFile )
@@ -192,7 +190,7 @@ def uniprot( ):
 			
 			insertgenedata_query.append( "INSERT INTO protein( proteinId, proteinName, proteinConfirmed, geneName ) VALUES ( '" + row['Entry'] + "', '" + str.upper(row['Protein names']) + "', " + kot + ", '" + geneId +"' );" )
 
-	counter = 1
+	counter  = 1
 	for query in insertgenedata_query:
 		try:
 			cursor.execute( query )
@@ -230,7 +228,12 @@ def uniprot( ):
 				proteinId, _  = proteinId.split( '-', 1 )
 			insertgenedata_query.append( "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );" )
 
-	counter  = 1
+	#
+	# this can now be parallelised 
+	###########################################
+	# global counter
+	# global totalCount
+	counter  = 1 #renit
 	ignoredProteins = [ ]
 	for query in insertgenedata_query:
 		try:  # any FASTA seqquence that does not have a primary sequence/key in the db gets ignored
@@ -249,7 +252,6 @@ def uniprot( ):
 	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
 	cursor.close( )
 
-	sys.exit( 0 )
 	if __DEBUG2__:
 		sys.exit( 0 )
 
