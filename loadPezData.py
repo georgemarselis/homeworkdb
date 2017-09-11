@@ -211,11 +211,10 @@ def uniprot( ):
 
 	###########################################
 
-	ignoredProteins = [ ]
 	# read payload - fasta
 	################
 	unitprotFieldNames = [ 'fasta sequence', 'name' ]
-	counter  = 1
+	insertgenedata_query = [ ]
 	for uniprotFastaDataFile in uniprotFastaDataFiles: 
 
 		try:
@@ -223,29 +222,34 @@ def uniprot( ):
 		except:
 			print ( "Could not open file " + uniprotFastaDir + '/' + uniprotFastaDataFile + " . Exiting." )
 		for fasta in uniprotFastaFile:
-			print( )
-			print( colored.magenta( "#>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " (" + str( counter ) + " of " + str( len( uniprotFastaDataFiles ) ) + ") <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" ) )
 			name, sequence = fasta.id, str( fasta.seq )
 			# sp|O02828|TAU_CAPHI , sp|O02828-2|TAU_CAPHI , tr|A0A151NP48|A0A151NP48_ALLMI
 			_, proteinId, isomorphId = name.split( '|', 3 )
 			name = proteinId
 			if re.search( "-\d+", proteinId ):
 				proteinId, _  = proteinId.split( '-', 1 )
-			insertgenedata_query = "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );"
-			try:  # any FASTA seqquence that does not have a primary sequence/key in the db gets ignored
-				cursor.execute( insertgenedata_query )
-			except pymysql.err.IntegrityError:
-				print( colored.red( "No primary protein key in db: Ignore: " + insertgenedata_query ) )
-				# add protein to list of proteins that need to be looked at: why were they downloaded, if they have nothing to do with our sequences.
-				ignoredProteins.append( proteinId )
-				continue
-			else:
-				print( colored.cyan( insertgenedata_query ) )
+			insertgenedata_query.append( "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );" )
 
-		counter += 1 # increment files read
+	counter  = 1
+	ignoredProteins = [ ]
+	for query in insertgenedata_query:
+		try:  # any FASTA seqquence that does not have a primary sequence/key in the db gets ignored
+			cursor.execute( query )
+		except pymysql.err.IntegrityError:
+			print( colored.red( "No primary protein key in db: Ignore: " + query ) )
+			# add protein to list of proteins that need to be looked at: why were they downloaded, if they have nothing to do with our sequences.
+			ignoredProteins.append( proteinId )
+			continue
+		else:
+			print( )
+			print( colored.magenta( "#>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " (" + str( counter ) + " of " + str( len( uniprotFastaDataFiles ) ) + ") <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" ) )
+			print( colored.cyan( query ) )
+			counter += 1 # increment files read
+
 	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
 	cursor.close( )
 
+	sys.exit( 0 )
 	if __DEBUG2__:
 		sys.exit( 0 )
 
