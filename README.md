@@ -5,15 +5,21 @@ Directly what's on the tin.
 
 HOW TO RUN THIS MESS:
 
-1. GET THE DATA YOU WILL NEED:
+1. Run the VM
+	VM is saved on disk
+	Basically, mysql with username and password as per configuration.
 
-1.1 DisGeNet:
+2. Set up the configuraiton on file either by editing ./loadConfiguration.py or directly editing the ./loadPezDb.py && ./loadPezData.py
+
+3. GET THE DATA YOU WILL NEED:
+
+3.1 DisGeNet:
 	*  Run getDisgenetData.py
 		It will connect to disgenet and get you the list of genes you want. 
    		The result will be printed on the output, and written to a file called disgenet/disgenet_data.tsv. Output will be about 15 lines. 
    		Secondary output is the 'listOfGenes.tsv' file: it drives the Uniprot script bellow.
 
-1.2 Uniprot:
+3.2 Uniprot:
  	* Run getUniprotData.sh
  		Depends on getDisgenetData.py;
  			You cannot run it without having run the above at least once
@@ -22,7 +28,7 @@ HOW TO RUN THIS MESS:
  			Takes a minute or two.
  			Used to take 20-30 minutes.
 
-1.3 Hintkb2:
+3.3 Hintkb2:
 	* Hintkb2 data are being wrangled directly from the 'loadPezData.py'
 		Run 'loadPezData.py', after creating the schema.
 
@@ -35,7 +41,7 @@ LOADING THE DATABASE:
 ************************************************************************************************************
 
 
-2. Use the 'loadPezDb.py' python script to create the db. The 'loadPezDb.py' script is the pythonized version of pez_project2501.sql file
+4. Use the 'loadPezDb.py' python script to create the db. The 'loadPezDb.py' script is the pythonized version of pez_project2501.sql file
 	Make sure you change the host IP, should you need to.
 
 	2.1. If any of the connection details do not match, alter the ./loadConfiguration.sh script and execute it. 
@@ -45,7 +51,7 @@ LOADING THE DATABASE:
 			PEZ_USER
 			PEZ_PASSWORD
 
-3. ./loadPezData.py: loads the data from disk to the database
+5. ./loadPezData.py: loads the data from disk to the database
 	***********************************************************************************
 	* Run this to load the data to the database, without having to REAQUIRE the data:
 	* 		./loadPezDb.py && ./loadPezData.py
@@ -54,9 +60,13 @@ LOADING THE DATABASE:
 	Disgenet goes first
 	Uniprot second
 	Hintkb data are being wrangled on the spot
-		Currently runs for about 6'30" 
-			Largest part is HintKB2, but I am trying to thread that part, so I speed it up
+		Current running time is about 5m30sec
+			Largest part is HintKB2 at 4m49sec
+			Up to HintKB2(), running time is about 0m44sec
+			Diminishing returns on parallelising anything before or after that
+				Exercise for Christmas
 
+6. This version also saves the data from hintkb db to disk as serialized code. Make sure you delete the hintkb.pyc file (in case make_clean.sh does not)
 
 	************************************************************************************************************
 	*
@@ -81,11 +91,11 @@ LOADING THE DATABASE:
 
 TODO:
 	1. Multithread all the things:
-		* sql inserts 
-		* http requests
-		* writing to disk?
+		You can try to multithread the SQL INSERTs from disgenet() && uniprot(), but script takes about 0m44sec to finish that part. Might not be worth it.
+		Largest part of the script is the HintKB2 URL calls.
+
 	* Get back result from url call
-[]	* counter on hintkb http requests
+	* counter on hintkb http requests
 	* be able to run each part of the loading independently
 		* functions for now
 			* objects later

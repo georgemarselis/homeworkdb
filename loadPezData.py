@@ -6,12 +6,14 @@ import os
 import sys
 import xml.etree.ElementTree
 import re
+import os.path
 import glob
 import time
 import urllib.request
 import json
 import random
 import getopt
+import pickle
 from multiprocessing import Pool, Value
 from io  import StringIO
 from Bio import SeqIO
@@ -91,22 +93,23 @@ def disgenet( ):
 	counter = 1
 	disgenetReaderLength = len( list ( disgenetReader ) ) - 1 # -1 for the header
 
-	disgenetCsvfile = open( disgenetDataFile )
-	disgenetReader = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
+	disgenetCsvfile     = open( disgenetDataFile )
+	disgenetReader      = csv.DictReader( disgenetCsvfile, disgenetFieldNames, restkey, restval, dialect );
+	insertgenedataQuery = [ ]
 
 	for row in disgenetReader:
 		if kot == 0 : # magic to skip the first header row
 			kot = 1
 			continue
-		insertgenedataQuery = "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.geneId'] + "', '" + row['c2.symbol'] + "', " + row['c0.score'] + ", " + row['c0.Npmids'] +" );"
+		insertgenedataQuery.append( "INSERT INTO gene( geneId, geneName, disgenetScore, noPubMedIDs ) VALUES ( '" + row['c2.geneId'] + "', '" + row['c2.symbol'] + "', " + row['c0.score'] + ", " + row['c0.Npmids'] +" );" )
+
+	for query in insertgenedataQuery:
 		try:
-			cursor.execute( insertgenedataQuery )
+			cursor.execute( query )
 		except pymysql.err.IntegrityError:
-			print( colored.magenta( " ( " + str ( counter ) + " of " + str( disgenetReaderLength ) + " ) " ) + colored.red( "FAILED: " + insertgenedataQuery ) )
+			print( colored.magenta( " ( " + str ( counter ) + " of " + str( disgenetReaderLength ) + " ) " ) + colored.red( "FAILED: " + query ) )
 		else:
-			out1 = colored.magenta( " ( " + str ( counter ) + " of " + str( disgenetReaderLength ) + " )\t" )
-			out2 = colored.cyan( insertgenedataQuery )
-			print( out1 +  out2 )
+			print( colored.magenta( " ( " + str ( counter ) + " of " + str( disgenetReaderLength ) + " )\t" ) + colored.cyan( query ) )
 		counter += 1
 	conn.commit( )
 	cursor.close( )
@@ -120,6 +123,9 @@ def disgenet( ):
 def uniprot( ):
 	print( colored.yellow( "\n########################################### UNIPROT -- UNIPROT -- UNIPROT -- ###########################################\n") )
 
+	global __DEBUG__
+	global __DEBUG1__
+	global __DEBUG2__
 
 	# # connect to db
 	host, user, password, db = connection_details( )
@@ -198,10 +204,10 @@ def uniprot( ):
 		counter += 1
 
 	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
-	cursor.close( )
+	# cursor.close( )
 
-	#if __DEBUG1__:
-	sys.exit( 0 )
+	# if __DEBUG1__:
+	# 	sys.exit( 0 )
 
 	###########################################
 
@@ -262,7 +268,6 @@ def uniprot( ):
 	 # something funky is happening with this: if you time the script it takes 42 secs on my mac mini, for the script to get up to here.
 	 # 		but should you uncomment the time.sleep() command, /usr/bin/time returns 0m37.662s as real time. 
 	time.sleep( 3 )
-	insertintoGeneOntology( results )
 	###########################################
 	if __DEBUG__:
 		sys.exit( 0 )
@@ -388,26 +393,42 @@ def hintkb2( ):
 #
 # At 500 processes, the mac mini gives up the spirit:
 #		`BlockingIOError: [Errno 35] Resource temporarily unavailable
+#
+# maxtasksperchild = 10, real	4m47.476s | maxtasksperchild = 40, 4m40.327s
+# prosses = 100, maxtasksperchild = 1 
+# prosses = 100, maxtasksperchild = 100
 
-	response  = " "
+
 	results   = { }
-	if __SINGLETHREADED__:
-		print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " results, using 1 process" ) )
-		for result in selectResult:
-			callHintkb( result )
+	dumpfile = 'hintkb.pyc'
+	if not os.path.isfile( dumpfile ):
+		print( colored.green( "Reading from the internets" ) )
+		response  = ""
+		if __SINGLETHREADED__:
+			print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " results, using 1 process" ) )
+			for result in selectResult:
+				callHintkb( result )
+		else:
+			results = [ ]
+			print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " queries, using multiprocessing.Pool( )" ) )
+			counter = Value('i', 1 )
+			totalCount = Value( 'i', len( selectResult )  )
+
+			with Pool( processes = 100, initializer = init, initargs = (counter, totalCount ), maxtasksperchild = 1 ) as p: 
+				results.append( p.map( callHintkb, selectResult ) )
+
+			# serialize the output
+			with open( dumpfile, 'wb' ) as f:
+				pickle.dump( obj = results, file = f, protocol = pickle.DEFAULT_PROTOCOL, fix_imports = True )
 	else:
-		results = [ ]
-		print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " queries, using multiprocessing.Pool( )" ) )
-		counter = Value('i', 1 )
-		totalCount = Value( 'i', len( selectResult )  )
+		print( colored.green( "Reading results from file '" + dumpfile + "'" )  )
+		with open( dumpfile, 'rb' ) as f:
+			results = pickle.load( f )
 
-		with Pool( processes = 40, initializer = init, initargs = (counter, totalCount ), maxtasksperchild = 40 ) as p: # maxtasksperchild = 10, real	4m47.476s | maxtasksperchild = 40, 4m40.327s
-			results.append( p.map( callHintkb, selectResult ) )
-
-	# serialize the output
 	for i in results:
-		for stuff in results[ i ]:
-			print(  "\n".join( stuff ) )
+		for stuff in i:
+			for kot in stuff:
+				print( "\n".join( kot ) )
 
 	sys.exit( 0 )
 	# https://stackoverflow.com/questions/2080660/python-multiprocessing-and-a-shared-counter
@@ -434,6 +455,10 @@ def connection_details( ):
 		db = str(os.environ['PEZ_DATABASE'])
 
 	return ( host, user, password, db )
+
+__DEBUG__  = 0
+__DEBUG1__ = 0
+__DEBUG2__ = 0
 
 def main():
 
@@ -470,7 +495,7 @@ def main():
 	###########################################
 	disgenet( )
 	uniprot( )
-	#hintkb2( )
+	hintkb2( )
 
 
 
