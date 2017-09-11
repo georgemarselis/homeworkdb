@@ -85,7 +85,7 @@ TODO:
 		* http requests
 		* writing to disk?
 	* Get back result from url call
-	* counter on hintkb http requests
+[]	* counter on hintkb http requests
 	* be able to run each part of the loading independently
 		* functions for now
 			* objects later
@@ -98,6 +98,7 @@ TODO:
 	* maybe write the HintKB2 URLs to disk, just in case we need them later.
 	* use SQL objects instead of naked statements 
 		still be able to output full statements with color
+	* import plot, graph perfomance data after run
 
 
 

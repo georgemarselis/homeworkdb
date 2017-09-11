@@ -12,7 +12,7 @@ import urllib.request
 import json
 import random
 import getopt
-import multiprocessing
+from multiprocessing import Pool, Value
 from io  import StringIO
 from Bio import SeqIO
 from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
@@ -257,6 +257,7 @@ def uniprot( ):
 	 # something funky is happening with this: if you time the script it takes 42 secs on my mac mini, for the script to get up to here.
 	 # 		but should you uncomment the time.sleep() command, /usr/bin/time returns 0m37.662s as real time. 
 	time.sleep( 3 )
+	insertintoGeneOntology( results )
 	###########################################
 	if __DEBUG__:
 		sys.exit( 0 )
@@ -301,26 +302,39 @@ def insertintoGeneOntology( results ):
 
 	###########################################
 
-
-def callHintkb( result, output, counter, totalCount ):
+def callHintkb( result ):
+#def callHintkb( result, output, counter, totalCount ):
+#def callHintkb( result ):
 	hintkbURL = "http://hintkb.ceid.upatras.gr/api/functions/byprotein/"
 	URL = hintkbURL + result[0]  # protein is a list of lists, actually
+	global counter
+	global totalCount
 
 	try:
 		response = urllib.request.urlopen( URL )
 	except urllib.error.URLError as e:
-		print( colored.red(  "Failed: " + hintkbURL + result[0] ) + colored.magenta( "\t( " + str( counter ) + " / " + str( totalCount ) + " )" ) )
-		sys.stdout.flush( )
-	except urllib.error.HTTPError as e:
+		print( colored.red(  "Failed: " + URL ) + colored.magenta( "\t( " + str( counter.value ) + " / " + str( totalCount.value ) + " )" ) )
+		with counter.get_lock():
+			counter.value += 1
+	except urllib.error.HTTPError as e: # ignore for now
 		variable = ""
 	else:
-		print( colored.green(  "\t" + hintkbURL + result[0] ) + colored.magenta( "\t( " + str( counter ) + " / " + str( totalCount ) + " )" ) )
-		sys.stdout.flush( )
-		restResult = response.read( ) 
+		print( colored.green(  "\t" + URL ) + colored.magenta( "\t( " + str( counter.value ) + " / " + str( totalCount.value ) + " )" ) )
 		# {"function_id":17269,"go_term":"0033603","function_name":"positive regulation of dopamine secretion","function_namespace":"biological_process"}
-		result1 = restResult.decode( 'UTF-8' ) 
-		output.put( result1 )
+		#output.put( result1 )
+		with counter.get_lock():
+			counter.value += 1
+		return response.read( ).decode( 'UTF-8' )
 
+counter = None
+totalCount = None
+
+def init( counterValue, totalValue ):
+	''' store the counter for later use '''
+	global counter
+	global totalCount
+	counter = counterValue
+	totalCount = totalValue
 
 def hintkb2( ):
 
@@ -350,7 +364,7 @@ def hintkb2( ):
 	selectQuery = "select distinct protein.proteinid from protein order by proteinid;"
 	cursor.execute( selectQuery )
 	selectResult = cursor.fetchall( )
-	# print( selectResult )
+	# print( str( len ( list ( selectResult ) ) ) )
 	# sys.exit( 0 )
 
 #
@@ -377,32 +391,14 @@ def hintkb2( ):
 		for result in selectResult:
 			callHintkb( result )
 	else:
-		# processes = 40
-		# with multiprocessing.Pool( processes ) as p:
-		# 	p.map( callHintkb, selectResult )
+		results = [ ]
+		print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " queries, using multiprocessing.Pool( )" ) )
+		counter = Value('i', 1 )
+		totalCount = Value( 'i', len( selectResult )  )
 
-		output = multiprocessing.Queue( )
-		counter = 1; 
-		totalCount = len( list ( selectResult ) )
-		print( colored.yellow( "Contacting HintKB2: " + str(len( selectResult )) + " results, using multiprocessing.Process( )" ) )
-		procs = [  ]
-		for result  in selectResult:
-			p = multiprocessing.Process( target = callHintkb , args =  ( result, output, counter, totalCount ) )
-			time.sleep( 0.05 ) # stager # for no stager, the script starts to choke # for sleep = 0.1, runtime = 9m49.826s # for sleep = 0.01 , script starts to choke # for sleep = 0.05, run time = 5m17.392s
-										# for sleep = 0.03 run time = 4m29.409s, started chocking after about 1200 processed results | for sleep = 0.03 but with a .join( ) run time = 4m28.917s, and started chocking into about 1000 results
-			p.start()
-			procs.append( p )
-			counter += 1
-
-		for p in processes:
-			p.join() # for sleep = 0.01 with join 	4m3.752s, but urlopen was returning errors
-
-		results = [ output.get( ) for p in processes ]
-		print( results )
-
-
-	sys.exit( 0 )
-
+		with Pool( processes = 40, initializer = init, initargs = (counter, totalCount ), maxtasksperchild = 1 ) as p:
+			results.append( p.map( callHintkb, selectResult ) )
+	# sys.exit( 0 )
 	insertintoGeneOntology( results )
 
 
