@@ -226,7 +226,8 @@ def uniprot( ):
 			name = proteinId
 			if re.search( "-\d+", proteinId ):
 				proteinId, _  = proteinId.split( '-', 1 )
-			insertgenedata_query.append( "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );" )
+			# insertgenedata_query.append( "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + name + "', '" + sequence + "', '" + proteinId + "' );" )
+			insertgenedata_query.append( ( name, sequence, proteinId ) )
 
 	#
 	# this can now be parallelised 
@@ -235,18 +236,20 @@ def uniprot( ):
 	# global totalCount
 	counter  = 1 #renit
 	ignoredProteins = [ ]
-	for query in insertgenedata_query:
+	for data in insertgenedata_query:
 		try:  # any FASTA seqquence that does not have a primary sequence/key in the db gets ignored
-			cursor.execute( query )
+			insertstatement =  "INSERT INTO isomorph( isomorphName, isomorphFASTASequence, proteinId ) VALUES ( '" + data[0] + "', '" + data[1] + "', '" + data[2] + "' );" 
+			cursor.execute( insertstatement )
 		except pymysql.err.IntegrityError:
-			print( colored.red( "No primary protein key in db: Ignore: " + query ) )
+			print( colored.red( "No primary protein key in db: Ignore: " + insertstatement ) )
 			# add protein to list of proteins that need to be looked at: why were they downloaded, if they have nothing to do with our sequences.
-			ignoredProteins.append( proteinId )
+			# ignoredProteins.append( proteinId )
+			ignoredProteins.append( data[2] )
 			continue
 		else:
 			print( )
 			print( colored.magenta( "#>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + uniprotFastaDataFile + " (" + str( counter ) + " of " + str( len( uniprotFastaDataFiles ) ) + ") <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" ) )
-			print( colored.cyan( query ) )
+			print( colored.cyan( insertstatement ) )
 			counter += 1 # increment files read
 
 	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
