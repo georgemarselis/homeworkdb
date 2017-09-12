@@ -56,6 +56,9 @@ LOADING THE DATABASE:
 	* Run this to load the data to the database, without having to REAQUIRE the data:
 	* 		./loadPezDb.py && ./loadPezData.py
 	* 	You need ./loadPezDb.py to re-init the database
+	* 
+	* all scripts together can be run from loadDb.sh
+	#		script takes 8minutes aproximately to finish	
 	***********************************************************************************
 	Disgenet goes first
 	Uniprot second
@@ -109,6 +112,12 @@ TODO:
 	* use SQL objects instead of naked statements 
 		still be able to output full statements with color
 	* import plot, graph perfomance data after run
+	* vagrant, download image
+	* puppet, run on vagrant image
+	* autostart VM
+	* if a hintkb url does not work make it retry.
+		check for duplicates before inserting
+
 
 
 

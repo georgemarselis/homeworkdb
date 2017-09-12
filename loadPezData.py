@@ -284,34 +284,49 @@ def uniprot( ):
 
 def insertintoGeneOntology( results ):
 
+
+	# # connect to db
+	host, user, password, db = connection_details( )
+	conn = pymysql.connect( host, user, password )
+	if conn != -1 :
+		print( colored.green( 'database connection established' ) )
+	else:
+		print( colored.red ('Houston we have a problem' ) )
+		sys.exit( 255 )
+
+	conn.begin( )
+	cursor = conn.cursor( )
+	# select our database
+	cursor.execute( "use " + db )
+	conn.commit( )
+
 	ignoredOntologiesQuery = [ ]
-	counter = 1; # incremented at the end of the loop
-	for result in results:
+	totalCounter = 1; # incremented at the end of the loop
+	for protein in results:
 		parsedJson = { }
-		parsedJson = json.loads( result )
-		if parsedJson:
-			for item in parsedJson:
-				bar = re.sub( '_', ' ', item['function_namespace'] )
-				insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str( result.key ) + '\' );' 
-				try:
-					cursor.execute( insertGoQuery )
-				except:
-					print( colored.magenta( " ( " + str ( counter ) + " of " + str( len ( list( parsedJson ) ) ) + " ) " ) + colored.red( insertGoQuery ) )
-					ignoredOntologiesQuery.append( insertGoQuery )
-				else:
-					print( colored.magenta( " ( " + str ( counter ) + " of " + str( len ( list( parsedJson ) ) ) + " ) " ) + colored.cyan( insertGoQuery ) )
-		counter += 1
+		parsedJson = json.loads( results[protein] )
+		counter = 1
+		for item in parsedJson:
+			bar = re.sub( '_', ' ', item['function_namespace'] )
+			insertGoQuery = "INSERT INTO geneOntology( ontologyId, ontologyName, ontologyFunction, biological_process, proteinId ) values ( " + str(item['function_id']) + ', ' + str(item['go_term']) + ', \'' + str(item['function_name']) + '\', \'' +  str(bar) + '\', \'' + str( protein ) + '\' );' 
+			try:
+				cursor.execute( insertGoQuery )
+			except:
+				print( colored.magenta( " ( " + str ( counter ) + " of " + str( len( parsedJson ) ) + " ) " ) + colored.red( insertGoQuery ) )
+				ignoredOntologiesQuery.append( insertGoQuery )
+			else:
+				print( colored.magenta( " ( " + str ( counter ) + " of " + str( len( parsedJson ) ) + " )" + "/" + str( totalCounter ) ) + " " + colored.cyan( insertGoQuery ) )
+			counter += 1
+			totalCounter += 1
 
 	conn.commit( ) #moving the commit out of the loop allows for a somewhat faster execution time, at the price of doing a bulk commit at the end.
 	cursor.close( )
-
-	sys.exit( 0 )
 
 	# write failed ongologies entries to disk
 	if ignoredOntologiesQuery: 
 		ignoredOntologiesFile = "ignoredOntologies.txt"
 		print( colored.yellow( "##############################################################################"))
-		print( "The following ontologies were ignored. They where written to disk (" + ignoredOntologiesFile + ") for follow up: " )
+		print( "The following ontologies were ignored. They where written to disk ('" + ignoredOntologiesFile + "'') for follow up: " )
 		for item in ignoredOntologiesQuery:
 			print( colored.yellow( item ) )
 		print( colored.yellow( "##############################################################################"))
@@ -434,14 +449,24 @@ def hintkb2( ):
 		with open( dumpfile, 'rb' ) as f:
 			results = pickle.load( f )
 
-	for i in results:
-		for stuff in i:
-			for kot in stuff:
-				print( "\n".join( kot ) )
+	myhash = {}
+	for m in range( len( results ) ):
+		for n in range( len( results[m] )):
+			if results[m][n]:
+				if '[]' not in results[m][n][1]:
+					myhash[ results[m][n][0][0] ] = results[m][n][1]
 
-	sys.exit( 0 )
+#	for key in myhash:
+#		print( "key: " + key + " | value: " + myhash[key] )
+# 	for stuff in results:
+# 		for value in stuff:
+#			for kot in stuff:
+# 			key1, key3, key2 = value;
+# 			print( colored.cyan( key1 + " -> " + key2 ) )
+
+#	sys.exit( 0 )
 	# https://stackoverflow.com/questions/2080660/python-multiprocessing-and-a-shared-counter
-	insertintoGeneOntology( results )
+	insertintoGeneOntology( myhash )
 
 
 def connection_details( ):
@@ -511,5 +536,5 @@ def main():
 if __name__ == "__main__":
 	main( )
 
-#print( colored.yellow( "\n########################################### END - END - END ###########################################\n") )
+print( colored.magenta( "\n########################################### END - END - END ###########################################\n") )
 
