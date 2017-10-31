@@ -1,7 +1,9 @@
 # homeworkdb
 PEZ2015 homework
 
-Directly what's on the tin.
+What's on the tin.
+
+Software used for the ER-to-sql generator was "Sequel pro". Mac software.
 
 HOW TO RUN THIS MESS:
 
@@ -132,4 +134,4 @@ Version 4.0 is at http://www.disgenet.org/web/DisGeNET/menu/rdf
 
 Note: looks like the RDF changed ever since the last time I did the homework. The original question does not work: There is no /data/gene_roles any more. Solution is to resubmit the search and get a new python script.s
 
-2. THey asked to see the restrictions and cardinality. Need a visual way of doing so.
+2. They asked to see the restrictions and cardinality. Need a visual way of doing so.
